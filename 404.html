@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página no encontrada (404) | Gestión Empresarial</title>
+  <meta name="description" content="La página solicitada no existe o cambió de dirección. Vuelve a la portada, al catálogo de unidades o a cualquiera de los temas del polilibro.">
+  <meta name="robots" content="noindex">
+
+  <script>
+    (function () {
+      var raiz = '/';
+      if (location.hostname.slice(-10) === '.github.io') {
+        var tramos = location.pathname.split('/').filter(Boolean);
+        if (tramos.length) raiz = '/' + tramos[0] + '/';
+      }
+      var base = document.createElement('base');
+      base.href = raiz;
+      document.head.appendChild(base);
+    })();
+  </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/comun.css">
+  <link rel="stylesheet" href="assets/css/unidades-base.css">
+  <link rel="stylesheet" href="assets/css/actividad.css">
+
+  <link rel="icon" type="image/png" href="assets/img/ESCOMB.png">
+  <link rel="shortcut icon" type="image/png" href="assets/img/ESCOMB.png">
+
+  <style>
+    .e-code {
+      font-size: clamp(3.5rem, 12vw, 6rem);
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.25rem;
+      color: var(--accent, #38BDF8);
+    }
+
+    .e-path {
+      display: block;
+      margin-top: 0.75rem;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.9rem;
+      word-break: break-all;
+      background: rgba(127, 127, 127, 0.12);
+    }
+
+    .e-units {
+      margin-top: 1.5rem;
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .e-unit-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 16px;
+      border-radius: 10px;
+      border: 1px solid rgba(127, 127, 127, 0.2);
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.15s ease, background 0.15s ease;
+    }
+
+    .e-unit-link:hover,
+    .e-unit-link:focus-visible {
+      border-color: var(--primary, #38BDF8);
+      background: rgba(56, 189, 248, 0.08);
+    }
+
+    .e-unit-link__num {
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--accent, #38BDF8);
+    }
+  </style>
+</head>
+
+<body class="u-body" data-root="">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <nav class="u-breadcrumb" aria-label="Ruta de navegación">
+      <a href="index.html">Inicio</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Error 404</span>
+    </nav>
+
+    <div class="a-layout">
+      <div class="a-main">
+        <article class="a-card a-head">
+          <p class="e-code" aria-hidden="true">404</p>
+          <h1 class="a-title">Página no encontrada</h1>
+          <p class="a-purpose">
+            La dirección a la que intentas acceder no existe, fue movida o cambió de nombre.
+          </p>
+          <p class="e-path" id="ePath" aria-label="Ruta solicitada"></p>
+        </article>
+
+        <section class="a-card">
+          <h2 class="a-card__title">¿Qué deseas hacer?</h2>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px;">
+            <a class="u-btn u-btn--primary" href="index.html">
+              <i class="fas fa-home" aria-hidden="true"></i> Ir al inicio
+            </a>
+            <a class="u-btn u-btn--outline" href="unidades.html">
+              <i class="fas fa-book-open" aria-hidden="true"></i> Catálogo de unidades
+            </a>
+          </div>
+
+          <div class="e-units" aria-label="Accesos directos a unidades">
+            <a class="e-unit-link" href="unidades/unidad-01/index.html">
+              <span><span class="e-unit-link__num">Unidad I</span> · Introducción a la Gestión Empresarial</span>
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a class="e-unit-link" href="unidades/unidad-02/index.html">
+              <span><span class="e-unit-link__num">Unidad II</span> · Planeación Estratégica y Organización</span>
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a class="e-unit-link" href="unidades/unidad-03/index.html">
+              <span><span class="e-unit-link__num">Unidad III</span> · Dirección, Liderazgo y Control Gerencial</span>
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Gestión Empresarial · Polilibro académico · ESCOM - IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data-manager.js"></script>
+  <script src="assets/js/componentes.js"></script>
+  <script>
+    (function () {
+      var el = document.getElementById('ePath');
+      if (el) {
+        el.textContent = window.location.pathname || 'Ruta no disponible';
+      }
+    })();
+  </script>
+</body>
+
+</html>

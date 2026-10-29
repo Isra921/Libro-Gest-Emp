@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Referencias Bibliográficas · Unidad III | Gestión Empresarial</title>
+  <meta name="description" content="Referencias y fuentes de consulta académica de la Unidad III de Gestión Empresarial (ESCOM - IPN).">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../assets/css/referencias.css">
+
+  <link rel="icon" type="image/png" href="../../assets/img/ESCOMB.png">
+  <link rel="shortcut icon" type="image/png" href="../../assets/img/ESCOMB.png">
+</head>
+
+<body class="u-body" data-root="../../" data-unidad="unidad-03">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <section class="r-hero">
+      <div class="r-hero__header">
+        <span class="u-eyebrow"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Acervo y Fuentes Académicas</span>
+        <span class="u-chip u-chip--accent"><i class="fas fa-layer-group" aria-hidden="true"></i> Unidad III</span>
+      </div>
+      <h1 class="r-hero__title">Referencias Bibliográficas y Recursos</h1>
+      <p class="r-hero__lead">
+        Fuentes de consulta y bibliografía académica correspondiente a la <strong>Unidad III: Dirección, Liderazgo y Control Gerencial</strong> de la Escuela Superior de Cómputo (ESCOM - IPN).
+      </p>
+    </section>
+
+    <section class="r-toolbar" aria-label="Herramientas de filtrado de referencias">
+      <div class="r-filters" role="group" aria-label="Filtro de recursos">
+        <button type="button" class="r-filter-btn is-active" data-filter="todos">
+          <i class="fas fa-border-all" aria-hidden="true"></i> Todos <span class="r-count">0</span>
+        </button>
+        <button type="button" class="r-filter-btn" data-filter="libros">
+          <i class="fas fa-book" aria-hidden="true"></i> Libros de texto <span class="r-count">0</span>
+        </button>
+        <button type="button" class="r-filter-btn" data-filter="articulos">
+          <i class="fas fa-newspaper" aria-hidden="true"></i> Artículos y papers <span class="r-count">0</span>
+        </button>
+      </div>
+
+      <div class="r-search-box">
+        <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
+        <input type="search" id="searchRef" placeholder="Buscar por autor, título o concepto..." aria-label="Buscar referencias">
+      </div>
+    </section>
+
+    <div class="r-grid" id="rGrid">
+      <article class="r-card" data-category="libros">
+        <div class="r-card__top">
+          <span class="r-badge r-badge--libro"><i class="fas fa-book" aria-hidden="true"></i> Libro de texto</span>
+          <span class="r-card__unit-tag">Tema 3.1</span>
+        </div>
+        <div class="r-card__body">
+          <p class="r-card__citation">
+            Robbins, S. P., &amp; Judge, T. A. (2018). <em>Comportamiento organizacional</em> (17.ª ed.). Pearson Educación.
+          </p>
+          <p class="r-card__desc">
+            Teorías de liderazgo, motivación, dinámica de grupos, toma de decisiones y cultura en las organizaciones.
+          </p>
+        </div>
+        <div class="r-card__actions">
+          <button type="button" class="r-btn-copy" aria-label="Copiar cita APA"><i class="fas fa-copy"></i> Cita APA</button>
+        </div>
+      </article>
+      <!-- AGREGAR MÁS REFERENCIAS AQUÍ -->
+    </div>
+
+    <div class="r-empty" id="rEmpty" style="display: none; text-align: center; padding: 40px;">
+      <p><i class="fas fa-magnifying-glass" style="font-size: 2rem; color: var(--primary); margin-bottom: 12px; display: block;"></i>No se encontraron referencias con el criterio de búsqueda seleccionado.</p>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Gestión Empresarial · Polilibro académico · ESCOM - IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/data-manager.js"></script>
+  <script src="../../assets/js/componentes.js"></script>
+  <script src="../../assets/js/paginas/referencias.js"></script>
+</body>
+
+</html>

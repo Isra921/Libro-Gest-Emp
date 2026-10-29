@@ -1,0 +1,161 @@
+﻿/* ==========================================================================
+   PALETA CROMÁTICA GLOBAL DEL POLILIBRO (TIC aplicadas para el turismo)
+   Escuela Superior de Turismo (EST - IPN)
+
+   IDENTIDAD: Verde Sólido Institucional Dominante + Blanco Estratégico.
+   Diseño con alta identidad visual, lleno de color y presencia sólida, donde el
+   VERDE protagoniza activamente todas las superficies, fondos, contenedores,
+   botones y acentos, mientras que el BLANCO se reserva estratégicamente para
+   contraste, lectura y balance visual, sin que domine la pantalla.
+
+   SISTEMA DE TOKENS HSL CENTRALIZADO:
+   El token maestro (--verde-h: 152) articula toda la familia cromática.
+   Cualquier ajuste futuro en este valor recalcula automáticamente todas las capas
+   (desde lienzos y tarjetas hasta acentos luminosos) manteniendo coherencia total.
+
+   CRITERIO PEDAGÓGICO DE LEGIBILIDAD (Sin colores chillantes):
+   Todos los textos principales, títulos y párrafos están en tonalidades casi llegando
+   a blanco (#FFFFFF, #F4FBF7, #E0EFE6) garantizando contraste superior (WCAG AAA > 12:1),
+   eliminando la fatiga visual del estudiante y evitando destellos fluorescentes.
+   ========================================================================== */
+
+:root {
+  /* ==========================================================================
+     1. TOKEN MAESTRO HSL (Punto de Control Centralizado)
+     ========================================================================== */
+  --verde-h: 208;       /* Matiz azul institucional ESCOM (208°: azul tecnológico) */
+  --verde-s: 58%;       /* Saturación rica que otorga solidez, presencia e identidad */
+
+  /* ==========================================================================
+     2. ESCALA MODULAR DE VERDES (Institucional, Académica y Sobria)
+     ========================================================================== */
+  /* Capas de Fondo y Superficie (Verde Visible, Presente y Sin Negros Planos) */
+  --verde-950: hsl(var(--verde-h), var(--verde-s), 6.5%);   /* #081C13: Lienzo base profundo general del sitio */
+  --verde-900: hsl(var(--verde-h), var(--verde-s), 9.5%);   /* #0B2416: Contenedores principales y secciones */
+  --verde-850: hsl(var(--verde-h), 56%, 12%);              /* #0E2E1D: Barra de navegación y pie */
+  --verde-800: hsl(var(--verde-h), 46%, 15%);              /* #143B25: Superficie de tarjetas y paneles elevados */
+  --verde-750: hsl(var(--verde-h), 44%, 19%);              /* #1A4B30: Superficies interactivas en estado hover */
+  --verde-700: hsl(var(--verde-h), 42%, 24%);              /* #235F3E: Resaltes sutiles de contenedor */
+  --verde-650: hsl(var(--verde-h), 50%, 9%);               /* #082114: Insets hundidos, código y subbloques */
+
+  /* Verdes de Acción, Acentos e Identidad Institucional */
+  --verde-600: hsl(var(--verde-h), 62%, 34%);              /* #218C52: Verde estructural medio para soporte */
+  --verde-500: hsl(var(--verde-h), 71%, 44%);              /* #20BE6B: Verde primario vibrante de acción y CTA */
+  --verde-400: hsl(var(--verde-h), 70%, 56%);              /* #43DC8B: Acentos visuales e iconos */
+  --verde-300: hsl(var(--verde-h), 68%, 71%);              /* #84E9B2: Badges y etiquetas suaves */
+  --verde-200: hsl(var(--verde-h), 65%, 85%);              /* #BDF3D5: Chips informativos */
+  --verde-100: hsl(var(--verde-h), 60%, 94%);              /* #E5FAF0: Tono de rocío suave */
+
+  /* ==========================================================================
+     3. EL BLANCO ESTRATÉGICO (Contraste, Claridad y Legibilidad Óptica)
+     ========================================================================== */
+  --blanco-puro:    #FFFFFF;                                /* Blanco puro para títulos y texto de botones CTA */
+  --blanco-menta:   #F4FBF7;                                /* Blanco menta suave para lectura de párrafos sin fatiga */
+  --blanco-suave:   #E0EFE6;                                /* Blanco salvia suave para descripciones y apoyo */
+  --blanco-salvia:  #A7CCB5;                                /* Metadatos secundarios, etiquetas y migas de pan */
+
+  /* ==========================================================================
+     4. MAPEO SEMÁNTICO UNIVERSAL (Cascada en Todo el Polilibro)
+     ========================================================================== */
+  /* Fondos y Estructura Visual (Predominio Verde) */
+  --bg-deep: var(--verde-950);
+  --bg-main: var(--verde-900);
+  --bg-section: var(--verde-850);
+  --bg-hero: linear-gradient(145deg, var(--verde-900), var(--verde-850));
+  --surface: var(--verde-800);
+  --surface-hover: var(--verde-750);
+  --footer-bg: var(--verde-850);
+
+  /* Colores Primarios, Secundarios y Acentos */
+  --primary: var(--verde-500);
+  --primary-hover: var(--verde-400);
+  --secondary: var(--verde-600);
+  --secondary-hover: var(--verde-500);
+  --accent: var(--verde-400);
+  --accent-hover: var(--verde-300);
+  --primary-soft: color-mix(in srgb, var(--primary) 22%, transparent);
+  --accent-soft: color-mix(in srgb, var(--accent) 22%, transparent);
+  --info: var(--verde-500);
+
+  /* Botones y Llamados a la Acción (CTA) */
+  --cta-color: var(--blanco-puro);
+  --cta-hover: var(--blanco-puro);
+  --cta-bg: linear-gradient(135deg, var(--verde-500), var(--verde-600));
+  --btn-bg: var(--cta-bg);
+  --btn-bg-hover: linear-gradient(135deg, var(--verde-400), var(--verde-500));
+  --btn-text: var(--cta-color);
+  --btn-alt-bg: var(--surface);
+  --btn-alt-bg-hover: var(--surface-hover);
+  --btn-alt-text: var(--text-light);
+
+  /* Tipografía y Textos (Totalmente Legibles, Sin Colores Chillantes) */
+  --text-light: var(--blanco-puro);         /* Blanco puro para títulos principales (WCAG AAA > 14:1) */
+  --text-soft: var(--blanco-menta);         /* Blanco suave para lectura continua sin cansancio (WCAG AAA > 12:1) */
+  --text-muted-light: var(--blanco-suave);  /* Blanco salvia suave para subtítulos y notas (WCAG AAA > 10:1) */
+  --text: var(--text-soft);                 /* Texto general en blanco suave */
+  --text-muted: var(--text-muted-light);
+  --text-label: var(--blanco-suave);
+  --white: #FFFFFF;
+  --dark: var(--bg-deep);
+  --gray: var(--text-muted-light);
+  --title-mid: var(--blanco-puro);          /* Títulos en blanco puro para evitar destellos fluorescentes */
+  --title-end: var(--blanco-puro);
+
+  /* Bordes y Sombras */
+  --border-color: color-mix(in srgb, var(--verde-400) 22%, transparent);
+  --border-soft: color-mix(in srgb, var(--verde-400) 14%, transparent);
+  --border: var(--border-color);
+  --card-border: var(--border-color);
+  --shadow-color: #052113;
+  --shadow-soft: 0 10px 28px rgba(5, 33, 19, 0.45);
+  --shadow-card: 0 14px 34px rgba(5, 33, 19, 0.55), 0 1px 0 color-mix(in srgb, var(--verde-400) 20%, transparent) inset;
+  --card-shadow: var(--shadow-card);
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  /* Gradientes Temáticos Globales */
+  --gradient-unit-1: linear-gradient(135deg, var(--verde-900), var(--verde-850));
+  --gradient-unit-2: linear-gradient(135deg, var(--verde-850), var(--verde-750));
+  --gradient-unit-3: linear-gradient(135deg, var(--verde-750), var(--verde-900));
+  --page-bg: var(--bg-deep);
+
+  /* Paneles, Evaluaciones y Componentes Interactivos */
+  --bg: var(--bg-main);
+  --card-bg: var(--surface);
+  --soft-panel: color-mix(in srgb, var(--surface) 65%, transparent);
+  --submenu-bg: rgba(5, 33, 19, 0.85);
+  --intro-border: var(--verde-400);
+  --case-color: var(--verde-500);
+  --monster-color: var(--verde-400);
+
+  /* Barras de Desplazamiento (Scrollbars) */
+  --scroll-track: var(--verde-850);
+  --scroll-thumb: var(--verde-600);
+  --scroll-thumb-hover: var(--verde-500);
+
+  /* Iconografía */
+  --icon-blue: var(--verde-500);
+  --icon-teal: var(--verde-400);
+  --icon-bg-blue: color-mix(in srgb, var(--icon-blue) 20%, transparent);
+  --icon-bg-teal: color-mix(in srgb, var(--icon-teal) 20%, transparent);
+
+  /* Estados Semánticos (Verde y Blanco) */
+  --success: var(--verde-500);
+  --warning: var(--verde-300);
+  --danger: #E25B5B;
+  --quiz-correct: var(--success);
+  --quiz-incorrect: var(--danger);
+
+  /* Compatibilidad y Acentos Especiales */
+  --accent-gold: var(--verde-400);
+  --accent-gold-soft: color-mix(in srgb, var(--verde-400) 22%, transparent);
+  --accent-marine: var(--verde-500);
+  --azul: var(--primary);
+  --azul-oscuro: var(--bg-main);
+  --rojo: var(--danger);
+  --gris: var(--surface);
+  --borde: var(--border-color);
+  --texto: var(--text-light);
+}

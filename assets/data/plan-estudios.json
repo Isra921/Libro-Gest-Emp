@@ -1,0 +1,75 @@
+{
+  "titulo": "Programa Académico",
+  "boton_cerrar": "Cerrar ventana",
+  "archivo_pdf": "assets/docs/programa-gestion-empresarial.pdf",
+  "datos_generales": {
+    "institucion": "Instituto Politécnico Nacional",
+    "secretaria": "Secretaría Académica — Dirección de Educación Superior",
+    "unidad_academica": "Escuela Superior de Cómputo (ESCOM)",
+    "programa_academico": "Ingeniería en Sistemas Computacionales / Ciencias de Datos / IA",
+    "unidad_aprendizaje": "Gestión Empresarial",
+    "semestre": "Semestre por definir",
+    "area_formacion": "Formación Institucional e Interdisciplinaria",
+    "modalidad": "Escolarizada / Mixta",
+    "tipo": "Teórico-Práctica / Obligatoria",
+    "vigencia": "Plan de Estudios Vigente",
+    "creditos_tepic": "TODO",
+    "creditos_satca": "TODO",
+    "horas_teoria_semana": "TODO h",
+    "horas_practica_semana": "TODO h",
+    "horas_teoria_semestre": "TODO h",
+    "horas_practica_semestre": "TODO h",
+    "horas_autonomo_semestre": "TODO h",
+    "horas_totales": "TODO h"
+  },
+  "proposito": "TODO: Ingresar objetivo general y propósito formativo de la unidad de aprendizaje de Gestión Empresarial.",
+  "intencion_educativa": "TODO: Ingresar la intención educativa y contribución al perfil de egreso del estudiantado de la ESCOM.\n\nTODO: Detallar la vinculación interdisciplinaria y transversal con la gestión de proyectos tecnológicos.",
+  "orientacion_didactica": {
+    "metodos_ensenanza": "TODO: Inductivo, deductivo, análisis de casos empresariales y resolución de problemas.",
+    "estrategias_aprendizaje": "TODO: Aprendizaje basado en proyectos, toma de decisiones gerenciales, simuladores de negocios y trabajo colaborativo."
+  },
+  "unidades_tematicas": [
+    {
+      "numero": "I",
+      "titulo": "TODO: Nombre de la Unidad I",
+      "competencia": "TODO: Redactar la competencia de la Unidad I.",
+      "horas_docente": "TODO h Teoría / TODO h Práctica",
+      "horas_autonomo": "TODO h",
+      "temas": [
+        "1.1 TODO: Tema 1.1",
+        "1.2 TODO: Tema 1.2",
+        "1.3 TODO: Tema 1.3"
+      ],
+      "estrategias": "TODO: Estrategias didácticas de la Unidad I.",
+      "evaluacion": "TODO: Criterios de evaluación y evidencias de aprendizaje."
+    },
+    {
+      "numero": "II",
+      "titulo": "TODO: Nombre de la Unidad II",
+      "competencia": "TODO: Redactar la competencia de la Unidad II.",
+      "horas_docente": "TODO h Teoría / TODO h Práctica",
+      "horas_autonomo": "TODO h",
+      "temas": [
+        "2.1 TODO: Tema 2.1",
+        "2.2 TODO: Tema 2.2",
+        "2.3 TODO: Tema 2.3"
+      ],
+      "estrategias": "TODO: Estrategias didácticas de la Unidad II.",
+      "evaluacion": "TODO: Criterios de evaluación y evidencias de aprendizaje."
+    },
+    {
+      "numero": "III",
+      "titulo": "TODO: Nombre de la Unidad III",
+      "competencia": "TODO: Redactar la competencia de la Unidad III.",
+      "horas_docente": "TODO h Teoría / TODO h Práctica",
+      "horas_autonomo": "TODO h",
+      "temas": [
+        "3.1 TODO: Tema 3.1",
+        "3.2 TODO: Tema 3.2",
+        "3.3 TODO: Tema 3.3"
+      ],
+      "estrategias": "TODO: Estrategias didácticas de la Unidad III.",
+      "evaluacion": "TODO: Criterios de evaluación y evidencias de aprendizaje."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es la función primordial de la gestión empresarial en una organización?",
+    "options": [
+      "Planear, organizar, dirigir y controlar los recursos para alcanzar los objetivos estratégicos con eficacia y eficiencia.",
+      "Realizar exclusivamente actividades de contabilidad básica y archivo manual.",
+      "Vender productos sin considerar la satisfacción del cliente ni el control financiero.",
+      "Evitar la incorporación de tecnologías de información y procesos digitales."
+    ],
+    "answer": "Planear, organizar, dirigir y controlar los recursos para alcanzar los objetivos estratégicos con eficacia y eficiencia.",
+    "explicacion": "La gestión empresarial articula todos los recursos y capacidades de la empresa para maximizar el valor y lograr sostenibilidad competitiva."
+  },
+  {
+    "id": 2,
+    "type": "verdadero_falso",
+    "statement": "La eficiencia administrativa se refiere al logro de los objetivos utilizando la menor cantidad de recursos posibles.",
+    "answer": true,
+    "explicacion": "La eficiencia mide la relación entre los recursos utilizados y los resultados obtenidos; la eficacia mide el alcance de las metas planteadas."
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "modoPrueba": true,
+  "titulo": "Examen diagnóstico",
+  "descripcion": "Evaluación diagnóstica de saberes previos para la unidad de aprendizaje Gestión Empresarial (Escuela Superior de Cómputo · ESCOM - IPN).",
+  "configuracion": {
+    "mostrarResultado": true,
+    "cantidadPreguntas": 2,
+    "mezclarPreguntas": false,
+    "mezclarOpciones": false,
+    "endpointEnvio": ""
+  },
+  "preguntas": [
+    {
+      "id": "diag-ge-01",
+      "numero": 1,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es el objetivo primordial de la gestión empresarial en las organizaciones contemporáneas?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Coordinar y optimizar de manera estratégica los recursos humanos, financieros, tecnológicos y materiales para alcanzar metas de forma eficiente." },
+        { "id": "b", "texto": "Llevar únicamente el registro contable de compras menores y gastos de caja chica." },
+        { "id": "c", "texto": "Reemplazar en su totalidad a los colaboradores por sistemas automatizados sin planeación previa." },
+        { "id": "d", "texto": "Supervisar de manera exclusiva la infraestructura de telecomunicaciones y cableado estructurado." }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-ge-02",
+      "numero": 2,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuáles son las cuatro etapas esenciales del proceso administrativo tradicional?",
+      "obligatoria": true,
+      "opciones": [
+        { "id": "a", "texto": "Planeación, Organización, Dirección y Control." },
+        { "id": "b", "texto": "Diseño, Codificación, Pruebas y Despliegue." },
+        { "id": "c", "texto": "Cotización, Venta, Cobranza y Facturación." },
+        { "id": "d", "texto": "Entrada, Procesamiento, Almacenamiento y Salida." }
+      ],
+      "respuestaCorrecta": "a"
+    }
+  ]
+}

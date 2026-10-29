@@ -1,0 +1,60 @@
+{
+  "id": "unidad-03",
+  "numero": 3,
+  "titulo": "Dirección, Liderazgo y Control Gerencial",
+  "descripcion": "TODO: Redactar la descripción sintética que se mostrará en la tarjeta de unidades.html.",
+  "lema": "TODO: Escribir una frase o lema representativo de la unidad temática.",
+  "duracion_horas": 24.0,
+  "video": {
+    "titulo": "TODO: Video de la Unidad (Opcional)",
+    "url": "",
+    "enlace": "",
+    "referencia": "TODO: Cita en formato APA del video."
+  },
+  "introduccion": [
+    "TODO: Párrafo 1 de introducción a la Unidad III de Gestión Empresarial.",
+    "TODO: Párrafo 2 sobre dirección, liderazgo de equipos tecnológicos y métricas de control."
+  ],
+  "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
+  "competencias": [
+    "TODO: Competencia específica 1 a desarrollar en la Unidad III.",
+    "TODO: Competencia específica 2 a desarrollar en la Unidad III."
+  ],
+  "temas": [
+    {
+      "numero": "3.1",
+      "nombre": "Teorías de Liderazgo y Trabajo en Equipo",
+      "sintesis": "TODO: Síntesis breve del tema 3.1.",
+      "url": "unidades/unidad-03/temas/tema-03-01.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.1",
+        "url": "unidades/unidad-03/actividades/actividad-3-1.html"
+      }
+    },
+    {
+      "numero": "3.2",
+      "nombre": "Toma de Decisiones, Comunicación y Negociación",
+      "sintesis": "TODO: Síntesis breve del tema 3.2.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.2",
+        "url": ""
+      }
+    },
+    {
+      "numero": "3.3",
+      "nombre": "Sistemas de Control y Métricas de Rendimiento (KPIs)",
+      "sintesis": "TODO: Síntesis breve del tema 3.3.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.3",
+        "url": ""
+      }
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Actividad integradora y caso práctico",
+    "descripcion": "TODO: Descripción del caso práctico o simulador integrador de la unidad.",
+    "url": "unidades/unidad-03/actividades/actividad-final.html"
+  }
+}

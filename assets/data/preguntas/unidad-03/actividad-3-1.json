@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué representa un Indicador Clave de Desempeño (KPI) en la fase de control?",
+    "options": [
+      "Una métrica cuantitativa para evaluar si los procesos avanzan conforme a los objetivos propuestos.",
+      "Un software privativo para emisión de facturas electrónicas.",
+      "Un modelo de organigrama matricial.",
+      "Un estilo de liderazgo autoritario sin retroalimentación."
+    ],
+    "answer": "Una métrica cuantitativa para evaluar si los procesos avanzan conforme a los objetivos propuestos.",
+    "explicacion": "Los KPIs permiten monitorear variables críticas en tiempo real y tomar decisiones correctivas oportunas."
+  }
+]

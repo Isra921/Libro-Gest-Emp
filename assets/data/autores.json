@@ -1,0 +1,63 @@
+{
+  "titulo": "Autores y Colaboradores",
+  "boton_cerrar": "Cerrar ventana",
+  "etiquetas": {
+    "semblanza": "Semblanza",
+    "areas": "Áreas de especialidad",
+    "sin_foto": "Sin fotografía"
+  },
+  "secciones": [
+    {
+      "id": "equipo",
+      "pestana": "Equipo de Desarrollo",
+      "titulo": "Equipo de Desarrollo y Maquetación",
+      "descripcion": "Estudiantes de Servicio Social de la Escuela Superior de Cómputo (ESCOM - IPN) responsables del desarrollo del Polilibro de Gestión Empresarial.",
+      "tipo": "colaborador",
+      "personas": [
+        {
+          "nombre": "Integrante 1 (Nombre Completo)",
+          "correo": "correo_integrante1@alumno.ipn.mx",
+          "rol": "Desarrollo Frontend / Redacción Unidad 1"
+        },
+        {
+          "nombre": "Integrante 2 (Nombre Completo)",
+          "correo": "correo_integrante2@alumno.ipn.mx",
+          "rol": "Desarrollo Frontend / Redacción Unidad 2"
+        },
+        {
+          "nombre": "Integrante 3 (Nombre Completo)",
+          "correo": "correo_integrante3@alumno.ipn.mx",
+          "rol": "Desarrollo Frontend / Redacción Unidad 3"
+        },
+        {
+          "nombre": "Integrante 4 (Nombre Completo)",
+          "correo": "correo_integrante4@alumno.ipn.mx",
+          "rol": "Integración, Actividades y Glosario"
+        }
+      ]
+    },
+    {
+      "id": "docentes",
+      "pestana": "Asesores Académicos",
+      "titulo": "Asesoría y Supervisión Académica",
+      "descripcion": "Profesores y coordinadores del Instituto Politécnico Nacional responsables de la revisión académica y metodológica.",
+      "tipo": "docente",
+      "personas": [
+        {
+          "grado": "Prof.",
+          "nombre": "TODO: Nombre del Asesor / Docente Titular",
+          "correo": "correo_docente@ipn.mx",
+          "foto": "",
+          "semblanza": [
+            "TODO: Semblanza académica, trayectoria docente e investigación en el área de Gestión Empresarial y Ciencias de la Computación en la Escuela Superior de Cómputo (ESCOM - IPN)."
+          ],
+          "areas": [
+            "Gestión Empresarial",
+            "Administración de Proyectos Tecnológicos",
+            "Ingeniería de Software"
+          ]
+        }
+      ]
+    }
+  ]
+}

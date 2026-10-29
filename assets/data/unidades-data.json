@@ -1,0 +1,9 @@
+{
+  "titulo": "Unidades temáticas",
+  "descripcion": "Programa académico oficial de Gestión Empresarial de la Escuela Superior de Cómputo (ESCOM - IPN).",
+  "unidades": [
+    "unidad-01",
+    "unidad-02",
+    "unidad-03"
+  ]
+}

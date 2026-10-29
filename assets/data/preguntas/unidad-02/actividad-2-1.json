@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el propósito principal de la matriz FODA en la planeación estratégica?",
+    "options": [
+      "Diagnosticar las Fortalezas y Debilidades internas, y las Oportunidades y Amenazas del entorno externo.",
+      "Calcular el balance general y flujo de efectivo únicamente.",
+      "Diseñar el organigrama jerárquico de la empresa.",
+      "Asignar contraseñas y permisos a los usuarios de red."
+    ],
+    "answer": "Diagnosticar las Fortalezas y Debilidades internas, y las Oportunidades y Amenazas del entorno externo.",
+    "explicacion": "El FODA permite cruzar factores internos y externos para diseñar estrategias operativas y competitivas."
+  }
+]

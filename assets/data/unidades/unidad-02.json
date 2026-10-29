@@ -1,0 +1,60 @@
+{
+  "id": "unidad-02",
+  "numero": 2,
+  "titulo": "Planeación Estratégica y Organización Empresarial",
+  "descripcion": "TODO: Redactar la descripción sintética que se mostrará en la tarjeta de unidades.html.",
+  "lema": "TODO: Escribir una frase o lema representativo de la unidad temática.",
+  "duracion_horas": 24.0,
+  "video": {
+    "titulo": "TODO: Video de la Unidad (Opcional)",
+    "url": "",
+    "enlace": "",
+    "referencia": "TODO: Cita en formato APA del video."
+  },
+  "introduccion": [
+    "TODO: Párrafo 1 de introducción a la Unidad II de Gestión Empresarial.",
+    "TODO: Párrafo 2 sobre metodologías de planeación estratégica y diseño organizacional."
+  ],
+  "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
+  "competencias": [
+    "TODO: Competencia específica 1 a desarrollar en la Unidad II.",
+    "TODO: Competencia específica 2 a desarrollar en la Unidad II."
+  ],
+  "temas": [
+    {
+      "numero": "2.1",
+      "nombre": "El Proceso de Planeación Estratégica",
+      "sintesis": "TODO: Síntesis breve del tema 2.1.",
+      "url": "unidades/unidad-02/temas/tema-02-01.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.1",
+        "url": "unidades/unidad-02/actividades/actividad-2-1.html"
+      }
+    },
+    {
+      "numero": "2.2",
+      "nombre": "Herramientas de Diagnóstico Estratégico (FODA, PESTEL, Porter)",
+      "sintesis": "TODO: Síntesis breve del tema 2.2.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.2",
+        "url": ""
+      }
+    },
+    {
+      "numero": "2.3",
+      "nombre": "Estructuras Organizacionales y Departamentalización",
+      "sintesis": "TODO: Síntesis breve del tema 2.3.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.3",
+        "url": ""
+      }
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Actividad integradora y caso práctico",
+    "descripcion": "TODO: Descripción del caso práctico o simulador integrador de la unidad.",
+    "url": "unidades/unidad-02/actividades/actividad-final.html"
+  }
+}

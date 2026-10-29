@@ -1,0 +1,43 @@
+﻿/* ==========================================================================
+   ESTILOS COMUNES · Punto de entrada para componentes globales
+   Polilibro: TIC aplicadas para el turismo (EST-IPN)
+   --------------------------------------------------------------------------
+   Importa en orden la paleta global verde-blanco, estilos base y modales.
+   ========================================================================== */
+
+@import url("variables.css");
+@import url("global.css");
+@import url("ventana-modal.css");
+@import url("autores-modal.css");
+@import url("glosario-modal.css");
+@import url("actividades-modal.css");
+@import url("plan-estudios-modal.css");
+
+/* Logo EST institucional */
+.brand-logo--est, .brand-logo--esit, .brand-logo--escom {
+  width: 52px !important;
+  height: 52px !important;
+  object-fit: contain;
+  background: transparent !important;
+  padding: 0;
+  border-radius: 6px;
+  opacity: 1 !important;
+  filter: none !important;
+  flex-shrink: 0;
+}
+.site-nav .brand .brand-logo--est, .site-nav .brand .brand-logo--esit, .site-nav .brand .brand-logo--escom {
+  background: transparent !important;
+  padding: 0;
+  border-radius: 0;
+  filter: none !important;
+}
+
+html {
+  color-scheme: dark;
+}
+.brand-logo--ipn {
+  filter: brightness(0) invert(1);
+}
+.site-nav .nav-toggle {
+  color: var(--text-light);
+}

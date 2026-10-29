@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unidad I: Introducción a la Gestión Empresarial | Gestión Empresarial</title>
+  <meta name="description" content="Portada de la Unidad I de Gestión Empresarial de la Escuela Superior de Cómputo (ESCOM - IPN).">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../assets/css/unidad.css">
+
+  <link rel="icon" type="image/png" href="../../assets/img/ESCOMB.png">
+  <link rel="shortcut icon" type="image/png" href="../../assets/img/ESCOMB.png">
+</head>
+
+<!--
+  ==========================================================================
+  PLANTILLA DE PORTADA DE UNIDAD TEMÁTICA
+  ==========================================================================
+  GUÍA PARA EL EQUIPO:
+  - data-unidad="unidad-01" conecta esta página con assets/data/unidades/unidad-01.json.
+  - El título de la unidad, lema, horas, objetivo, competencias y la lista de temas
+    se generan de manera AUTOMÁTICA a partir del JSON.
+  - Para cambiar los contenidos de esta portada, edita: assets/data/unidades/unidad-01.json.
+-->
+<body class="u-body" data-root="../../" data-unidad="unidad-01">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <!-- Contenedor dinámico de la unidad -->
+  <main class="u-page" id="unidad-app" aria-busy="true">
+    <!-- TÍTULO DE LA UNIDAD, OBJETIVO Y LISTA DE TEMAS SE CARGAN DINÁMICAMENTE AQUÍ -->
+    <p class="u-loading">Cargando unidad temática…</p>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Gestión Empresarial · Polilibro académico · ESCOM - IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/data-manager.js"></script>
+  <script src="../../assets/js/componentes.js"></script>
+  <script src="../../assets/js/unidades-ui.js"></script>
+  <script src="../../assets/js/paginas/unidad-plantilla.js"></script>
+</body>
+
+</html>
