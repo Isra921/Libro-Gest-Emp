@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/comun.css">
   <link rel="stylesheet" href="assets/css/unidades-base.css">
   <link rel="stylesheet" href="assets/css/unidades.css">
+  <link rel="stylesheet" href="assets/css/unidades-extras.css">
 
   <link rel="icon" type="image/png" href="assets/img/ESCOMB.png">
   <link rel="shortcut icon" type="image/png" href="assets/img/ESCOMB.png">
@@ -28,9 +29,16 @@
         <p class="u-summary" id="catalogoResumen" aria-live="polite"></p>
       </div>
 
-      <div class="u-view-toggle" role="group" aria-label="Ver como">
+      <div class="u-page-head__tools">
+        <label class="u-search">
+          <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
+          <span class="u-sr-only">Buscar unidad o tema</span>
+          <input type="search" id="buscarUnidad" placeholder="Buscar unidad o tema…" autocomplete="off">
+        </label>
+        <div class="u-view-toggle" role="group" aria-label="Ver como">
         <button type="button" data-vista="tarjetas" aria-pressed="true"><i class="fas fa-grip" aria-hidden="true"></i> Tarjetas</button>
         <button type="button" data-vista="lista" aria-pressed="false"><i class="fas fa-list" aria-hidden="true"></i> Lista</button>
+        </div>
       </div>
     </section>
 
@@ -38,6 +46,7 @@
     <section class="u-units" id="grid-unidades" aria-label="Unidades disponibles" aria-busy="true">
       <p class="u-loading">Cargando unidades temáticas…</p>
     </section>
+    <p class="u-empty" id="sinResultados" hidden>No hay unidades ni temas que coincidan con tu búsqueda.</p>
   </main>
 
   <footer class="u-footer">
@@ -51,6 +60,7 @@
   <script src="assets/js/componentes.js"></script>
   <script src="assets/js/unidades-ui.js"></script>
   <script src="assets/js/paginas/unidades-catalogo.js"></script>
+  <script src="assets/js/paginas/unidades-extras.js"></script>
 </body>
 
 </html>

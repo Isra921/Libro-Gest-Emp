@@ -1,0 +1,97 @@
+/* ==========================================================================
+   CASO INTEGRADOR (unidades/unidad-XX/actividades/actividad-final.html)
+   Requiere: unidades-base.css y actividad.css. Prefijo: ci-
+   ========================================================================== */
+
+.ci-list { margin: 12px 0 18px; padding-left: 1.2em; display: grid; gap: 8px; color: var(--text-soft); line-height: 1.6; }
+
+.ci-progress { height: 8px; border-radius: var(--radius-pill); background: var(--u-inset); overflow: hidden; }
+.ci-progress span { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--primary), var(--accent)); transition: width .4s var(--u-ease); }
+.u-page .ci-progress__label { margin: 8px 0 0; font-size: .8rem; color: var(--text-muted); text-align: left; }
+
+.ci-stage { border-left: 4px solid var(--u-card-border); transition: border-color .3s ease; }
+.ci-stage.is-done { border-left-color: var(--success); }
+.u-page .ci-stage__tag { margin: 0 0 6px; font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--primary); text-align: left; }
+.ci-stage .a-actions { margin-top: 18px; }
+
+.ci-num {
+  display: inline-grid; place-items: center; flex: none;
+  width: 24px; height: 24px; margin-right: 10px;
+  border-radius: 50%; background: var(--primary-soft); color: var(--primary);
+  font-size: .75rem; font-weight: 700;
+}
+
+/* Etapa 1: problema → herramienta */
+.ci-match { display: grid; gap: 14px; margin-top: 14px; }
+.ci-match__row {
+  display: grid; gap: 10px; padding: 14px;
+  border: 1px solid var(--u-card-border); border-radius: var(--u-radius-inner); background: var(--u-inset);
+}
+.ci-match__problem { display: flex; align-items: flex-start; line-height: 1.5; color: var(--text-light); }
+.ci-match select {
+  width: 100%; padding: 10px 12px; font: inherit; font-size: .9rem;
+  color: var(--text-light); background: var(--bg-main);
+  border: 1px solid var(--u-card-border); border-radius: var(--radius-sm);
+}
+.ci-match select:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+.ci-match select.is-correct { border-color: var(--success); background: color-mix(in srgb, var(--success) 18%, var(--bg-main)); }
+.ci-match select.is-wrong { border-color: var(--danger); background: color-mix(in srgb, var(--danger) 16%, var(--bg-main)); }
+
+/* Etapa 2: procede / no procede */
+.ci-decisions { display: grid; gap: 14px; margin-top: 14px; }
+.ci-decision { margin: 0; padding: 14px; border: 1px solid var(--u-card-border); border-radius: var(--u-radius-inner); background: var(--u-inset); }
+.ci-decision legend { display: flex; align-items: flex-start; padding: 0; margin-bottom: 10px; line-height: 1.5; color: var(--text-light); float: left; width: 100%; }
+.ci-decision__options { clear: both; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+
+/* Etapa 3: hoja de verificación y Pareto */
+.ci-pareto { display: grid; gap: 18px; margin-top: 14px; }
+.ci-sheet { border: 1px solid var(--u-card-border); border-radius: var(--u-radius-inner); overflow: hidden; }
+.ci-sheet__head, .ci-sheet__total, .ci-check { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px; padding: 10px 14px; }
+.ci-sheet__head, .ci-sheet__total { grid-template-columns: 1fr auto; background: var(--u-inset); font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--text-label); }
+.ci-check { border-top: 1px solid var(--u-card-border); cursor: pointer; transition: background .2s ease; }
+.ci-check:hover { background: color-mix(in srgb, var(--primary) 8%, transparent); }
+.ci-check input { width: 18px; height: 18px; accent-color: var(--primary); }
+.ci-check__count { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--text-light); }
+.ci-check.is-correct { background: color-mix(in srgb, var(--success) 14%, transparent); }
+.ci-check.is-wrong { background: color-mix(in srgb, var(--danger) 14%, transparent); }
+.ci-sheet__total { border-top: 1px solid var(--u-card-border); }
+
+.ci-chart { display: grid; gap: 10px; padding: 16px; border: 1px solid var(--u-card-border); border-radius: var(--u-radius-inner); background: var(--u-inset); }
+.ci-chart[hidden] { display: none; }
+.u-page .ci-chart__title { margin: 0 0 4px; font-size: .85rem; font-weight: 700; color: var(--text-light); text-align: left; }
+.ci-bar { display: grid; grid-template-columns: minmax(110px, 180px) 1fr auto; align-items: center; gap: 10px; font-size: .82rem; }
+.ci-bar__label { color: var(--text-soft); }
+.ci-bar__track { height: 14px; border-radius: 4px; background: color-mix(in srgb, var(--text-muted) 15%, transparent); overflow: hidden; }
+.ci-bar__fill { display: block; height: 100%; background: color-mix(in srgb, var(--text-muted) 60%, transparent); }
+.ci-bar.is-vital .ci-bar__fill { background: var(--accent); }
+.ci-bar.is-vital .ci-bar__label { color: var(--text-light); font-weight: 600; }
+.ci-bar__value { font-variant-numeric: tabular-nums; color: var(--text-muted); white-space: nowrap; }
+
+/* Etapa 4: los segmentos son frases largas */
+.ci-order .a-segment { border-radius: var(--radius-sm); text-align: left; line-height: 1.4; }
+.ci-order.a-order__answer { flex-direction: column; align-items: stretch; }
+.ci-order.a-order__bank { flex-direction: column; align-items: stretch; }
+
+/* Retroalimentación por etapa */
+.ci-feedback:empty { display: none; }
+.ci-feedback { margin-top: 16px; }
+.ci-feedback__list { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 6px; font-size: .88rem; line-height: 1.5; color: var(--text-soft); }
+.ci-feedback__list li { display: flex; gap: 8px; }
+.ci-feedback__list li > i { margin-top: 4px; }
+.ci-feedback__list li.is-correct > i { color: var(--success); }
+.ci-feedback__list li.is-wrong > i { color: var(--danger); }
+
+/* Resultado y barra lateral */
+.ci-summary { list-style: none; margin: 8px auto 14px; padding: 0; width: min(100%, 360px); display: grid; gap: 6px; }
+.ci-summary li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 12px; border-radius: var(--radius-sm); background: var(--u-inset); font-size: .88rem; }
+.ci-steps { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; font-size: .82rem; }
+.ci-steps li.is-done::marker { color: var(--success); }
+.ci-steps li.is-done a { color: var(--success); }
+
+@media (max-width: 600px) {
+  .ci-decision__options { grid-template-columns: 1fr; }
+  .ci-bar { grid-template-columns: 1fr auto; }
+  .ci-bar__track { grid-column: 1 / -1; grid-row: 2; }
+}
+
+.ci-stage [hidden], .ci-stage .u-btn[hidden] { display: none !important; }

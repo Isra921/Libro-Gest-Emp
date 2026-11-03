@@ -1,0 +1,14 @@
+/* ==========================================================================
+   REFERENCIAS GENERALES (referencias.html)
+   Complementa referencias.css sin modificarlo.
+   ========================================================================== */
+.r-card[hidden] { display: none !important; }
+.u-page .r-summary { margin: 0; font-size: .88rem; color: var(--text-muted); }
+.r-toolbar--general { flex-direction: column; align-items: stretch; }
+.r-toolbar--general .r-filters + .r-filters { padding-top: 12px; border-top: 1px solid var(--border-color); }
+.r-toolbar__row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.r-toolbar__row .r-search-box { flex: 1 1 280px; }
+.r-btn-copy--list { padding: 10px 16px; font-size: .82rem; }
+.r-empty { text-align: center; padding: 40px; }
+.r-empty[hidden] { display: none; }
+.r-empty i { display: block; margin-bottom: 12px; font-size: 2rem; color: var(--primary); }

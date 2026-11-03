@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caso Integrador · Unidad IV | Gestión Empresarial</title>
+  <meta name="description" content="Caso integrador interactivo de la Unidad IV de Gestión Empresarial (ESCOM - IPN): capital humano, marco normativo laboral y calidad.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../../assets/css/actividad.css">
+  <link rel="stylesheet" href="../../../assets/css/caso-integrador.css">
+
+  <link rel="icon" type="image/png" href="../../../assets/img/ESCOMB.png">
+  <link rel="shortcut icon" type="image/png" href="../../../assets/img/ESCOMB.png">
+</head>
+
+<body class="u-body" data-root="../../../" data-unidad="unidad-04" data-tema="4.final">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <nav class="u-breadcrumb" aria-label="Ruta de navegación">
+      <a href="../../../index.html">Inicio</a>
+      <span aria-hidden="true">/</span>
+      <a href="../../../unidades.html">Unidades</a>
+      <span aria-hidden="true">/</span>
+      <a href="../index.html">Unidad IV</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Actividad final</span>
+    </nav>
+
+    <div class="a-layout">
+      <div class="a-main">
+        <header class="a-card a-head">
+          <div class="a-head__top">
+            <span class="a-badge">Caso integrador</span>
+            <span class="a-head__where">Unidad IV · Temas 4.1 a 4.4</span>
+          </div>
+          <h1 class="a-title">Caso práctico: Manufacturas Tonatiuh</h1>
+          <p class="a-purpose">
+            Asume el papel de consultor externo. Diagnostica los problemas de capital humano, decide qué acciones proceden conforme a la ley, identifica los defectos prioritarios con un análisis de Pareto y arma un plan de mejora con el ciclo PHVA.
+          </p>
+          <ul class="a-chips" aria-label="Datos de la actividad">
+            <li class="u-chip"><i class="fas fa-layer-group" aria-hidden="true"></i> 4 etapas</li>
+            <li class="u-chip"><i class="fas fa-clock" aria-hidden="true"></i> 25 min aprox.</li>
+            <li class="u-chip"><i class="fas fa-rotate" aria-hidden="true"></i> Puedes reintentar cada etapa</li>
+            <li class="u-chip a-chip--outline" id="ultimoResultado" hidden><i class="fas fa-chart-simple" aria-hidden="true"></i> Último resultado: <strong></strong></li>
+          </ul>
+        </header>
+
+        <section class="a-card" aria-labelledby="situacionTitulo">
+          <h2 class="a-card__title" id="situacionTitulo"><i class="fas fa-industry" aria-hidden="true"></i> Situación de la empresa</h2>
+          <p>
+            <strong>Manufacturas Tonatiuh</strong> es una empresa mexicana de 180 trabajadores que confecciona uniformes industriales. En el último año creció 40 % en pedidos, pero la dirección reporta tres señales de alerta:
+          </p>
+          <ul class="ci-list">
+            <li><strong>Personas:</strong> la rotación anual llegó a 35 %, los nuevos operadores cometen errores porque nadie les explica las normas de la planta y los supervisores no saben interpretar los registros de calidad.</li>
+            <li><strong>Relaciones laborales:</strong> el gerente de planta propuso varias medidas para "ahorrar costos" y existe un reclamo pendiente por horas extra no pagadas.</li>
+            <li><strong>Calidad:</strong> las devoluciones de clientes se duplicaron. La hoja de verificación del último mes registra 200 prendas defectuosas.</li>
+          </ul>
+          <div class="ci-progress" aria-hidden="true"><span id="barraAvance"></span></div>
+          <p class="ci-progress__label" id="textoAvance" aria-live="polite">0 de 4 etapas resueltas</p>
+        </section>
+
+        <!-- ETAPA 1 -->
+        <section class="a-card ci-stage" id="etapa-1" data-etapa="1" aria-labelledby="e1">
+          <p class="ci-stage__tag">Etapa 1 · Tema 4.1 y 4.4</p>
+          <h2 class="a-card__title" id="e1">Diagnóstico del capital humano</h2>
+          <p class="a-hint">Elige la herramienta de gestión del capital humano más adecuada para cada problema.</p>
+          <div class="ci-match" id="match"></div>
+          <div class="a-actions">
+            <button class="u-btn a-btn--ghost" type="button" data-reintentar="1" hidden><i class="fas fa-rotate-left" aria-hidden="true"></i> Reintentar</button>
+            <button class="u-btn u-btn--primary" type="button" data-comprobar="1" disabled>Comprobar etapa</button>
+          </div>
+          <div class="ci-feedback" data-retro="1" aria-live="polite"></div>
+        </section>
+
+        <!-- ETAPA 2 -->
+        <section class="a-card ci-stage" id="etapa-2" data-etapa="2" aria-labelledby="e2">
+          <p class="ci-stage__tag">Etapa 2 · Tema 4.2</p>
+          <h2 class="a-card__title" id="e2">¿Procede conforme al marco normativo?</h2>
+          <p class="a-hint">Decide si cada medida propuesta por el gerente de planta procede o no procede según la ley laboral mexicana.</p>
+          <div class="ci-decisions" id="decisiones"></div>
+          <div class="a-actions">
+            <button class="u-btn a-btn--ghost" type="button" data-reintentar="2" hidden><i class="fas fa-rotate-left" aria-hidden="true"></i> Reintentar</button>
+            <button class="u-btn u-btn--primary" type="button" data-comprobar="2" disabled>Comprobar etapa</button>
+          </div>
+          <div class="ci-feedback" data-retro="2" aria-live="polite"></div>
+        </section>
+
+        <!-- ETAPA 3 -->
+        <section class="a-card ci-stage" id="etapa-3" data-etapa="3" aria-labelledby="e3">
+          <p class="ci-stage__tag">Etapa 3 · Temas 4.3 y 4.4</p>
+          <h2 class="a-card__title" id="e3">Análisis de Pareto de los defectos</h2>
+          <p class="a-hint">Con los datos de la hoja de verificación, selecciona los <strong>pocos defectos vitales</strong> que explican cerca del 80 % de los problemas. Después de comprobar verás el diagrama de Pareto.</p>
+          <div class="ci-pareto" id="pareto"></div>
+          <div class="a-actions">
+            <button class="u-btn a-btn--ghost" type="button" data-reintentar="3" hidden><i class="fas fa-rotate-left" aria-hidden="true"></i> Reintentar</button>
+            <button class="u-btn u-btn--primary" type="button" data-comprobar="3" disabled>Comprobar etapa</button>
+          </div>
+          <div class="ci-feedback" data-retro="3" aria-live="polite"></div>
+        </section>
+
+        <!-- ETAPA 4 -->
+        <section class="a-card ci-stage" id="etapa-4" data-etapa="4" aria-labelledby="e4">
+          <p class="ci-stage__tag">Etapa 4 · Temas 4.3 y 4.4</p>
+          <h2 class="a-card__title" id="e4">Plan de mejora con el ciclo PHVA</h2>
+          <p class="a-hint">Toca las acciones en el orden en que deben ejecutarse (Planear → Hacer → Verificar → Actuar). Toca una acción ya colocada para quitarla.</p>
+          <div class="a-order" id="phva"></div>
+          <div class="a-actions">
+            <button class="u-btn a-btn--ghost" type="button" data-reintentar="4" hidden><i class="fas fa-rotate-left" aria-hidden="true"></i> Reintentar</button>
+            <button class="u-btn u-btn--primary" type="button" data-comprobar="4" disabled>Comprobar etapa</button>
+          </div>
+          <div class="ci-feedback" data-retro="4" aria-live="polite"></div>
+        </section>
+
+        <section class="a-card" id="resultadoFinal" hidden aria-labelledby="resTitulo"></section>
+
+        <nav class="a-pager" aria-label="Navegación de la actividad">
+          <a class="a-pager__prev" href="../temas/tema-04-04.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver al tema 4.4</a>
+          <a class="u-btn u-btn--primary" href="../index.html">Volver a la unidad <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </nav>
+      </div>
+
+      <aside class="a-sidebar" aria-label="Navegación complementaria">
+        <details class="a-sidebar-details" open>
+          <summary class="a-sidebar-summary">
+            <span class="a-sidebar-summary-label"><i class="fas fa-compass" aria-hidden="true"></i> Guía del caso</span>
+            <i class="fas fa-chevron-down a-sidebar-chevron" aria-hidden="true"></i>
+          </summary>
+          <div class="a-sidebar-inner">
+            <div class="a-side-card a-side-card--dark">
+              <p class="a-side-title">Etapas</p>
+              <ol class="ci-steps" id="listaEtapas">
+                <li><a href="#etapa-1">Diagnóstico del capital humano</a></li>
+                <li><a href="#etapa-2">Marco normativo</a></li>
+                <li><a href="#etapa-3">Análisis de Pareto</a></li>
+                <li><a href="#etapa-4">Plan PHVA</a></li>
+              </ol>
+            </div>
+            <div class="a-side-card">
+              <p class="a-side-title">Repasa los temas</p>
+              <ul class="a-side-list">
+                <li><a class="a-side-item" href="../temas/tema-04-01.html"><i class="fas fa-book-open" aria-hidden="true"></i><span>4.1 Capital Humano</span></a></li>
+                <li><a class="a-side-item" href="../temas/tema-04-02.html"><i class="fas fa-book-open" aria-hidden="true"></i><span>4.2 Marco Normativo</span></a></li>
+                <li><a class="a-side-item" href="../temas/tema-04-03.html"><i class="fas fa-book-open" aria-hidden="true"></i><span>4.3 La Calidad</span></a></li>
+                <li><a class="a-side-item" href="../temas/tema-04-04.html"><i class="fas fa-book-open" aria-hidden="true"></i><span>4.4 Herramientas</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </details>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Gestión Empresarial · Polilibro académico · ESCOM - IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../../assets/js/data-manager.js"></script>
+  <script src="../../../assets/js/componentes.js"></script>
+  <script src="../../../assets/js/unidades-ui.js"></script>
+  <script src="../../../assets/js/actividades/caso-integrador-u4.js"></script>
+</body>
+
+</html>

@@ -45,6 +45,97 @@
           "definicion": "Métrica cuantitativa utilizada para medir y evaluar el rendimiento y nivel de éxito de un proceso o proyecto respecto a los objetivos fijados."
         }
       ]
+    },
+    {
+      "id": "unidad-04",
+      "pestana": "Unidad 4",
+      "titulo": "Unidad 4: Gestión del Capital Humano y la Calidad",
+      "terminos": [
+        {
+          "termino": "5S",
+          "definicion": "Metodología japonesa para un lugar de trabajo organizado y eficiente: Seiri, Seiton, Seiso, Seiketsu y Shitsuke."
+        },
+        {
+          "termino": "Aseguramiento de la calidad",
+          "definicion": "Acciones planeadas y sistemáticas, de carácter preventivo, que dan confianza de que un producto cumplirá los requisitos de calidad."
+        },
+        {
+          "termino": "Benchmarking",
+          "definicion": "Comparación de los procesos y prácticas propios con los de empresas líderes para identificar áreas de mejora."
+        },
+        {
+          "termino": "Calidad",
+          "definicion": "Conjunto de características de un producto o servicio que le permiten satisfacer o superar las necesidades y expectativas de los clientes."
+        },
+        {
+          "termino": "Capital humano",
+          "definicion": "Conjunto de conocimientos, habilidades, experiencias, actitudes y valores de las personas que, puestos en práctica, generan valor económico para la organización."
+        },
+        {
+          "termino": "Capital intelectual",
+          "definicion": "Activos intangibles de la empresa, integrados por el capital humano, el capital estructural (procesos y sistemas) y el capital relacional (vínculos con clientes, proveedores y grupos de interés)."
+        },
+        {
+          "termino": "Ciclo PHVA",
+          "definicion": "Ciclo de Deming para la mejora continua: planear, hacer, verificar y actuar."
+        },
+        {
+          "termino": "Clima organizacional",
+          "definicion": "Percepción que tienen los empleados sobre su ambiente de trabajo; influye en su satisfacción, desempeño y permanencia."
+        },
+        {
+          "termino": "Conciliación",
+          "definicion": "Instancia previa obligatoria para resolver un conflicto laboral mediante acuerdo antes de acudir a los tribunales laborales."
+        },
+        {
+          "termino": "Contrato colectivo de trabajo",
+          "definicion": "Convenio entre uno o varios sindicatos y uno o varios patrones que establece las condiciones generales de trabajo en una empresa."
+        },
+        {
+          "termino": "Diagnóstico de necesidades de capacitación (DNC)",
+          "definicion": "Análisis de la diferencia entre las competencias que requiere un puesto y las que la persona tiene, para orientar la capacitación."
+        },
+        {
+          "termino": "Diagrama de Ishikawa",
+          "definicion": "Diagrama de causa y efecto que agrupa las posibles causas de un problema para encontrar su origen."
+        },
+        {
+          "termino": "Diagrama de Pareto",
+          "definicion": "Herramienta que ordena las causas de un problema por frecuencia para identificar los pocos vitales que generan la mayoría de los efectos."
+        },
+        {
+          "termino": "Evaluación de 360 grados",
+          "definicion": "Método de evaluación del desempeño que integra la opinión de jefes, compañeros, subordinados y clientes."
+        },
+        {
+          "termino": "Gestión de la calidad total (TQM)",
+          "definicion": "Filosofía de dirección orientada a la satisfacción del cliente mediante la participación de toda la organización en la mejora continua."
+        },
+        {
+          "termino": "ISO 9001",
+          "definicion": "Norma internacional que establece los requisitos de un sistema de gestión de la calidad."
+        },
+        {
+          "termino": "Kaizen",
+          "definicion": "Mejora continua mediante cambios pequeños y constantes que, acumulados, generan avances importantes."
+        },
+        {
+          "termino": "Ley Federal del Trabajo (LFT)",
+          "definicion": "Ordenamiento principal que regula las relaciones individuales y colectivas de trabajo en México; reglamenta el artículo 123 constitucional."
+        },
+        {
+          "termino": "Principio de irrenunciabilidad",
+          "definicion": "Principio del derecho laboral según el cual el trabajador no puede renunciar a los derechos mínimos que le otorga la ley."
+        },
+        {
+          "termino": "Relación laboral",
+          "definicion": "Vínculo jurídico entre quien presta un trabajo personal subordinado (trabajador) y quien lo recibe y paga (patrón)."
+        },
+        {
+          "termino": "Seis Sigma",
+          "definicion": "Metodología estadística para reducir la variabilidad y los defectos de un proceso mediante las fases DMAIC: definir, medir, analizar, mejorar y controlar."
+        }
+      ]
     }
   ]
 }

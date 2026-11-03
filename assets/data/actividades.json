@@ -85,6 +85,61 @@
           "destacada": true
         }
       ]
+    },
+    {
+      "id": "unidad-04",
+      "pestana": "Unidad 4",
+      "titulo": "Unidad 4: Gestión del Capital Humano y la Calidad",
+      "descripcion": "Actividades sobre capital humano, marco normativo laboral, calidad y herramientas de gestión.",
+      "nota": "Reactivos de opción múltiple, verdadero o falso, completar y ordenar, con retroalimentación inmediata.",
+      "items": [
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "8 reactivos al azar",
+          "tiempo": "10 min",
+          "titulo": "Actividad 4.1: Capital Humano",
+          "descripcion": "Identifica el concepto, componentes y procesos de gestión del capital humano y su relación con la competitividad.",
+          "url": "unidades/unidad-04/actividades/actividad-4-1.html",
+          "icono": "fa-user-graduate"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "8 reactivos al azar",
+          "tiempo": "10 min",
+          "titulo": "Actividad 4.2: Marco Normativo Laboral",
+          "descripcion": "Reconoce las fuentes, principios, sujetos y condiciones de las relaciones de trabajo en México.",
+          "url": "unidades/unidad-04/actividades/actividad-4-2.html",
+          "icono": "fa-scale-balanced"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "8 reactivos al azar",
+          "tiempo": "10 min",
+          "titulo": "Actividad 4.3: La Calidad",
+          "descripcion": "Distingue las etapas, dimensiones y enfoques de la calidad, el ciclo PHVA y la norma ISO 9001.",
+          "url": "unidades/unidad-04/actividades/actividad-4-3.html",
+          "icono": "fa-award"
+        },
+        {
+          "tag": "Actividad formativa",
+          "reactivos": "8 reactivos al azar",
+          "tiempo": "10 min",
+          "titulo": "Actividad 4.4: Herramientas de Gestión",
+          "descripcion": "Relaciona herramientas de gestión del talento y de la calidad con el problema que resuelven.",
+          "url": "unidades/unidad-04/actividades/actividad-4-4.html",
+          "icono": "fa-screwdriver-wrench"
+        },
+        {
+          "tag": "Caso integrador",
+          "reactivos": "4 etapas",
+          "tiempo": "25 min",
+          "titulo": "Actividad Integradora: Manufacturas Tonatiuh",
+          "descripcion": "Diagnostica problemas de personal, decide conforme a la ley laboral, aplica un análisis de Pareto y diseña un plan PHVA.",
+          "url": "unidades/unidad-04/actividades/actividad-final.html",
+          "icono": "fa-flask",
+          "destacada": true
+        }
+      ]
     }
   ]
 }

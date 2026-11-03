@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es la definición actual más completa de calidad?",
+    "options": [
+      "El conjunto de características de un producto o servicio que le permiten satisfacer, o incluso superar, las necesidades y expectativas de los clientes.",
+      "La ausencia total de defectos en el producto terminado.",
+      "El cumplimiento de la norma ISO 9001.",
+      "El uso de los materiales más caros del mercado."
+    ],
+    "answer": "El conjunto de características de un producto o servicio que le permiten satisfacer, o incluso superar, las necesidades y expectativas de los clientes.",
+    "explicacion": "La idea de \"cero defectos\" corresponde a una visión inicial; hoy la calidad abarca toda la empresa y se mide desde el cliente."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Qué autor definió la calidad como \"adecuación al uso\"?",
+    "options": [
+      "Joseph M. Juran",
+      "Philip B. Crosby",
+      "W. Edwards Deming",
+      "Kaoru Ishikawa"
+    ],
+    "answer": "Joseph M. Juran",
+    "explicacion": "Crosby la definió como cumplimiento de requisitos y Deming como un grado predecible de uniformidad y fiabilidad a bajo costo."
+  },
+  {
+    "id": 3,
+    "type": "ordenar_oracion",
+    "question": "Ordena las etapas de la evolución del concepto de calidad, de la más antigua a la más reciente.",
+    "segments": [
+      "Inspección",
+      "Control estadístico",
+      "Aseguramiento de la calidad",
+      "Gestión de la calidad total"
+    ],
+    "answer": [
+      "Inspección",
+      "Control estadístico",
+      "Aseguramiento de la calidad",
+      "Gestión de la calidad total"
+    ],
+    "explicacion": "Se pasa de revisar el producto terminado (reactiva) a vigilar el proceso, después a prevenir errores y, por último, a involucrar a toda la organización."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "Un cliente se pregunta cuánto tiempo le durará su nueva lavadora antes de tener que reemplazarla. ¿Qué dimensión de la calidad está evaluando?",
+    "options": [
+      "Durabilidad",
+      "Estética",
+      "Conformidad",
+      "Desempeño"
+    ],
+    "answer": "Durabilidad",
+    "explicacion": "La durabilidad mide cuánto dura el producto; la confiabilidad, la probabilidad de que funcione bien durante cierto tiempo."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es la principal herramienta del control estadístico de procesos (CEP) para monitorear un proceso?",
+    "options": [
+      "Gráficos de control",
+      "Inspección visual",
+      "Encuestas de clima",
+      "Diagramas de Gantt"
+    ],
+    "answer": "Gráficos de control",
+    "explicacion": "Los gráficos de control permiten vigilar la estabilidad del proceso; se complementan con pruebas de hipótesis y análisis de regresión."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el primer paso para implementar el control estadístico de procesos?",
+    "options": [
+      "Definir con claridad qué se va a medir.",
+      "Recolectar todos los datos disponibles.",
+      "Aplicar acciones correctivas.",
+      "Certificarse en ISO 9001."
+    ],
+    "answer": "Definir con claridad qué se va a medir.",
+    "explicacion": "Sin una característica de calidad bien definida, los datos que se recolecten no servirán para controlar el proceso."
+  },
+  {
+    "id": 7,
+    "type": "verdadero_falso",
+    "statement": "El aseguramiento de la calidad es preventivo, mientras que el control de calidad se enfoca en detectar y corregir desviaciones.",
+    "answer": true,
+    "explicacion": "El control actúa durante o después de la producción; el aseguramiento trabaja antes, sobre procesos, capacitación, documentación y proveedores."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el objetivo final de la gestión de la calidad total (TQM)?",
+    "options": [
+      "Satisfacer al cliente",
+      "Reducir costos a corto plazo",
+      "Aumentar el volumen de producción",
+      "Obtener una certificación"
+    ],
+    "answer": "Satisfacer al cliente",
+    "explicacion": "La eficiencia y la reducción de costos son consecuencias deseables, pero el fin último de la TQM es la satisfacción del cliente."
+  },
+  {
+    "id": 9,
+    "type": "verdadero_falso",
+    "statement": "Para implementar la calidad total basta con el compromiso de la alta dirección.",
+    "answer": false,
+    "explicacion": "La TQM requiere el compromiso de todos los niveles de la organización, no solo de la dirección o de los operativos."
+  },
+  {
+    "id": 10,
+    "type": "completar_oracion",
+    "question": "La mejora continua, llamada _____ en Japón, se aplica normalmente con el ciclo _____: planear, hacer, verificar y actuar.",
+    "wordBank": ["kaizen", "PHVA", "DMAIC", "kanban", "ISO"],
+    "answer": ["kaizen", "PHVA"],
+    "explicacion": "Kaizen son cambios pequeños y constantes; el ciclo PHVA o de Deming da la estructura para repetirlos."
+  },
+  {
+    "id": 11,
+    "type": "opcion_multiple",
+    "question": "¿Qué norma establece los requisitos que debe cumplir un sistema de gestión de la calidad?",
+    "options": [
+      "ISO 9001",
+      "ISO 14001",
+      "NOM-035",
+      "EFQM"
+    ],
+    "answer": "ISO 9001",
+    "explicacion": "Pertenece a la serie ISO 9000; EFQM es un modelo de excelencia que sirve para autoevaluarse, no una norma certificable de requisitos."
+  },
+  {
+    "id": 12,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es una diferencia clave entre el control estadístico de procesos (CEP) y la gestión de la calidad total (TQM)?",
+    "options": [
+      "El CEP se enfoca en procesos específicos, mientras que la TQM adopta un enfoque holístico de toda la organización.",
+      "El CEP solo se usa en servicios y la TQM solo en manufactura.",
+      "El CEP es cualitativo y la TQM es cuantitativa.",
+      "El CEP busca satisfacer al cliente y la TQM solo reducir costos."
+    ],
+    "answer": "El CEP se enfoca en procesos específicos, mientras que la TQM adopta un enfoque holístico de toda la organización.",
+    "explicacion": "Ambos se complementan: usar CEP dentro de un marco de TQM permite detectar problemas antes de que afecten al producto final."
+  },
+  {
+    "id": 13,
+    "type": "opcion_multiple",
+    "question": "¿Qué enfoque caracteriza al Sistema de Producción Toyota dentro de la calidad total?",
+    "options": [
+      "Eficiencia, mejora continua y respuesta rápida a los problemas de calidad.",
+      "Priorizar la cantidad sobre la calidad.",
+      "Reducir costos a corto plazo a cualquier precio.",
+      "Automatizar por completo todos los procesos."
+    ],
+    "answer": "Eficiencia, mejora continua y respuesta rápida a los problemas de calidad.",
+    "explicacion": "Es el ejemplo clásico de kaizen aplicado a la producción."
+  },
+  {
+    "id": 14,
+    "type": "verdadero_falso",
+    "statement": "La calidad debe considerarse un gasto que conviene reducir al mínimo.",
+    "answer": false,
+    "explicacion": "La calidad es una inversión estratégica: reduce costos por errores, desperdicios, reprocesos y garantías, y aumenta la lealtad de los clientes."
+  }
+]
