@@ -1,10 +1,11 @@
 {
   "titulo": "Unidades temáticas",
-  "descripcion": "Programa académico oficial de Gestión Empresarial de la Escuela Superior de Cómputo (ESCOM - IPN).",
+  "descripcion": "Programa académico oficial de Gestión empresarial (Ingeniería en Sistemas Computacionales, plan 2020) de la Escuela Superior de Cómputo (ESCOM - IPN).",
   "unidades": [
     "unidad-01",
     "unidad-02",
     "unidad-03",
-    "unidad-04"
+    "unidad-04",
+    "unidad-05"
   ]
 }

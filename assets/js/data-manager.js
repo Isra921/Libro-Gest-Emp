@@ -109,66 +109,407 @@ const DataManager = {
     DATOS_EMBEBIDOS: {
         'assets/data/unidades-data.json': {
             "titulo": "Unidades temáticas",
-            "descripcion": "Programa académico de TIC aplicadas para el turismo de la Escuela Superior de Turismo (EST - IPN).",
-            "unidades": ["unidad-01", "unidad-02", "unidad-03"]
+            "descripcion": "Programa académico oficial de Gestión empresarial (Ingeniería en Sistemas Computacionales, plan 2020) de la Escuela Superior de Cómputo (ESCOM - IPN).",
+            "unidades": [
+                "unidad-01",
+                "unidad-02",
+                "unidad-03",
+                "unidad-04",
+                "unidad-05"
+            ]
         },
         'assets/data/unidades/unidad-01.json': {
             "id": "unidad-01",
             "numero": 1,
-            "titulo": "Las TIC",
-            "descripcion": "Analizan las Tecnologías de Información y Comunicación en el ámbito turístico a partir de sus fundamentos, la comunicación digital, los espacios de trabajo virtuales y el ámbito laboral.",
-            "lema": "Fundamentos de las TIC, comunicación digital, plataformas virtuales y tecnologías especializadas para el sector turístico.",
-            "duracion_horas": 24.0,
+            "titulo": "Aspectos básicos de la gestión empresarial",
+            "descripcion": "Analiza la gestión empresarial con base en su clasificación y constitucional legal.",
+            "lema": "Las organizaciones · Administración · Gestión empresarial · Diferencias entre administrar y gestionar",
+            "duracion_horas": 5.5,
+            "video": {
+                "titulo": "TODO: Video de la Unidad (Opcional)",
+                "url": "",
+                "enlace": "",
+                "referencia": "TODO: Cita en formato APA del video."
+            },
             "introduccion": [
-                "Las Tecnologías de la Información y la Comunicación (TIC) constituyen la columna vertebral de la modernización, distribución y comercialización de los servicios turísticos a nivel global.",
-                "A lo largo de esta primera unidad temática se abordan los conceptos esenciales de las TIC, el funcionamiento de Internet y los motores de búsqueda, las dinámicas de comunicación sincrónica y asincrónica, los espacios virtuales colaborativos y las plataformas esenciales del ecosistema turístico tales como sistemas de punto de venta (POS), sistemas de distribución global (GDS) y sistemas ERP."
+                "TODO: Párrafo 1 de introducción a la Unidad I de Gestión Empresarial.",
+                "TODO: Párrafo 2 sobre la relevancia del marco teórico y práctico en el perfil de egreso en ESCOM."
+            ],
+            "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
+            "competencias": [
+                "Analiza la gestión empresarial con base en su clasificación y constitucional legal."
             ],
             "temas": [
-                { "numero": "1.1", "nombre": "Fundamentos de las TIC", "sintesis": "Conceptos básicos, naturaleza, evolución y relevancia de las TIC en la sociedad de la información y el turismo.", "url": "unidades/unidad-01/temas/tema-01-01.html" },
-                { "numero": "1.2", "nombre": "Principales tecnologías de la información y la comunicación", "sintesis": "Correo electrónico, arquitectura de Internet y World Wide Web, navegadores web, buscadores y metabuscadores.", "url": "unidades/unidad-01/temas/tema-01-02.html" },
-                { "numero": "1.3", "nombre": "Las TIC en el ámbito laboral", "sintesis": "Impacto en las organizaciones turísticas, principales aportaciones, automatización y competitividad empresarial.", "url": "unidades/unidad-01/temas/tema-01-03.html" },
-                { "numero": "1.4", "nombre": "La comunicación digital", "sintesis": "Impacto y aplicaciones de la comunicación digital en el sector turístico mediante chats, foros y blogs.", "url": "unidades/unidad-01/temas/tema-01-04.html" },
-                { "numero": "1.5", "nombre": "Tecnologías utilizadas en el turismo", "sintesis": "Puntos de venta (POS), Sistemas de Distribución Global (GDS) y Planificación de Recursos Empresariales (ERP).", "url": "unidades/unidad-01/temas/tema-01-05.html" },
-                { "numero": "1.6", "nombre": "Espacios virtuales de trabajo", "sintesis": "Wikis, comunidades virtuales, Ambientes Virtuales de Aprendizaje (AVA), teoría de páginas web y herramientas en línea.", "url": "unidades/unidad-01/temas/tema-01-06.html" }
-            ]
+                {
+                    "numero": "1.1",
+                    "nombre": "Las organizaciones",
+                    "sintesis": "1.1.1 Clasificación · 1.1.2 Constitución legal de acuerdo con la Ley de Sociedades Mercantiles y la Ley de Sociedades Civiles",
+                    "icono": "fa-building",
+                    "url": "unidades/unidad-01/temas/tema-01-01.html",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 1.1",
+                        "url": "unidades/unidad-01/actividades/actividad-1-1.html"
+                    }
+                },
+                {
+                    "numero": "1.2",
+                    "nombre": "Administración",
+                    "sintesis": "1.2.1 Objetivo de la administración",
+                    "icono": "fa-briefcase",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 1.2",
+                        "url": ""
+                    }
+                },
+                {
+                    "numero": "1.3",
+                    "nombre": "Gestión empresarial",
+                    "sintesis": "1.3.1 Objetivo de la gestión empresarial · 1.3.2 Funciones básicas · 1.3.3 Clasificación",
+                    "icono": "fa-diagram-project",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 1.3",
+                        "url": ""
+                    }
+                },
+                {
+                    "numero": "1.4",
+                    "nombre": "Diferencias entre administrar y gestionar",
+                    "icono": "fa-scale-balanced",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 1.4",
+                        "url": ""
+                    }
+                }
+            ],
+            "actividad_final": {
+                "nombre": "Proyecto · Fase 1",
+                "descripcion": "Constitución legal del proyecto empresarial y desarrollo de objetivos.",
+                "url": "unidades/unidad-01/actividades/actividad-final.html"
+            }
         },
         'assets/data/unidades/unidad-02.json': {
             "id": "unidad-02",
             "numero": 2,
-            "titulo": "Digitalización de la información",
-            "descripcion": "Produce páginas web a partir de la digitalización y almacenamiento de información.",
-            "lema": "Tratamiento y producción de medios digitales: texto, gráficos, sonido y video para el desarrollo de páginas web turísticas.",
-            "duracion_horas": 24.0,
+            "titulo": "Gestión estratégica en las empresas de innovación tecnológica",
+            "descripcion": "Aplica la gestión estratégica en las empresas de innovación tecnológica con base en las diferentes herramientas, la filosofía y su cultura organizacional.",
+            "lema": "Competitividad · Filosofía corporativa · Estrategia y cultura organizacional · Herramientas de gestión estratégica",
+            "duracion_horas": 17.5,
+            "video": {
+                "titulo": "TODO: Video de la Unidad (Opcional)",
+                "url": "",
+                "enlace": "",
+                "referencia": "TODO: Cita en formato APA del video."
+            },
             "introduccion": [
-                "La digitalización y gestión de contenidos multimedia es hoy la base fundamental del marketing, la difusión y la comercialización turística.",
-                "En esta segunda unidad temática se abordan las técnicas y herramientas de software para el tratamiento de texto, edición de imagen, producción de audio y video, integradores multimedia, medios de almacenamiento seguro y la creación de páginas web para la promoción de productos y destinos turísticos."
+                "TODO: Párrafo 1 de introducción a la Unidad II de Gestión Empresarial.",
+                "TODO: Párrafo 2 sobre la gestión estratégica en las empresas de innovación tecnológica."
+            ],
+            "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
+            "competencias": [
+                "Aplica la gestión estratégica en las empresas de innovación tecnológica con base en las diferentes herramientas, la filosofía y su cultura organizacional."
             ],
             "temas": [
-                { "numero": "2.1", "nombre": "Digitalización de la información", "sintesis": "Procesadores de texto, editores de imágenes, audio y video, integradores de medios y utilerías típicas de digitalización.", "url": "unidades/unidad-02/temas/tema-02-01.html" },
-                { "numero": "2.2", "nombre": "Medios de almacenamiento", "sintesis": "Medios magnéticos, ópticos, electrónicos y servicios de almacenamiento en la nube para resguardo de información turística.", "url": "unidades/unidad-02/temas/tema-02-02.html" },
-                { "numero": "2.3", "nombre": "Creación de páginas web", "sintesis": "Principios de diseño, estructura, publicación y promoción de páginas web enfocadas para el turismo.", "url": "unidades/unidad-02/temas/tema-02-03.html" }
-            ]
+                {
+                    "numero": "2.1",
+                    "nombre": "Factores de competitividad que afectan la gestión empresarial",
+                    "icono": "fa-chart-line",
+                    "url": "unidades/unidad-02/temas/tema-02-01.html",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 2.1",
+                        "url": "unidades/unidad-02/actividades/actividad-2-1.html"
+                    }
+                },
+                {
+                    "numero": "2.2",
+                    "nombre": "Filosofía corporativa de empresas de innovación tecnológica",
+                    "icono": "fa-compass",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 2.2",
+                        "url": ""
+                    }
+                },
+                {
+                    "numero": "2.3",
+                    "nombre": "Estrategia y cultura organizacional de empresas de innovación tecnológica",
+                    "icono": "fa-chess",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 2.3",
+                        "url": ""
+                    }
+                },
+                {
+                    "numero": "2.4",
+                    "nombre": "Implementación de la estrategia, planes, programas, presupuestos y procedimientos",
+                    "sintesis": "2.4.1 Cuadro de mando integral",
+                    "icono": "fa-list-check",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 2.4",
+                        "url": ""
+                    }
+                },
+                {
+                    "numero": "2.5",
+                    "nombre": "Herramientas de gestión estratégica",
+                    "sintesis": "2.5.1 Análisis FODA y desarrollo de estrategias · 2.5.2 Modelos de negocio · 2.5.3 Modelo de Diamante de Porter · 2.5.4 Plan comercial · 2.5.5 Plan maestro",
+                    "icono": "fa-toolbox",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 2.5",
+                        "url": ""
+                    }
+                }
+            ],
+            "actividad_final": {
+                "nombre": "Proyecto · Fase 2",
+                "descripcion": "Análisis y uso de herramientas de la gestión empresarial.",
+                "url": "unidades/unidad-02/actividades/actividad-final.html"
+            }
         },
         'assets/data/unidades/unidad-03.json': {
             "id": "unidad-03",
             "numero": 3,
-            "titulo": "Software de tratamiento de datos numéricos",
-            "descripcion": "Construye hojas de cálculo, gráficos y tablas dinámicas a partir de sus elementos, fórmulas elementales y funciones.",
-            "lema": "Tratamiento de datos, fórmulas, funciones avanzadas, tablas dinámicas y análisis cuantitativo para la toma de decisiones en turismo.",
-            "duracion_horas": 24.0,
+            "titulo": "Gestión operativa de la empresa",
+            "descripcion": "Integra la gestión operativa en la empresa, con base en su estructura organizacional y la innovación tecnológica.",
+            "lema": "Arquitectura, Innovación y Operaciones para la Ventaja Competitiva",
+            "duracion_horas": 24,
+            "video": {
+                "titulo": "TODO: Video de la Unidad (Opcional)",
+                "url": "",
+                "enlace": "",
+                "referencia": "TODO: Cita en formato APA del video."
+            },
             "introduccion": [
-                "El análisis, procesamiento e interpretación de datos cuantitativos es una competencia clave para la gestión hotelera, de agencias de viajes, transportación y desarrollo de destinos turísticos.",
-                "En esta tercera unidad temática se profundiza en el uso de la hoja de cálculo como herramienta para el tratamiento de información numérica: desde el manejo de operadores y fórmulas, la aplicación de funciones estadísticas, lógicas y financieras, hasta la creación de gráficos y el diseño de tablas dinámicas para el análisis estadístico en turismo."
+                "TODO: Párrafo 1 de introducción a la Unidad III de Gestión Empresarial.",
+                "TODO: Párrafo 2 sobre la gestión operativa de la empresa."
+            ],
+            "recorrido": "En esta unidad recorrerás cuatro temas que explican cómo opera una empresa en su día a día. Comenzarás con la estructura organizacional, que define quién hace qué y cómo se coordina el trabajo; seguirás con la innovación y la tecnología como fuentes de valor y competitividad; después verás cómo manejar el cambio y reducir la resistencia con los modelos de Lewin y Kotter; y cerrarás con las herramientas de gestión operativa, como los diagramas de Gantt, Pareto e Ishikawa, el ciclo PHVA, las 5S, Kanban y los KPI, que sirven para planear, controlar y mejorar continuamente los procesos. Cada tema incluye un recurso interactivo y una actividad para comprobar tu comprensión.",
+            "competencias": [
+                "Integra la gestión operativa en la empresa, con base en su estructura organizacional y la innovación tecnológica."
             ],
             "temas": [
-                { "numero": "3.1", "nombre": "Software para análisis e interpretación de la información y tratamiento de datos numéricos", "sintesis": "Entorno de la hoja de cálculo, filas, columnas, celdas, rangos y elementos esenciales de la interfaz.", "url": "unidades/unidad-03/temas/tema-03-01.html" },
-                { "numero": "3.2", "nombre": "Operadores aritméticos", "sintesis": "Operadores matemáticos, de comparación y concatenación, y su orden de prioridad en las operaciones.", "url": "unidades/unidad-03/temas/tema-03-02.html" },
-                { "numero": "3.3", "nombre": "Fórmulas elementales", "sintesis": "Creación y edición de fórmulas elementales, sintaxis, referencias relativas, absolutas y mixtas.", "url": "unidades/unidad-03/temas/tema-03-03.html" },
-                { "numero": "3.4", "nombre": "Funciones", "sintesis": "Funciones estadísticas, matemáticas, trigonométricas, financieras, texto, lógicas, fecha y hora, y anidación.", "url": "unidades/unidad-03/temas/tema-03-04.html" },
-                { "numero": "3.5", "nombre": "Elaboración de gráficos", "sintesis": "Tipos de gráficos, modificación de tamaño, inserción de imágenes, líneas y figuras geométricas.", "url": "unidades/unidad-03/temas/tema-03-05.html" },
-                { "numero": "3.6", "nombre": "Tablas dinámicas", "sintesis": "Diseño, estructuración de campos, filtros, segmentación y análisis interactivo de datos turísticos.", "url": "unidades/unidad-03/temas/tema-03-06.html" },
-                { "numero": "3.7", "nombre": "Impresión", "sintesis": "Configuración de área de impresión, ajuste de escala, márgenes, encabezados y reportes finales.", "url": "unidades/unidad-03/temas/tema-03-07.html" }
-            ]
+                {
+                    "numero": "3.1",
+                    "nombre": "Estructura Organizacional",
+                    "sintesis": "La base estructural que distribuye responsabilidades y coordina esfuerzos.",
+                    "icono": "fa-sitemap",
+                    "url": "unidades/unidad-03/temas/tema-03-01.html",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 3.1",
+                        "url": "unidades/unidad-03/actividades/actividad-3-1.html"
+                    }
+                },
+                {
+                    "numero": "3.2",
+                    "nombre": "Innovación y Tecnología",
+                    "sintesis": "Los impulsos que perciben el entorno, procesan datos y generan nuevas formas de crear valor.",
+                    "icono": "fa-lightbulb",
+                    "url": "unidades/unidad-03/temas/tema-03-02.html",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 3.2",
+                        "url": "unidades/unidad-03/actividades/actividad-3-2.html"
+                    }
+                },
+                {
+                    "numero": "3.3",
+                    "nombre": "Manejo de Cambio e Innovación",
+                    "sintesis": "La capacidad adaptativa para flexionarse y transformarse ante presiones externas e internas.",
+                    "icono": "fa-arrows-rotate",
+                    "url": "unidades/unidad-03/temas/tema-03-03.html",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 3.3",
+                        "url": "unidades/unidad-03/actividades/actividad-3-3.html"
+                    }
+                },
+                {
+                    "numero": "3.4",
+                    "nombre": "Herramientas de Gestión Operativa",
+                    "sintesis": "El pulso táctico y las herramientas que mantienen la eficiencia y la mejora continua.",
+                    "icono": "fa-gears",
+                    "url": "unidades/unidad-03/temas/tema-03-04.html",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 3.4",
+                        "url": "unidades/unidad-03/actividades/actividad-3-4.html"
+                    }
+                }
+            ],
+            "actividad_final": {
+                "nombre": "Proyecto · Fase 3",
+                "descripcion": "Estructura organizacional y análisis tecnológico.",
+                "url": "unidades/unidad-03/actividades/actividad-final.html"
+            }
+        },
+        'assets/data/unidades/unidad-04.json': {
+            "id": "unidad-04",
+            "numero": 4,
+            "titulo": "Gestión del Capital Humano y la Calidad",
+            "descripcion": "Capital humano como activo estratégico, marco normativo de las relaciones laborales en México, fundamentos de la calidad y herramientas para gestionar el talento y mejorar los procesos.",
+            "lema": "El capital humano ejecuta, el marco normativo estabiliza y la calidad total eleva: tres engranes de la competitividad sostenible.",
+            "duracion_horas": 24,
+            "video": {
+                "titulo": "",
+                "url": "",
+                "enlace": "",
+                "referencia": ""
+            },
+            "introduccion": [
+                "Las organizaciones compiten hoy con tecnología, capital y procesos que pueden copiarse con relativa facilidad. Lo que no se copia tan fácil es el talento, la creatividad y el compromiso de las personas que integran la empresa, ni una cultura que busca hacer bien las cosas desde la primera vez. Por eso esta unidad reúne dos campos que suelen estudiarse por separado: la gestión del capital humano y la gestión de la calidad.",
+                "Primero se analiza el capital humano como el conjunto de conocimientos, habilidades, actitudes y valores que generan valor económico, y el ciclo con el que la empresa atrae, desarrolla, evalúa y retiene a su gente. Después se revisa el marco normativo que regula las relaciones laborales en México, desde el artículo 123 constitucional y la Ley Federal del Trabajo hasta los contratos y la resolución de conflictos. Con esa base se estudia la calidad, su evolución y sus sistemas de gestión, y se cierra con las herramientas concretas que permiten medir y mejorar tanto el desempeño de las personas como el de los procesos."
+            ],
+            "recorrido": "Avanza del capital humano al marco legal que lo protege, luego a la calidad como filosofía de gestión y, al final, a las herramientas que integran ambos campos.",
+            "objetivo": "Analiza la gestión del capital humano, el marco normativo de las relaciones laborales y los fundamentos y herramientas de la calidad para proponer acciones que mejoren la productividad y la competitividad de una organización.",
+            "competencias": [
+                "Explica el capital humano como activo estratégico y describe los procesos de su gestión.",
+                "Identifica las fuentes, principios, sujetos y condiciones del marco normativo laboral mexicano.",
+                "Distingue el control, el aseguramiento y la gestión de la calidad total, así como el ciclo PHVA y la norma ISO 9001.",
+                "Selecciona herramientas de gestión del talento y de la calidad para diagnosticar y resolver problemas organizacionales."
+            ],
+            "material_apoyo": [
+                {
+                    "nombre": "Escape room: Capital humano (Genially)",
+                    "url": "https://view.genially.com/66ac21972184a29d288e79ee/interactivecontent-escape-roomcapital-humano"
+                },
+                {
+                    "nombre": "Breakout: Marco normativo laboral (Genially)",
+                    "url": "https://view.genially.com/66b45295dff4fdba8748aa18/interactivecontent-breakout-marconormativo-de-las-relaciones-laborales"
+                },
+                {
+                    "nombre": "Escape game: Calidad (Genially)",
+                    "url": "https://view.genially.com/66bed427e0a3b3144f1c4041/interactivecontent-escape-gamecalidad-en-la-gestion-empresarial"
+                },
+                {
+                    "nombre": "Breakout: Herramientas de gestión (Genially)",
+                    "url": "https://view.genially.com/66c7a8e905479a6f7c36b0c3/interactivecontent-breakoutherramientas-de-gestion-del-capital-humano-yde-calidad"
+                }
+            ],
+            "temas": [
+                {
+                    "numero": "4.1",
+                    "nombre": "Capital Humano",
+                    "sintesis": "Concepto, componentes e importancia del capital humano; su gestión, la motivación, el clima laboral y su relación con la competitividad.",
+                    "icono": "fa-user-graduate",
+                    "url": "unidades/unidad-04/temas/tema-04-01.html",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 4.1",
+                        "url": "unidades/unidad-04/actividades/actividad-4-1.html"
+                    }
+                },
+                {
+                    "numero": "4.2",
+                    "nombre": "Marco Normativo de las Relaciones Laborales",
+                    "sintesis": "Fuentes y principios del derecho laboral en México, sujetos, contrato y condiciones de trabajo, derechos, obligaciones, terminación y relaciones colectivas.",
+                    "icono": "fa-scale-balanced",
+                    "url": "unidades/unidad-04/temas/tema-04-02.html",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 4.2",
+                        "url": "unidades/unidad-04/actividades/actividad-4-2.html"
+                    }
+                },
+                {
+                    "numero": "4.3",
+                    "nombre": "La Calidad",
+                    "sintesis": "Concepto y evolución de la calidad, sus dimensiones, control y aseguramiento, calidad total, mejora continua y normas ISO.",
+                    "icono": "fa-award",
+                    "url": "unidades/unidad-04/temas/tema-04-03.html",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 4.3",
+                        "url": "unidades/unidad-04/actividades/actividad-4-3.html"
+                    }
+                },
+                {
+                    "numero": "4.4",
+                    "nombre": "Herramientas de Gestión del Capital Humano y de Calidad",
+                    "sintesis": "Análisis de puestos, evaluación 360°, siete herramientas básicas, Seis Sigma, Lean, 5S y la integración de ambos campos.",
+                    "icono": "fa-screwdriver-wrench",
+                    "url": "unidades/unidad-04/temas/tema-04-04.html",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 4.4",
+                        "url": "unidades/unidad-04/actividades/actividad-4-4.html"
+                    }
+                }
+            ],
+            "actividad_final": {
+                "nombre": "Caso integrador: Manufacturas Tonatiuh",
+                "descripcion": "Asume el papel de consultor en una empresa con alta rotación, conflictos laborales y defectos en producción: diagnostica, decide conforme a la ley y diseña un plan de mejora.",
+                "url": "unidades/unidad-04/actividades/actividad-final.html"
+            }
+        },
+        'assets/data/unidades/unidad-05.json': {
+            "id": "unidad-05",
+            "numero": 5,
+            "titulo": "Tendencias en la gestión empresarial",
+            "descripcion": "Aplica los aspectos legales y sus habilidades digitales con base en las tendencias y tecnologías digitales.",
+            "lema": "Aspectos legales · Responsabilidad social y sustentabilidad · Habilidades digitales · Tecnologías y tendencias digitales",
+            "duracion_horas": 9,
+            "video": {
+                "titulo": "TODO: Video de la Unidad (Opcional)",
+                "url": "",
+                "enlace": "",
+                "referencia": "TODO: Cita en formato APA del video."
+            },
+            "introduccion": [
+                "TODO: Párrafo 1 de introducción a la Unidad V de Gestión Empresarial.",
+                "TODO: Párrafo 2 sobre las tendencias en la gestión empresarial."
+            ],
+            "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
+            "competencias": [
+                "Aplica los aspectos legales y sus habilidades digitales con base en las tendencias y tecnologías digitales."
+            ],
+            "temas": [
+                {
+                    "numero": "5.1",
+                    "nombre": "Aspectos legales",
+                    "sintesis": "5.1.1 Propiedad intelectual · 5.1.2 Uso de información digital",
+                    "icono": "fa-gavel",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 5.1",
+                        "url": ""
+                    }
+                },
+                {
+                    "numero": "5.2",
+                    "nombre": "Responsabilidad social y sustentabilidad",
+                    "icono": "fa-leaf",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 5.2",
+                        "url": ""
+                    }
+                },
+                {
+                    "numero": "5.3",
+                    "nombre": "Habilidades digitales",
+                    "sintesis": "5.3.1 Learnability · 5.3.2 Teamability · 5.3.3 Networking · 5.3.4 Adaptability",
+                    "icono": "fa-laptop",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 5.3",
+                        "url": ""
+                    }
+                },
+                {
+                    "numero": "5.4",
+                    "nombre": "Tecnologías y tendencias digitales",
+                    "sintesis": "5.4.1 Internet de las cosas · 5.4.2 Inteligencia Artificial · 5.4.3 Inteligencia de negocios · 5.4.4 Blockchain y la nube",
+                    "icono": "fa-microchip",
+                    "url": "",
+                    "actividad": {
+                        "nombre": "Actividad de aprendizaje 5.4",
+                        "url": ""
+                    }
+                }
+            ],
+            "actividad_final": {
+                "nombre": "Proyecto · Fase 5",
+                "descripcion": "Habilidades y tendencias digitales.",
+                "url": "unidades/unidad-05/actividades/actividad-final.html"
+            }
         }
     }
 };

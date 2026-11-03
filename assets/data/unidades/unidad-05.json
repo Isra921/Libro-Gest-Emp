@@ -1,0 +1,72 @@
+{
+  "id": "unidad-05",
+  "numero": 5,
+  "titulo": "Tendencias en la gestión empresarial",
+  "descripcion": "Aplica los aspectos legales y sus habilidades digitales con base en las tendencias y tecnologías digitales.",
+  "lema": "Aspectos legales · Responsabilidad social y sustentabilidad · Habilidades digitales · Tecnologías y tendencias digitales",
+  "duracion_horas": 9.0,
+  "video": {
+    "titulo": "TODO: Video de la Unidad (Opcional)",
+    "url": "",
+    "enlace": "",
+    "referencia": "TODO: Cita en formato APA del video."
+  },
+  "introduccion": [
+    "TODO: Párrafo 1 de introducción a la Unidad V de Gestión Empresarial.",
+    "TODO: Párrafo 2 sobre las tendencias en la gestión empresarial."
+  ],
+  "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
+  "competencias": [
+    "Aplica los aspectos legales y sus habilidades digitales con base en las tendencias y tecnologías digitales."
+  ],
+  "temas": [
+    {
+      "numero": "5.1",
+      "nombre": "Aspectos legales",
+      "sintesis": "5.1.1 Propiedad intelectual · 5.1.2 Uso de información digital",
+      "icono": "fa-gavel",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.1",
+        "url": ""
+      }
+    },
+    {
+      "numero": "5.2",
+      "nombre": "Responsabilidad social y sustentabilidad",
+      "icono": "fa-leaf",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.2",
+        "url": ""
+      }
+    },
+    {
+      "numero": "5.3",
+      "nombre": "Habilidades digitales",
+      "sintesis": "5.3.1 Learnability · 5.3.2 Teamability · 5.3.3 Networking · 5.3.4 Adaptability",
+      "icono": "fa-laptop",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.3",
+        "url": ""
+      }
+    },
+    {
+      "numero": "5.4",
+      "nombre": "Tecnologías y tendencias digitales",
+      "sintesis": "5.4.1 Internet de las cosas · 5.4.2 Inteligencia Artificial · 5.4.3 Inteligencia de negocios · 5.4.4 Blockchain y la nube",
+      "icono": "fa-microchip",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.4",
+        "url": ""
+      }
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Proyecto · Fase 5",
+    "descripcion": "Habilidades y tendencias digitales.",
+    "url": "unidades/unidad-05/actividades/actividad-final.html"
+  }
+}

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Actividad 3.1 · Liderazgo y Trabajo en Equipo | Gestión Empresarial</title>
+  <title>Actividad 3.1 · Estructura organizacional | Gestión Empresarial</title>
   <meta name="description" content="Actividad formativa interactiva para el tema 3.1 de Gestión Empresarial (ESCOM - IPN).">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -16,8 +16,16 @@
   <link rel="shortcut icon" type="image/png" href="../../../assets/img/ESCOMB.png">
 </head>
 
+<!--
+  PLANTILLA DE ACTIVIDAD DE APRENDIZAJE FORMATIVA
+  - data-tema: tema al que pertenece (coincide con "numero" en unidad-03.json).
+  - data-preguntas: banco de reactivos en assets/data/preguntas/unidad-03/actividad-3-1.json.
+  - data-cantidad: preguntas que se toman al azar en cada intento.
+  El ejercicio (#ejercicio, #ejercicioContador, #retroalimentacion), "Otras actividades"
+  (#otrasActividades) y la navegación (#actividadNavegacion) los genera actividad-plantilla.js.
+-->
 <body class="u-body" data-root="../../../" data-unidad="unidad-03" data-tema="3.1"
-      data-preguntas="assets/data/preguntas/unidad-03/actividad-3-1.json" data-cantidad="5">
+      data-preguntas="assets/data/preguntas/unidad-03/actividad-3-1.json" data-cantidad="10">
 
   <header class="site-nav" data-componente="navegacion"></header>
 
@@ -39,11 +47,11 @@
             <span class="a-badge">Actividad formativa</span>
             <span class="a-head__where">Unidad III · Tema 3.1</span>
           </div>
-          <h1 class="a-title">Liderazgo y Equipos de Alto Rendimiento</h1>
-          <p class="a-purpose">Examina las teorías de liderazgo, dinámicas de motivación y resolución asertiva de conflictos.</p>
+          <h1 class="a-title">Semana 10: Estructura organizacional</h1>
+          <p class="a-purpose">Cuestionario del tema 3.1: Estructura organizacional.</p>
           <ul class="a-chips" aria-label="Datos de la actividad">
-            <li class="u-chip"><i class="fas fa-list-check" aria-hidden="true"></i> <span id="totalPreguntas">5</span> preguntas</li>
-            <li class="u-chip"><i class="fas fa-clock" aria-hidden="true"></i> 10 min aprox.</li>
+            <li class="u-chip"><i class="fas fa-list-check" aria-hidden="true"></i> <span id="totalPreguntas">10</span> preguntas</li>
+            <li class="u-chip"><i class="fas fa-clock" aria-hidden="true"></i> 15 min aprox.</li>
             <li class="u-chip"><i class="fas fa-rotate" aria-hidden="true"></i> Intentos ilimitados</li>
             <li class="u-chip a-chip--outline" id="ultimoResultado" hidden><i class="fas fa-chart-simple" aria-hidden="true"></i> Último resultado: <strong></strong></li>
           </ul>
@@ -52,40 +60,53 @@
         <section class="a-card" aria-labelledby="instruccionesTitulo">
           <h2 class="a-card__title" id="instruccionesTitulo">Instrucciones</h2>
           <ol class="a-steps">
-            <li>Responde cada reactivo seleccionando la respuesta apropiada.</li>
-            <li>Haz clic en <strong>Comprobar respuesta</strong> para analizar la explicación pedagógica.</li>
-            <li>Pulsa <strong>Siguiente pregunta</strong> para continuar.</li>
+            <li>Lee atentamente cada reactivo y selecciona la respuesta correcta.</li>
+            <li>Pulsa <strong>Comprobar respuesta</strong> para visualizar la retroalimentación inmediata.</li>
+            <li>Avanza con <strong>Siguiente pregunta</strong> hasta concluir la serie y revisar tu desempeño final.</li>
+            <li>La actividad es formativa para reforzar tus aprendizajes; puedes repetirla las veces que requieras.</li>
           </ol>
         </section>
 
         <section class="a-card a-exercise" aria-labelledby="ejercicioTitulo">
           <div class="a-exercise__bar">
             <h2 class="a-exercise__label" id="ejercicioTitulo">Ejercicio</h2>
-            <div class="a-exercise__status" id="reactivoProgreso" aria-live="polite">Pregunta 1</div>
+            <span class="a-exercise__count" id="ejercicioContador" aria-live="polite">Pregunta 1</span>
           </div>
 
-          <div class="a-exercise__body" id="preguntaContenedor">
+          <div class="a-exercise__body" id="ejercicio" aria-busy="true">
             <p class="u-loading">Cargando preguntas de la actividad…</p>
           </div>
-
-          <div class="a-exercise__foot" id="barraAcciones" hidden>
-            <button type="button" class="u-btn u-btn--outline" id="btnComprobar">Comprobar respuesta</button>
-            <button type="button" class="u-btn u-btn--primary" id="btnSiguiente" hidden>Siguiente pregunta <i class="fas fa-arrow-right" aria-hidden="true"></i></button>
-            <button type="button" class="u-btn u-btn--primary" id="btnReiniciar" hidden><i class="fas fa-rotate-right" aria-hidden="true"></i> Intentar de nuevo</button>
-          </div>
-
-          <div class="a-feedback" id="retroalimentacion" hidden aria-live="polite"></div>
         </section>
+
+        <div id="retroalimentacion" aria-live="polite"></div>
+
+        <nav class="a-pager" id="actividadNavegacion" aria-label="Navegación de la actividad">
+          <a class="a-pager__prev" href="../temas/tema-03-01.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver al tema 3.1</a>
+        </nav>
       </div>
 
-      <aside class="a-side" aria-label="Navegación complementaria">
-        <div class="a-card">
-          <h3 class="a-card__title">Tema relacionado</h3>
-          <p style="font-size: 0.9rem; margin-bottom: 12px;">Consulta el contenido teórico:</p>
-          <a class="u-btn u-btn--outline" style="width: 100%; justify-content: center;" href="../temas/tema-03-01.html">
-            <i class="fas fa-book-open" aria-hidden="true"></i> Ver Tema 3.1
-          </a>
-        </div>
+      <aside class="a-sidebar" aria-label="Navegación complementaria">
+        <details class="a-sidebar-details" open>
+          <summary class="a-sidebar-summary">
+            <span class="a-sidebar-summary-label"><i class="fas fa-compass" aria-hidden="true"></i> Navegación</span>
+            <i class="fas fa-chevron-down a-sidebar-chevron" aria-hidden="true"></i>
+          </summary>
+          <div class="a-sidebar-inner">
+            <div class="a-side-card">
+              <p class="a-side-title">Tema relacionado</p>
+              <a class="a-side-link" id="enlaceRepaso" href="../temas/tema-03-01.html"><i class="fas fa-book-open" aria-hidden="true"></i> <span>Repasar el tema 3.1</span></a>
+            </div>
+            <div class="a-side-card">
+              <p class="a-side-title">Cuestionario en línea</p>
+              <p class="a-side-text">Semana 10: Estructura organizacional</p>
+              <a class="a-side-link" href="https://forms.gle/Hq9pYDyK5c2EaNgC7" target="_blank" rel="noopener noreferrer"><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i> <span>Responder en Google Forms</span></a>
+            </div>
+            <div class="a-side-card">
+              <p class="a-side-title">Otras actividades</p>
+              <div id="otrasActividades"></div>
+            </div>
+          </div>
+        </details>
       </aside>
     </div>
   </main>

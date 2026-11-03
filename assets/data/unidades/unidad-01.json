@@ -1,10 +1,10 @@
 {
   "id": "unidad-01",
   "numero": 1,
-  "titulo": "Introducción a la Gestión Empresarial",
-  "descripcion": "TODO: Redactar la descripción sintética que se mostrará en la tarjeta de unidades.html.",
-  "lema": "TODO: Escribir una frase o lema representativo de la unidad temática.",
-  "duracion_horas": 24.0,
+  "titulo": "Aspectos básicos de la gestión empresarial",
+  "descripcion": "Analiza la gestión empresarial con base en su clasificación y constitucional legal.",
+  "lema": "Las organizaciones · Administración · Gestión empresarial · Diferencias entre administrar y gestionar",
+  "duracion_horas": 5.5,
   "video": {
     "titulo": "TODO: Video de la Unidad (Opcional)",
     "url": "",
@@ -17,14 +17,14 @@
   ],
   "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
   "competencias": [
-    "TODO: Competencia específica 1 a desarrollar en la Unidad I.",
-    "TODO: Competencia específica 2 a desarrollar en la Unidad I."
+    "Analiza la gestión empresarial con base en su clasificación y constitucional legal."
   ],
   "temas": [
     {
       "numero": "1.1",
-      "nombre": "Conceptos Fundamentales de la Gestión Empresarial",
-      "sintesis": "TODO: Síntesis breve del tema 1.1.",
+      "nombre": "Las organizaciones",
+      "sintesis": "1.1.1 Clasificación · 1.1.2 Constitución legal de acuerdo con la Ley de Sociedades Mercantiles y la Ley de Sociedades Civiles",
+      "icono": "fa-building",
       "url": "unidades/unidad-01/temas/tema-01-01.html",
       "actividad": {
         "nombre": "Actividad de aprendizaje 1.1",
@@ -33,8 +33,9 @@
     },
     {
       "numero": "1.2",
-      "nombre": "Evolución de las Teorías Administrativas y Modelos Organizacionales",
-      "sintesis": "TODO: Síntesis breve del tema 1.2.",
+      "nombre": "Administración",
+      "sintesis": "1.2.1 Objetivo de la administración",
+      "icono": "fa-briefcase",
       "url": "",
       "actividad": {
         "nombre": "Actividad de aprendizaje 1.2",
@@ -43,18 +44,29 @@
     },
     {
       "numero": "1.3",
-      "nombre": "La Empresa y su Entorno: Microentorno y Macroentorno",
-      "sintesis": "TODO: Síntesis breve del tema 1.3.",
+      "nombre": "Gestión empresarial",
+      "sintesis": "1.3.1 Objetivo de la gestión empresarial · 1.3.2 Funciones básicas · 1.3.3 Clasificación",
+      "icono": "fa-diagram-project",
       "url": "",
       "actividad": {
         "nombre": "Actividad de aprendizaje 1.3",
         "url": ""
       }
+    },
+    {
+      "numero": "1.4",
+      "nombre": "Diferencias entre administrar y gestionar",
+      "icono": "fa-scale-balanced",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 1.4",
+        "url": ""
+      }
     }
   ],
   "actividad_final": {
-    "nombre": "Actividad integradora y caso práctico",
-    "descripcion": "TODO: Descripción del caso práctico o simulador integrador de la unidad.",
+    "nombre": "Proyecto · Fase 1",
+    "descripcion": "Constitución legal del proyecto empresarial y desarrollo de objetivos.",
     "url": "unidades/unidad-01/actividades/actividad-final.html"
   }
 }

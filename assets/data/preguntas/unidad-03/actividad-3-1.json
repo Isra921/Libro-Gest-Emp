@@ -2,14 +2,121 @@
   {
     "id": 1,
     "type": "opcion_multiple",
-    "question": "¿Qué representa un Indicador Clave de Desempeño (KPI) en la fase de control?",
+    "question": "¿Cuál de las siguientes opciones describe mejor el propósito de la estructura organizacional en una empresa?",
     "options": [
-      "Una métrica cuantitativa para evaluar si los procesos avanzan conforme a los objetivos propuestos.",
-      "Un software privativo para emisión de facturas electrónicas.",
-      "Un modelo de organigrama matricial.",
-      "Un estilo de liderazgo autoritario sin retroalimentación."
+      "Determinar la ubicación física de la empresa.",
+      "Proveer el esqueleto sobre el cual se construyen todos los procesos y operaciones de la empresa.",
+      "Limitar la comunicación entre los empleados para aumentar la productividad.",
+      "Reducir la cantidad de empleados en la empresa."
     ],
-    "answer": "Una métrica cuantitativa para evaluar si los procesos avanzan conforme a los objetivos propuestos.",
-    "explicacion": "Los KPIs permiten monitorear variables críticas en tiempo real y tomar decisiones correctivas oportunas."
+    "answer": "Proveer el esqueleto sobre el cual se construyen todos los procesos y operaciones de la empresa."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Cómo contribuye una estructura organizacional bien definida y adecuadamente implementada a una empresa?",
+    "options": [
+      "Incrementando la competencia entre empleados.",
+      "Reduciendo la especialización del trabajo.",
+      "Minimizando duplicidades y reduciendo conflictos entre empleados y departamentos.",
+      "Limitando la capacidad de respuesta a los cambios del mercado."
+    ],
+    "answer": "Minimizando duplicidades y reduciendo conflictos entre empleados y departamentos."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "Según la información proporcionada, ¿qué aspectos permite mejorar una estructura organizacional adecuada?",
+    "options": [
+      "Disminuye la calidad del trabajo realizado.",
+      "Aumenta la burocracia y ralentiza los procesos.",
+      "Facilita la coordinación efectiva y permite una respuesta más rápida a los cambios del entorno.",
+      "Fomenta la independencia de los departamentos evitando la colaboración."
+    ],
+    "answer": "Facilita la coordinación efectiva y permite una respuesta más rápida a los cambios del entorno."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el principal beneficio de la división del trabajo en una organización?",
+    "options": [
+      "Aumentar la duración del entrenamiento necesario para los trabajadores.",
+      "Disminuir la especialización en tareas específicas.",
+      "Permitir que los trabajadores se especialicen y aumenten su destreza en tareas específicas.",
+      "Reducir la eficiencia en las operaciones generales."
+    ],
+    "answer": "Permitir que los trabajadores se especialicen y aumenten su destreza en tareas específicas."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Qué mecanismos son utilizados para la coordinación en una organización según la información proporcionada?",
+    "options": [
+      "Evitar cualquier tipo de reunión regular y roles de coordinación.",
+      "Uso de reuniones regulares, sistemas de información integrados y roles de coordinación como los de los gerentes de proyecto.",
+      "Aumentar la independencia de los departamentos sin interacciones.",
+      "Limitar la comunicación a través de sistemas de información no integrados."
+    ],
+    "answer": "Uso de reuniones regulares, sistemas de información integrados y roles de coordinación como los de los gerentes de proyecto."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cómo contribuye la especialización al desempeño de los empleados en una empresa?",
+    "options": [
+      "Disminuye la calidad del trabajo y aumenta la complejidad de las tareas.",
+      "Aumenta la eficiencia y la calidad del trabajo, y reduce el tiempo de entrenamiento necesario.",
+      "Limita el desarrollo de habilidades y conocimientos en diversas áreas.",
+      "Incrementa el tiempo necesario para completar las tareas debido a la falta de habilidades generales."
+    ],
+    "answer": "Aumenta la eficiencia y la calidad del trabajo, y reduce el tiempo de entrenamiento necesario."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Qué describe mejor la jerarquización en una organización?",
+    "options": [
+      "Eliminación de todos los niveles de autoridad para fomentar una cultura de igualdad.",
+      "Establecimiento de una estructura de autoridad donde cada posición tiene un nivel claro de autoridad y responsabilidad.",
+      "Creación de una estructura donde todos los empleados reportan directamente al CEO.",
+      "Distribución aleatoria de responsabilidades entre los empleados sin ningún orden específico."
+    ],
+    "answer": "Establecimiento de una estructura de autoridad donde cada posición tiene un nivel claro de autoridad y responsabilidad."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es un ejemplo de criterio que se puede utilizar para la departamentalización en una empresa?",
+    "options": [
+      "Agrupar tareas sin ningún criterio específico.",
+      "Organizar departamentos únicamente por antigüedad de los empleados.",
+      "Agrupar tareas en departamentos según función, producto, mercado o proceso.",
+      "Separar empleados basado en su nivel educativo."
+    ],
+    "answer": "Agrupar tareas en departamentos según función, producto, mercado o proceso."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el principio fundamental de la unidad de mando?",
+    "options": [
+      "Cada empleado debe recibir órdenes de múltiples superiores para aumentar la eficiencia.",
+      "Los empleados deben trabajar sin supervisión directa para promover la independencia.",
+      "Cada empleado debe recibir órdenes de un solo superior para evitar confusiones y conflictos.",
+      "Las órdenes deben ser emitidas en un formato no estructurado para fomentar la creatividad."
+    ],
+    "answer": "Cada empleado debe recibir órdenes de un solo superior para evitar confusiones y conflictos."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el beneficio principal de aplicar el principio de unidad de mando en una organización?",
+    "options": [
+      "Incrementar la competencia entre los empleados al recibir órdenes de varios superiores.",
+      "Facilitar la claridad en la comunicación y la responsabilidad al recibir órdenes de un solo superior.",
+      "Permitir una mayor flexibilidad en las tareas al no tener un superior directo.",
+      "Reducir la eficiencia operativa al limitar la cantidad de supervisores."
+    ],
+    "answer": "Facilitar la claridad en la comunicación y la responsabilidad al recibir órdenes de un solo superior."
   }
 ]

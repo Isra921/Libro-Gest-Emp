@@ -1,9 +1,9 @@
 {
   "id": "unidad-03",
   "numero": 3,
-  "titulo": "Dirección, Liderazgo y Control Gerencial",
-  "descripcion": "TODO: Redactar la descripción sintética que se mostrará en la tarjeta de unidades.html.",
-  "lema": "TODO: Escribir una frase o lema representativo de la unidad temática.",
+  "titulo": "Gestión operativa de la empresa",
+  "descripcion": "Integra la gestión operativa en la empresa, con base en su estructura organizacional y la innovación tecnológica.",
+  "lema": "Arquitectura, Innovación y Operaciones para la Ventaja Competitiva",
   "duracion_horas": 24.0,
   "video": {
     "titulo": "TODO: Video de la Unidad (Opcional)",
@@ -13,18 +13,18 @@
   },
   "introduccion": [
     "TODO: Párrafo 1 de introducción a la Unidad III de Gestión Empresarial.",
-    "TODO: Párrafo 2 sobre dirección, liderazgo de equipos tecnológicos y métricas de control."
+    "TODO: Párrafo 2 sobre la gestión operativa de la empresa."
   ],
-  "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
+  "recorrido": "En esta unidad recorrerás cuatro temas que explican cómo opera una empresa en su día a día. Comenzarás con la estructura organizacional, que define quién hace qué y cómo se coordina el trabajo; seguirás con la innovación y la tecnología como fuentes de valor y competitividad; después verás cómo manejar el cambio y reducir la resistencia con los modelos de Lewin y Kotter; y cerrarás con las herramientas de gestión operativa, como los diagramas de Gantt, Pareto e Ishikawa, el ciclo PHVA, las 5S, Kanban y los KPI, que sirven para planear, controlar y mejorar continuamente los procesos. Cada tema incluye un recurso interactivo y una actividad para comprobar tu comprensión.",
   "competencias": [
-    "TODO: Competencia específica 1 a desarrollar en la Unidad III.",
-    "TODO: Competencia específica 2 a desarrollar en la Unidad III."
+    "Integra la gestión operativa en la empresa, con base en su estructura organizacional y la innovación tecnológica."
   ],
   "temas": [
     {
       "numero": "3.1",
-      "nombre": "Teorías de Liderazgo y Trabajo en Equipo",
-      "sintesis": "TODO: Síntesis breve del tema 3.1.",
+      "nombre": "Estructura Organizacional",
+      "sintesis": "La base estructural que distribuye responsabilidades y coordina esfuerzos.",
+      "icono": "fa-sitemap",
       "url": "unidades/unidad-03/temas/tema-03-01.html",
       "actividad": {
         "nombre": "Actividad de aprendizaje 3.1",
@@ -33,28 +33,41 @@
     },
     {
       "numero": "3.2",
-      "nombre": "Toma de Decisiones, Comunicación y Negociación",
-      "sintesis": "TODO: Síntesis breve del tema 3.2.",
-      "url": "",
+      "nombre": "Innovación y Tecnología",
+      "sintesis": "Los impulsos que perciben el entorno, procesan datos y generan nuevas formas de crear valor.",
+      "icono": "fa-lightbulb",
+      "url": "unidades/unidad-03/temas/tema-03-02.html",
       "actividad": {
         "nombre": "Actividad de aprendizaje 3.2",
-        "url": ""
+        "url": "unidades/unidad-03/actividades/actividad-3-2.html"
       }
     },
     {
       "numero": "3.3",
-      "nombre": "Sistemas de Control y Métricas de Rendimiento (KPIs)",
-      "sintesis": "TODO: Síntesis breve del tema 3.3.",
-      "url": "",
+      "nombre": "Manejo de Cambio e Innovación",
+      "sintesis": "La capacidad adaptativa para flexionarse y transformarse ante presiones externas e internas.",
+      "icono": "fa-arrows-rotate",
+      "url": "unidades/unidad-03/temas/tema-03-03.html",
       "actividad": {
         "nombre": "Actividad de aprendizaje 3.3",
-        "url": ""
+        "url": "unidades/unidad-03/actividades/actividad-3-3.html"
+      }
+    },
+    {
+      "numero": "3.4",
+      "nombre": "Herramientas de Gestión Operativa",
+      "sintesis": "El pulso táctico y las herramientas que mantienen la eficiencia y la mejora continua.",
+      "icono": "fa-gears",
+      "url": "unidades/unidad-03/temas/tema-03-04.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.4",
+        "url": "unidades/unidad-03/actividades/actividad-3-4.html"
       }
     }
   ],
   "actividad_final": {
-    "nombre": "Actividad integradora y caso práctico",
-    "descripcion": "TODO: Descripción del caso práctico o simulador integrador de la unidad.",
+    "nombre": "Proyecto · Fase 3",
+    "descripcion": "Estructura organizacional y análisis tecnológico.",
     "url": "unidades/unidad-03/actividades/actividad-final.html"
   }
 }
