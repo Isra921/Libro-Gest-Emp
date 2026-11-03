@@ -2,21 +2,131 @@
   {
     "id": 1,
     "type": "opcion_multiple",
-    "question": "¿Cuál es la función primordial de la gestión empresarial en una organización?",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor el concepto de estructura organizativa?",
     "options": [
-      "Planear, organizar, dirigir y controlar los recursos para alcanzar los objetivos estratégicos con eficacia y eficiencia.",
-      "Realizar exclusivamente actividades de contabilidad básica y archivo manual.",
-      "Vender productos sin considerar la satisfacción del cliente ni el control financiero.",
-      "Evitar la incorporación de tecnologías de información y procesos digitales."
+      "Se refiere al proceso de reclutamiento y selección de personal.",
+      "Es la forma en que se dividen, organizan y coordinan las tareas dentro de una organización.",
+      "Se centra en la gestión de conflictos dentro de un equipo de trabajo.",
+      "Hace referencia al proceso de establecer metas y objetivos para una empresa."
     ],
-    "answer": "Planear, organizar, dirigir y controlar los recursos para alcanzar los objetivos estratégicos con eficacia y eficiencia.",
-    "explicacion": "La gestión empresarial articula todos los recursos y capacidades de la empresa para maximizar el valor y lograr sostenibilidad competitiva."
+    "answer": "Es la forma en que se dividen, organizan y coordinan las tareas dentro de una organización.",
+    "explicacion": ""
   },
   {
     "id": 2,
-    "type": "verdadero_falso",
-    "statement": "La eficiencia administrativa se refiere al logro de los objetivos utilizando la menor cantidad de recursos posibles.",
-    "answer": true,
-    "explicacion": "La eficiencia mide la relación entre los recursos utilizados y los resultados obtenidos; la eficacia mide el alcance de las metas planteadas."
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones NO corresponde a una característica o requisito de una Sociedad Anónima?",
+    "options": [
+      "La responsabilidad de los socios se limita exclusivamente al monto de su aportación de capital.",
+      "Todos los socios deben tener una participación activa y presencial en las operaciones diarias de la empresa.",
+      "Es necesario inscribir la constitución de la sociedad en el Registro Público de Comercio para su formalización legal.",
+      "La estructura organizativa de una Sociedad Anónima incluye una Asamblea de Accionistas y un Consejo de Administración."
+    ],
+    "answer": "Todos los socios deben tener una participación activa y presencial en las operaciones diarias de la empresa.",
+    "explicacion": ""
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta respecto a una Sociedad en Nombre Colectivo (S.N.C.)?",
+    "options": [
+      "Los socios tienen una responsabilidad limitada al monto de su aportación de capital en la sociedad.",
+      "La sociedad puede ser constituida por un único socio.",
+      "Los socios responden de manera subsidiaria, ilimitada y solidaria por las obligaciones sociales, comprometiendo incluso su patrimonio personal.",
+      "Existe un capital social mínimo requerido para su constitución."
+    ],
+    "answer": "Los socios responden de manera subsidiaria, ilimitada y solidaria por las obligaciones sociales, comprometiendo incluso su patrimonio personal.",
+    "explicacion": ""
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones NO es correcta sobre la Sociedad en Comandita Simple (S. en C.S.)?",
+    "options": [
+      "Todos los socios, tanto comanditados como comanditarios, tienen responsabilidad ilimitada y solidaria por las obligaciones sociales.",
+      "No se requiere un mínimo de capital social para su constitución.",
+      "Debe haber al menos un socio comanditado, que responde de manera ilimitada y solidaria, y un socio comanditario, cuya responsabilidad se limita al monto de su aportación.",
+      "La sociedad debe inscribirse en el Registro Público de Comercio."
+    ],
+    "answer": "Todos los socios, tanto comanditados como comanditarios, tienen responsabilidad ilimitada y solidaria por las obligaciones sociales.",
+    "explicacion": ""
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones es INCORRECTA acerca de una Sociedad de Responsabilidad Limitada (S. de R.L.)?",
+    "options": [
+      "La responsabilidad de los socios está limitada a la cantidad que cada uno aporte, y no están obligados a cubrir pérdidas más allá de su aportación inicial.",
+      "La sociedad debe tener un mínimo de 2 socios pero no puede exceder de 50.",
+      "Cada socio debe aportar, como mínimo, el 75% de su participación total en el capital social al momento de la constitución de la sociedad.",
+      "Es necesario realizar una auditoría externa si la empresa cumple con ciertos criterios de tamaño o ingresos."
+    ],
+    "answer": "Cada socio debe aportar, como mínimo, el 75% de su participación total en el capital social al momento de la constitución de la sociedad.",
+    "explicacion": ""
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta respecto a una Sociedad en Comandita por Acciones (S.C.A.)?",
+    "options": [
+      "Todos los socios tienen responsabilidad limitada y responden únicamente por el monto de su inversión en acciones.",
+      "Solo existe un tipo de socio en la Sociedad en Comandita por Acciones, y todos tienen las mismas responsabilidades y derechos.",
+      "Los socios comanditados tienen responsabilidad ilimitada y gestionan la empresa, mientras que los socios comanditarios tienen responsabilidad limitada al monto de sus aportaciones.",
+      "Es obligatorio que el capital social de la sociedad esté dividido en acciones de distintos valores y que confiera derechos diferentes a cada socio."
+    ],
+    "answer": "Los socios comanditados tienen responsabilidad ilimitada y gestionan la empresa, mientras que los socios comanditarios tienen responsabilidad limitada al monto de sus aportaciones.",
+    "explicacion": ""
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones NO es correcta acerca de una Sociedad por Acciones Simplificada (SAS)?",
+    "options": [
+      "Es necesario contar con un mínimo de cinco accionistas para constituir una SAS.",
+      "Los socios o accionistas deben aceptar los estatutos genéricos proporcionados por la Secretaría de Economía.",
+      "La SAS puede ser constituida por una sola persona, siendo así unipersonal.",
+      "Los accionistas están obligados a cumplir con los acuerdos estipulados en el contrato de constitución."
+    ],
+    "answer": "Es necesario contar con un mínimo de cinco accionistas para constituir una SAS.",
+    "explicacion": ""
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones es incorrecta respecto a una Sociedad Cooperativa?",
+    "options": [
+      "Los beneficios se distribuyen en función del capital aportado por cada socio.",
+      "La participación en la toma de decisiones se realiza de manera democrática, generalmente con un voto por socio.",
+      "Es necesario que los socios participen activamente en la gestión de la cooperativa y se adhieran a los principios cooperativos.",
+      "La sociedad debe contar con una contabilidad electrónica y registrar todas las operaciones."
+    ],
+    "answer": "Los beneficios se distribuyen en función del capital aportado por cada socio.",
+    "explicacion": ""
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones es incorrecta acerca de una Sociedad Civil?",
+    "options": [
+      "Las sociedades civiles siempre son organizaciones sin fines de lucro o entidades de beneficio social.",
+      "Los socios deben contribuir con recursos acordados, que pueden incluir dinero, bienes u otros activos.",
+      "Es necesario designar a un administrador que se encargue de la gestión de la sociedad.",
+      "Las sociedades civiles deben cumplir con sus obligaciones fiscales, incluyendo la presentación de declaraciones de impuestos y pagos al gobierno."
+    ],
+    "answer": "Las sociedades civiles siempre son organizaciones sin fines de lucro o entidades de beneficio social.",
+    "explicacion": ""
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones es incorrecta respecto a una Asociación Civil?",
+    "options": [
+      "Las asociaciones civiles siempre tienen como objetivo compartir las pérdidas y ganancias entre los socios.",
+      "Es necesario mantener registros contables y preparar estados financieros.",
+      "La participación de los socios en la asociación es voluntaria y deben contribuir activamente en la consecución de los objetivos.",
+      "Las asociaciones civiles deben cumplir con requisitos fiscales y legales, incluyendo la presentación de informes y la gestión de fondos."
+    ],
+    "answer": "Las asociaciones civiles siempre tienen como objetivo compartir las pérdidas y ganancias entre los socios.",
+    "explicacion": ""
   }
 ]
