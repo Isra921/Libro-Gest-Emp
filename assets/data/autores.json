@@ -15,24 +15,19 @@
       "tipo": "colaborador",
       "personas": [
         {
-          "nombre": "Integrante 1 (Nombre Completo)",
-          "correo": "correo_integrante1@alumno.ipn.mx",
-          "rol": "Desarrollo Frontend / Redacción Unidad 1"
+          "nombre": "Flores Madrigal Diego",
+          "correo": "dfloresm1300@alumno.ipn.mx",
+          "foto": ""
         },
         {
-          "nombre": "Integrante 2 (Nombre Completo)",
-          "correo": "correo_integrante2@alumno.ipn.mx",
-          "rol": "Desarrollo Frontend / Redacción Unidad 2"
+          "nombre": "Aranza Alondra Muñoz Chávez",
+          "correo": "amunozc2002@alumno.ipn.mx",
+          "foto": ""
         },
         {
-          "nombre": "Integrante 3 (Nombre Completo)",
-          "correo": "correo_integrante3@alumno.ipn.mx",
-          "rol": "Desarrollo Frontend / Redacción Unidad 3"
-        },
-        {
-          "nombre": "Integrante 4 (Nombre Completo)",
-          "correo": "correo_integrante4@alumno.ipn.mx",
-          "rol": "Integración, Actividades y Glosario"
+          "nombre": "Israel Soto Peña",
+          "correo": "isotop2000@alumno.ipn.mx",
+          "foto": ""
         }
       ]
     },
@@ -44,17 +39,40 @@
       "tipo": "docente",
       "personas": [
         {
-          "grado": "Prof.",
-          "nombre": "TODO: Nombre del Asesor / Docente Titular",
-          "correo": "correo_docente@ipn.mx",
+          "grado": "C. P.",
+          "nombre": "Fanny Sosa Adán",
+          "correo": "",
+          "foto": "assets/img/autores/Fanny_Sosa_Adán.jpg",
+          "semblanza": [
+            "La C. P. Fanny Sosa Adán es académica de la Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN), adscrita al Departamento de Sociales, donde participa en la formación integral de futuros profesionales de la ingeniería mediante la impartición de unidades de aprendizaje como Finanzas Empresariales, Ingeniería, Ética y Sociedad, y Gestión Empresarial. Su labor docente se orienta al fortalecimiento de conocimientos administrativos, financieros y empresariales, así como al desarrollo de una conciencia ética y social en el ejercicio profesional. A través de actividades académicas que promueven la lectura, el análisis crítico y la participación estudiantil, contribuye a vincular los conocimientos tecnológicos con la gestión organizacional, la responsabilidad social y la toma de decisiones, favoreciendo una formación interdisciplinaria acorde con las necesidades del entorno profesional y empresarial."
+          ]
+        },
+        {
+          "grado": "M. en C.",
+          "nombre": "Ariel López Rojas",
+          "correo": "",
           "foto": "",
           "semblanza": [
-            "TODO: Semblanza académica, trayectoria docente e investigación en el área de Gestión Empresarial y Ciencias de la Computación en la Escuela Superior de Cómputo (ESCOM - IPN)."
+            "El M. en C. Ariel López Rojas es Ingeniero en Comunicaciones y Electrónica y Maestro en Ciencias con especialidad en Administración de Negocios por el Instituto Politécnico Nacional (IPN). Su trayectoria académica y profesional se distingue por integrar la innovación educativa, la gestión tecnológica, la investigación aplicada y el desarrollo empresarial. Como docente de la Escuela Superior de Cómputo (ESCOM), ha contribuido a la formación de profesionales mediante la enseñanza, la dirección de trabajos terminales y el impulso de proyectos de innovación y emprendimiento. Su experiencia en liderazgo institucional, administración estratégica y evaluación de proyectos fortalece la vinculación entre el conocimiento científico, la tecnología y la solución de problemas del entorno, promoviendo una educación orientada a la innovación, la investigación y la transformación de la sociedad."
+          ]
+        },
+        {
+          "grado": "D. en E.",
+          "nombre": "Israel Salas Ramírez",
+          "correo": "isalasr@ipn.mx",
+          "foto": "assets/img/autores/salas_ramirez_israel.png",
+          "semblanza": [
+            "Reconocido por su compromiso con la excelencia académica, la innovación educativa y la formación de profesionales altamente competentes en el ámbito de las tecnologías de la información, docente de la Escuela Superior de Cómputo del Instituto Politécnico Nacional (IPN). Es Doctor y Maestro en Ciencias de la Educación, además de Ing. en Comunicaciones y Electrónica por la Escuela Superior de Ingeniería Mecánica y Eléctrica del IPN, combinación que le permite integrar una sólida preparación tecnológica con una visión pedagógica orientada al aprendizaje significativo, el desarrollo de competencias y la transformación digital de la educación.",
+            "A lo largo de su trayectoria ha desempeñado diversos cargos en el sector público y en la iniciativa privada, experiencia que ha enriquecido su práctica docente mediante la vinculación entre el conocimiento académico y la solución de problemáticas reales; asimismo, ha participado en el diseño, desarrollo e implementación de materiales y recursos digitales para diversas unidades académicas del IPN, entre ellas la Escuela Superior de Cómputo, la Escuela Nacional de Medicina y Homeopatía y la Escuela Superior de Turismo, contribuyendo al fortalecimiento de ambientes virtuales de aprendizaje y a la incorporación de tecnologías educativas.",
+            "Su impacto en la educación superior ha sido relevante al impulsar estrategias pedagógicas innovadoras que fortalecen la calidad educativa, promueven la integración efectiva de las tecnologías digitales en los procesos de enseñanza-aprendizaje y contribuyen a la formación de profesionistas capaces de responder a los desafíos científicos, tecnológicos y sociales de la actualidad."
           ],
           "areas": [
-            "Gestión Empresarial",
-            "Administración de Proyectos Tecnológicos",
-            "Ingeniería de Software"
+            "Sistemas operativos",
+            "Administración de redes",
+            "Neurociencia en la educación",
+            "Redes neuronales",
+            "Generación de simuladores médicos",
+            "Plataformas virtuales aplicadas a la educación"
           ]
         }
       ]
