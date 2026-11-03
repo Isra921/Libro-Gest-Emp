@@ -1,10 +1,10 @@
 {
   "id": "unidad-01",
   "numero": 1,
-  "titulo": "Introducción a la Gestión Empresarial",
-  "descripcion": "TODO: Redactar la descripción sintética que se mostrará en la tarjeta de unidades.html.",
-  "lema": "TODO: Escribir una frase o lema representativo de la unidad temática.",
-  "duracion_horas": 24.0,
+  "titulo": "Aspectos básicos de la gestión empresarial",
+  "descripcion": "Analiza la gestión empresarial con base en su clasificación y constitucional legal.",
+  "lema": "Las organizaciones · Administración · Gestión empresarial · Diferencias entre administrar y gestionar",
+  "duracion_horas": 5.5,
   "video": {
     "titulo": "TODO: Video de la Unidad (Opcional)",
     "url": "",
@@ -17,8 +17,7 @@
   ],
   "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
   "competencias": [
-    "TODO: Competencia específica 1 a desarrollar en la Unidad I.",
-    "TODO: Competencia específica 2 a desarrollar en la Unidad I."
+    "Analiza la gestión empresarial con base en su clasificación y constitucional legal."
   ],
   "temas": [
     {
@@ -63,8 +62,8 @@
     }
   ],
   "actividad_final": {
-    "nombre": "Actividad integradora y caso práctico",
-    "descripcion": "TODO: Descripción del caso práctico o simulador integrador de la unidad.",
+    "nombre": "Proyecto · Fase 1",
+    "descripcion": "Constitución legal del proyecto empresarial y desarrollo de objetivos.",
     "url": "unidades/unidad-01/actividades/actividad-final.html"
   }
 }

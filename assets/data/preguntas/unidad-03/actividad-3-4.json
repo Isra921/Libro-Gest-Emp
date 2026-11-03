@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el propósito principal de la reingeniería de procesos de negocio?",
+    "options": [
+      "Realizar ajustes menores a los procesos existentes.",
+      "Rediseñar fundamentalmente los procesos para mejorar significativamente la calidad, rendimiento y costos.",
+      "Incrementar ligeramente la eficiencia sin cambiar mucho los procesos actuales.",
+      "Reducir los costos únicamente a través de la automatización."
+    ],
+    "answer": "Rediseñar fundamentalmente los procesos para mejorar significativamente la calidad, rendimiento y costos."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes pasos NO es parte del proceso de reingeniería de procesos de negocio?",
+    "options": [
+      "Identificación de Procesos Críticos.",
+      "Análisis del Proceso Actual.",
+      "Rediseño del Proceso.",
+      "Aumento de los salarios de los empleados."
+    ],
+    "answer": "Aumento de los salarios de los empleados."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Qué implica la transformación de la estructura y la cultura organizacional?",
+    "options": [
+      "Aumentar los beneficios económicos de la empresa.",
+      "Modificar la estructura y la cultura organizacional para alinearlas con la visión estratégica de la empresa.",
+      "Implementar únicamente nuevas políticas de trabajo remoto.",
+      "Reducir la cantidad de empleados en la organización."
+    ],
+    "answer": "Modificar la estructura y la cultura organizacional para alinearlas con la visión estratégica de la empresa."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes actividades es un componente de la transformación de la estructura y la cultura organizacional?",
+    "options": [
+      "Adaptar la jerarquía para mejorar la comunicación y la toma de decisiones.",
+      "Aumentar el número de niveles jerárquicos en la empresa.",
+      "Reducir la cantidad de empleados.",
+      "Eliminar las políticas de trabajo remoto."
+    ],
+    "answer": "Adaptar la jerarquía para mejorar la comunicación y la toma de decisiones."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el propósito principal de la evaluación tecnológica de la empresa?",
+    "options": [
+      "Reducir el número de empleados en la empresa.",
+      "Realizar un diagnóstico del estado actual de la tecnología para identificar áreas de mejora y nuevas oportunidades.",
+      "Aumentar los costos operativos.",
+      "Implementar tecnologías sin una evaluación previa."
+    ],
+    "answer": "Realizar un diagnóstico del estado actual de la tecnología para identificar áreas de mejora y nuevas oportunidades."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes actividades es parte del proceso de evaluación tecnológica de la empresa?",
+    "options": [
+      "Auditoría Tecnológica.",
+      "Implementación de nuevas políticas de recursos humanos.",
+      "Aumento de los salarios del personal.",
+      "Reducción del personal de la empresa."
+    ],
+    "answer": "Auditoría Tecnológica."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el objetivo principal de la optimización de los recursos tecnológicos?",
+    "options": [
+      "Aumentar el número de recursos tecnológicos en la empresa.",
+      "Utilizar los recursos tecnológicos de manera más eficiente para maximizar su valor y minimizar el desperdicio.",
+      "Reducir el uso de tecnología en la empresa.",
+      "Implementar únicamente tecnología de bajo costo sin considerar su eficiencia."
+    ],
+    "answer": "Utilizar los recursos tecnológicos de manera más eficiente para maximizar su valor y minimizar el desperdicio."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes estrategias es parte de la optimización de los recursos tecnológicos?",
+    "options": [
+      "Implementar políticas de trabajo remoto.",
+      "Mantenimiento Preventivo.",
+      "Aumentar el número de niveles jerárquicos en la empresa.",
+      "Reducir el personal de TI."
+    ],
+    "answer": "Mantenimiento Preventivo."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es uno de los beneficios clave de implementar un calendario de mantenimiento preventivo como parte de la optimización de recursos tecnológicos?",
+    "options": [
+      "Incrementar la necesidad de reemplazo de equipos a corto plazo.",
+      "Aumentar el tiempo de inactividad debido a reparaciones frecuentes.",
+      "Prolongar la vida útil de los equipos y prevenir fallas inesperadas.",
+      "Reducir la eficiencia operativa al enfocar recursos en mantenimiento."
+    ],
+    "answer": "Prolongar la vida útil de los equipos y prevenir fallas inesperadas."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Qué impacto directo tiene la sustitución de tecnología obsoleta por soluciones más modernas y eficientes en una empresa de servicios logísticos?",
+    "options": [
+      "Incremento en los costos operativos debido a la inversión inicial.",
+      "Aumento del tiempo de respuesta y disminución de la eficiencia.",
+      "Reducción de los tiempos de respuesta y de los costos operativos.",
+      "Estabilidad en el rendimiento sin mejoras significativas."
+    ],
+    "answer": "Reducción de los tiempos de respuesta y de los costos operativos."
+  }
+]

@@ -23,7 +23,7 @@
         btnDownload.href = DataManager.ruta(datos.archivo_pdf);
         btnDownload.target = '_blank';
         btnDownload.rel = 'noopener';
-        btnDownload.download = 'TIC_aplicadas_para_el_turismo_Plan_Oficial.pdf';
+        btnDownload.download = 'Gestion_empresarial_ISC_2020_Programa_de_estudios.pdf';
         btnDownload.append(icono('fa-download'), el('span', '', 'Descargar PDF oficial'));
 
         headerAction.append(headerTitle, btnDownload);
@@ -36,9 +36,11 @@
             { label: 'Programa Académico', valor: datos.datos_generales.programa_academico },
             { label: 'Semestre / Modalidad', valor: `${datos.datos_generales.semestre} · ${datos.datos_generales.modalidad}` },
             { label: 'Tipo de Unidad', valor: datos.datos_generales.tipo },
+            { label: 'Área de Formación', valor: datos.datos_generales.area_formacion },
+            { label: 'Vigente a partir de', valor: datos.datos_generales.vigencia },
             { label: 'Créditos', valor: `Tepic: ${datos.datos_generales.creditos_tepic} / SATCA: ${datos.datos_generales.creditos_satca}` },
-            { label: 'Horas Semestre', valor: `${datos.datos_generales.horas_totales} (${datos.datos_generales.horas_teoria_semana} teoría / sem · ${datos.datos_generales.horas_autonomo_semestre} autónomo)` }
-        ];
+            { label: 'Horas Semestre', valor: `${datos.datos_generales.horas_totales} (${datos.datos_generales.horas_teoria_semana} teoría / sem · ${datos.datos_generales.horas_practica_semana} práctica / sem · ${datos.datos_generales.horas_autonomo_semestre} autónomo)` }
+        ].filter(c => c.valor);
 
         campos.forEach(c => {
             const card = el('div', 'pe-info-card');
@@ -120,7 +122,7 @@
         if (datos.practicas && datos.practicas.length) {
             const secPracticas = el('div', 'pe-section-card');
             const h4Practicas = el('h4', '');
-            h4Practicas.append(icono('fa-laptop-code'), el('span', '', ' Prácticas de Laboratorio'));
+            h4Practicas.append(icono('fa-laptop-code'), el('span', '', ' Relación de Prácticas'));
             secPracticas.append(h4Practicas);
 
             const gridPracticas = el('div', 'pe-practicas-grid');
@@ -136,6 +138,12 @@
                 gridPracticas.append(card);
             });
             secPracticas.append(gridPracticas);
+            if (datos.practicas_nota) {
+                const nota = el('p', '', datos.practicas_nota);
+                nota.style.fontSize = '0.85rem';
+                nota.style.marginTop = '10px';
+                secPracticas.append(nota);
+            }
             contenedor.append(secPracticas);
         }
 
@@ -170,6 +178,51 @@
 
             secBiblio.append(ulBiblio);
             contenedor.append(secBiblio);
+        }
+
+        // 8.1 Recursos digitales
+        if (datos.recursos_digitales && datos.recursos_digitales.length) {
+            const secRecursos = el('div', 'pe-section-card');
+            const h4Recursos = el('h4', '');
+            h4Recursos.append(icono('fa-globe'), el('span', '', ' Recursos digitales'));
+            secRecursos.append(h4Recursos);
+
+            const ulRecursos = el('ul', 'pe-biblio-list');
+            datos.recursos_digitales.forEach(r => {
+                const li = el('li', 'pe-biblio-item');
+                const enlace = el('a', 'pe-biblio-link', r.url);
+                enlace.href = r.url;
+                enlace.target = '_blank';
+                enlace.rel = 'noopener noreferrer';
+                li.append(el('span', 'pe-chip-biblio pe-chip-biblio--digital', 'Texto'), el('span', '', ` ${r.cita} `), enlace);
+                ulRecursos.append(li);
+            });
+            secRecursos.append(ulRecursos);
+            contenedor.append(secRecursos);
+        }
+
+        // 8.2 Perfil docente
+        if (datos.perfil_docente) {
+            const pd = datos.perfil_docente;
+            const secPerfil = el('div', 'pe-section-card');
+            const h4Perfil = el('h4', '');
+            h4Perfil.append(icono('fa-chalkboard-user'), el('span', '', ' Perfil docente'));
+            secPerfil.append(h4Perfil, el('p', '', pd.perfil));
+
+            const ulPerfil = el('ul', 'pe-eval-list');
+            [
+                ['Experiencia profesional', [pd.experiencia]],
+                ['Conocimientos', pd.conocimientos],
+                ['Habilidades didácticas', pd.habilidades],
+                ['Actitudes', pd.actitudes]
+            ].forEach(([etiqueta, valores]) => {
+                if (!valores || !valores.length) return;
+                const li = el('li', '');
+                li.append(el('strong', '', `${etiqueta}: `), document.createTextNode(valores.join(', ')));
+                ulPerfil.append(li);
+            });
+            secPerfil.append(ulPerfil);
+            contenedor.append(secPerfil);
         }
 
         // 9. Comisión y Academia

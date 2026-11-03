@@ -458,7 +458,7 @@
                 }
             };
 
-            document.title = `${(tema.actividad && tema.actividad.nombre) || `Actividad ${numeroTema}`} | Unidad ${UI.romano(unidad.numero)} | TIC aplicadas para el turismo`;
+            document.title = `${(tema.actividad && tema.actividad.nombre) || `Actividad ${numeroTema}`} | Unidad ${UI.romano(unidad.numero)} | Gestión Empresarial`;
 
             if (tema.url) {
                 estado.repaso = { url: DataManager.ruta(tema.url), texto: `el tema ${tema.numero}` };
