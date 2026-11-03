@@ -12,10 +12,10 @@
     "referencia": "TODO: Cita en formato APA del video."
   },
   "introduccion": [
-    "TODO: Párrafo 1 de introducción a la Unidad I de Gestión Empresarial.",
-    "TODO: Párrafo 2 sobre la relevancia del marco teórico y práctico en el perfil de egreso en ESCOM."
+    "Toda empresa, sin importar su tamaño o su giro, es ante todo una organización: un grupo de personas que coordina esfuerzos y recursos para alcanzar metas que no podría lograr por separado. Para que esa coordinación funcione hace falta administrar, es decir, planear, organizar, dirigir y controlar los recursos, pero también gestionar: tomar decisiones, anticiparse a los problemas y aprovechar las oportunidades de un entorno competitivo y cambiante.",
+    "En esta unidad se estudian las bases de la gestión empresarial. Primero se analiza qué es una organización, qué elementos la integran, cómo se clasifica y cómo se estructura. Después se revisa la administración, su proceso y sus niveles; luego, los objetivos, las áreas funcionales y las herramientas de la gestión empresarial, y al final, en qué se diferencian administrar y gestionar y por qué una empresa necesita de ambas."
   ],
-  "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
+  "recorrido": "Avanza de la organización como punto de partida a la administración y su proceso, luego a la gestión empresarial y, al final, a las diferencias y la complementariedad entre administrar y gestionar.",
   "competencias": [
     "Analiza la gestión empresarial con base en su clasificación y constitucional legal."
   ],
@@ -23,7 +23,7 @@
     {
       "numero": "1.1",
       "nombre": "Las organizaciones",
-      "sintesis": "1.1.1 Clasificación · 1.1.2 Constitución legal de acuerdo con la Ley de Sociedades Mercantiles y la Ley de Sociedades Civiles",
+      "sintesis": "Concepto de organización, sus elementos y características, tipos según su finalidad, estructura, propiedad y tamaño, estructura organizacional, importancia y principios.",
       "icono": "fa-building",
       "url": "unidades/unidad-01/temas/tema-01-01.html",
       "actividad": {
@@ -34,7 +34,7 @@
     {
       "numero": "1.2",
       "nombre": "Administración",
-      "sintesis": "1.2.1 Objetivo de la administración",
+      "sintesis": "Concepto, importancia y características de la administración, las cuatro fases del proceso administrativo, los niveles administrativos y las habilidades del administrador.",
       "icono": "fa-briefcase",
       "url": "unidades/unidad-01/temas/tema-01-02.html",
       "actividad": {
@@ -45,7 +45,7 @@
     {
       "numero": "1.3",
       "nombre": "Gestión empresarial",
-      "sintesis": "1.3.1 Objetivo de la gestión empresarial · 1.3.2 Funciones básicas · 1.3.3 Clasificación",
+      "sintesis": "Concepto, objetivos e importancia de la gestión empresarial, áreas funcionales de la empresa, proceso de gestión y herramientas modernas como el análisis FODA, los KPI y la calidad total.",
       "icono": "fa-diagram-project",
       "url": "unidades/unidad-01/temas/tema-01-03.html",
       "actividad": {
@@ -56,6 +56,7 @@
     {
       "numero": "1.4",
       "nombre": "Diferencias entre administrar y gestionar",
+      "sintesis": "Conceptos de administrar y gestionar, sus principales diferencias en enfoque, autoridad y flexibilidad, y la forma en que ambos se complementan en la dirección de una empresa.",
       "icono": "fa-scale-balanced",
       "url": "unidades/unidad-01/temas/tema-01-04.html",
       "actividad": {
