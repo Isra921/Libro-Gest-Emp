@@ -23,7 +23,8 @@
     {
       "numero": "1.1",
       "nombre": "Las organizaciones",
-      "sintesis": "TODO: Síntesis breve del tema 1.1.",
+      "sintesis": "1.1.1 Clasificación · 1.1.2 Constitución legal de acuerdo con la Ley de Sociedades Mercantiles y la Ley de Sociedades Civiles",
+      "icono": "fa-building",
       "url": "unidades/unidad-01/temas/tema-01-01.html",
       "actividad": {
         "nombre": "Actividad de aprendizaje 1.1",
@@ -33,7 +34,8 @@
     {
       "numero": "1.2",
       "nombre": "Administración",
-      "sintesis": "TODO: Síntesis breve del tema 1.2.",
+      "sintesis": "1.2.1 Objetivo de la administración",
+      "icono": "fa-briefcase",
       "url": "",
       "actividad": {
         "nombre": "Actividad de aprendizaje 1.2",
@@ -42,8 +44,9 @@
     },
     {
       "numero": "1.3",
-      "nombre": "Gestión Empresarial",
-      "sintesis": "TODO: Síntesis breve del tema 1.3.",
+      "nombre": "Gestión empresarial",
+      "sintesis": "1.3.1 Objetivo de la gestión empresarial · 1.3.2 Funciones básicas · 1.3.3 Clasificación",
+      "icono": "fa-diagram-project",
       "url": "",
       "actividad": {
         "nombre": "Actividad de aprendizaje 1.3",
@@ -53,7 +56,7 @@
     {
       "numero": "1.4",
       "nombre": "Diferencias entre administrar y gestionar",
-      "sintesis": "TODO: Síntesis breve del tema 1.4.",
+      "icono": "fa-scale-balanced",
       "url": "",
       "actividad": {
         "nombre": "Actividad de aprendizaje 1.4",
