@@ -91,6 +91,26 @@
             </section>`;
     }
 
+    /** Infografías generales de la unidad (campo opcional "infografias": [{ titulo, src, alt }]). */
+    function infografias(unidad) {
+        const lista = UI.lista(unidad.infografias).filter(f => f.src);
+        if (!lista.length) return '';
+
+        return `
+            <section class="u-infografias" aria-label="Infografías de la unidad">
+                ${lista.map(f => {
+                    const src = UI.esc(DataManager.ruta(f.src));
+                    return `
+                    <figure class="u-infografia">
+                        <a href="${src}" target="_blank" rel="noopener" title="Abrir imagen en tamaño completo">
+                            <img src="${src}" alt="${UI.esc(f.alt || f.titulo || '')}" loading="lazy">
+                        </a>
+                        ${f.titulo ? `<figcaption>${UI.esc(f.titulo)}</figcaption>` : ''}
+                    </figure>`;
+                }).join('')}
+            </section>`;
+    }
+
     /** Bloque de video de introducción con referencia del material audiovisual publicado. */
     function seccionVideo(unidad) {
         if (!unidad.video || !unidad.video.url) return '';
@@ -393,13 +413,14 @@
             const numeral = UI.romano(unidad.numero);
             const primerTema = UI.lista(unidad.temas).find(t => t.url);
 
-            document.title = `Unidad ${numeral}: ${unidad.titulo} | TIC aplicadas para el turismo`;
+            document.title = `Unidad ${numeral}: ${unidad.titulo} | Gestión Empresarial`;
 
             app.innerHTML = `
                 ${hero(unidad, numeral, primerTema)}
                 <div class="u-layout">
                     <div class="u-main">
                         ${introduccion(unidad)}
+                        ${infografias(unidad)}
                         ${seccionVideo(unidad)}
                         ${temas(unidad)}
                         ${actividadFinal(unidad)}

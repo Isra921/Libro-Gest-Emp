@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes definiciones describe mejor el capital humano?",
+    "options": [
+      "El conjunto de conocimientos, habilidades, experiencias, actitudes y valores de las personas que, puestos en práctica, generan valor para la empresa.",
+      "El total de sueldos y prestaciones que la empresa paga a su personal cada año.",
+      "La maquinaria, el equipo y la infraestructura con la que trabajan los empleados.",
+      "El número de trabajadores registrados en la nómina de la organización."
+    ],
+    "answer": "El conjunto de conocimientos, habilidades, experiencias, actitudes y valores de las personas que, puestos en práctica, generan valor para la empresa.",
+    "explicacion": "El capital humano no es la plantilla ni su costo, sino lo que las personas saben, pueden hacer y están dispuestas a aportar."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "Según las ideas de Theodore Schultz y Gary Becker, invertir en educación, capacitación y salud de las personas…",
+    "options": [
+      "produce beneficios comparables a los de invertir en maquinaria o infraestructura.",
+      "es un gasto necesario, pero que no genera rendimientos para la empresa.",
+      "solo conviene en empresas del sector educativo.",
+      "sustituye la necesidad de invertir en tecnología."
+    ],
+    "answer": "produce beneficios comparables a los de invertir en maquinaria o infraestructura.",
+    "explicacion": "Esa es la idea central de la teoría del capital humano: el trabajador pasa de verse como un costo a verse como un activo estratégico."
+  },
+  {
+    "id": 3,
+    "type": "verdadero_falso",
+    "statement": "Las habilidades blandas, como la comunicación y el trabajo en equipo, forman parte del capital humano.",
+    "answer": true,
+    "explicacion": "Las habilidades y competencias incluyen tanto las técnicas de cada puesto como las blandas: comunicación, trabajo en equipo, liderazgo y resolución de problemas."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Por qué el capital humano es una ventaja competitiva que se mantiene en el tiempo?",
+    "options": [
+      "Porque el talento, la creatividad y el compromiso de un equipo son muy difíciles de imitar.",
+      "Porque es el recurso más barato de la empresa.",
+      "Porque la competencia no puede contratar personal con estudios.",
+      "Porque no requiere inversión una vez que se contrata a la persona."
+    ],
+    "answer": "Porque el talento, la creatividad y el compromiso de un equipo son muy difíciles de imitar.",
+    "explicacion": "Los recursos materiales y financieros pueden conseguirse o copiarse con relativa facilidad; el talento cohesionado de un equipo no."
+  },
+  {
+    "id": 5,
+    "type": "ordenar_oracion",
+    "question": "Ordena las etapas iniciales del ciclo de gestión del capital humano.",
+    "segments": [
+      "Planeación de recursos humanos",
+      "Reclutamiento y selección",
+      "Inducción",
+      "Capacitación y desarrollo"
+    ],
+    "answer": [
+      "Planeación de recursos humanos",
+      "Reclutamiento y selección",
+      "Inducción",
+      "Capacitación y desarrollo"
+    ],
+    "explicacion": "Primero se prevén las necesidades de personal, luego se incorpora a los candidatos adecuados, se les integra a la cultura de la empresa y después se desarrollan sus competencias."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Qué proceso permite que los nuevos colaboradores conozcan la cultura, las normas y las funciones de la empresa?",
+    "options": [
+      "Inducción",
+      "Reclutamiento",
+      "Evaluación del desempeño",
+      "Compensación"
+    ],
+    "answer": "Inducción",
+    "explicacion": "La inducción integra a quien acaba de ingresar; el reclutamiento ocurre antes de la contratación."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Qué proceso está diseñado para medir la contribución individual de cada colaborador y detectar en qué puede mejorar?",
+    "options": [
+      "Evaluación del desempeño",
+      "Gestión de compensaciones",
+      "Reclutamiento y selección",
+      "Planeación de recursos humanos"
+    ],
+    "answer": "Evaluación del desempeño",
+    "explicacion": "La evaluación del desempeño mide los resultados de cada persona; la compensación retribuye ese esfuerzo."
+  },
+  {
+    "id": 8,
+    "type": "completar_oracion",
+    "question": "El _____ organizacional es la percepción que tienen los empleados sobre su ambiente de trabajo; cuando es positivo, baja la _____ de personal.",
+    "wordBank": ["clima", "rotación", "capital", "productividad", "inducción"],
+    "answer": ["clima", "rotación"],
+    "explicacion": "Un buen clima aumenta la lealtad y reduce la rotación, lo que ahorra costos de reclutamiento y evita perder talento clave."
+  },
+  {
+    "id": 9,
+    "type": "verdadero_falso",
+    "statement": "Para que el capital humano rinda al máximo basta con contratar a personas bien preparadas.",
+    "answer": false,
+    "explicacion": "Además de contratar y capacitar, hay que mantener un ambiente que cuide el bienestar, la motivación y el compromiso de las personas."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "El capital intelectual de una empresa se integra por el capital humano, el capital estructural y el capital…",
+    "options": [
+      "relacional",
+      "financiero",
+      "social",
+      "fijo"
+    ],
+    "answer": "relacional",
+    "explicacion": "El capital relacional comprende las relaciones con clientes, proveedores y otros grupos de interés."
+  },
+  {
+    "id": 11,
+    "type": "opcion_multiple",
+    "question": "Una empresa documenta sus procesos y sistemas para que el conocimiento permanezca aunque un empleado renuncie. ¿Qué componente del capital intelectual está fortaleciendo?",
+    "options": [
+      "Capital estructural",
+      "Capital humano",
+      "Capital relacional",
+      "Capital de trabajo"
+    ],
+    "answer": "Capital estructural",
+    "explicacion": "El capital estructural está formado por procesos, sistemas y conocimientos que se quedan en la organización."
+  },
+  {
+    "id": 12,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes es un desafío actual de la gestión del capital humano?",
+    "options": [
+      "Adaptarse a la digitalización, gestionar la diversidad e inclusión y retener talento en un mercado competitivo.",
+      "Diseñar campañas de publicidad para nuevos productos.",
+      "Calcular los impuestos de la empresa.",
+      "Elegir la ubicación de las plantas de producción."
+    ],
+    "answer": "Adaptarse a la digitalización, gestionar la diversidad e inclusión y retener talento en un mercado competitivo.",
+    "explicacion": "Las demás opciones corresponden a otras áreas funcionales: mercadotecnia, finanzas y operaciones."
+  },
+  {
+    "id": 13,
+    "type": "verdadero_falso",
+    "statement": "Al departamento de capital humano también se le conoce comúnmente como departamento de recursos humanos.",
+    "answer": true,
+    "explicacion": "Su objetivo es maximizar la productividad de la organización optimizando la efectividad de sus colaboradores."
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué herramienta es la base de casi todos los demás procesos de recursos humanos?",
+    "options": [
+      "El análisis y descripción de puestos",
+      "La encuesta de clima organizacional",
+      "El diagrama de Pareto",
+      "El benchmarking"
+    ],
+    "answer": "El análisis y descripción de puestos",
+    "explicacion": "Al documentar funciones, responsabilidades y requisitos de cada cargo, alimenta el reclutamiento, la capacitación, la evaluación y la compensación."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Qué técnica se utiliza para definir las funciones y responsabilidades dentro de una organización?",
+    "options": [
+      "Análisis funcional",
+      "Just in Time",
+      "Benchmarking",
+      "ERP"
+    ],
+    "answer": "Análisis funcional",
+    "explicacion": "El análisis funcional mejora la distribución de tareas y la asignación eficiente del personal."
+  },
+  {
+    "id": 3,
+    "type": "verdadero_falso",
+    "statement": "En la evaluación de 360 grados el desempeño se valora con la opinión de jefes, compañeros, subordinados y clientes.",
+    "answer": true,
+    "explicacion": "Por eso se llama de 360°: recoge la visión de todas las personas que interactúan con el evaluado."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "Una empresa quiere saber qué diferencia hay entre las competencias que requieren sus puestos y las que su personal realmente tiene. ¿Qué herramienta debe aplicar?",
+    "options": [
+      "Diagnóstico de necesidades de capacitación (DNC)",
+      "Plan de sucesión",
+      "Diagrama de dispersión",
+      "Kanban"
+    ],
+    "answer": "Diagnóstico de necesidades de capacitación (DNC)",
+    "explicacion": "Con el DNC se diseñan después los planes de capacitación y desarrollo."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "En una planta, el 80 % de las devoluciones se debe a tres tipos de defecto. ¿Qué herramienta permite identificar esos pocos problemas vitales?",
+    "options": [
+      "Diagrama de Pareto",
+      "Histograma",
+      "Hoja de verificación",
+      "Gráfica de control"
+    ],
+    "answer": "Diagrama de Pareto",
+    "explicacion": "El diagrama de Pareto ordena las causas por frecuencia para mostrar los pocos problemas que generan la mayoría de los efectos."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Qué herramienta agrupa las posibles causas de un problema para encontrar su origen?",
+    "options": [
+      "Diagrama de causa y efecto (Ishikawa)",
+      "Diagrama de dispersión",
+      "Estratificación",
+      "Histograma"
+    ],
+    "answer": "Diagrama de causa y efecto (Ishikawa)",
+    "explicacion": "También se le conoce como diagrama de espina de pescado."
+  },
+  {
+    "id": 7,
+    "type": "completar_oracion",
+    "question": "El diagrama de _____ analiza la relación entre dos variables, y la gráfica de _____ vigila que un proceso se mantenga estable con el tiempo.",
+    "wordBank": ["dispersión", "control", "Pareto", "verificación", "flujo"],
+    "answer": ["dispersión", "control"],
+    "explicacion": "Ambas forman parte de las siete herramientas básicas de la calidad."
+  },
+  {
+    "id": 8,
+    "type": "ordenar_oracion",
+    "question": "Ordena las fases de la metodología Seis Sigma (DMAIC).",
+    "segments": ["Definir", "Medir", "Analizar", "Mejorar", "Controlar"],
+    "answer": ["Definir", "Medir", "Analizar", "Mejorar", "Controlar"],
+    "explicacion": "Seis Sigma reduce la variabilidad y los defectos de los procesos con un enfoque estadístico."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el principal objetivo de implementar la metodología de las 5S?",
+    "options": [
+      "Crear un ambiente de trabajo organizado y eficiente.",
+      "Incrementar directamente las utilidades.",
+      "Mejorar las relaciones con el sindicato.",
+      "Reducir el número de empleados."
+    ],
+    "answer": "Crear un ambiente de trabajo organizado y eficiente.",
+    "explicacion": "Las 5S (Seiri, Seiton, Seiso, Seiketsu y Shitsuke) se apoyan en la filosofía Lean."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Qué elemento de las 5S se enfoca en eliminar los elementos innecesarios del área de trabajo?",
+    "options": ["Seiri", "Seiton", "Seiso", "Seiketsu"],
+    "answer": "Seiri",
+    "explicacion": "Seiri significa clasificar; Seiton es ordenar, Seiso limpiar y Seiketsu estandarizar."
+  },
+  {
+    "id": 11,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes términos NO pertenece a la metodología de las 5S?",
+    "options": ["Seimatsu", "Seiri", "Seiso", "Shitsuke"],
+    "answer": "Seimatsu",
+    "explicacion": "Las 5S son Seiri, Seiton, Seiso, Seiketsu y Shitsuke."
+  },
+  {
+    "id": 12,
+    "type": "opcion_multiple",
+    "question": "¿Qué busca eliminar la filosofía Just in Time (JIT)?",
+    "options": [
+      "El desperdicio y los tiempos muertos en el sistema de producción.",
+      "Las vacaciones de los empleados.",
+      "La supervisión de la producción.",
+      "El control de calidad."
+    ],
+    "answer": "El desperdicio y los tiempos muertos en el sistema de producción.",
+    "explicacion": "Producir justo lo necesario, cuando se necesita, reduce inventarios y mejora la calidad del producto."
+  },
+  {
+    "id": 13,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es una ventaja principal de los sistemas ERP?",
+    "options": [
+      "Toma de decisiones más rápida con datos centralizados.",
+      "Aumento del inventario disponible.",
+      "Reducción de la jornada laboral.",
+      "Eliminación del área de recursos humanos."
+    ],
+    "answer": "Toma de decisiones más rápida con datos centralizados.",
+    "explicacion": "Un ERP integra módulos como finanzas, recursos humanos y producción en una sola plataforma."
+  },
+  {
+    "id": 14,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el propósito principal del benchmarking?",
+    "options": [
+      "Comparar procesos y prácticas con empresas líderes para identificar áreas de mejora.",
+      "Aumentar los precios de los productos.",
+      "Reducir el número de empleados.",
+      "Aumentar la producción sin cambiar los procesos."
+    ],
+    "answer": "Comparar procesos y prácticas con empresas líderes para identificar áreas de mejora.",
+    "explicacion": "Junto con los círculos de calidad, fomenta el aprendizaje dentro de la organización."
+  },
+  {
+    "id": 15,
+    "type": "verdadero_falso",
+    "statement": "Las herramientas de calidad funcionan igual de bien sin importar la motivación y la capacitación de quienes las aplican.",
+    "answer": false,
+    "explicacion": "Las herramientas no operan en el vacío: la calidad del resultado depende de las capacidades y el compromiso de las personas. Por eso ambos campos deben integrarse."
+  }
+]

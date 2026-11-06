@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad 4.4 · Herramientas de Gestión del Capital Humano y de Calidad | Gestión Empresarial</title>
+  <meta name="description" content="Actividad de aprendizaje formativa interactiva del tema 4.4 de Gestión Empresarial (ESCOM - IPN).">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../../assets/css/actividad.css">
+
+  <link rel="icon" type="image/png" href="../../../assets/img/ESCOMB.png">
+  <link rel="shortcut icon" type="image/png" href="../../../assets/img/ESCOMB.png">
+</head>
+
+<body class="u-body" data-root="../../../" data-unidad="unidad-04" data-tema="4.4"
+      data-preguntas="assets/data/preguntas/unidad-04/actividad-4-4.json" data-cantidad="8">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <nav class="u-breadcrumb" aria-label="Ruta de navegación">
+      <a href="../../../index.html">Inicio</a>
+      <span aria-hidden="true">/</span>
+      <a href="../../../unidades.html">Unidades</a>
+      <span aria-hidden="true">/</span>
+      <a href="../index.html">Unidad IV</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Actividad 4.4</span>
+    </nav>
+
+    <div class="a-layout">
+      <div class="a-main">
+        <header class="a-card a-head">
+          <div class="a-head__top">
+            <span class="a-badge">Actividad formativa</span>
+            <span class="a-head__where">Unidad IV · Tema 4.4</span>
+          </div>
+          <h1 class="a-title">Herramientas de Gestión del Capital Humano y de Calidad</h1>
+          <p class="a-purpose">Relaciona cada herramienta de gestión del talento y de la calidad con el problema que permite resolver.</p>
+          <ul class="a-chips" aria-label="Datos de la actividad">
+            <li class="u-chip"><i class="fas fa-list-check" aria-hidden="true"></i> <span id="totalPreguntas">8</span> preguntas al azar</li>
+            <li class="u-chip"><i class="fas fa-clock" aria-hidden="true"></i> 10 min aprox.</li>
+            <li class="u-chip"><i class="fas fa-rotate" aria-hidden="true"></i> Intentos ilimitados</li>
+            <li class="u-chip a-chip--outline" id="ultimoResultado" hidden><i class="fas fa-chart-simple" aria-hidden="true"></i> Último resultado: <strong></strong></li>
+          </ul>
+        </header>
+
+        <section class="a-card" aria-labelledby="instruccionesTitulo">
+          <h2 class="a-card__title" id="instruccionesTitulo">Instrucciones</h2>
+          <ol class="a-steps">
+            <li>Lee cada reactivo: puede ser de opción múltiple, verdadero o falso, completar una oración u ordenar fragmentos.</li>
+            <li>Responde y pulsa <strong>Comprobar respuesta</strong> para ver la retroalimentación.</li>
+            <li>Avanza con <strong>Siguiente pregunta</strong> hasta ver tu resultado final.</li>
+            <li>Cada intento toma preguntas distintas del banco; puedes repetir la actividad las veces que quieras.</li>
+          </ol>
+        </section>
+
+        <section class="a-card a-exercise" aria-labelledby="ejercicioTitulo">
+          <div class="a-exercise__bar">
+            <h2 class="a-exercise__label" id="ejercicioTitulo">Ejercicio</h2>
+            <span class="a-exercise__count" id="ejercicioContador" aria-live="polite">Cargando…</span>
+          </div>
+          <div class="a-exercise__body" id="ejercicio" aria-busy="true">
+            <p class="u-loading">Cargando preguntas de la actividad…</p>
+          </div>
+        </section>
+
+        <div id="retroalimentacion" aria-live="polite"></div>
+
+        <nav class="a-pager" id="actividadNavegacion" aria-label="Navegación de la actividad">
+          <a class="a-pager__prev" href="../temas/tema-04-04.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver al tema 4.4</a>
+        </nav>
+      </div>
+
+      <aside class="a-sidebar" aria-label="Navegación complementaria">
+        <details class="a-sidebar-details" open>
+          <summary class="a-sidebar-summary">
+            <span class="a-sidebar-summary-label"><i class="fas fa-compass" aria-hidden="true"></i> Guía de la actividad</span>
+            <i class="fas fa-chevron-down a-sidebar-chevron" aria-hidden="true"></i>
+          </summary>
+          <div class="a-sidebar-inner">
+            <div class="a-side-card a-side-card--dark">
+              <p class="a-side-title">Antes de empezar</p>
+              <p class="a-side-text">Consulta el contenido teórico antes o después de contestar.</p>
+              <a class="a-side-link" id="enlaceRepaso" href="../temas/tema-04-04.html"><i class="fas fa-book-open" aria-hidden="true"></i> <span>Repasar el tema 4.4</span></a>
+            </div>
+            <div class="a-side-card">
+              <p class="a-side-title">Otras actividades</p>
+              <div id="otrasActividades"></div>
+            </div>
+          </div>
+        </details>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Gestión Empresarial · Polilibro académico · ESCOM - IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../../assets/js/data-manager.js"></script>
+  <script src="../../../assets/js/componentes.js"></script>
+  <script src="../../../assets/js/unidades-ui.js"></script>
+  <script src="../../../assets/js/paginas/actividad-plantilla.js"></script>
+</body>
+
+</html>

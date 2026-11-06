@@ -5,14 +5,14 @@
   "datos_generales": {
     "institucion": "Instituto Politécnico Nacional",
     "secretaria": "Secretaría Académica — Dirección de Educación Superior",
-    "unidad_academica": "Escuela Superior de Cómputo (ESCOM) / UPIIZ",
+    "unidad_academica": "Escuela Superior de Cómputo (ESCOM), Unidad Profesional Interdisciplinaria de Ingeniería, Campus Zacatecas (UPIIZ)",
     "programa_academico": "Ingeniería en Sistemas Computacionales",
-    "unidad_aprendizaje": "Gestión Empresarial",
-    "semestre": "VIII Semestre",
+    "unidad_aprendizaje": "Gestión empresarial",
+    "semestre": "Semestre VIII · Plan de estudios 2020",
     "area_formacion": "Terminal y de integración",
     "modalidad": "Escolarizada",
-    "tipo": "Teórica-Práctica / Obligatoria",
-    "vigencia": "Plan de Estudios 2020 (Vigente a partir de Agosto 2023)",
+    "tipo": "Teórica- Práctica/ Obligatoria",
+    "vigencia": "Agosto 2023",
     "creditos_tepic": "7.5",
     "creditos_satca": "6.3",
     "horas_teoria_semana": "3.0 h",
@@ -23,87 +23,187 @@
     "horas_totales": "81.0 h"
   },
   "proposito": "Gestiona organizaciones de innovación tecnológica con base en las competencias gerenciales.",
-  "intencion_educativa": "La unidad de aprendizaje contribuye al perfil de egreso de la Ingeniería en Sistemas Computacionales desarrollando habilidades directivas de liderazgo, toma de decisiones bajo condiciones de riesgo e incertidumbre, manejo de grupos de trabajo, capacidad de negociación, manejo de conflictos, orientación al cambio y a la innovación permanente, para gestionar organizaciones con una actitud emprendedora, ética y de responsabilidad social. Asimismo, desarrolla habilidades transversales como integración de grupos inter y multidisciplinarios, comunicación efectiva, aprendizaje autónomo y manejo de conflictos.",
+  "intencion_educativa": "La unidad de aprendizaje contribuye al perfil de egreso de la Ingeniería en Sistemas Computacionales desarrollando habilidades directivas de liderazgo, toma de decisiones bajo condiciones de riesgo e incertidumbre, manejo de grupos de trabajo, capacidad de negociación, manejo de conflictos, orientación al cambio y a la innovación permanente, para gestionar organizaciones con una actitud emprendedora, ética y de responsabilidad social. Asimismo, desarrolla habilidades transversales como integración de grupos inter y multidisciplinarios, comunicación efectiva, aprendizaje autónomo y manejo de conflictos.\n\nEsta unidad de aprendizaje se relaciona de manera antecedente con Fundamentos económicos, Finanzas empresariales, Formulación y evaluación de proyectos informáticos, Ingeniería de Software y Métodos cuantitativos para la toma de decisiones, y de manera lateral con Liderazgo personal y Desarrollo de habilidades sociales para la alta dirección.",
   "orientacion_didactica": {
-    "metodos_ensenanza": "Inductivo, deductivo, analógico y solución de casos prácticos.",
-    "estrategias_aprendizaje": "Aprendizaje orientado a proyectos, estudio de casos, formulación de modelos de negocio y resolución de problemas empresariales."
+    "metodos_ensenanza": "Inductivo, deductivo y analógico.",
+    "estrategias_aprendizaje": "Aprendizaje orientado a proyectos. El alumno desarrollará las siguientes actividades: análisis de casos prácticos, ensayos argumentativos, exposición de temas, desarrollo de proyecto y relación de prácticas."
   },
   "unidades_tematicas": [
     {
       "numero": "I",
       "titulo": "Aspectos básicos de la gestión empresarial",
       "competencia": "Analiza la gestión empresarial con base en su clasificación y constitucional legal.",
-      "horas_docente": "3.5 h Teoría / 2.0 h Práctica",
+      "horas_docente": "3.5 h Teoría / 2.0 h Práctica / 3.0 h AA",
       "horas_autonomo": "3.0 h",
       "temas": [
-        "1.1 Las organizaciones (Clasificación, Constitución legal según Ley de Sociedades Mercantiles y Civiles)",
-        "1.2 Administración (Objetivo de la administración)",
-        "1.3 Gestión empresarial (Objetivo, funciones básicas y clasificación)",
+        "1.1 Las organizaciones",
+        "1.1.1 Clasificación",
+        "1.1.2 Constitución legal de acuerdo con la Ley de Sociedades Mercantiles y la Ley de Sociedades Civiles",
+        "1.2 Administración",
+        "1.2.1 Objetivo de la administración",
+        "1.3 Gestión empresarial",
+        "1.3.1 Objetivo de la gestión empresarial",
+        "1.3.2 Funciones básicas",
+        "1.3.3 Clasificación",
         "1.4 Diferencias entre administrar y gestionar"
       ],
-      "estrategias": "Análisis de casos prácticos, exposiciones y debates conceptuales.",
-      "evaluacion": "Solución de casos, mapas conceptuales y reportes de prácticas."
+      "estrategias": "Proyecto, Fase 1: Constitución legal del proyecto empresarial y desarrollo de objetivos. Prácticas 1 y 2."
     },
     {
       "numero": "II",
       "titulo": "Gestión estratégica en las empresas de innovación tecnológica",
       "competencia": "Aplica la gestión estratégica en las empresas de innovación tecnológica con base en las diferentes herramientas, la filosofía y su cultura organizacional.",
-      "horas_docente": "12.5 h Teoría / 5.0 h Práctica",
+      "horas_docente": "12.5 h Teoría / 5.0 h Práctica / 3.0 h AA",
       "horas_autonomo": "3.0 h",
       "temas": [
         "2.1 Factores de competitividad que afectan la gestión empresarial",
         "2.2 Filosofía corporativa de empresas de innovación tecnológica",
         "2.3 Estrategia y cultura organizacional de empresas de innovación tecnológica",
-        "2.4 Implementación de la estrategia, planes, presupuestos y Cuadro de Mando Integral",
-        "2.5 Herramientas de gestión estratégica (FODA, Modelos de negocio, Diamante de Porter, Plan comercial y maestro)"
+        "2.4 Implementación de la estrategia, planes, programas, presupuestos y procedimientos",
+        "2.4.1 Cuadro de mando integral",
+        "2.5 Herramientas de gestión estratégica",
+        "2.5.1 Análisis FODA y desarrollo de estrategias",
+        "2.5.2 Modelos de negocio",
+        "2.5.3 Modelo de Diamante de Porter",
+        "2.5.4 Plan comercial",
+        "2.5.5 Plan maestro"
       ],
-      "estrategias": "Estudio de casos de empresas tecnológicas, formulación de estrategias y matrices de diagnóstico.",
-      "evaluacion": "Reporte de proyecto (Fase 2), análisis FODA y cuadros de mando."
+      "estrategias": "Proyecto, Fase 2: Análisis y uso de herramientas de la gestión empresarial. Prácticas 3, 4 y 6."
     },
     {
       "numero": "III",
       "titulo": "Gestión operativa de la empresa",
       "competencia": "Integra la gestión operativa en la empresa, con base en su estructura organizacional y la innovación tecnológica.",
-      "horas_docente": "16.0 h Teoría / 8.0 h Práctica",
+      "horas_docente": "16.0 h Teoría / 8.0 h Práctica / 7.0 h AA",
       "horas_autonomo": "7.0 h",
       "temas": [
-        "3.1 Estructura organizacional (División del trabajo, especialización, jerarquización, unidad de mando)",
-        "3.2 Innovación y tecnología (Tecnología como intangible de competitividad, tecnologías emergentes)",
+        "3.1 Estructura organizacional",
+        "3.1.1 División del trabajo, coordinación, especialización, jerarquización, departamentalización y unidad de mando",
+        "3.2 Innovación y tecnología",
+        "3.2.1 La tecnología como factor intangible de competitividad",
+        "3.2.2 Tecnologías emergentes",
         "3.3 Manejo de cambio e innovación",
-        "3.4 Herramientas de gestión operativa (Reingeniería de procesos, transformación de estructura y cultura, evaluación y optimización de recursos)"
+        "3.4 Herramientas de gestión operativa",
+        "3.4.1 Reingeniería de los procesos de negocio",
+        "3.4.2 Transformación de la estructura y la cultura organizacional",
+        "3.4.3 Evaluación tecnológica de la empresa",
+        "3.4.4 Optimización de los recursos tecnológicos"
       ],
-      "estrategias": "Simulación operativa, modelado de procesos organizacionales y proyectos de reingeniería.",
-      "evaluacion": "Estructura organizacional, análisis tecnológico y reporte de proyecto (Fase 3)."
+      "estrategias": "Proyecto, Fase 3: Estructura organizacional y análisis tecnológico. Prácticas 5, 7 y 8."
     },
     {
       "numero": "IV",
       "titulo": "Gestión del capital humano y la calidad",
       "competencia": "Integra la gestión del capital humano y la calidad en la empresa, con base en el marco normativo de las relaciones laborales.",
-      "horas_docente": "16.0 h Teoría / 9.0 h Práctica",
+      "horas_docente": "16.0 h Teoría / 9.0 h Práctica / 8.0 h AA",
       "horas_autonomo": "8.0 h",
       "temas": [
-        "4.1 Capital humano (Funciones del departamento de capital humano)",
+        "4.1 Capital humano",
+        "4.1.1 Funciones del departamento de capital humano",
         "4.2 Marco normativo de las relaciones laborales",
-        "4.3 Calidad (Control estadístico y calidad total)",
-        "4.4 Herramientas de gestión del Capital Humano y de calidad (5's, Just in Time, Análisis funcional, Benchmarking, ERP)"
+        "4.3 Calidad",
+        "4.3.1 Control estadístico",
+        "4.3.2 Calidad total",
+        "4.4 Herramientas de gestión del Capital Humano y de calidad",
+        "4.4.1 Las 5´s",
+        "4.4.2 Just in Time",
+        "4.4.3 Análisis funcional",
+        "4.4.4 Benchmarking",
+        "4.4.5 ERP"
       ],
-      "estrategias": "Casos de relaciones laborales, análisis de indicadores de calidad y aplicación de metodologías de mejora continua.",
-      "evaluacion": "Reporte de proyecto (Fase 4), resolución de problemas y prácticas de calidad."
+      "estrategias": "Proyecto, Fase 4: Desarrollo de capital humano y de la calidad. Prácticas 9, 10, 11 y 12."
     },
     {
       "numero": "V",
       "titulo": "Tendencias en la gestión empresarial",
       "competencia": "Aplica los aspectos legales y sus habilidades digitales con base en las tendencias y tecnologías digitales.",
-      "horas_docente": "6.0 h Teoría / 3.0 h Práctica",
+      "horas_docente": "6.0 h Teoría / 3.0 h Práctica / 3.0 h AA",
       "horas_autonomo": "3.0 h",
       "temas": [
-        "5.1 Aspectos legales (Propiedad intelectual, uso de información digital, sociedades mercantiles)",
+        "5.1 Aspectos legales",
+        "5.1.1 Propiedad intelectual",
+        "5.1.2 Uso de información digital",
         "5.2 Responsabilidad social y sustentabilidad",
-        "5.3 Habilidades digitales (Learnability, Teamability, Networking, Adaptability)",
-        "5.4 Tecnologías y tendencias digitales (IoT, Inteligencia Artificial, Inteligencia de Negocios, Blockchain y Nube)"
+        "5.3 Habilidades digitales",
+        "5.3.1 Learnability",
+        "5.3.2 Teamability",
+        "5.3.3 Networking",
+        "5.3.4 Adaptability",
+        "5.4 Tecnologías y tendencias digitales",
+        "5.4.1 Internet de las cosas",
+        "5.4.2 Inteligencia Artificial",
+        "5.4.3 Inteligencia de negocios",
+        "5.4.4 Blockchain y la nube"
       ],
-      "estrategias": "Análisis de normatividad legal/fiscal, diseño de modelos de RSE y adopción de tecnologías exponenciales.",
-      "evaluacion": "Proyecto integrador (Fase 5: Habilidades y tendencias digitales), actividades formativas y evaluación integradora."
+      "estrategias": "Proyecto, Fase 5: Habilidades y tendencias digitales. Prácticas 13, 14, 15 y 16."
     }
-  ]
+  ],
+  "practicas": [
+    { "numero": 1, "nombre": "Constitución legal de la empresa", "unidad": "I" },
+    { "numero": 2, "nombre": "Desarrollo de objetivos", "unidad": "I" },
+    { "numero": 3, "nombre": "Implementación de elementos de planeación", "unidad": "II" },
+    { "numero": 4, "nombre": "Herramientas de Gestión", "unidad": "II" },
+    { "numero": 5, "nombre": "Estructura organizacional", "unidad": "III" },
+    { "numero": 6, "nombre": "Innovación u tecnología", "unidad": "II" },
+    { "numero": 7, "nombre": "Manejo de cambio e innovación", "unidad": "III" },
+    { "numero": 8, "nombre": "Herramientas de gestión operativa", "unidad": "III" },
+    { "numero": 9, "nombre": "Capital humano y sus funciones", "unidad": "IV" },
+    { "numero": 10, "nombre": "Marco normativo", "unidad": "IV" },
+    { "numero": 11, "nombre": "Calidad", "unidad": "IV" },
+    { "numero": 12, "nombre": "Herramientas de Gestión de Capital Humano y Calidad", "unidad": "IV" },
+    { "numero": 13, "nombre": "Aspectos legales", "unidad": "V" },
+    { "numero": 14, "nombre": "Responsabilidad social y sustentabilidad", "unidad": "V" },
+    { "numero": 15, "nombre": "Habilidades digitales", "unidad": "V" },
+    { "numero": 16, "nombre": "Tendencias", "unidad": "V" }
+  ],
+  "practicas_nota": "Lugar de realización: Aula. Total de horas: 27.0.",
+  "evaluacion": [
+    "Evaluación diagnóstica",
+    "Saberes previamente adquiridos",
+    "Solución de casos",
+    "Reporte de proyectos",
+    "Exposiciones",
+    "Reportes de prácticas",
+    "Evaluación escrita",
+    "Otras evidencias a evaluar: ensayo y presentación electrónica",
+    "Portafolio de evidencias: solución de casos, ensayo, presentación electrónica, reporte de proyecto y reporte de prácticas"
+  ],
+  "bibliografia": [
+    { "tipo": "Básica", "autor": "Batista, H. N. y Estupiñan, R. J.", "anio": "2018", "titulo": "Gestión empresarial y posmodernidad", "editorial": "Bélgica Ablibitum/ 978-1-59973-577-1" },
+    { "tipo": "Básica", "autor": "Chiavenato, I.", "anio": "2019", "titulo": "Introducción a la teoría general de la administración", "editorial": "Mc Graw Hill/ 97814556271824" },
+    { "tipo": "Complementaria", "autor": "Daft, R. L.", "anio": "2013", "titulo": "Teoría y diseño organizacional", "editorial": "Thomson/ 9786075268149" },
+    { "tipo": "Básica", "autor": "Hitt, A., Black, J. y Porter, W.", "anio": "2006", "titulo": "Administración", "editorial": "Pearson Educación/ 970-26-0760-4" },
+    { "tipo": "Complementaria", "autor": "Laudon, K.C. Laudon, J. P.", "anio": "2008", "titulo": "Sistemas de información gerencial", "editorial": "Pearson/ 978-607-32-0949-6." },
+    { "tipo": "Básica", "autor": "Peña, A. B. y Batalla, N. P.", "anio": "2016", "titulo": "Dirección de comunicación y habilidades directivas", "editorial": "Dykinson/ 978-84-9085-840-0" },
+    { "tipo": "Complementaria", "autor": "Robbins, P. S. y Coutler, M.", "anio": "2005", "titulo": "Administración", "editorial": "Pearson Educación/ 9786073227674" },
+    { "tipo": "Básica", "autor": "Rubio, D. P.", "anio": "2008", "titulo": "Introducción a la gestión empresarial", "editorial": "Unión europea: Instituto Europeo de Gestión Empresarial/ 84-689-7602-4" }
+  ],
+  "recursos_digitales": [
+    { "cita": "Orozco, C, y Arboleda, M. (2018). Desarrollo sostenible y responsabilidad social empresarial.", "url": "https://www.researchgate.net/publication/334813911_Desarrollo_sostenible_y_responsabilidad_social_empresarial_RSE_un_panorama_integrador_desde_lo_ambiental_social_tecnologico_y_economico" },
+    { "cita": "Kuchkovsky, C., Gómez, G, Diez, D. y Molero I. (2017). Blockchain: la revolución industrial de internet.", "url": "https://www.academia.edu/36701339/Blockchain_La_revoluci%C3%B3n_industrial_de_internet_Alexander_Preukschat" },
+    { "cita": "EY. (2020). ¿Estás rediseñando tu futuro o el futuro te está rediseñando a ti?", "url": "https://assets.ey.com/content/dam/ey-sites/ey-com/es_pe/topics/ey-megatendencias-julio-2020.pdf" },
+    { "cita": "Martínez, D. (2018). Acceso y uso de tecnologías de información y comunicación en México: factores determinantes.", "url": "http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-36072018000200002" },
+    { "cita": "Torres, S. et al. (2014). Técnicas formales y de inteligencia artificial para la gestión de recursos para proyectos informáticos.", "url": "http://scielo.sld.cu/scielo.php?pid=S2227-18992014000300004&script=sci_arttext&tlng=en" }
+  ],
+  "perfil_docente": {
+    "perfil": "Licenciatura en Administración o afines, y/o Maestría en Administración de Negocios o afines",
+    "experiencia": "Un año en docencia a nivel superior",
+    "conocimientos": ["Administración", "Organizaciones", "Finanzas", "Formulación y evaluación de proyectos de inversión", "Economía", "Métodos cuantitativos para la toma de decisiones", "Inglés", "Del Modelo Educativo Institucional"],
+    "habilidades": ["Visión sistémica", "Gestión de grupos de trabajo interdisciplinario y multidisciplinario", "Manejo de conflictos", "Didáctica", "Manejo de las TIC"],
+    "actitudes": ["Asertividad", "Ética", "Tolerancia", "Honestidad", "Respeto", "Responsabilidad", "Compromiso", "Responsabilidad social"]
+  },
+  "comision": {
+    "academia": "Academia de Ciencias Sociales e inglés",
+    "elaboro": [
+      "L. A. Elba Mendoza Macias (Coordinadora)",
+      "Dr. en A. José Emmanuel Borjón Rivera (Coordinador)",
+      "L. E. Virginia Sánchez Cruz (Participante)",
+      "M. en M y N. I. Brisa Rico Luna (Participante)",
+      "M. A. N. Fanny Sosa Adán (Participante)",
+      "M. en A. María Isabel Yee Aguilar (Participante)"
+    ],
+    "reviso": "M. en C. Iván Giovanny Mosso García, Subdirector Académico ESCOM; M. en C. Roberto Oswaldo Cruz Lejía, Subdirector Académico UPIIZ",
+    "aprobo_consejo": "Consejo Técnico Consultivo Escolar: M. en C. Andrés Ortigoza Campos, Presidente ESCOM (22/11/2022); Dr. Fernando Flores Mejía, Presidente del CTCE de UPIIZ (27/06/2022). Comisión de Programas Académicos del Consejo General Consultivo del IPN (24/11/2022)",
+    "autorizo": "Mtro. Mauricio Igor Jasso Zaranda, Secretario Académico"
+  }
 }

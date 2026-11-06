@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué es la gestión empresarial?",
+    "options": [
+      "La organización de eventos corporativos.",
+      "El conjunto de actividades, procesos y enfoques utilizados para dirigir y administrar una organización.",
+      "La supervisión directa de los empleados en el día a día.",
+      "La gestión exclusiva de las finanzas de una empresa."
+    ],
+    "answer": "El conjunto de actividades, procesos y enfoques utilizados para dirigir y administrar una organización.",
+    "explicacion": ""
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "Según Clavijo (2023), ¿cuál es la importancia de la gestión empresarial?",
+    "options": [
+      "Aumentar exclusivamente las ganancias de la empresa.",
+      "Administrar la distribución y uso de recursos en una organización para asegurar eficiencia y transparencia operativa.",
+      "Fomentar únicamente el sentido de compañerismo entre los empleados.",
+      "Limitarse a la toma de decisiones financieras."
+    ],
+    "answer": "Administrar la distribución y uso de recursos en una organización para asegurar eficiencia y transparencia operativa.",
+    "explicacion": ""
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Cuáles son algunos aspectos clave de la gestión empresarial?",
+    "options": [
+      "Exclusivamente la gestión de eventos sociales.",
+      "Solamente la gestión de marketing y publicidad.",
+      "La toma de decisiones estratégicas, planificación y organización, dirección y liderazgo, gestión de recursos, y control y evaluación del rendimiento.",
+      "Únicamente la contratación de nuevo personal."
+    ],
+    "answer": "La toma de decisiones estratégicas, planificación y organización, dirección y liderazgo, gestión de recursos, y control y evaluación del rendimiento.",
+    "explicacion": ""
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el objetivo principal de la gestión empresarial?",
+    "options": [
+      "Maximizar las ganancias a corto plazo.",
+      "Reducir los costos operativos mediante el despido de empleados.",
+      "Crear Flujos de Comunicación y Estructuras Operativas eficientes para facilitar la coordinación y alcanzar metas.",
+      "Focalizarse en la publicidad y el marketing."
+    ],
+    "answer": "Crear Flujos de Comunicación y Estructuras Operativas eficientes para facilitar la coordinación y alcanzar metas.",
+    "explicacion": ""
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Qué consecuencias puede tener la falta de una gestión empresarial adecuada?",
+    "options": [
+      "Un incremento inmediato en las ganancias.",
+      "Mejoras automáticas en la eficiencia de la comunicación interna.",
+      "Condiciones de trabajo mediocres que limitan la productividad y disminuyen las ganancias.",
+      "Un aumento en la motivación y satisfacción del empleado."
+    ],
+    "answer": "Condiciones de trabajo mediocres que limitan la productividad y disminuyen las ganancias.",
+    "explicacion": ""
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes NO es una función básica de la gestión empresarial?",
+    "options": [
+      "Planificación.",
+      "Organización.",
+      "Publicidad.",
+      "Dirección."
+    ],
+    "answer": "Publicidad.",
+    "explicacion": ""
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Cómo contribuye el manejo de personal a la gestión empresarial?",
+    "options": [
+      "Ignorando las necesidades individuales y colectivas de los trabajadores.",
+      "Fomentando la competencia interna entre los empleados.",
+      "Creando un ambiente de trabajo sano que facilita la colaboración en armonía.",
+      "Exclusivamente mediante la asignación de tareas y responsabilidades."
+    ],
+    "answer": "Creando un ambiente de trabajo sano que facilita la colaboración en armonía.",
+    "explicacion": ""
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes opciones NO corresponde a una clasificación común de la gestión empresarial?",
+    "options": [
+      "Gestión estratégica.",
+      "Gestión de operaciones.",
+      "Gestión de la cultura corporativa.",
+      "Gestión de recursos humanos."
+    ],
+    "answer": "Gestión de la cultura corporativa.",
+    "explicacion": ""
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Qué implica la gestión de operaciones dentro de una organización?",
+    "options": [
+      "Administrar las finanzas y presupuestos de la empresa.",
+      "Focalizarse en la contratación y capacitación de personal.",
+      "Administrar las actividades operativas y procesos internos, incluyendo la gestión de la cadena de suministro y la producción.",
+      "Desarrollo de estrategias de marketing y ventas."
+    ],
+    "answer": "Administrar las actividades operativas y procesos internos, incluyendo la gestión de la cadena de suministro y la producción.",
+    "explicacion": ""
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Qué objetivo tiene la gestión financiera dentro de las categorías de gestión empresarial?",
+    "options": [
+      "Optimizar el ambiente laboral y las relaciones entre los empleados.",
+      "Administrar los recursos financieros, incluyendo planificación financiera, gestión de flujos de efectivo, y gestión de riesgos financieros.",
+      "Diseñar y ejecutar campañas publicitarias para mejorar las ventas.",
+      "Implementar programas de incentivos basados en la creatividad y la innovación."
+    ],
+    "answer": "Administrar los recursos financieros, incluyendo planificación financiera, gestión de flujos de efectivo, y gestión de riesgos financieros.",
+    "explicacion": ""
+  }
+]

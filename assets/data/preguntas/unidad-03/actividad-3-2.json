@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes es considerado un activo intangible que contribuye a la competitividad de las empresas?",
+    "options": [
+      "Equipos de oficina",
+      "Edificios corporativos",
+      "Capacidades digitales",
+      "Inventario de productos"
+    ],
+    "answer": "Capacidades digitales"
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "Durante la pandemia de COVID-19, ¿cómo ayudaron los activos intangibles a las empresas?",
+    "options": [
+      "Permitiendo reducciones masivas de personal",
+      "Aumentando la necesidad de espacios físicos",
+      "Sustentando el crecimiento en tiempos de incertidumbre económica",
+      "Generando mayores ventas en tiendas físicas"
+    ],
+    "answer": "Sustentando el crecimiento en tiempos de incertidumbre económica"
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "Según el texto, ¿qué debe hacer una empresa además de invertir en activos intangibles para obtener una ventaja competitiva?",
+    "options": [
+      "Disminuir su inversión en tecnología",
+      "Implementar estos activos de manera estratégica",
+      "Concentrarse únicamente en el capital humano",
+      "Evitar la adopción de nuevas tecnologías"
+    ],
+    "answer": "Implementar estos activos de manera estratégica"
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Por qué son importantes las capacidades tecnológicas centrales en las industrias de alta tecnología?",
+    "options": [
+      "Porque permiten reducir los costos de operación solamente",
+      "Porque son vitales para mantener una ventaja competitiva sostenible",
+      "Porque facilitan la reducción del personal",
+      "Porque permiten aumentar el número de tiendas físicas"
+    ],
+    "answer": "Porque son vitales para mantener una ventaja competitiva sostenible"
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Cómo utilizó un líder en el comercio minorista las analíticas avanzadas para mejorar su negocio?",
+    "options": [
+      "Añadiendo más tiendas físicas",
+      "Centrándose exclusivamente en la publicidad tradicional",
+      "Desarrollando nuevas fuentes de crecimiento basadas en digitalización, datos y analíticas",
+      "Eliminando su programa de lealtad"
+    ],
+    "answer": "Desarrollando nuevas fuentes de crecimiento basadas en digitalización, datos y analíticas"
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es uno de los principales impactos de las tecnologías emergentes según el texto?",
+    "options": [
+      "Reducción en la cantidad de empleos disponibles.",
+      "Incremento en la eficiencia y transformación del crecimiento económico.",
+      "Disminución en la demanda de habilidades analíticas.",
+      "Limitación en la producción de bienes y servicios."
+    ],
+    "answer": "Incremento en la eficiencia y transformación del crecimiento económico."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Qué sugiere el modesto crecimiento general de la productividad a pesar de la digitalización en empresas tecnológicamente avanzadas?",
+    "options": [
+      "Que las tecnologías digitales están siendo adoptadas de manera excesiva.",
+      "Que la adopción de tecnologías digitales necesita ser más amplia y efectiva.",
+      "Que la inversión en tecnología digital no es rentable para las empresas.",
+      "Que las empresas no están interesadas en tecnologías digitales."
+    ],
+    "answer": "Que la adopción de tecnologías digitales necesita ser más amplia y efectiva."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "Según el texto, ¿cómo ha influido la automatización en la industria automotriz?",
+    "options": [
+      "Reduciendo el número total de trabajos disponibles sin mejorar la eficiencia.",
+      "Modificando las habilidades requeridas y aumentando la eficiencia, aunque también planteando desafíos de capacitación.",
+      "Disminuyendo la necesidad de habilidades técnicas en los trabajadores.",
+      "Mejorando únicamente la eficiencia sin impactar las habilidades requeridas."
+    ],
+    "answer": "Modificando las habilidades requeridas y aumentando la eficiencia, aunque también planteando desafíos de capacitación."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Por qué es crucial la formación y disponibilidad de talento STEM para un país?",
+    "options": [
+      "Porque garantiza el éxito financiero personal de cada trabajador.",
+      "Porque aumenta la cantidad de pequeñas empresas en el país.",
+      "Porque es fundamental para mantener la competitividad tecnológica a nivel global.",
+      "Porque reduce la necesidad de adoptar tecnologías avanzadas."
+    ],
+    "answer": "Porque es fundamental para mantener la competitividad tecnológica a nivel global."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Qué beneficios ha traído la adopción de plataformas tecnológicas a las pequeñas empresas?",
+    "options": [
+      "Disminución en las ventas y el empleo.",
+      "Aumento en las ventas, el empleo y los beneficios.",
+      "Reducción de la necesidad de talento STEM.",
+      "Incremento en la complejidad operativa sin beneficios claros."
+    ],
+    "answer": "Aumento en las ventas, el empleo y los beneficios."
+  }
+]

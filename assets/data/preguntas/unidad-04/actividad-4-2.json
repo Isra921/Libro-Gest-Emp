@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué es la relación laboral?",
+    "options": [
+      "El vínculo jurídico entre quien presta un trabajo personal subordinado y quien lo recibe y le paga por él.",
+      "Cualquier acuerdo comercial entre dos empresas.",
+      "La afiliación de un trabajador a un sindicato.",
+      "El contrato de compraventa de un servicio profesional independiente."
+    ],
+    "answer": "El vínculo jurídico entre quien presta un trabajo personal subordinado y quien lo recibe y le paga por él.",
+    "explicacion": "La subordinación —trabajar bajo la dirección y autoridad del patrón— es el rasgo que distingue la relación laboral."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Qué artículo de la Constitución Política de los Estados Unidos Mexicanos establece los derechos fundamentales de los trabajadores?",
+    "options": [
+      "Artículo 123",
+      "Artículo 3",
+      "Artículo 27",
+      "Artículo 130"
+    ],
+    "answer": "Artículo 123",
+    "explicacion": "El artículo 123 fija la jornada máxima, el salario mínimo, la libertad sindical, la huelga y la seguridad social; de él se desprende la Ley Federal del Trabajo."
+  },
+  {
+    "id": 3,
+    "type": "ordenar_oracion",
+    "question": "Ordena las fuentes del derecho laboral mexicano de mayor a menor jerarquía, según el modelo de la pirámide normativa.",
+    "segments": [
+      "Constitución (art. 123)",
+      "Ley Federal del Trabajo y tratados de la OIT",
+      "NOM, contratos y reglamentos interiores"
+    ],
+    "answer": [
+      "Constitución (art. 123)",
+      "Ley Federal del Trabajo y tratados de la OIT",
+      "NOM, contratos y reglamentos interiores"
+    ],
+    "explicacion": "La Constitución es el cimiento; la LFT y los tratados forman el tronco operativo, y las normas específicas y los contratos no pueden ir contra los mínimos superiores."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Qué regulan las Normas Oficiales Mexicanas (NOM) en el ámbito laboral?",
+    "options": [
+      "Aspectos de seguridad y salud en el trabajo, como el manejo de sustancias peligrosas y la ergonomía.",
+      "El monto del salario mínimo de cada año.",
+      "Los requisitos para registrar un sindicato.",
+      "Las causas de despido justificado."
+    ],
+    "answer": "Aspectos de seguridad y salud en el trabajo, como el manejo de sustancias peligrosas y la ergonomía.",
+    "explicacion": "Las NOM son disposiciones técnicas complementarias; los demás temas se regulan en la Constitución y la LFT."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "Ante una duda en la interpretación de la norma, esta se aplica en favor del trabajador. ¿Qué principio se describe?",
+    "options": [
+      "Principio protector",
+      "Principio de estabilidad",
+      "Principio de irrenunciabilidad",
+      "Principio de igualdad"
+    ],
+    "answer": "Principio protector",
+    "explicacion": "El principio protector reconoce la desventaja del trabajador frente al empleador y compensa esa desigualdad."
+  },
+  {
+    "id": 6,
+    "type": "verdadero_falso",
+    "statement": "Un trabajador puede firmar válidamente un acuerdo en el que renuncia a sus vacaciones a cambio de conservar su empleo.",
+    "answer": false,
+    "explicacion": "Por el principio de irrenunciabilidad, cualquier pacto en el que el trabajador renuncie a los derechos mínimos de la ley no tiene validez."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Qué asegura el principio de estabilidad (o continuidad) en el empleo?",
+    "options": [
+      "Que la relación de trabajo continúe mientras existan las causas que le dieron origen.",
+      "Que el salario no cambie nunca.",
+      "Que el trabajador pueda cambiar de empleo cuando quiera.",
+      "Que el patrón pueda despedir sin justificación."
+    ],
+    "answer": "Que la relación de trabajo continúe mientras existan las causas que le dieron origen.",
+    "explicacion": "La estabilidad da certeza al trabajador y beneficios asociados a la antigüedad."
+  },
+  {
+    "id": 8,
+    "type": "completar_oracion",
+    "question": "El _____ es la persona física que presta un trabajo personal subordinado, y el _____ es la persona física o moral que utiliza sus servicios.",
+    "wordBank": ["trabajador", "patrón", "sindicato", "tribunal", "conciliador"],
+    "answer": ["trabajador", "patrón"],
+    "explicacion": "Ambos son los sujetos individuales de la relación laboral; el sindicato y las autoridades son sujetos colectivos."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes es una obligación del patrón según la legislación laboral?",
+    "options": [
+      "Inscribir a sus trabajadores en la seguridad social y garantizar condiciones seguras de trabajo.",
+      "Ofrecer transporte gratuito y actividades recreativas a todo el personal.",
+      "Permitir que todos los empleados trabajen desde casa.",
+      "Pagar bonos de productividad cada mes."
+    ],
+    "answer": "Inscribir a sus trabajadores en la seguridad social y garantizar condiciones seguras de trabajo.",
+    "explicacion": "Las demás opciones son prestaciones o políticas que la empresa puede ofrecer, pero no obligaciones mínimas de ley."
+  },
+  {
+    "id": 10,
+    "type": "verdadero_falso",
+    "statement": "Guardar confidencialidad sobre la información reservada de la empresa es una obligación del trabajador.",
+    "answer": true,
+    "explicacion": "Junto con cumplir sus funciones con eficiencia, seguir las normas y cuidar los bienes que se le confían."
+  },
+  {
+    "id": 11,
+    "type": "opcion_multiple",
+    "question": "Antes de llevar un conflicto laboral a juicio en México, ¿qué instancia debe buscarse?",
+    "options": [
+      "Conciliación",
+      "Arbitraje internacional",
+      "Comisión de Derechos Humanos",
+      "Suprema Corte de Justicia"
+    ],
+    "answer": "Conciliación",
+    "explicacion": "La conciliación es el paso previo; si no hay acuerdo, el conflicto pasa a los tribunales laborales."
+  },
+  {
+    "id": 12,
+    "type": "opcion_multiple",
+    "question": "Si un patrón despide a un trabajador sin una causa justificada prevista en la ley, ¿qué ocurre?",
+    "options": [
+      "El patrón está obligado a indemnizar al trabajador.",
+      "La relación termina sin responsabilidad para nadie.",
+      "El trabajador debe pagar una multa a la empresa.",
+      "El despido es válido si el patrón lo comunica por escrito."
+    ],
+    "answer": "El patrón está obligado a indemnizar al trabajador.",
+    "explicacion": "La rescisión sin responsabilidad para el patrón solo procede cuando el trabajador incurre en una causa justificada que la ley señala."
+  },
+  {
+    "id": 13,
+    "type": "opcion_multiple",
+    "question": "¿Cómo se llama el convenio entre uno o varios sindicatos y uno o varios patrones que establece las condiciones generales de trabajo en una empresa?",
+    "options": [
+      "Contrato colectivo de trabajo",
+      "Reglamento interior de trabajo",
+      "Contrato individual por tiempo determinado",
+      "Norma Oficial Mexicana"
+    ],
+    "answer": "Contrato colectivo de trabajo",
+    "explicacion": "El reglamento interior, en cambio, contiene las reglas de orden y disciplina del centro de trabajo."
+  },
+  {
+    "id": 14,
+    "type": "opcion_multiple",
+    "question": "¿Qué ejemplo muestra cómo la legislación laboral mexicana se adapta a nuevas formas de empleo?",
+    "options": [
+      "La incorporación del teletrabajo a la Ley Federal del Trabajo.",
+      "La eliminación de la jornada nocturna.",
+      "La desaparición del aguinaldo.",
+      "La prohibición de los sindicatos."
+    ],
+    "answer": "La incorporación del teletrabajo a la Ley Federal del Trabajo.",
+    "explicacion": "La reforma de 2021 reguló el teletrabajo con obligaciones específicas para patrones y trabajadores."
+  }
+]

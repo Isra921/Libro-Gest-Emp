@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué es el manejo de cambio?",
+    "options": [
+      "La introducción de productos nuevos y mejorados.",
+      "Las estrategias y procesos que las organizaciones utilizan para planificar, implementar y manejar cambios en los sistemas de negocio, procesos, tecnología y cultura.",
+      "La evaluación de riesgos y oportunidades en nuevos mercados.",
+      "El desarrollo de nuevas tecnologías de software."
+    ],
+    "answer": "Las estrategias y procesos que las organizaciones utilizan para planificar, implementar y manejar cambios en los sistemas de negocio, procesos, tecnología y cultura."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Qué implica la innovación en una organización?",
+    "options": [
+      "Solo la introducción de nuevas tecnologías.",
+      "La implementación de estrategias antiguas de manera más eficiente.",
+      "La introducción de ideas, productos o métodos nuevos y mejorados, abarcando no solo la tecnología, sino también nuevos enfoques en la gestión, en la estrategia empresarial y en los modelos de operación.",
+      "La reducción de costos a través de métodos tradicionales."
+    ],
+    "answer": "La introducción de ideas, productos o métodos nuevos y mejorados, abarcando no solo la tecnología, sino también nuevos enfoques en la gestión, en la estrategia empresarial y en los modelos de operación."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Qué caracteriza al cambio incremental?",
+    "options": [
+      "Cambios significativos que incluyen nuevos productos y servicios.",
+      "Pequeñas mejoras continuas en procesos o productos existentes.",
+      "La eliminación completa de productos antiguos.",
+      "La introducción de modelos de negocio completamente distintos."
+    ],
+    "answer": "Pequeñas mejoras continuas en procesos o productos existentes."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes opciones describe un cambio radical?",
+    "options": [
+      "Pequeñas mejoras continuas en procesos o productos existentes.",
+      "Ajustes menores en la estrategia empresarial.",
+      "Cambios significativos que pueden incluir nuevos productos, servicios o modelos de negocio completamente distintos a los actuales.",
+      "Incrementos graduales en la eficiencia operativa."
+    ],
+    "answer": "Cambios significativos que pueden incluir nuevos productos, servicios o modelos de negocio completamente distintos a los actuales."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es el propósito de la evaluación del entorno en el proceso de manejo de cambio?",
+    "options": [
+      "Implementar cambios sin considerar los factores externos.",
+      "Comprender los factores internos y externos que requieren cambio.",
+      "Asegurar que todos en la organización comprendan la naturaleza del cambio.",
+      "Monitorear la efectividad del cambio y hacer ajustes según sea necesario."
+    ],
+    "answer": "Comprender los factores internos y externos que requieren cambio."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Qué importancia tiene la comunicación efectiva en el manejo de cambio?",
+    "options": [
+      "Es irrelevante para el éxito del cambio.",
+      "Permite implementar cambios sin resistencia.",
+      "Asegurar que todos en la organización comprendan la naturaleza del cambio y cómo les afectará.",
+      "Solo se enfoca en informar a los líderes de la organización."
+    ],
+    "answer": "Asegurar que todos en la organización comprendan la naturaleza del cambio y cómo les afectará."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes pasos NO pertenece al Modelo de Kotter?",
+    "options": [
+      "Crear urgencia.",
+      "Descongelamiento.",
+      "Comunicar la visión.",
+      "Generar victorias a corto plazo."
+    ],
+    "answer": "Descongelamiento."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es la secuencia correcta de las etapas del Modelo de Lewin?",
+    "options": [
+      "Crear urgencia, formar coaliciones poderosas, crear una visión para el cambio.",
+      "Descongelamiento, cambio y recongelamiento.",
+      "Eliminar obstáculos, generar victorias a corto plazo, consolidar mejoras.",
+      "Cambio, descongelamiento y recongelamiento."
+    ],
+    "answer": "Descongelamiento, cambio y recongelamiento."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Qué implica la etapa de \"descongelamiento\" en el Modelo de Lewin?",
+    "options": [
+      "Crear una visión para el cambio.",
+      "Preparar a la organización para aceptar el cambio.",
+      "Generar victorias a corto plazo.",
+      "Eliminar obstáculos para el cambio."
+    ],
+    "answer": "Preparar a la organización para aceptar el cambio."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes pasos es parte del Modelo de Kotter?",
+    "options": [
+      "Recongelamiento.",
+      "Descongelamiento.",
+      "Consolidar mejoras.",
+      "Cambio."
+    ],
+    "answer": "Consolidar mejoras."
+  }
+]

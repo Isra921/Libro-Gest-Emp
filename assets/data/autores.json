@@ -11,21 +11,44 @@
       "id": "docentes",
       "pestana": "Asesores Académicos",
       "titulo": "Asesoría y Supervisión Académica",
-      "descripcion": "Profesores y coordinadores del Instituto Politécnico Nacional responsables de la revisión académica, metodológica y curricular.",
+      "descripcion": "Profesores y coordinadores del Instituto Politécnico Nacional responsables de la revisión académica y metodológica.",
       "tipo": "docente",
       "personas": [
         {
-          "grado": "Profra.",
-          "nombre": "Fanny Sosa Ortega",
-          "correo": "fsosao@ipn.mx",
-          "foto": "",
+          "grado": "C. P.",
+          "nombre": "Fanny Sosa Adán",
+          "correo": "",
+          "foto": "assets/img/autores/Fanny_Sosa_Adán.jpg",
           "semblanza": [
-            "Profesora titular de la Unidad de Aprendizaje Gestión Empresarial en la Escuela Superior de Cómputo (ESCOM - IPN). Responsable de la planeación didáctica, asesoría académica y validación del contenido curricular del Polilibro."
+            "La C. P. Fanny Sosa Adán es académica de la Escuela Superior de Cómputo (ESCOM) del Instituto Politécnico Nacional (IPN), adscrita al Departamento de Sociales, donde participa en la formación integral de futuros profesionales de la ingeniería mediante la impartición de unidades de aprendizaje como Finanzas Empresariales, Ingeniería, Ética y Sociedad, y Gestión Empresarial. Su labor docente se orienta al fortalecimiento de conocimientos administrativos, financieros y empresariales, así como al desarrollo de una conciencia ética y social en el ejercicio profesional. A través de actividades académicas que promueven la lectura, el análisis crítico y la participación estudiantil, contribuye a vincular los conocimientos tecnológicos con la gestión organizacional, la responsabilidad social y la toma de decisiones, favoreciendo una formación interdisciplinaria acorde con las necesidades del entorno profesional y empresarial."
+          ]
+        },
+        {
+          "grado": "M. en C.",
+          "nombre": "Ariel López Rojas",
+          "correo": "",
+          "foto": "assets/img/autores/Ariel_Lopez_Rojas.jpeg",
+          "semblanza": [
+            "El M. en C. Ariel López Rojas es Ingeniero en Comunicaciones y Electrónica y Maestro en Ciencias con especialidad en Administración de Negocios por el Instituto Politécnico Nacional (IPN). Su trayectoria académica y profesional se distingue por integrar la innovación educativa, la gestión tecnológica, la investigación aplicada y el desarrollo empresarial. Como docente de la Escuela Superior de Cómputo (ESCOM), ha contribuido a la formación de profesionales mediante la enseñanza, la dirección de trabajos terminales y el impulso de proyectos de innovación y emprendimiento. Su experiencia en liderazgo institucional, administración estratégica y evaluación de proyectos fortalece la vinculación entre el conocimiento científico, la tecnología y la solución de problemas del entorno, promoviendo una educación orientada a la innovación, la investigación y la transformación de la sociedad."
+          ]
+        },
+        {
+          "grado": "D. en E.",
+          "nombre": "Israel Salas Ramírez",
+          "correo": "isalasr@ipn.mx",
+          "foto": "assets/img/autores/salas_ramirez_israel.jpeg",
+          "semblanza": [
+            "Reconocido por su compromiso con la excelencia académica, la innovación educativa y la formación de profesionales altamente competentes en el ámbito de las tecnologías de la información, docente de la Escuela Superior de Cómputo del Instituto Politécnico Nacional (IPN). Es Doctor y Maestro en Ciencias de la Educación, además de Ing. en Comunicaciones y Electrónica por la Escuela Superior de Ingeniería Mecánica y Eléctrica del IPN, combinación que le permite integrar una sólida preparación tecnológica con una visión pedagógica orientada al aprendizaje significativo, el desarrollo de competencias y la transformación digital de la educación.",
+            "A lo largo de su trayectoria ha desempeñado diversos cargos en el sector público y en la iniciativa privada, experiencia que ha enriquecido su práctica docente mediante la vinculación entre el conocimiento académico y la solución de problemáticas reales; asimismo, ha participado en el diseño, desarrollo e implementación de materiales y recursos digitales para diversas unidades académicas del IPN, entre ellas la Escuela Superior de Cómputo, la Escuela Nacional de Medicina y Homeopatía y la Escuela Superior de Turismo, contribuyendo al fortalecimiento de ambientes virtuales de aprendizaje y a la incorporación de tecnologías educativas.",
+            "Su impacto en la educación superior ha sido relevante al impulsar estrategias pedagógicas innovadoras que fortalecen la calidad educativa, promueven la integración efectiva de las tecnologías digitales en los procesos de enseñanza-aprendizaje y contribuyen a la formación de profesionistas capaces de responder a los desafíos científicos, tecnológicos y sociales de la actualidad."
           ],
           "areas": [
-            "Gestión Empresarial",
-            "Administración Estratégica",
-            "Innovación y Emprendimiento Tecnológico"
+            "Sistemas operativos",
+            "Administración de redes",
+            "Neurociencia en la educación",
+            "Redes neuronales",
+            "Generación de simuladores médicos",
+            "Plataformas virtuales aplicadas a la educación"
           ]
         }
       ]
@@ -34,28 +57,32 @@
       "id": "equipo",
       "pestana": "Equipo de Desarrollo",
       "titulo": "Equipo de Desarrollo y Maquetación",
-      "descripcion": "Estudiantes de Servicio Social de la Escuela Superior de Cómputo (ESCOM - IPN) responsables del desarrollo técnico, diseño de interactivos y maquetación web del Polilibro de Gestión Empresarial.",
+      "descripcion": "Estudiantes de Servicio Social de la Escuela Superior de Cómputo (ESCOM - IPN) responsables del desarrollo del Polilibro de Gestión Empresarial.",
       "tipo": "colaborador",
       "personas": [
         {
-          "nombre": "Aranza",
+          "nombre": "Aranza Alondra Muñoz Chávez",
           "rol": "Desarrollo Frontend / Redacción Unidades 1 y 2",
-          "correo": "desarrollo_aranza@alumno.ipn.mx"
+          "correo": "amunozc2002@alumno.ipn.mx",
+          "foto": ""
         },
         {
-          "nombre": "Diego",
+          "nombre": "Flores Madrigal Diego",
           "rol": "Desarrollo Frontend / Unidad 3, Inicio y Glosario",
-          "correo": "desarrollo_diego@alumno.ipn.mx"
+          "correo": "dfloresm1300@alumno.ipn.mx",
+          "foto": ""
         },
         {
-          "nombre": "Uriel",
+          "nombre": "Fidel Uriel Molina Montaño",
           "rol": "Desarrollo Frontend / Unidad 4, Pantalla de Unidades y Referencias",
-          "correo": "desarrollo_uriel@alumno.ipn.mx"
+          "correo": "fmolinam2201@alumno.ipn.mx",
+          "foto": ""
         },
         {
-          "nombre": "Israel",
+          "nombre": "Israel Soto Peña",
           "rol": "Desarrollo Frontend / Unidad 5, Actividad Final y Responsividad General",
-          "correo": "desarrollo_israel@alumno.ipn.mx"
+          "correo": "isotop2000@alumno.ipn.mx",
+          "foto": ""
         }
       ]
     }

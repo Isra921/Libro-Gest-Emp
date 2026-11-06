@@ -1,69 +1,83 @@
 {
   "id": "unidad-04",
   "numero": 4,
-  "titulo": "Gestión del capital humano y la calidad",
-  "descripcion": "Integra la gestión del capital humano y la calidad en la empresa, con base en el marco normativo de las relaciones laborales, el control estadístico y herramientas de mejora continua.",
-  "lema": "El talento humano y la excelencia operativa como ventajas competitivas sostenibles.",
-  "duracion_horas": 33.0,
+  "titulo": "Gestión del Capital Humano y la Calidad",
+  "descripcion": "Capital humano como activo estratégico, marco normativo de las relaciones laborales en México, fundamentos de la calidad y herramientas para gestionar el talento y mejorar los procesos.",
+  "lema": "El capital humano ejecuta, el marco normativo estabiliza y la calidad total eleva: tres engranes de la competitividad sostenible.",
+  "duracion_horas": 24.0,
   "video": {
-    "titulo": "Capital Humano y Calidad Total",
+    "titulo": "",
     "url": "",
     "enlace": "",
-    "referencia": "Instituto Politécnico Nacional (ESCOM - IPN)."
+    "referencia": ""
   },
   "introduccion": [
-    "La administración efectiva del capital humano y la adopción de filosofías de calidad total constituyen el núcleo operativo para el éxito de cualquier organización orientada a la ingeniería y la innovación.",
-    "Esta unidad analiza las funciones estratégicas del talento humano, las normas laborales vigentes, el control estadístico de procesos y herramientas contemporáneas como 5's, Just in Time, Benchmarking y sistemas ERP."
+    "Las organizaciones compiten hoy con tecnología, capital y procesos que pueden copiarse con relativa facilidad. Lo que no se copia tan fácil es el talento, la creatividad y el compromiso de las personas que integran la empresa, ni una cultura que busca hacer bien las cosas desde la primera vez. Por eso esta unidad reúne dos campos que suelen estudiarse por separado: la gestión del capital humano y la gestión de la calidad.",
+    "Primero se analiza el capital humano como el conjunto de conocimientos, habilidades, actitudes y valores que generan valor económico, y el ciclo con el que la empresa atrae, desarrolla, evalúa y retiene a su gente. Después se revisa el marco normativo que regula las relaciones laborales en México, desde el artículo 123 constitucional y la Ley Federal del Trabajo hasta los contratos y la resolución de conflictos. Con esa base se estudia la calidad, su evolución y sus sistemas de gestión, y se cierra con las herramientas concretas que permiten medir y mejorar tanto el desempeño de las personas como el de los procesos."
   ],
-  "recorrido": "Ruta formativa a cargo del equipo de desarrollo (Uriel), integrando normatividad laboral y metodologías de calidad total.",
+  "recorrido": "Avanza del capital humano al marco legal que lo protege, luego a la calidad como filosofía de gestión y, al final, a las herramientas que integran ambos campos.",
+  "objetivo": "Analiza la gestión del capital humano, el marco normativo de las relaciones laborales y los fundamentos y herramientas de la calidad para proponer acciones que mejoren la productividad y la competitividad de una organización.",
   "competencias": [
-    "Integra la gestión del capital humano y la calidad en la empresa, con base en el marco normativo de las relaciones laborales."
+    "Explica el capital humano como activo estratégico y describe los procesos de su gestión.",
+    "Identifica las fuentes, principios, sujetos y condiciones del marco normativo laboral mexicano.",
+    "Distingue el control, el aseguramiento y la gestión de la calidad total, así como el ciclo PHVA y la norma ISO 9001.",
+    "Selecciona herramientas de gestión del talento y de la calidad para diagnosticar y resolver problemas organizacionales."
+  ],
+  "material_apoyo": [
+    { "nombre": "Escape room: Capital humano (Genially)", "url": "https://view.genially.com/66ac21972184a29d288e79ee/interactivecontent-escape-roomcapital-humano" },
+    { "nombre": "Breakout: Marco normativo laboral (Genially)", "url": "https://view.genially.com/66b45295dff4fdba8748aa18/interactivecontent-breakout-marconormativo-de-las-relaciones-laborales" },
+    { "nombre": "Escape game: Calidad (Genially)", "url": "https://view.genially.com/66bed427e0a3b3144f1c4041/interactivecontent-escape-gamecalidad-en-la-gestion-empresarial" },
+    { "nombre": "Breakout: Herramientas de gestión (Genially)", "url": "https://view.genially.com/66c7a8e905479a6f7c36b0c3/interactivecontent-breakoutherramientas-de-gestion-del-capital-humano-yde-calidad" }
   ],
   "temas": [
     {
       "numero": "4.1",
-      "nombre": "Capital Humano y sus Funciones",
-      "sintesis": "Funciones del departamento de capital humano en la organización tecnológica.",
-      "url": "",
+      "nombre": "Capital Humano",
+      "sintesis": "Concepto, componentes e importancia del capital humano; su gestión, la motivación, el clima laboral y su relación con la competitividad.",
+      "icono": "fa-user-graduate",
+      "url": "unidades/unidad-04/temas/tema-04-01.html",
       "actividad": {
         "nombre": "Actividad de aprendizaje 4.1",
-        "url": ""
+        "url": "unidades/unidad-04/actividades/actividad-4-1.html"
       }
     },
     {
       "numero": "4.2",
       "nombre": "Marco Normativo de las Relaciones Laborales",
-      "sintesis": "Legislación laboral, contratos individuales y colectivos, derechos y obligaciones patronales.",
-      "url": "",
+      "sintesis": "Fuentes y principios del derecho laboral en México, sujetos, contrato y condiciones de trabajo, derechos, obligaciones, terminación y relaciones colectivas.",
+      "icono": "fa-scale-balanced",
+      "url": "unidades/unidad-04/temas/tema-04-02.html",
       "actividad": {
         "nombre": "Actividad de aprendizaje 4.2",
-        "url": ""
+        "url": "unidades/unidad-04/actividades/actividad-4-2.html"
       }
     },
     {
       "numero": "4.3",
-      "nombre": "Calidad, Control Estadístico y Calidad Total",
-      "sintesis": "Fundamentos de la calidad, control estadístico y sistemas integrados de gestión.",
-      "url": "",
+      "nombre": "La Calidad",
+      "sintesis": "Concepto y evolución de la calidad, sus dimensiones, control y aseguramiento, calidad total, mejora continua y normas ISO.",
+      "icono": "fa-award",
+      "url": "unidades/unidad-04/temas/tema-04-03.html",
       "actividad": {
         "nombre": "Actividad de aprendizaje 4.3",
-        "url": ""
+        "url": "unidades/unidad-04/actividades/actividad-4-3.html"
       }
     },
     {
       "numero": "4.4",
       "nombre": "Herramientas de Gestión del Capital Humano y de Calidad",
-      "sintesis": "Metodología de las 5's, Just in Time (JIT), análisis funcional, benchmarking y ERP.",
-      "url": "",
+      "sintesis": "Análisis de puestos, evaluación 360°, siete herramientas básicas, Seis Sigma, Lean, 5S y la integración de ambos campos.",
+      "icono": "fa-screwdriver-wrench",
+      "url": "unidades/unidad-04/temas/tema-04-04.html",
       "actividad": {
         "nombre": "Actividad de aprendizaje 4.4",
-        "url": ""
+        "url": "unidades/unidad-04/actividades/actividad-4-4.html"
       }
     }
   ],
   "actividad_final": {
-    "nombre": "Actividad integradora de capital humano y calidad",
-    "descripcion": "Caso práctico sobre optimización operativa y clima organizacional.",
-    "url": ""
+    "nombre": "Caso integrador: Manufacturas Tonatiuh",
+    "descripcion": "Asume el papel de consultor en una empresa con alta rotación, conflictos laborales y defectos en producción: diagnostica, decide conforme a la ley y diseña un plan de mejora.",
+    "url": "unidades/unidad-04/actividades/actividad-final.html"
   }
 }

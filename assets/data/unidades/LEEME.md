@@ -8,7 +8,7 @@ La página `unidades/unidad-XX/index.html` y la tarjeta correspondiente en `unid
 | Campo | Descripción | Ejemplo / Formato |
 |---|---|---|
 | `numero` | Número arábigo de la unidad (el numeral romano I, II, III se calcula solo). | `1` |
-| `titulo` | Título oficial de la unidad. | `"Introducción a la Gestión Empresarial"` |
+| `titulo` | Título oficial de la unidad. | `"Aspectos básicos de la gestión empresarial"` |
 | `descripcion` | Texto breve que aparece en la tarjeta del catálogo `unidades.html`. | `"Fundamentos conceptuales, evolución y modelos organizacionales..."` |
 | `lema` | Subtítulo que se muestra bajo el encabezado principal de la unidad. | `"Bases teóricas y herramientas de diagnóstico..."` |
 | `duracion_horas` | Solo el número de horas lectivas estimadas. | `24.0` |
@@ -17,6 +17,7 @@ La página `unidades/unidad-XX/index.html` y la tarjeta correspondiente en `unid
 | `competencias` | Lista de competencias específicas a desarrollar en la unidad. | `["Analiza...", "Diseña..."]` |
 | `temas` | Lista de temas de la unidad (ver estructura abajo). | `[ { ... }, { ... } ]` |
 | `actividad_final` | `nombre`, `descripcion` y `url` de la actividad integradora. | `{ "nombre": "...", "url": "..." }` |
+| `infografias` | Lista opcional de imágenes generales que se muestran en la portada de la unidad, debajo de la introducción. | `[{ "titulo": "...", "src": "assets/img/unidad-03/imagen.jpg", "alt": "..." }]` |
 | `video` | Objeto opcional (`titulo`, `url` embed de YouTube, `enlace`, `referencia` APA). Si no hay video, dejar `url: ""`. | `{ "titulo": "", "url": "" }` |
 
 ### Estructura de cada tema en el JSON
@@ -24,7 +25,7 @@ La página `unidades/unidad-XX/index.html` y la tarjeta correspondiente en `unid
 ```json
 {
   "numero": "1.1",
-  "nombre": "Conceptos Fundamentales de la Gestión Empresarial",
+  "nombre": "Las organizaciones",
   "sintesis": "Una línea que resume el tema para la tarjeta y el temario.",
   "url": "unidades/unidad-01/temas/tema-01-01.html",
   "actividad": {

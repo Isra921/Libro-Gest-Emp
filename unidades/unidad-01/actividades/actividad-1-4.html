@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad 1.4 · Diferencias entre administrar y gestionar | Gestión Empresarial</title>
+  <meta name="description" content="Actividad formativa interactiva para el tema 1.4 de Gestión Empresarial (ESCOM - IPN).">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../../assets/css/actividad.css">
+
+  <link rel="icon" type="image/png" href="../../../assets/img/ESCOMB.png">
+  <link rel="shortcut icon" type="image/png" href="../../../assets/img/ESCOMB.png">
+</head>
+
+<!--
+  PLANTILLA DE ACTIVIDAD DE APRENDIZAJE FORMATIVA
+  - data-tema: tema al que pertenece (coincide con "numero" en unidad-01.json).
+  - data-preguntas: banco de reactivos en assets/data/preguntas/unidad-01/actividad-1-4.json.
+  - data-cantidad: preguntas que se toman al azar en cada intento.
+  El ejercicio (#ejercicio, #ejercicioContador, #retroalimentacion), "Otras actividades"
+  (#otrasActividades) y la navegación (#actividadNavegacion) los genera actividad-plantilla.js.
+-->
+<body class="u-body" data-root="../../../" data-unidad="unidad-01" data-tema="1.4"
+      data-preguntas="assets/data/preguntas/unidad-01/actividad-1-4.json" data-cantidad="10">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <nav class="u-breadcrumb" aria-label="Ruta de navegación">
+      <a href="../../../index.html">Inicio</a>
+      <span aria-hidden="true">/</span>
+      <a href="../../../unidades.html">Unidades</a>
+      <span aria-hidden="true">/</span>
+      <a href="../index.html">Unidad I</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Actividad 1.4</span>
+    </nav>
+
+    <div class="a-layout">
+      <div class="a-main">
+        <header class="a-card a-head">
+          <div class="a-head__top">
+            <span class="a-badge">Actividad formativa</span>
+            <span class="a-head__where">Unidad I · Tema 1.4</span>
+          </div>
+          <h1 class="a-title">Diferencias entre administrar y gestionar</h1>
+          <p class="a-purpose">Cuestionario del tema 1.4: Diferencias entre administrar y gestionar.</p>
+          <ul class="a-chips" aria-label="Datos de la actividad">
+            <li class="u-chip"><i class="fas fa-list-check" aria-hidden="true"></i> <span id="totalPreguntas">10</span> preguntas</li>
+            <li class="u-chip"><i class="fas fa-clock" aria-hidden="true"></i> 15 min aprox.</li>
+            <li class="u-chip"><i class="fas fa-rotate" aria-hidden="true"></i> Intentos ilimitados</li>
+            <li class="u-chip a-chip--outline" id="ultimoResultado" hidden><i class="fas fa-chart-simple" aria-hidden="true"></i> Último resultado: <strong></strong></li>
+          </ul>
+        </header>
+
+        <section class="a-card" aria-labelledby="instruccionesTitulo">
+          <h2 class="a-card__title" id="instruccionesTitulo">Instrucciones</h2>
+          <ol class="a-steps">
+            <li>Lee atentamente cada reactivo y selecciona la respuesta correcta.</li>
+            <li>Pulsa <strong>Comprobar respuesta</strong> para visualizar la retroalimentación inmediata.</li>
+            <li>Avanza con <strong>Siguiente pregunta</strong> hasta concluir la serie y revisar tu desempeño final.</li>
+            <li>La actividad es formativa para reforzar tus aprendizajes; puedes repetirla las veces que requieras.</li>
+          </ol>
+        </section>
+
+        <section class="a-card a-exercise" aria-labelledby="ejercicioTitulo">
+          <div class="a-exercise__bar">
+            <h2 class="a-exercise__label" id="ejercicioTitulo">Ejercicio</h2>
+            <span class="a-exercise__count" id="ejercicioContador" aria-live="polite">Pregunta 1</span>
+          </div>
+
+          <div class="a-exercise__body" id="ejercicio" aria-busy="true">
+            <p class="u-loading">Cargando preguntas de la actividad…</p>
+          </div>
+        </section>
+
+        <div id="retroalimentacion" aria-live="polite"></div>
+
+        <nav class="a-pager" id="actividadNavegacion" aria-label="Navegación de la actividad">
+          <a class="a-pager__prev" href="../temas/tema-01-04.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver al tema 1.4</a>
+        </nav>
+      </div>
+
+      <aside class="a-sidebar" aria-label="Navegación complementaria">
+        <details class="a-sidebar-details" open>
+          <summary class="a-sidebar-summary">
+            <span class="a-sidebar-summary-label"><i class="fas fa-compass" aria-hidden="true"></i> Navegación</span>
+            <i class="fas fa-chevron-down a-sidebar-chevron" aria-hidden="true"></i>
+          </summary>
+          <div class="a-sidebar-inner">
+            <div class="a-side-card">
+              <p class="a-side-title">Tema relacionado</p>
+              <a class="a-side-link" id="enlaceRepaso" href="../temas/tema-01-04.html"><i class="fas fa-book-open" aria-hidden="true"></i> <span>Repasar el tema 1.4</span></a>
+            </div>
+            <div class="a-side-card">
+              <p class="a-side-title">Otras actividades</p>
+              <div id="otrasActividades"></div>
+            </div>
+          </div>
+        </details>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Gestión Empresarial · Polilibro académico · ESCOM - IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../../assets/js/data-manager.js"></script>
+  <script src="../../../assets/js/componentes.js"></script>
+  <script src="../../../assets/js/unidades-ui.js"></script>
+  <script src="../../../assets/js/paginas/actividad-plantilla.js"></script>
+</body>
+
+</html>

@@ -481,7 +481,7 @@
             if (!tema) throw new Error(`El tema ${numeroTema} no aparece en la lista "temas" de ${idUnidad}.json.`);
 
             const numeral = UI.romano(unidad.numero);
-            document.title = `${tema.numero} ${tema.nombre} | Unidad ${numeral} | TIC aplicadas para el turismo`;
+            document.title = `${tema.numero} ${tema.nombre} | Unidad ${numeral} | Gestión Empresarial`;
 
             if (contenedorIndice) {
                 contenedorIndice.innerHTML = indice(unidad, numeral, tema);

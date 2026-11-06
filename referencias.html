@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Referencias Bibliográficas | Gestión Empresarial</title>
+  <meta name="description" content="Referencias bibliográficas y recursos de consulta de todas las unidades del polilibro de Gestión Empresarial (ESCOM - IPN), en formato APA.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/comun.css">
+  <link rel="stylesheet" href="assets/css/unidades-base.css">
+  <link rel="stylesheet" href="assets/css/referencias.css">
+  <link rel="stylesheet" href="assets/css/referencias-general.css">
+
+  <link rel="icon" type="image/png" href="assets/img/ESCOMB.png">
+  <link rel="shortcut icon" type="image/png" href="assets/img/ESCOMB.png">
+</head>
+
+<!--
+  SECCIÓN GENERAL DE REFERENCIAS
+  No se editan referencias aquí: la página reúne automáticamente las tarjetas de
+  cada unidades/unidad-XX/referencias.html (ver assets/js/paginas/referencias-general.js).
+  Para agregar una referencia, edita el archivo de referencias de tu unidad.
+-->
+<body class="u-body" data-root="">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <section class="r-hero">
+      <div class="r-hero__header">
+        <span class="u-eyebrow"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Acervo y Fuentes Académicas</span>
+        <span class="u-chip u-chip--accent"><i class="fas fa-book-bookmark" aria-hidden="true"></i> APA 7.ª edición</span>
+      </div>
+      <h1 class="r-hero__title">Referencias Bibliográficas</h1>
+      <p class="r-hero__lead">
+        Fuentes de consulta de todas las unidades del polilibro de <strong>Gestión Empresarial</strong>, ordenadas alfabéticamente. Filtra por unidad o por tipo de recurso, busca por autor o concepto y copia las citas en formato APA.
+      </p>
+      <p class="r-summary" id="resumenReferencias" aria-live="polite"></p>
+    </section>
+
+    <section class="r-toolbar r-toolbar--general" aria-label="Herramientas de filtrado de referencias">
+      <div class="r-filters" id="filtroUnidad" role="group" aria-label="Filtrar por unidad"></div>
+      <div class="r-filters" id="filtroTipo" role="group" aria-label="Filtrar por tipo de recurso"></div>
+      <div class="r-toolbar__row">
+        <div class="r-search-box">
+          <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
+          <input type="search" id="searchRef" placeholder="Buscar por autor, título o concepto..." aria-label="Buscar referencias">
+        </div>
+        <button type="button" class="r-btn-copy r-btn-copy--list" id="copiarLista"><i class="fas fa-list-ol" aria-hidden="true"></i> Copiar lista APA</button>
+      </div>
+    </section>
+
+    <div class="r-grid" id="rGrid" aria-busy="true">
+      <p class="u-loading">Reuniendo las referencias de las unidades…</p>
+    </div>
+
+    <div class="r-empty" id="rEmpty" hidden>
+      <p><i class="fas fa-magnifying-glass" aria-hidden="true"></i>No se encontraron referencias con los filtros seleccionados.</p>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Gestión Empresarial · Polilibro académico · ESCOM - IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data-manager.js"></script>
+  <script src="assets/js/componentes.js"></script>
+  <script src="assets/js/unidades-ui.js"></script>
+  <script src="assets/js/paginas/referencias-general.js"></script>
+</body>
+
+</html>

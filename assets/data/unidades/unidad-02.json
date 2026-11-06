@@ -1,10 +1,10 @@
 {
   "id": "unidad-02",
   "numero": 2,
-  "titulo": "Planeación Estratégica y Organización Empresarial",
-  "descripcion": "TODO: Redactar la descripción sintética que se mostrará en la tarjeta de unidades.html.",
-  "lema": "TODO: Escribir una frase o lema representativo de la unidad temática.",
-  "duracion_horas": 24.0,
+  "titulo": "Gestión estratégica en las empresas de innovación tecnológica",
+  "descripcion": "Aplica la gestión estratégica en las empresas de innovación tecnológica con base en las diferentes herramientas, la filosofía y su cultura organizacional.",
+  "lema": "Competitividad · Filosofía corporativa · Estrategia y cultura organizacional · Herramientas de gestión estratégica",
+  "duracion_horas": 17.5,
   "video": {
     "titulo": "TODO: Video de la Unidad (Opcional)",
     "url": "",
@@ -13,18 +13,17 @@
   },
   "introduccion": [
     "TODO: Párrafo 1 de introducción a la Unidad II de Gestión Empresarial.",
-    "TODO: Párrafo 2 sobre metodologías de planeación estratégica y diseño organizacional."
+    "TODO: Párrafo 2 sobre la gestión estratégica en las empresas de innovación tecnológica."
   ],
   "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
   "competencias": [
-    "TODO: Competencia específica 1 a desarrollar en la Unidad II.",
-    "TODO: Competencia específica 2 a desarrollar en la Unidad II."
+    "Aplica la gestión estratégica en las empresas de innovación tecnológica con base en las diferentes herramientas, la filosofía y su cultura organizacional."
   ],
   "temas": [
     {
       "numero": "2.1",
-      "nombre": "El Proceso de Planeación Estratégica",
-      "sintesis": "TODO: Síntesis breve del tema 2.1.",
+      "nombre": "Factores de competitividad que afectan la gestión empresarial",
+      "icono": "fa-chart-line",
       "url": "unidades/unidad-02/temas/tema-02-01.html",
       "actividad": {
         "nombre": "Actividad de aprendizaje 2.1",
@@ -33,8 +32,8 @@
     },
     {
       "numero": "2.2",
-      "nombre": "Herramientas de Diagnóstico Estratégico (FODA, PESTEL, Porter)",
-      "sintesis": "TODO: Síntesis breve del tema 2.2.",
+      "nombre": "Filosofía corporativa de empresas de innovación tecnológica",
+      "icono": "fa-compass",
       "url": "",
       "actividad": {
         "nombre": "Actividad de aprendizaje 2.2",
@@ -43,18 +42,40 @@
     },
     {
       "numero": "2.3",
-      "nombre": "Estructuras Organizacionales y Departamentalización",
-      "sintesis": "TODO: Síntesis breve del tema 2.3.",
+      "nombre": "Estrategia y cultura organizacional de empresas de innovación tecnológica",
+      "icono": "fa-chess",
       "url": "",
       "actividad": {
         "nombre": "Actividad de aprendizaje 2.3",
         "url": ""
       }
+    },
+    {
+      "numero": "2.4",
+      "nombre": "Implementación de la estrategia, planes, programas, presupuestos y procedimientos",
+      "sintesis": "2.4.1 Cuadro de mando integral",
+      "icono": "fa-list-check",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.4",
+        "url": ""
+      }
+    },
+    {
+      "numero": "2.5",
+      "nombre": "Herramientas de gestión estratégica",
+      "sintesis": "2.5.1 Análisis FODA y desarrollo de estrategias · 2.5.2 Modelos de negocio · 2.5.3 Modelo de Diamante de Porter · 2.5.4 Plan comercial · 2.5.5 Plan maestro",
+      "icono": "fa-toolbox",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.5",
+        "url": ""
+      }
     }
   ],
   "actividad_final": {
-    "nombre": "Actividad integradora y caso práctico",
-    "descripcion": "TODO: Descripción del caso práctico o simulador integrador de la unidad.",
+    "nombre": "Proyecto · Fase 2",
+    "descripcion": "Análisis y uso de herramientas de la gestión empresarial.",
     "url": "unidades/unidad-02/actividades/actividad-final.html"
   }
 }

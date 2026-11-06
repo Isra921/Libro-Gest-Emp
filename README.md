@@ -38,9 +38,11 @@ Para trabajar de forma organizada sin conflictos en Git, se sugiere la siguiente
 
 | Integrante | Rol Asignado | Archivos Principales a su Cargo |
 |---|---|---|
-| **Integrante 1** | **Unidad 1: Introducción a la Gestión Empresarial** | `assets/data/unidades/unidad-01.json`<br>`unidades/unidad-01/temas/*.html`<br>`assets/data/preguntas/unidad-01/*.json`<br>`unidades/unidad-01/referencias.html` |
-| **Integrante 2** | **Unidad 2: Planeación Estratégica y Organización** | `assets/data/unidades/unidad-02.json`<br>`unidades/unidad-02/temas/*.html`<br>`assets/data/preguntas/unidad-02/*.json`<br>`unidades/unidad-02/referencias.html` |
-| **Integrante 3** | **Unidad 3: Dirección, Liderazgo y Control Gerencial** | `assets/data/unidades/unidad-03.json`<br>`unidades/unidad-03/temas/*.html`<br>`assets/data/preguntas/unidad-03/*.json`<br>`unidades/unidad-03/referencias.html` |
+| **Integrante 1** | **Unidad 1: Aspectos básicos de la gestión empresarial** | `assets/data/unidades/unidad-01.json`<br>`unidades/unidad-01/temas/*.html`<br>`assets/data/preguntas/unidad-01/*.json`<br>`unidades/unidad-01/referencias.html` |
+| **Integrante 2** | **Unidad 2: Gestión estratégica en las empresas de innovación tecnológica** | `assets/data/unidades/unidad-02.json`<br>`unidades/unidad-02/temas/*.html`<br>`assets/data/preguntas/unidad-02/*.json`<br>`unidades/unidad-02/referencias.html` |
+| **Integrante 3** | **Unidad 3: Gestión operativa de la empresa** | `assets/data/unidades/unidad-03.json`<br>`unidades/unidad-03/temas/*.html`<br>`assets/data/preguntas/unidad-03/*.json`<br>`unidades/unidad-03/referencias.html` |
+| **Por asignar** | **Unidad 4: Gestión del capital humano y la calidad** | `assets/data/unidades/unidad-04.json`<br>`unidades/unidad-04/temas/*.html`<br>`assets/data/preguntas/unidad-04/*.json`<br>`unidades/unidad-04/referencias.html` |
+| **Por asignar** | **Unidad 5: Tendencias en la gestión empresarial** | `assets/data/unidades/unidad-05.json`<br>`unidades/unidad-05/temas/*.html`<br>`assets/data/preguntas/unidad-05/*.json`<br>`unidades/unidad-05/referencias.html` |
 | **Integrante 4** | **Coordinación General, Portada, Glosario y Evaluación** | `index.html` (bienvenida y modales)<br>`assets/data/glosario.json`<br>`assets/data/autores.json`<br>`assets/data/plan-estudios.json`<br>`assets/data/examen-diagnostico.json` |
 
 ---
