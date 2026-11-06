@@ -46,13 +46,13 @@
           "icono": "fa-scale-balanced"
         },
         {
-          "tag": "Proyecto",
-          "reactivos": "Reporte de proyecto",
-          "tiempo": "Fase 1",
-          "titulo": "Proyecto · Fase 1",
-          "descripcion": "Constitución legal del proyecto empresarial y desarrollo de objetivos.",
+          "tag": "Caso integrador",
+          "reactivos": "3 etapas",
+          "tiempo": "20 min",
+          "titulo": "Actividad final: Caso integrador Novatech Solutions",
+          "descripcion": "Simulador de constitución legal, proceso administrativo y dilemas gerenciales en una empresa de desarrollo de software.",
           "url": "unidades/unidad-01/actividades/actividad-final.html",
-          "icono": "fa-diagram-project",
+          "icono": "fa-flask",
           "destacada": true
         }
       ]
@@ -74,13 +74,13 @@
           "icono": "fa-chart-line"
         },
         {
-          "tag": "Proyecto",
-          "reactivos": "Reporte de proyecto",
-          "tiempo": "Fase 2",
-          "titulo": "Proyecto · Fase 2",
-          "descripcion": "Análisis y uso de herramientas de la gestión empresarial.",
+          "tag": "Caso integrador",
+          "reactivos": "3 etapas",
+          "tiempo": "20 min",
+          "titulo": "Actividad final: Caso integrador DataSecure México",
+          "descripcion": "Simulador de diagnóstico FODA, formulación de filosofía corporativa y diseño del Cuadro de Mando Integral.",
           "url": "unidades/unidad-02/actividades/actividad-final.html",
-          "icono": "fa-diagram-project",
+          "icono": "fa-flask",
           "destacada": true
         }
       ]
@@ -129,13 +129,13 @@
           "icono": "fa-gears"
         },
         {
-          "tag": "Proyecto",
-          "reactivos": "Reporte de proyecto",
-          "tiempo": "Fase 3",
-          "titulo": "Proyecto · Fase 3",
-          "descripcion": "Estructura organizacional y análisis tecnológico.",
+          "tag": "Caso integrador",
+          "reactivos": "3 etapas",
+          "tiempo": "20 min",
+          "titulo": "Actividad final: Caso integrador LogiExpress",
+          "descripcion": "Simulador de reestructuración organizacional, manejo del cambio ante la innovación y reingeniería de procesos operativos.",
           "url": "unidades/unidad-03/actividades/actividad-final.html",
-          "icono": "fa-diagram-project",
+          "icono": "fa-flask",
           "destacada": true
         }
       ]
@@ -187,7 +187,7 @@
           "tag": "Caso integrador",
           "reactivos": "4 etapas",
           "tiempo": "25 min",
-          "titulo": "Actividad Integradora: Manufacturas Tonatiuh",
+          "titulo": "Actividad final: Caso integrador Manufacturas Tonatiuh",
           "descripcion": "Diagnostica problemas de personal, decide conforme a la ley laboral, aplica un análisis de Pareto y diseña un plan PHVA.",
           "url": "unidades/unidad-04/actividades/actividad-final.html",
           "icono": "fa-flask",
@@ -240,31 +240,12 @@
         },
         {
           "tag": "Caso integrador",
-          "reactivos": "Caso práctico",
-          "tiempo": "30 min",
-          "titulo": "Actividad Integradora: Transformación Digital Ética, Legal y Sustentable",
-          "descripcion": "Plantea una solución integral para una empresa tecnológica resolviendo desafíos societarios, fiscales, de sustentabilidad y adopción de tecnologías exponenciales.",
+          "reactivos": "3 etapas",
+          "tiempo": "25 min",
+          "titulo": "Actividad final: Caso integrador Kopix Cloud Systems",
+          "descripcion": "Simulador de formalización jurídica, sustentabilidad auditable sin greenwashing y adopción de tecnologías exponenciales.",
           "url": "unidades/unidad-05/actividades/actividad-final.html",
           "icono": "fa-flask",
-          "destacada": true
-        }
-      ]
-    },
-    {
-      "id": "evaluacion-final",
-      "pestana": "Integradora Final",
-      "titulo": "Evaluación Integradora General del Polilibro",
-      "descripcion": "Evaluación integradora que articula y evalúa los conocimientos adquiridos a lo largo de las 5 unidades temáticas de Gestión Empresarial.",
-      "nota": "Permite navegación libre entre reactivos, comprobación de respuestas con retroalimentación explicativa, puntuación por unidad y reinicio ilimitado.",
-      "items": [
-        {
-          "tag": "Evaluación Final",
-          "reactivos": "Reactivos de las 5 unidades",
-          "tiempo": "30 min",
-          "titulo": "Actividad Final Integradora de Gestión Empresarial",
-          "descripcion": "Instrumento interactivo con ejercicios de aplicación de aspectos básicos, gestión operativa, capital humano, calidad y tendencias legales y tecnológicas.",
-          "url": "actividad-final.html",
-          "icono": "fa-award",
           "destacada": true
         }
       ]

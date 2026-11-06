@@ -24,10 +24,22 @@
     "Selecciona herramientas de gestión del talento y de la calidad para diagnosticar y resolver problemas organizacionales."
   ],
   "material_apoyo": [
-    { "nombre": "Escape room: Capital humano (Genially)", "url": "https://view.genially.com/66ac21972184a29d288e79ee/interactivecontent-escape-roomcapital-humano" },
-    { "nombre": "Breakout: Marco normativo laboral (Genially)", "url": "https://view.genially.com/66b45295dff4fdba8748aa18/interactivecontent-breakout-marconormativo-de-las-relaciones-laborales" },
-    { "nombre": "Escape game: Calidad (Genially)", "url": "https://view.genially.com/66bed427e0a3b3144f1c4041/interactivecontent-escape-gamecalidad-en-la-gestion-empresarial" },
-    { "nombre": "Breakout: Herramientas de gestión (Genially)", "url": "https://view.genially.com/66c7a8e905479a6f7c36b0c3/interactivecontent-breakoutherramientas-de-gestion-del-capital-humano-yde-calidad" }
+    {
+      "nombre": "Escape room: Capital humano (Genially)",
+      "url": "https://view.genially.com/66ac21972184a29d288e79ee/interactivecontent-escape-roomcapital-humano"
+    },
+    {
+      "nombre": "Breakout: Marco normativo laboral (Genially)",
+      "url": "https://view.genially.com/66b45295dff4fdba8748aa18/interactivecontent-breakout-marconormativo-de-las-relaciones-laborales"
+    },
+    {
+      "nombre": "Escape game: Calidad (Genially)",
+      "url": "https://view.genially.com/66bed427e0a3b3144f1c4041/interactivecontent-escape-gamecalidad-en-la-gestion-empresarial"
+    },
+    {
+      "nombre": "Breakout: Herramientas de gestión (Genially)",
+      "url": "https://view.genially.com/66c7a8e905479a6f7c36b0c3/interactivecontent-breakoutherramientas-de-gestion-del-capital-humano-yde-calidad"
+    }
   ],
   "temas": [
     {
@@ -76,8 +88,8 @@
     }
   ],
   "actividad_final": {
-    "nombre": "Caso integrador: Manufacturas Tonatiuh",
-    "descripcion": "Asume el papel de consultor en una empresa con alta rotación, conflictos laborales y defectos en producción: diagnostica, decide conforme a la ley y diseña un plan de mejora.",
+    "nombre": "Actividad final: Caso integrador Manufacturas Tonatiuh",
+    "descripcion": "Simulador interactivo sobre diagnóstico de capital humano, marco normativo laboral (LFT), diagrama de Pareto y plan PHVA.",
     "url": "unidades/unidad-04/actividades/actividad-final.html"
   }
 }

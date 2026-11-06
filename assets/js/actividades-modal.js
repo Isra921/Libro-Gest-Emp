@@ -42,7 +42,7 @@
         const pie = el('div', 'act-card__foot');
         const enlace = el('a', `act-btn ${item.destacada ? 'act-btn--destacada' : ''}`);
         enlace.href = DataManager.ruta(item.url);
-        enlace.append(icono(item.icono || 'fa-arrow-right'), ` ${item.destacada ? 'Comenzar evaluación integradora' : 'Iniciar actividad'}`);
+        enlace.append(icono(item.icono || 'fa-arrow-right'), ` ${item.destacada ? 'Resolver caso integrador' : 'Iniciar actividad'}`);
         pie.append(enlace);
         tarjeta.append(pie);
 

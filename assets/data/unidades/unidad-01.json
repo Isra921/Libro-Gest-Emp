@@ -66,8 +66,8 @@
     }
   ],
   "actividad_final": {
-    "nombre": "Proyecto · Fase 1",
-    "descripcion": "Constitución legal del proyecto empresarial y desarrollo de objetivos.",
+    "nombre": "Actividad final: Caso integrador Novatech Solutions",
+    "descripcion": "Simulador interactivo sobre constitución legal, proceso administrativo y diferencias entre administrar y gestionar en una empresa de software.",
     "url": "unidades/unidad-01/actividades/actividad-final.html"
   }
 }

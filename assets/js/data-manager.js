@@ -185,8 +185,8 @@ const DataManager = {
                 }
             ],
             "actividad_final": {
-                "nombre": "Proyecto · Fase 1",
-                "descripcion": "Constitución legal del proyecto empresarial y desarrollo de objetivos.",
+                "nombre": "Actividad final: Caso integrador Novatech Solutions",
+                "descripcion": "Simulador interactivo sobre constitución legal, proceso administrativo y diferencias entre administrar y gestionar en una empresa de software.",
                 "url": "unidades/unidad-01/actividades/actividad-final.html"
             }
         },
@@ -266,8 +266,8 @@ const DataManager = {
                 }
             ],
             "actividad_final": {
-                "nombre": "Proyecto · Fase 2",
-                "descripcion": "Análisis y uso de herramientas de la gestión empresarial.",
+                "nombre": "Actividad final: Caso integrador DataSecure México",
+                "descripcion": "Simulador interactivo sobre análisis FODA de competitividad, formulación de filosofía corporativa y diseño del Cuadro de Mando Integral.",
                 "url": "unidades/unidad-02/actividades/actividad-final.html"
             }
         },
@@ -339,8 +339,8 @@ const DataManager = {
                 }
             ],
             "actividad_final": {
-                "nombre": "Proyecto · Fase 3",
-                "descripcion": "Estructura organizacional y análisis tecnológico.",
+                "nombre": "Actividad final: Caso integrador LogiExpress",
+                "descripcion": "Simulador interactivo sobre diseño de estructura organizacional, gestión del cambio y reingeniería de procesos de negocio.",
                 "url": "unidades/unidad-03/actividades/actividad-final.html"
             }
         },
@@ -434,7 +434,7 @@ const DataManager = {
                 }
             ],
             "actividad_final": {
-                "nombre": "Caso integrador: Manufacturas Tonatiuh",
+                "nombre": "Actividad final: Caso integrador Manufacturas Tonatiuh",
                 "descripcion": "Asume el papel de consultor en una empresa con alta rotación, conflictos laborales y defectos en producción: diagnostica, decide conforme a la ley y diseña un plan de mejora.",
                 "url": "unidades/unidad-04/actividades/actividad-final.html"
             }
@@ -451,7 +451,12 @@ const DataManager = {
                 { "numero": "5.2", "nombre": "Responsabilidad Social y Sustentabilidad", "url": "unidades/unidad-05/temas/tema-05-02.html" },
                 { "numero": "5.3", "nombre": "Habilidades Digitales", "url": "unidades/unidad-05/temas/tema-05-03.html" },
                 { "numero": "5.4", "nombre": "Tecnologías y Tendencias Digitales", "url": "unidades/unidad-05/temas/tema-05-04.html" }
-            ]
+            ],
+            "actividad_final": {
+                "nombre": "Actividad final: Caso integrador Kopix Cloud Systems",
+                "descripcion": "Simulador interactivo sobre formalización jurídica y PI, sustentabilidad corporativa sin greenwashing y tecnologías emergentes.",
+                "url": "unidades/unidad-05/actividades/actividad-final.html"
+            }
         }
     }
 };

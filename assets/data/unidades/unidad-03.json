@@ -66,8 +66,8 @@
     }
   ],
   "actividad_final": {
-    "nombre": "Proyecto · Fase 3",
-    "descripcion": "Estructura organizacional y análisis tecnológico.",
+    "nombre": "Actividad final: Caso integrador LogiExpress",
+    "descripcion": "Simulador interactivo sobre diseño de estructura organizacional, gestión del cambio y reingeniería de procesos de negocio.",
     "url": "unidades/unidad-03/actividades/actividad-final.html"
   }
 }

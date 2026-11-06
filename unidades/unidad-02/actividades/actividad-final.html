@@ -4,19 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto · Fase 2 · Unidad II | Gestión Empresarial</title>
-  <meta name="description" content="Fase 2 del proyecto de Gestión Empresarial: Análisis y uso de herramientas de la gestión empresarial (Unidad II, ESCOM - IPN).">
+  <title>Actividad final: Caso integrador DataSecure México · Unidad II | Gestión Empresarial</title>
+  <meta name="description" content="Simulador de caso práctico integrador de la Unidad II de Gestión Empresarial (ESCOM - IPN): competitividad, matriz FODA, filosofía corporativa y Cuadro de Mando Integral.">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="../../../assets/css/comun.css">
   <link rel="stylesheet" href="../../../assets/css/unidades-base.css">
   <link rel="stylesheet" href="../../../assets/css/actividad.css">
+  <link rel="stylesheet" href="../../../assets/css/caso-integrador.css">
 
   <link rel="icon" type="image/png" href="../../../assets/img/ESCOMB.png">
   <link rel="shortcut icon" type="image/png" href="../../../assets/img/ESCOMB.png">
 </head>
 
-<body class="u-body" data-root="../../../" data-unidad="unidad-02">
+<body class="u-body" data-root="../../../" data-unidad="unidad-02" data-tema="2.final">
+
   <header class="site-nav" data-componente="navegacion"></header>
 
   <main class="u-page">
@@ -34,52 +36,88 @@
       <div class="a-main">
         <header class="a-card a-head">
           <div class="a-head__top">
-            <span class="a-badge"><i class="fas fa-diagram-project" aria-hidden="true"></i> Desarrollo de proyecto</span>
-            <span class="a-head__where">Unidad II · ESCOM - IPN</span>
+            <span class="a-badge"><i class="fas fa-flask" aria-hidden="true"></i> Caso integrador</span>
+            <span class="a-head__where">Unidad II · Temas 2.1 a 2.5</span>
           </div>
-          <p class="u-eyebrow">Estrategia de aprendizaje orientado a proyectos</p>
-          <h1 class="a-title">Proyecto · Fase 2: Análisis y uso de herramientas de la gestión empresarial</h1>
-          <p class="a-purpose"><strong>Unidad de competencia:</strong> Aplica la gestión estratégica en las empresas de innovación tecnológica con base en las diferentes herramientas, la filosofía y su cultura organizacional.</p>
+          <p class="u-eyebrow">Simulador de Planeación Estratégica</p>
+          <h1 class="a-title">Caso práctico: DataSecure México</h1>
+          <p class="a-purpose">
+            Asume el rol de Director de Estrategia Corporativa. Analiza la situación competitiva de una empresa de ciberseguridad, formula su filosofía organizacional y diseña su Cuadro de Mando Integral (Balanced Scorecard) para asegurar su permanencia y crecimiento en el mercado.
+          </p>
           <ul class="a-chips" aria-label="Datos de la actividad">
-            <li class="u-chip"><i class="fas fa-file-lines" aria-hidden="true"></i> Reporte de proyecto</li>
-            <li class="u-chip"><i class="fas fa-laptop-code" aria-hidden="true"></i> Reporte de prácticas</li>
-            <li class="u-chip a-chip--outline"><i class="fas fa-award" aria-hidden="true"></i> Portafolio de evidencias</li>
+            <li class="u-chip"><i class="fas fa-layer-group" aria-hidden="true"></i> 3 etapas</li>
+            <li class="u-chip"><i class="fas fa-clock" aria-hidden="true"></i> 20 min aprox.</li>
+            <li class="u-chip"><i class="fas fa-rotate" aria-hidden="true"></i> Reintentos por etapa</li>
+            <li class="u-chip a-chip--outline" id="ultimoResultado" hidden><i class="fas fa-chart-simple" aria-hidden="true"></i> Último resultado: <strong></strong></li>
           </ul>
         </header>
 
-        <section class="a-card" aria-labelledby="fasesTitulo">
-          <h2 class="a-card__title" id="fasesTitulo"><i class="fas fa-diagram-project" aria-hidden="true"></i> Fases del proyecto</h2>
-          <ol class="a-steps">
-            <li>Fase 1: Constitución legal del proyecto empresarial y desarrollo de objetivos</li>
-            <li><strong>Fase 2: Análisis y uso de herramientas de la gestión empresarial</strong></li>
-            <li>Fase 3: Estructura organizacional y análisis tecnológico.</li>
-            <li>Fase 4: Desarrollo de capital humano y de la calidad</li>
-            <li>Fase 5: Habilidades y tendencias digitales</li>
-          </ol>
-        </section>
-
-        <section class="a-card" aria-labelledby="practicasTitulo">
-          <h2 class="a-card__title" id="practicasTitulo"><i class="fas fa-laptop-code" aria-hidden="true"></i> Prácticas de la unidad</h2>
-          <ul class="a-steps">
-            <li><strong>Práctica 3:</strong> Implementación de elementos de planeación</li>
-            <li><strong>Práctica 4:</strong> Herramientas de Gestión</li>
-            <li><strong>Práctica 6:</strong> Innovación u tecnología</li>
+        <!-- Situación de la empresa -->
+        <section class="a-card" aria-labelledby="situacionTitulo">
+          <h2 class="a-card__title" id="situacionTitulo"><i class="fas fa-shield-halved" aria-hidden="true"></i> Situación de la empresa</h2>
+          <p>
+            <strong>DataSecure México</strong> es una firma de ciberseguridad fundada en la Ciudad de México especializada en pentesting, análisis de vulnerabilidades y seguridad en la nube para empresas medianas y el sector salud. Aunque sus ingresos crecieron 35 % el último año, la dirección general ha convocado a una reunión de consejo urgente debido a tres amenazas y desafíos estratégicos:
+          </p>
+          <ul class="ci-list">
+            <li><strong>Presión competitiva externa:</strong> Empresas multinacionales entraron al mercado nacional ofreciendo licencias de antivirus y firewalls a precios reducidos, amenazando con desplazar los servicios locales personalizados.</li>
+            <li><strong>Desarticulación de identidad y fuga de talento:</strong> No existe una misión, visión ni valores claros comunicados al personal, lo que ha elevado la rotación de ingenieros especializados al 25 % anual.</li>
+            <li><strong>Falta de alineación en métricas:</strong> El equipo comercial solo mide ventas brutas, mientras que el área de operaciones sufre demoras en la entrega de reportes y no existe medición sistemática de la satisfacción del cliente ni de la innovación tecnológica.</li>
           </ul>
+          <div class="ci-progress" aria-hidden="true"><span id="barraAvance"></span></div>
+          <p class="ci-progress__label" id="textoAvance" aria-live="polite">0 de 3 etapas resueltas (0 %)</p>
         </section>
 
-        <section class="a-card" aria-labelledby="evidenciasTitulo">
-          <h2 class="a-card__title" id="evidenciasTitulo"><i class="fas fa-award" aria-hidden="true"></i> Portafolio de evidencias</h2>
-          <ol class="a-steps">
-            <li>Solución de casos</li>
-            <li>Ensayo</li>
-            <li>Presentación electrónica</li>
-            <li>Reporte de proyecto</li>
-            <li>Reporte de prácticas</li>
-          </ol>
+        <!-- ETAPA 1 -->
+        <section class="a-card ci-stage" id="etapa-1" data-etapa="1" aria-labelledby="e1">
+          <p class="ci-stage__tag">Etapa 1 · Temas 2.1 y 2.5 Herramientas de gestión estratégica</p>
+          <h2 class="a-card__title" id="e1"><i class="fas fa-table-cells-large" aria-hidden="true"></i> Diagnóstico de competitividad y Matriz FODA</h2>
+          <p class="a-hint">Clasifica los 4 factores situacionales de DataSecure en el cuadrante FODA correspondiente (Fortaleza, Debilidad, Oportunidad o Amenaza) y selecciona la estrategia ofensiva Maxi-Maxi más adecuada.</p>
+
+          <div id="contenedor-etapa-1"></div>
+
+          <div class="a-actions">
+            <button class="u-btn a-btn--ghost" type="button" data-reintentar="1" hidden><i class="fas fa-rotate-left" aria-hidden="true"></i> Reintentar etapa</button>
+            <button class="u-btn u-btn--primary" type="button" data-comprobar="1"><i class="fas fa-check" aria-hidden="true"></i> Comprobar respuestas</button>
+          </div>
+          <div class="ci-feedback" id="feedback-etapa-1" aria-live="polite"></div>
         </section>
+
+        <!-- ETAPA 2 -->
+        <section class="a-card ci-stage" id="etapa-2" data-etapa="2" aria-labelledby="e2">
+          <p class="ci-stage__tag">Etapa 2 · Tema 2.2 Filosofía corporativa</p>
+          <h2 class="a-card__title" id="e2"><i class="fas fa-compass" aria-hidden="true"></i> Formulación de la filosofía organizacional</h2>
+          <p class="a-hint">Identifica a qué componente de la filosofía corporativa (Misión, Visión o Valores) corresponde cada una de las propuestas formuladas para DataSecure México.</p>
+
+          <div id="contenedor-etapa-2"></div>
+
+          <div class="a-actions">
+            <button class="u-btn a-btn--ghost" type="button" data-reintentar="2" hidden><i class="fas fa-rotate-left" aria-hidden="true"></i> Reintentar etapa</button>
+            <button class="u-btn u-btn--primary" type="button" data-comprobar="2"><i class="fas fa-check" aria-hidden="true"></i> Comprobar respuestas</button>
+          </div>
+          <div class="ci-feedback" id="feedback-etapa-2" aria-live="polite"></div>
+        </section>
+
+        <!-- ETAPA 3 -->
+        <section class="a-card ci-stage" id="etapa-3" data-etapa="3" aria-labelledby="e3">
+          <p class="ci-stage__tag">Etapa 3 · Tema 2.4.1 Cuadro de Mando Integral (Balanced Scorecard)</p>
+          <h2 class="a-card__title" id="e3"><i class="fas fa-chart-pie" aria-hidden="true"></i> Despliegue del Balanced Scorecard</h2>
+          <p class="a-hint">Asigna cada uno de los objetivos estratégicos clave a la perspectiva correspondiente del Balanced Scorecard (Financiera, Clientes, Procesos Internos, o Aprendizaje y Crecimiento).</p>
+
+          <div id="contenedor-etapa-3"></div>
+
+          <div class="a-actions">
+            <button class="u-btn a-btn--ghost" type="button" data-reintentar="3" hidden><i class="fas fa-rotate-left" aria-hidden="true"></i> Reintentar etapa</button>
+            <button class="u-btn u-btn--primary" type="button" data-comprobar="3"><i class="fas fa-check" aria-hidden="true"></i> Comprobar respuestas</button>
+          </div>
+          <div class="ci-feedback" id="feedback-etapa-3" aria-live="polite"></div>
+        </section>
+
+        <!-- Resumen final -->
+        <section id="seccion-resumen-final" hidden></section>
 
         <nav class="a-pager" aria-label="Navegación de la actividad">
           <a class="a-pager__prev" href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver a la Unidad II</a>
+          <a class="a-pager__next" href="../../unidad-03/index.html">Ir a la Unidad III <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
         </nav>
       </div>
 
@@ -92,7 +130,7 @@
           <div class="a-sidebar-inner">
             <div class="a-side-card">
               <p class="a-side-title">Unidad II</p>
-              <p class="a-side-text">Gestión estratégica en las empresas de innovación tecnológica</p>
+              <p class="a-side-text">Gestión estratégica en empresas de innovación tecnológica</p>
               <a class="a-side-link" href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> <span>Volver a la unidad</span></a>
             </div>
             <div class="a-side-card">
@@ -105,15 +143,10 @@
     </div>
   </main>
 
-  <footer class="u-footer">
-    <div class="u-footer__inner">
-      <p>Gestión Empresarial · Polilibro académico · ESCOM - IPN</p>
-      <p>Desarrollado con fines educativos · © 2026</p>
-    </div>
-  </footer>
+  <footer class="site-footer" data-componente="pie-pagina"></footer>
 
-  <script src="../../../assets/js/data-manager.js"></script>
   <script src="../../../assets/js/componentes.js"></script>
+  <script src="../../../assets/js/actividades/caso-integrador-u2.js"></script>
 </body>
 
 </html>
