@@ -453,4 +453,5 @@ const DataManager = {
                 { "numero": "5.4", "nombre": "Tecnologías y Tendencias Digitales", "url": "unidades/unidad-05/temas/tema-05-04.html" }
             ]
         }
-    };
+    }
+};
