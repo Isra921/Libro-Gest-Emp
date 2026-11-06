@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    VENTANA EMERGENTE · ACTIVIDADES (.act-*)
    Contenido de la ventana de Actividades (tarjetas por tema e integradora).
    La ventana base (fondo, caja, pestañas) está en ventana-modal.css.
@@ -20,7 +20,7 @@
 
 .act-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   gap: 16px;
   margin-bottom: 20px;
 }

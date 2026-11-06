@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    VENTANA EMERGENTE · PLAN DE ESTUDIOS (.pe-*)
    Contenido de la ventana modal del plan de estudios y programa sintético.
    ========================================================================== */
@@ -52,7 +52,7 @@
 }
 
 .pe-btn-download:hover {
-  background: linear-gradient(135deg, #059669, #047857);
+  background: var(--btn-bg-hover);
   transform: translateY(-2px);
   box-shadow: 0 6px 16px color-mix(in srgb, var(--shadow-color) 40%, transparent);
 }

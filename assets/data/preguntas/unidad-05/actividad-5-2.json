@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones describe con mayor precisión la Responsabilidad Social Empresarial (RSE)?",
+    "options": [
+      "Es el compromiso de las empresas de actuar de manera ética y contribuir al desarrollo económico, social y ambiental",
+      "Es una estrategia de marketing enfocada exclusivamente en incrementar las ventas trimestrales",
+      "Es una obligación fiscal coercitiva impuesta con multas por los bancos centrales",
+      "Es una iniciativa temporal asistencialista limitada únicamente a donaciones filantrópicas esporádicas"
+    ],
+    "answer": "Es el compromiso de las empresas de actuar de manera ética y contribuir al desarrollo económico, social y ambiental",
+    "explicacion": "La RSE integra voluntariamente consideraciones éticas, sociales y ecológicas en las operaciones y relaciones con todos los grupos de interés."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿En qué década surgió el concepto contemporáneo de sustentabilidad a partir del informe \"Nuestro Futuro Común\" (Comisión Brundtland)?",
+    "options": [
+      "Década de 1980 (1987)",
+      "Década de 1960",
+      "Década de 1970",
+      "Década de 1990"
+    ],
+    "answer": "Década de 1980 (1987)",
+    "explicacion": "El Informe Brundtland presentado ante la ONU en 1987 consolidó la definición moderna de desarrollo sustentable."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes aspectos NO es reconocido como uno de los beneficios directos intrínsecos de la RSE frente a otros factores corporativos?",
+    "options": [
+      "Disminución automática e inmediata de todos los costos operativos de la empresa",
+      "Mejora sustancial de la reputación corporativa y valor de marca",
+      "Aumento en la lealtad y confianza de clientes e inversionistas",
+      "Atracción, motivación y retención de talento humano calificado"
+    ],
+    "answer": "Disminución automática e inmediata de todos los costos operativos de la empresa",
+    "explicacion": "Aunque la sustentabilidad genera ahorros por eficiencia energética a mediano y largo plazo, implementar RSE requiere inversión inicial y no disminuye automáticamente todos los costos operativos."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "De acuerdo con el Informe Brundtland de las Naciones Unidas, la sustentabilidad se define centralmente como:",
+    "options": [
+      "Satisfacer las necesidades actuales sin comprometer la capacidad de futuras generaciones para satisfacer sus propias necesidades",
+      "Reducir los costos operacionales a través de la exclusión de personal",
+      "Mejorar de manera unilateral la competitividad comercial internacional",
+      "Maximizar la extracción de recursos naturales en el menor tiempo factible"
+    ],
+    "answer": "Satisfacer las necesidades actuales sin comprometer la capacidad de futuras generaciones para satisfacer sus propias necesidades",
+    "explicacion": "Este principio establece la solidaridad intergeneracional y el uso ético y racional de los recursos de la biósfera."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes dimensiones NO forma parte de la tríada clásica de la Responsabilidad Social Empresarial y Sustentabilidad?",
+    "options": [
+      "Dimensión tecnológica aislada de la sociedad",
+      "Dimensión económica",
+      "Dimensión social",
+      "Dimensión ambiental"
+    ],
+    "answer": "Dimensión tecnológica aislada de la sociedad",
+    "explicacion": "La tríada fundamental de la sustentabilidad (Triple Bottom Line) la componen el ámbito económico, social y ambiental; la tecnología es una herramienta de apoyo, no un pilar ético autónomo."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cuál se identifica como una de las principales barreras internas para la adopción de prácticas de RSE y sustentabilidad en las organizaciones?",
+    "options": [
+      "La escasez inicial de recursos y la resistencia cultural al cambio interno",
+      "El incremento de la satisfacción de los consumidores",
+      "La mayor retención y sentido de pertenencia de los empleados",
+      "La apertura hacia nuevos nichos de mercado ético"
+    ],
+    "answer": "La escasez inicial de recursos y la resistencia cultural al cambio interno",
+    "explicacion": "La transformación hacia modelos sostenibles a menudo choca con hábitos de gestión obsoletos, priorización del beneficio a muy corto plazo y falta de presupuesto asignado."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "La empresa Patagonia es un caso emblemático a nivel internacional por su modelo de negocio sostenible debido a:",
+    "options": [
+      "El empleo prioritario de materiales reciclados, reparación de productos y campañas de concienciación ambiental activa",
+      "Inversión continua en industrias de combustibles fósiles no renovables",
+      "La precarización y reducción salarial para elevar utilidades",
+      "La obsolescencia programada y producción masiva desechable"
+    ],
+    "answer": "El empleo prioritario de materiales reciclados, reparación de productos y campañas de concienciación ambiental activa",
+    "explicacion": "Patagonia lidera con programas como 'Worn Wear', trazabilidad ética en cadenas de suministro y donación de utilidades a causas ecológicas."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es uno de los principales retos metodológicos al evaluar el impacto real de las iniciativas de RSE y sustentabilidad?",
+    "options": [
+      "La falta de métricas estandarizadas, comparables y auditables entre organizaciones",
+      "La falta absoluta de interés de los colaboradores",
+      "La prohibición legal de publicar reportes socioambientales",
+      "La ausencia de competencia comercial en el mercado global"
+    ],
+    "answer": "La falta de métricas estandarizadas, comparables y auditables entre organizaciones",
+    "explicacion": "Armonizar indicadores como GRI, SASB o métricas de huella de carbono entre diferentes industrias sigue siendo uno de los mayores desafíos del análisis corporativo."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Qué tecnologías digitales emergentes están impulsando la trazabilidad, transparencia y medición fidedigna de la sustentabilidad empresarial?",
+    "options": [
+      "Blockchain, inteligencia artificial y analítica de Big Data",
+      "Máquinas de vapor y telares mecánicos de la Revolución Industrial",
+      "Mecanismos de almacenamiento magnético aislados sin conexión a red",
+      "Protocolos obsoletos de comunicación analógica por radiofrecuencia cerrada"
+    ],
+    "answer": "Blockchain, inteligencia artificial y analítica de Big Data",
+    "explicacion": "Blockchain garantiza la trazabilidad inmutable en cadenas de suministro sostenibles, mientras que Big Data e IA optimizan el consumo energético y reducen desperdicios."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "Los 17 Objetivos de Desarrollo Sostenible (ODS) de la ONU establecen un llamado global prioritario en áreas como el fin de la pobreza, igualdad de género y acción por el clima. ¿Cuál de las siguientes NO corresponde a la naturaleza de los ODS?",
+    "options": [
+      "Expansión indiscriminada del comercio internacional sin regulación ecológica",
+      "Erradicación de la pobreza extrema",
+      "Igualdad de género y reducción de desigualdades",
+      "Acción por el clima y preservación de ecosistemas"
+    ],
+    "answer": "Expansión indiscriminada del comercio internacional sin regulación ecológica",
+    "explicacion": "Los ODS promueven un desarrollo inclusivo, justo y sostenible, protegiendo a las comunidades y los recursos naturales."
+  },
+  {
+    "id": 11,
+    "type": "verdadero_falso",
+    "statement": "El término \"greenwashing\" hace referencia a prácticas de mercadotecnia engañosas donde una organización publicita una imagen ecologista que no se sustenta en acciones ni resultados ambientales reales.",
+    "answer": true,
+    "explicacion": "Efectivamente, el greenwashing consiste en simular un compromiso ambiental inexistente o exagerado para captar consumidores sin realizar transformaciones operativas reales."
+  },
+  {
+    "id": 12,
+    "type": "completar_oracion",
+    "question": "Los _____ o grupos de interés son todas las personas u organizaciones que pueden influir o verse afectadas por las decisiones corporativas, tales como colaboradores, clientes, _____ y la comunidad.",
+    "wordBank": [
+      "stakeholders",
+      "proveedores",
+      "competidores",
+      "auditores"
+    ],
+    "answer": [
+      "stakeholders",
+      "proveedores"
+    ],
+    "explicacion": "El enfoque de stakeholders reconoce que el éxito y legitimidad de una empresa dependen de relaciones transparentes con todos sus grupos de influencia."
+  }
+]

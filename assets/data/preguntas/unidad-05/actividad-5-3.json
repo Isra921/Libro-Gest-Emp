@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes afirmaciones describe con mayor precisión la importancia de las habilidades digitales en el entorno laboral actual?",
+    "options": [
+      "En un mundo cada vez más digital, estas habilidades son esenciales para la competitividad y el éxito profesional",
+      "Las habilidades digitales son únicamente necesarias para los programadores e ingenieros de software",
+      "Las habilidades digitales se limitan exclusivamente a enviar y recibir correos electrónicos básicos",
+      "Las habilidades digitales han perdido relevancia frente a las habilidades meramente manuales"
+    ],
+    "answer": "En un mundo cada vez más digital, estas habilidades son esenciales para la competitividad y el éxito profesional",
+    "explicacion": "Las competencias digitales atraviesan todas las disciplinas, potenciando la productividad, la toma de decisiones basada en información y la innovación corporativa."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "En el marco de las competencias transversales del perfil profesional digital, ¿cuál de los siguientes subtemas NO forma parte de la cuarteta nuclear (Learnability, Teamability, Networking, Adaptability)?",
+    "options": [
+      "Financial Literacy (Alfabetización financiera como habilidad exclusivamente digital)",
+      "Learnability (Capacidad y disposición de aprendizaje continuo)",
+      "Teamability (Habilidad de trabajo y coordinación en equipos digitales)",
+      "Networking (Gestión estratégica de redes de contactos y colaboración digital)"
+    ],
+    "answer": "Financial Literacy (Alfabetización financiera como habilidad exclusivamente digital)",
+    "explicacion": "El modelo de competencias blandas-digitales clave en la gestión contemporánea se agrupa en Learnability, Teamability, Networking y Adaptability."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes actitudes u opciones NO representa una buena práctica para potenciar la capacidad de aprendizaje continuo (Learnability)?",
+    "options": [
+      "Enfocarse rígidamente en las competencias pasadas sin explorar jamás nuevas tecnologías",
+      "Participar activamente en talleres prácticos, seminarios y conferencias",
+      "Aprovechar tutoriales técnicos y documentación digital abierta",
+      "Completar cursos y certificaciones especializadas en plataformas formativas virtuales"
+    ],
+    "answer": "Enfocarse rígidamente en las competencias pasadas sin explorar jamás nuevas tecnologías",
+    "explicacion": "La Learnability exige curiosidad intelectual, apertura mental y aprendizaje autónomo permanente frente a la rápida obsolescencia de herramientas."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Por qué la capacidad de aprendizaje constante (Learnability) es considerada crucial para los egresados de áreas informáticas y de ingeniería?",
+    "options": [
+      "Porque permite mantenerse actualizado ante la acelerada evolución de herramientas, optimizando el desempeño profesional",
+      "Porque garantiza de manera automática ascensos salariales sin requerir demostración de experiencia",
+      "Porque sustituye por completo la necesidad de interactuar con clientes o superiores",
+      "Porque elimina la necesidad de contar con certificaciones o formación académica"
+    ],
+    "answer": "Porque permite mantenerse actualizado ante la acelerada evolución de herramientas, optimizando el desempeño profesional",
+    "explicacion": "En el sector tecnológico el conocimiento caduca a ritmo exponencial; aprender a desaprender y reaprender es la competencia laboral más demandada."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes enunciados NO constituye una razón legítima por la que la habilidad de colaboración y trabajo en equipo digital (Teamability) es prioritaria?",
+    "options": [
+      "Facilita que los colaboradores trabajen de forma aislada y hermética sin coordinarse con nadie",
+      "Mejora los canales de comunicación y coordinación en tiempo real entre áreas funcionales",
+      "Impulsa la consecución exitosa de metas complejas en proyectos multidisciplinarios",
+      "Resulta fundamental para la gestión ágil de flujos de trabajo compartidos en la nube"
+    ],
+    "answer": "Facilita que los colaboradores trabajen de forma aislada y hermética sin coordinarse con nadie",
+    "explicacion": "La Teamability promueve sinergias colectivas, transparencia de procesos y colaboración constructiva, justamente lo opuesto al aislamiento departamental."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes herramientas NO se clasifica primariamente como una plataforma corporativa integral para la gestión y colaboración ágil de equipos (Teamability)?",
+    "options": [
+      "Evernote (como libreta personal de notas individuales)",
+      "Slack (comunicación corporativa estructurada)",
+      "Trello (tableros Kanban y coordinación visual de proyectos)",
+      "Google Workspace (coedición simultánea y suites de oficina compartidas)"
+    ],
+    "answer": "Evernote (como libreta personal de notas individuales)",
+    "explicacion": "Herramientas como Slack, Trello, Google Workspace y Teams están diseñadas específicamente para flujos de trabajo sincronizados en equipo."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Cómo se define el valor estratégico del networking digital en la gestión profesional contemporánea?",
+    "options": [
+      "Facilita la vinculación profesional, el intercambio colaborativo de saberes y la apertura a alianzas estratégicas",
+      "Es una actividad trivial sin ninguna trascendencia en la época digital",
+      "Permite al profesionista aislarse del ecosistema de su disciplina",
+      "Es una herramienta reservada exclusivamente para estudiantes de primer ingreso"
+    ],
+    "answer": "Facilita la vinculación profesional, el intercambio colaborativo de saberes y la apertura a alianzas estratégicas",
+    "explicacion": "El networking amplía el capital relacional, estimula alianzas estratégicas interempresariales y potencia las oportunidades de desarrollo."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes conductas NO abona al desarrollo del networking en plataformas y entornos digitales?",
+    "options": [
+      "Rechazar el uso responsable de plataformas profesionales y operar en soledad absoluta",
+      "Mantener un perfil optimizado, fidedigno y activo en plataformas como LinkedIn",
+      "Participar de forma proactiva en seminarios web, meetups y congresos virtuales",
+      "Debatir de manera fundamentada y respetuosa en foros y grupos técnicos de interés"
+    ],
+    "answer": "Rechazar el uso responsable de plataformas profesionales y operar en soledad absoluta",
+    "explicacion": "Construir redes requiere participación activa, visibilidad profesional honesta y generación de valor en comunidades de práctica."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Qué representa la capacidad de adaptabilidad (Adaptability) en un contexto de transformación y disrupción tecnológica?",
+    "options": [
+      "La aptitud de gestionar la incertidumbre, responder con agilidad al cambio y capitalizar nuevas oportunidades",
+      "La obstinación por conservar métodos arcaicos ignorando cualquier cambio tecnológico",
+      "La capacidad de evadir por completo el uso de sistemas informáticos modernos",
+      "Una competencia innecesaria cuando una empresa goza de estabilidad momentánea"
+    ],
+    "answer": "La aptitud de gestionar la incertidumbre, responder con agilidad al cambio y capitalizar nuevas oportunidades",
+    "explicacion": "La adaptabilidad permite superar la resistencia al cambio, asimilar innovaciones y reconfigurar procesos según las exigencias del mercado."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes conductas representa una falla o falta de adaptabilidad digital en un equipo de trabajo?",
+    "options": [
+      "Aferrarse inflexiblemente a rutinas operativas manuales y negarse a evaluar soluciones digitales",
+      "Probar y validar metodologías ágiles y herramientas digitales emergentes",
+      "Capacitarse de forma proactiva ante la implementación de un nuevo sistema ERP",
+      "Ajustar los flujos de trabajo ante las necesidades de modalidades de trabajo híbrido"
+    ],
+    "answer": "Aferrarse inflexiblemente a rutinas operativas manuales y negarse a evaluar soluciones digitales",
+    "explicacion": "La rigidez metodológica frena la innovación y merma la competitividad de las empresas ante los cambios tecnológicos del entorno."
+  },
+  {
+    "id": 11,
+    "type": "verdadero_falso",
+    "statement": "El pensamiento crítico en la era de la inteligencia artificial implica verificar sistemáticamente las respuestas y contenidos generados por modelos de IA, evitando depender ciegamente de sus resultados.",
+    "answer": true,
+    "explicacion": "El uso ético y profesional de la IA generativa requiere validar datos, detectar posibles alucinaciones y resguardar la información confidencial de la empresa."
+  },
+  {
+    "id": 12,
+    "type": "completar_oracion",
+    "question": "Las medidas básicas de _____ digital en una empresa incluyen el uso de contraseñas complejas, la autenticación en dos _____ y la prevención contra correos o mensajes fraudulentos.",
+    "wordBank": [
+      "seguridad",
+      "pasos",
+      "publicidad",
+      "equipos"
+    ],
+    "answer": [
+      "seguridad",
+      "pasos"
+    ],
+    "explicacion": "La seguridad digital protege la confidencialidad, integridad y disponibilidad de la información frente a ciberataques y suplantación de identidad."
+  }
+]

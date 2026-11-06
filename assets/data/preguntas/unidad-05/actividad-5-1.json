@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es la principal función de las leyes que abordan los aspectos legales en la era digital?",
+    "options": [
+      "Regular el uso de la tecnología y proteger los derechos de los creadores y usuarios",
+      "Aumentar los impuestos a las empresas tecnológicas",
+      "Promover el uso de software libre",
+      "Facilitar la piratería de contenido digital"
+    ],
+    "answer": "Regular el uso de la tecnología y proteger los derechos de los creadores y usuarios",
+    "explicacion": "El marco normativo legal proporciona certeza jurídica, define las condiciones de uso de las tecnologías y salvaguarda los derechos de autores, empresas y usuarios."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes no es una regulación clave relacionada directamente con la propiedad intelectual?",
+    "options": [
+      "Ley Federal de Protección de Datos Personales (México)",
+      "Tratado de la OMPI sobre Derecho de Autor (WCT)",
+      "Convenio de Berna para la Protección de las Obras Literarias y Artísticas",
+      "Acuerdo sobre los Aspectos de los Derechos de Propiedad Intelectual relacionados con el Comercio (ADPIC)"
+    ],
+    "answer": "Ley Federal de Protección de Datos Personales (México)",
+    "explicacion": "La Ley Federal de Protección de Datos Personales regula la privacidad y resguardo de datos individuales, mientras que el Convenio de Berna, ADPIC y WCT regulan la propiedad intelectual."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Qué tipo de propiedad intelectual protege las invenciones nuevas, útiles y con aplicación industrial?",
+    "options": [
+      "Patentes",
+      "Derechos de Autor",
+      "Marcas Registradas",
+      "Diseños Industriales"
+    ],
+    "answer": "Patentes",
+    "explicacion": "Las patentes confieren el derecho exclusivo de explotación industrial sobre invenciones novedosas y no obvias durante un periodo determinado por la ley (típicamente 20 años improrrogables)."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes características NO es aplicable a los derechos de autor?",
+    "options": [
+      "Exclusividad temporal de 20 años",
+      "Protección automática al momento de la creación",
+      "Derechos morales y económicos (patrimoniales)",
+      "Duración generalmente durante la vida del autor más varias décadas posteriores"
+    ],
+    "answer": "Exclusividad temporal de 20 años",
+    "explicacion": "El plazo de 20 años corresponde a las patentes de invención industrial. Los derechos de autor protegen la obra durante toda la vida del creador y generalmente 70 a 100 años tras su muerte."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Qué se requiere para que una marca tenga plena protección y exclusividad legal?",
+    "options": [
+      "Registro formal en la oficina correspondiente de propiedad industrial (ej. IMPI)",
+      "Uso únicamente informal en el comercio local",
+      "Publicación en un diario de circulación local",
+      "Aprobación subjetiva del consumidor"
+    ],
+    "answer": "Registro formal en la oficina correspondiente de propiedad industrial (ej. IMPI)",
+    "explicacion": "El registro ante la autoridad oficial de propiedad industrial otorga el título de exclusividad de marca frente a terceros en la clase comercial correspondiente."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es una característica fundamental de los diseños industriales?",
+    "options": [
+      "Protegen la apariencia ornamental o estética de un producto",
+      "Protegen exclusivamente la funcionalidad técnica interna de un mecanismo",
+      "No requieren registro ante autoridades para su protección",
+      "Tienen una duración de vigencia indefinida sin renovación"
+    ],
+    "answer": "Protegen la apariencia ornamental o estética de un producto",
+    "explicacion": "Los diseños industriales protegen los aspectos ornamentales, patrones bidimensionales o formas tridimensionales que dotan de apariencia distintiva a un artículo."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es la importancia principal de las leyes de protección de datos personales en el entorno corporativo digital?",
+    "options": [
+      "Proteger la privacidad, integridad y derechos de autodeterminación informativa de los individuos",
+      "Facilitar la venta y comercialización irrestricta de bases de datos de clientes",
+      "Permitir la libre distribución de datos sensibles sin previo aviso",
+      "Aumentar el tráfico no consentido en redes sociales"
+    ],
+    "answer": "Proteger la privacidad, integridad y derechos de autodeterminación informativa de los individuos",
+    "explicacion": "Garantizan que la información personal de trabajadores, clientes y proveedores se recopile con consentimiento, finalidad legítima y medidas estrictas de confidencialidad."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Qué pilar clave de la seguridad de la información asegura que los datos no sean alterados, borrados o manipulados de manera no autorizada?",
+    "options": [
+      "Integridad",
+      "Confidencialidad",
+      "Disponibilidad",
+      "Encriptación"
+    ],
+    "answer": "Integridad",
+    "explicacion": "La integridad garantiza la exactitud y completitud de los datos y sistemas contra modificaciones indebidas o accidentales."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes acciones NO constituye una medida de seguridad para la protección de datos?",
+    "options": [
+      "Publicación abierta de bases de datos en redes sociales",
+      "Encriptación de información en reposo y tránsito",
+      "Configuración de firewalls y sistemas antivirus",
+      "Autenticación multifactor (MFA)"
+    ],
+    "answer": "Publicación abierta de bases de datos en redes sociales",
+    "explicacion": "Publicar datos en redes sociales vulnera la confidencialidad y constituye una infracción legal grave en materia de datos personales."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Qué figura de la propiedad industrial protege signos distintivos (palabras, figuras, logotipos) que identifican productos o servicios en el mercado?",
+    "options": [
+      "Marcas Registradas",
+      "Derechos de Autor",
+      "Patentes de invención",
+      "Modelos de utilidad"
+    ],
+    "answer": "Marcas Registradas",
+    "explicacion": "Las marcas registradas distinguen comercialmente los productos o servicios de una empresa frente a los de sus competidores."
+  },
+  {
+    "id": 11,
+    "type": "verdadero_falso",
+    "statement": "La Sociedad por Acciones Simplificada (S.A.S.) permite constituir una empresa mercantil a partir de un solo socio y mediante trámites electrónicos sin costo notarial directo.",
+    "answer": true,
+    "explicacion": "Efectivamente, la S.A.S. fue creada en México para incentivar a los emprendedores, posibilitando su constitución digital y unipersonal."
+  },
+  {
+    "id": 12,
+    "type": "verdadero_falso",
+    "statement": "El software y los códigos de programas computacionales están protegidos en México bajo el régimen de los derechos de autor.",
+    "answer": true,
+    "explicacion": "La legislación reconoce a los programas de computación como obras protegidas bajo el régimen de los derechos de autor (obras literarias/científicas)."
+  },
+  {
+    "id": 13,
+    "type": "completar_oracion",
+    "question": "En México, la formalización de una sociedad mercantil requiere redactar los estatutos sociales ante un _____ público y su posterior inscripción en el _____ de Comercio.",
+    "wordBank": [
+      "fedatario",
+      "Registro Público",
+      "tribunal",
+      "banco"
+    ],
+    "answer": [
+      "fedatario",
+      "Registro Público"
+    ],
+    "explicacion": "El fedatario público (notario o corredor) formaliza la escritura constitutiva, la cual adquiere plena personalidad jurídica al inscribirse en el Registro Público de Comercio."
+  },
+  {
+    "id": 14,
+    "type": "ordenar_oracion",
+    "question": "Ordena cronológicamente los pasos esenciales para la formalización y operación legal de una empresa mercantil en México:",
+    "segments": [
+      "Autorización del nombre o razón social ante la Secretaría de Economía",
+      "Protocolización de estatutos ante fedatario público",
+      "Inscripción de la sociedad en el Registro Público de Comercio",
+      "Obtención del RFC ante el SAT y registro ante el IMSS"
+    ],
+    "answer": [
+      "Autorización del nombre o razón social ante la Secretaría de Economía",
+      "Protocolización de estatutos ante fedatario público",
+      "Inscripción de la sociedad en el Registro Público de Comercio",
+      "Obtención del RFC ante el SAT y registro ante el IMSS"
+    ],
+    "explicacion": "El flujo formal inicia con la denominación social, sigue con la constitución notarial, registro público mercantil y finalmente las altas fiscales y patronales."
+  }
+]

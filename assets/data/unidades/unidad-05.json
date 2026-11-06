@@ -1,0 +1,70 @@
+{
+  "id": "unidad-05",
+  "numero": 5,
+  "titulo": "Tendencias en la gestión empresarial",
+  "descripcion": "Aplica los aspectos legales, la responsabilidad social empresarial, la sustentabilidad y las habilidades digitales frente a las tecnologías emergentes como inteligencia artificial, computación en la nube, big data, blockchain e Internet de las cosas.",
+  "lema": "Marco normativo, ética corporativa, desarrollo sostenible y vanguardia tecnológica para las organizaciones contemporáneas.",
+  "duracion_horas": 12.0,
+  "video": {
+    "titulo": "Tendencias y Tecnologías Emergentes en la Gestión Empresarial",
+    "url": "",
+    "enlace": "",
+    "referencia": "Instituto Politécnico Nacional (ESCOM - IPN). Academia de Ciencias Sociales e Inglés."
+  },
+  "introduccion": [
+    "La gestión empresarial moderna se desarrolla en un contexto dinámico y altamente interconectado, donde la certeza jurídica, la responsabilidad social, la sustentabilidad ecológica y la transformación digital se han convertido en pilares estratégicos para la competitividad y permanencia de las organizaciones.",
+    "A lo largo de esta quinta unidad temática se abordan las leyes y tipos de sociedades mercantiles en México, los principios de responsabilidad social empresarial (RSE) y sustentabilidad frente a los grupos de interés (stakeholders), el desarrollo de competencias digitales profesionales (learnability, teamability, networking, adaptabilidad) y la integración de tecnologías emergentes tales como inteligencia artificial, computación en la nube, Internet de las cosas (IoT), análisis de datos y blockchain."
+  ],
+  "recorrido": "Explorarás desde los fundamentos del marco legal y fiscal corporativo en México, hasta las prácticas de sostenibilidad y el impacto transformador de las tecnologías digitales emergentes en la gestión organizacional.",
+  "competencias": [
+    "Aplica los aspectos legales y sus habilidades digitales con base en las tendencias y tecnologías digitales para la gestión estratégica y ética de empresas de base tecnológica.",
+    "Formula estrategias de responsabilidad social y desarrollo sustentable equilibrando los resultados económicos con el bienestar social y el cuidado ambiental."
+  ],
+  "temas": [
+    {
+      "numero": "5.1",
+      "nombre": "Aspectos Legales de la Empresa",
+      "sintesis": "Marco jurídico de la empresa, personalidad jurídica, tipos de sociedades mercantiles en México, formalización, obligaciones fiscales ante el SAT, normas laborales, propiedad intelectual y contratos mercantiles.",
+      "url": "unidades/unidad-05/temas/tema-05-01.html",
+      "actividad": {
+        "nombre": "Actividad formativa 5.1",
+        "url": "unidades/unidad-05/actividades/actividad-5-1.html"
+      }
+    },
+    {
+      "numero": "5.2",
+      "nombre": "Responsabilidad Social y Sustentabilidad",
+      "sintesis": "Compromiso ético corporativo, dimensiones económica, social y ambiental de la RSE, gestión de stakeholders, principios de sustentabilidad (Informe Brundtland), eco-estrategias y prevención del greenwashing.",
+      "url": "unidades/unidad-05/temas/tema-05-02.html",
+      "actividad": {
+        "nombre": "Actividad formativa 5.2",
+        "url": "unidades/unidad-05/actividades/actividad-5-2.html"
+      }
+    },
+    {
+      "numero": "5.3",
+      "nombre": "Habilidades Digitales",
+      "sintesis": "Concepto y alcance de las competencias digitales, alfabetización informática, seguridad digital, learnability, teamability, networking profesional, adaptabilidad y uso crítico y responsable de la inteligencia artificial.",
+      "url": "unidades/unidad-05/temas/tema-05-03.html",
+      "actividad": {
+        "nombre": "Actividad formativa 5.3",
+        "url": "unidades/unidad-05/actividades/actividad-5-3.html"
+      }
+    },
+    {
+      "numero": "5.4",
+      "nombre": "Tecnologías y Tendencias Digitales",
+      "sintesis": "Herramientas digitales clave: inteligencia artificial, computación en la nube (IaaS, PaaS, SaaS), IoT, Big Data y Business Intelligence, automatización, comercio electrónico, ciberseguridad, blockchain y modelos de trabajo híbrido.",
+      "url": "unidades/unidad-05/temas/tema-05-04.html",
+      "actividad": {
+        "nombre": "Actividad formativa 5.4",
+        "url": "unidades/unidad-05/actividades/actividad-5-4.html"
+      }
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Caso Integrador: Transformación Digital Ética, Legal y Sustentable",
+    "descripcion": "Resolución de una situación empresarial compleja que exige diseñar una propuesta integral de formalización legal, modelo de sustentabilidad corporativa y adopción estratégica de tecnologías emergentes.",
+    "url": "unidades/unidad-05/actividades/actividad-final.html"
+  }
+}

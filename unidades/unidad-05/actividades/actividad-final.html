@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caso Integrador · Unidad V | Gestión Empresarial</title>
+  <meta name="description" content="Caso práctico integrador y toma de decisiones gerenciales de la Unidad V: Tendencias en la gestión empresarial (ESCOM - IPN).">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../../assets/css/actividad.css">
+
+  <link rel="icon" type="image/png" href="../../../assets/img/ESCOMB.png">
+  <link rel="shortcut icon" type="image/png" href="../../../assets/img/ESCOMB.png">
+</head>
+
+<body class="u-body" data-root="../../../" data-unidad="unidad-05">
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <nav class="u-breadcrumb" aria-label="Ruta de navegación">
+      <a href="../../../index.html">Inicio</a>
+      <span aria-hidden="true">/</span>
+      <a href="../../../unidades.html">Unidades</a>
+      <span aria-hidden="true">/</span>
+      <a href="../index.html">Unidad V</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Caso Integrador</span>
+    </nav>
+
+    <header class="a-card a-head" style="margin-bottom: 24px;">
+      <div class="a-head__top">
+        <span class="a-badge"><i class="fas fa-flask"></i> Caso Integrador y Toma de Decisiones</span>
+        <span class="a-head__where">Unidad V · ESCOM - IPN</span>
+      </div>
+      <p class="u-eyebrow">Evaluación Práctica Integradora · Unidad 5</p>
+      <h1 class="a-title">Transformación Digital Ética, Legal y Sustentable</h1>
+      <p class="a-purpose">
+        Asume el rol de Director de Operaciones y Transformación Digital (COO) para una empresa tecnológica mexicana en fase de expansión. Diseña un dictamen gerencial integral que resuelva la formalización societaria y de propiedad intelectual, un modelo de sustentabilidad corporativa auditable (previniendo el greenwashing) y la adopción estratégica de tecnologías emergentes (Cloud, BI e IA responsable).
+      </p>
+      <ul class="a-chips" aria-label="Datos de la actividad">
+        <li class="u-chip u-chip--soft"><i class="fas fa-building" aria-hidden="true"></i> Empresa de Innovación Tecnológica</li>
+        <li class="u-chip u-chip--soft"><i class="fas fa-scale-balanced" aria-hidden="true"></i> Marco Jurídico y Fiscal</li>
+        <li class="u-chip u-chip--soft"><i class="fas fa-leaf" aria-hidden="true"></i> Sustentabilidad y RSE</li>
+        <li class="u-chip u-chip--accent"><i class="fas fa-award" aria-hidden="true"></i> Portafolio de Evidencias</li>
+      </ul>
+    </header>
+
+    <div class="a-layout">
+      <div class="a-main">
+        <!-- Sección 1: Situación Organizacional -->
+        <section class="a-card">
+          <h2 class="a-card__title"><i class="fas fa-briefcase" aria-hidden="true"></i> Situación Organizacional: "Kopix Cloud Systems"</h2>
+          <p>
+            <strong>"Kopix Cloud Systems"</strong> es una empresa mexicana fundada por tres egresados de la Escuela Superior de Cómputo (ESCOM) que ofrece soluciones de telemetría IoT y analítica predictiva en la nube para el sector logístico y de distribución. Tras 24 meses de operación exitosa, ha recibido una oferta de inversión de capital de riesgo por \$5 millones de pesos mexicanos, pero la auditoría de debida diligencia (<em>due diligence</em>) detectó las siguientes áreas críticas:
+          </p>
+          <ul style="margin: 14px 0 14px 24px; line-height: 1.6;">
+            <li><strong>Régimen societario y propiedad intelectual:</strong> Operan como personas físicas con actividad empresarial de manera separada; el código fuente del software no está registrado ante el INDAUTOR y la marca comercial "Kopix" no cuenta con registro ante el IMPI.</li>
+            <li><strong>Cumplimiento fiscal y laboral:</strong> No cuentan con contratos de trabajo formales para sus 12 desarrolladores, faltan inscripciones al IMSS y la facturación electrónica (CFDI) carece de una planeación fiscal estructurada.</li>
+            <li><strong>Sustentabilidad y grupos de interés:</strong> Desean publicitarse como una "empresa verde" por almacenar datos en la nube, pero no cuentan con auditorías energéticas, métricas de huella de carbono ni políticas de reciclaje para sus residuos electrónicos (e-waste), lo que podría configurar <em>greenwashing</em>.</li>
+            <li><strong>Cultura y habilidades digitales:</strong> Los colaboradores muestran resistencia al uso de herramientas corporativas integradas (Slack, Trello, suites colaborativas), prefiriendo mensajería informal sin respaldo, y existe desconfianza en el uso ético de herramientas de IA generativa.</li>
+          </ul>
+        </section>
+
+        <!-- Sección 2: Simulador Interactivo de Toma de Decisiones -->
+        <section class="a-card" id="simulador-caso">
+          <h2 class="a-card__title"><i class="fas fa-sliders" aria-hidden="true"></i> Simulador de Decisiones Estratégicas</h2>
+          <p style="margin-bottom: 16px;">Selecciona la mejor alternativa gerencial para cada desafío de la organización y haz clic en <strong>Validar dictamen</strong> para evaluar la viabilidad de tu propuesta:</p>
+
+          <form id="form-caso-u5" style="display: grid; gap: 18px;">
+            <div style="background: var(--surface, #1e293b); padding: 16px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1);">
+              <label for="caso-sociedad" style="display: block; font-weight: 700; margin-bottom: 8px;">
+                1. ¿Qué estructura societaria y estrategia de intangibles es la óptima para formalizar a los 3 socios y recibir la inversión de capital?
+              </label>
+              <select id="caso-sociedad" style="width: 100%; padding: 10px; border-radius: 6px; background: #0f172a; color: #fff; border: 1px solid rgba(255,255,255,0.2);">
+                <option value="">-- Selecciona una opción --</option>
+                <option value="sa">Constituir una Sociedad Anónima (S.A.) ante fedatario público, inscribirla en el Registro Público de Comercio, registrar la marca en el IMPI y el software en INDAUTOR.</option>
+                <option value="pf">Continuar como personas físicas para no pagar impuestos corporativos y usar contratos privados sin registro público.</option>
+                <option value="coop">Constituir una sociedad cooperativa de consumidores sin división del capital accionario.</option>
+              </select>
+            </div>
+
+            <div style="background: var(--surface, #1e293b); padding: 16px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1);">
+              <label for="caso-sustentabilidad" style="display: block; font-weight: 700; margin-bottom: 8px;">
+                2. ¿Cómo diseñar la estrategia de sustentabilidad y RSE evitando incurrir en prácticas de greenwashing?
+              </label>
+              <select id="caso-sustentabilidad" style="width: 100%; padding: 10px; border-radius: 6px; background: #0f172a; color: #fff; border: 1px solid rgba(255,255,255,0.2);">
+                <option value="">-- Selecciona una opción --</option>
+                <option value="gw">Lanzar una campaña publicitaria en redes sociales autodenominándose 'eco-friendly' sin cambiar procesos internos.</option>
+                <option value="rse_real">Implementar la tríada Triple Bottom Line: auditoría energética en centros de datos, reciclaje de e-waste con proveedores certificados, salarios dignos y métricas transparentes auditables.</option>
+                <option value="ignorar">Enfocarse solo en las utilidades inmediatas ignorando los impactos ambientales y sociales.</option>
+              </select>
+            </div>
+
+            <div style="background: var(--surface, #1e293b); padding: 16px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1);">
+              <label for="caso-tecnologia" style="display: block; font-weight: 700; margin-bottom: 8px;">
+                3. ¿Qué modelo tecnológico y de competencias digitales debe adoptarse para escalar la operación?
+              </label>
+              <select id="caso-tecnologia" style="width: 100%; padding: 10px; border-radius: 6px; background: #0f172a; color: #fff; border: 1px solid rgba(255,255,255,0.2);">
+                <option value="">-- Selecciona una opción --</option>
+                <option value="tech_optima">Arquitectura en nube elástica (PaaS/SaaS) con dashboards de BI, ciberseguridad con 2FA y programa de formación continua en learnability, teamability y uso ético de IA.</option>
+                <option value="onprem">Comprar servidores físicos obsoletos e imponer un esquema presencial rígido sin capacitación en seguridad.</option>
+                <option value="desorden">Permitir que cada colaborador use herramientas no homologadas sin políticas de respaldo ni confidencialidad.</option>
+              </select>
+            </div>
+
+            <div>
+              <button type="submit" class="u-btn u-btn--primary" style="width: 100%; justify-content: center; font-size: 1rem; padding: 12px;">
+                <i class="fas fa-check-double" aria-hidden="true"></i> Validar Dictamen Gerencial
+              </button>
+            </div>
+          </form>
+
+          <div id="feedback-caso" style="display: none; margin-top: 18px; padding: 16px; border-radius: 6px;"></div>
+        </section>
+
+        <!-- Sección 3: Actividades a Desarrollar para el Portafolio -->
+        <section class="a-card">
+          <h2 class="a-card__title"><i class="fas fa-file-lines" aria-hidden="true"></i> Guía para el Documento Ejecutivo</h2>
+          <p>Para complementar tu portafolio de evidencias de la unidad, elabora un documento ejecutivo (PDF de 3 a 5 páginas) que contenga:</p>
+          <ol class="a-steps">
+            <li><strong>Dictamen Jurídico-Societario:</strong> Justificación de la elección de la Sociedad Anónima (S.A.) frente a la S.A.S. para recibir financiamiento de riesgo, especificando el registro de marcas ante el IMPI y del código fuente ante el INDAUTOR.</li>
+            <li><strong>Plan Integral de Sustentabilidad y RSE:</strong> Definición de compromisos en las tres dimensiones (económica, social y ambiental), matriz de stakeholders prioritarios y protocolo de auditoría para prevenir el greenwashing.</li>
+            <li><strong>Hoja de Ruta de Transformación Digital:</strong> Adopción de servicios en la nube con escalabilidad bajo demanda, implementación de dashboards de Business Intelligence y programa de desarrollo de competencias (learnability, teamability y uso crítico de IA).</li>
+          </ol>
+        </section>
+      </div>
+
+      <aside class="a-side">
+        <div class="a-card">
+          <h3 class="a-card__title">Evidencia de Aprendizaje</h3>
+          <p style="font-size: 0.88rem; margin-bottom: 12px;">Elabora tu reporte conforme a la rúbrica oficial de la unidad y los lineamientos del profesor titular.</p>
+          <a class="u-btn u-btn--outline" style="width: 100%; justify-content: center; margin-bottom: 10px;" href="../index.html">
+            <i class="fas fa-arrow-left" aria-hidden="true"></i> Volver a Unidad V
+          </a>
+          <a class="u-btn u-btn--primary" style="width: 100%; justify-content: center;" href="../../../actividad-final.html">
+            <i class="fas fa-flag-checkered" aria-hidden="true"></i> Evaluación Final General
+          </a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Gestión Empresarial · Polilibro académico · ESCOM - IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="../../../assets/js/data-manager.js"></script>
+  <script src="../../../assets/js/componentes.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const form = document.getElementById('form-caso-u5');
+      const feedback = document.getElementById('feedback-caso');
+
+      if (form && feedback) {
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const s1 = document.getElementById('caso-sociedad').value;
+          const s2 = document.getElementById('caso-sustentabilidad').value;
+          const s3 = document.getElementById('caso-tecnologia').value;
+
+          if (!s1 || !s2 || !s3) {
+            feedback.style.display = 'block';
+            feedback.style.background = 'rgba(239, 68, 68, 0.15)';
+            feedback.style.border = '1px solid #ef4444';
+            feedback.style.color = '#fca5a5';
+            feedback.innerHTML = '<i class="fas fa-triangle-exclamation"></i> <strong>Por favor responde las 3 decisiones estratégicas antes de validar.</strong>';
+            return;
+          }
+
+          let correctas = 0;
+          if (s1 === 'sa') correctas++;
+          if (s2 === 'rse_real') correctas++;
+          if (s3 === 'tech_optima') correctas++;
+
+          feedback.style.display = 'block';
+          if (correctas === 3) {
+            feedback.style.background = 'rgba(34, 197, 94, 0.15)';
+            feedback.style.border = '1px solid #22c55e';
+            feedback.style.color = '#86efac';
+            feedback.innerHTML = `
+              <div style="display: flex; gap: 12px; align-items: flex-start;">
+                <i class="fas fa-circle-check fa-2x" style="color: #22c55e;"></i>
+                <div>
+                  <h4 style="margin: 0 0 6px; color: #22c55e;">¡Dictamen Estratégico Sobresaliente! (3/3 Decisiones Acertadas)</h4>
+                  <p style="margin: 0; font-size: 0.92rem; line-height: 1.5; color: #dcfce7;">
+                    • <strong>Estructura legal y PI:</strong> La Sociedad Anónima (S.A.) otorga la estructura idónea de acciones transferibles para recibir inyección de capital de riesgo, mientras que el registro ante IMPI e INDAUTOR blinda los activos intangibles de la empresa.<br>
+                    • <strong>Sustentabilidad real:</strong> Al aplicar auditorías y métricas verificables en las tres dimensiones (económica, social y ambiental), la empresa previene el greenwashing y fortalece su prestigio institucional.<br>
+                    • <strong>Transformación digital:</strong> La combinación de Cloud elástica, analítica de BI y fortalecimiento de habilidades digitales prepara a la empresa para un escalamiento ágil y sostenible.
+                  </p>
+                </div>
+              </div>
+            `;
+          } else {
+            feedback.style.background = 'rgba(234, 179, 8, 0.15)';
+            feedback.style.border = '1px solid #eab308';
+            feedback.style.color = '#fde047';
+            feedback.innerHTML = `
+              <div style="display: flex; gap: 12px; align-items: flex-start;">
+                <i class="fas fa-triangle-exclamation fa-2x" style="color: #eab308;"></i>
+                <div>
+                  <h4 style="margin: 0 0 6px; color: #eab308;">Dictamen Parcialmente Acertado (${correctas}/3 decisiones óptimas)</h4>
+                  <p style="margin: 0; font-size: 0.92rem; line-height: 1.5; color: #fef08a;">
+                    Revisa las alternativas seleccionadas. Recuerda que para recibir inversión formal y proteger software es vital una sociedad mercantil formalizada (S.A.) con registro en IMPI e INDAUTOR; la sustentabilidad debe evitar el greenwashing mediante auditorías transparentes; y la infraestructura tecnológica debe ser escalable en la nube con formación continua.
+                  </p>
+                </div>
+              </div>
+            `;
+          }
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>

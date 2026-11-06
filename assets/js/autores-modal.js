@@ -9,7 +9,7 @@
 // ==========================================================================
 (function () {
     const ID_VENTANA = 'autores';
-    const RUTA_DATOS = 'assets/data/autores.json?v=20261014_autores';
+    const RUTA_DATOS = 'assets/data/autores.json?v=20261102_autores_order';
     const { el, icono } = VentanaModal;
 
     function nombreCompleto(persona) {
@@ -79,6 +79,9 @@
 
         const info = el('div', 'collaborator-info');
         info.append(el('h4', '', persona.nombre));
+        if (persona.rol) {
+            info.append(el('p', 'role', persona.rol));
+        }
         if (persona.correo) {
             info.append(el('p', 'email', persona.correo));
         }

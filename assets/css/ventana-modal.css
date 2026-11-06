@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    COMPONENTE BASE · VENTANA EMERGENTE (.vm-*)
    Estructura común de todas las ventanas emergentes (Autores, Glosario, …):
    fondo, caja, encabezado, botón de cerrar, pestañas y área con scroll.
@@ -8,7 +8,7 @@
 :root {
   --vm-ancho-max: 920px;
   --vm-alto-max: 88vh;
-  --vm-overlay: color-mix(in srgb, var(--shadow-color) 70%, transparent);
+  --vm-overlay: color-mix(in srgb, var(--bg-deep) 85%, transparent);
   --vm-relleno: 24px; /* relleno interno del área con scroll (lo usan los contenidos) */
   --vm-capa: 2000; /* por encima de la barra de navegación (z-index 1000) */
 }
@@ -27,6 +27,8 @@ body.vm-abierta {
   justify-content: center;
   padding: 16px;
   background: var(--vm-overlay);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   opacity: 0;
   transition: opacity .2s ease;
 }
@@ -70,8 +72,8 @@ body.vm-abierta {
 
 .vm__close {
   flex-shrink: 0;
-  width: 38px;
-  height: 38px;
+  width: 44px;
+  height: 44px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +81,7 @@ body.vm-abierta {
   color: var(--text-light);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-pill);
-  font-size: 1rem;
+  font-size: 1.1rem;
   cursor: pointer;
   transition: background .2s ease;
 }
@@ -96,6 +98,10 @@ body.vm-abierta {
   padding: 0 24px;
   background: var(--bg-section);
   border-bottom: 1px solid var(--border-color);
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
 }
 
 .vm__tab {
@@ -108,6 +114,11 @@ body.vm-abierta {
   font-size: .9rem;
   font-weight: 500;
   cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .vm__tab:hover {

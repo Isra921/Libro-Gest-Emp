@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes subdisciplinas de la Inteligencia Artificial (IA) se encarga primordialmente de permitir que los sistemas computacionales comprendan, interpreten y generen lenguaje humano?",
+    "options": [
+      "Procesamiento de lenguaje natural (NLP)",
+      "Aprendizaje automático básico exclusivamente numérico",
+      "Visión por computadora",
+      "Robótica mecatrónica estructural"
+    ],
+    "answer": "Procesamiento de lenguaje natural (NLP)",
+    "explicacion": "El NLP permite a las computadoras procesar el lenguaje natural hablado o escrito para alimentar chatbots, asistentes virtuales, motores de traducción y análisis de sentimientos."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "En el ecosistema de la Inteligencia Artificial, ¿qué define centralmente a la visión por computadora?",
+    "options": [
+      "La interpretación algorítmica de imágenes y secuencias de video para la toma de decisiones automatizada",
+      "Algoritmos que mejoran de forma exclusiva a través de hojas de cálculo",
+      "La transcripción fonética de señales sonoras en texto",
+      "La interacción verbal dialogada entre humanos y computadoras"
+    ],
+    "answer": "La interpretación algorítmica de imágenes y secuencias de video para la toma de decisiones automatizada",
+    "explicacion": "La visión artificial capacita a las máquinas para extraer información visual útil, automatizar inspección de calidad en manufactura, reconocimiento facial y vehículos autónomos."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Cuál es uno de los principales impactos directos de la Inteligencia Artificial en la productividad y eficiencia empresarial?",
+    "options": [
+      "Reducción sustancial de costos operativos y aumento de la eficiencia mediante la automatización inteligente de tareas repetitivas",
+      "Incremento innecesario de burocracia y errores manuales de captura",
+      "Disminución forzosa en la toma de decisiones basada en datos empíricos",
+      "Bloqueo a la personalización de la experiencia de servicio al cliente"
+    ],
+    "answer": "Reducción sustancial de costos operativos y aumento de la eficiencia mediante la automatización inteligente de tareas repetitivas",
+    "explicacion": "Al automatizar procesos rutinarios y procesar grandes volúmenes de datos en milisegundos, la IA libera tiempo del personal calificado para tareas de alto valor estratégico."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los componentes nucleares de la Inteligencia de Negocios (Business Intelligence - BI) se encarga de la visualización dinámica y amigable de datos procesados para los tomadores de decisiones?",
+    "options": [
+      "Informes y dashboards interactivos",
+      "Almacenamiento en cintas magnéticas físicas",
+      "Herramientas de minería de datos a bajo nivel de consola",
+      "Técnicas de extracción física de hardware"
+    ],
+    "answer": "Informes y dashboards interactivos",
+    "explicacion": "Los dashboards sintetizan indicadores clave mediante gráficos interactivos y alertas visuales que facilitan una toma de decisiones informada y ágil."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿En qué área funcional de la empresa se aplica principalmente la Inteligencia de Negocios para la optimización de procesos de abastecimiento, ruteo y control de inventarios?",
+    "options": [
+      "Operaciones y logística",
+      "Marketing y publicidad",
+      "Relaciones públicas institucionales",
+      "Finanzas y crédito bancario"
+    ],
+    "answer": "Operaciones y logística",
+    "explicacion": "En el área operativa, el análisis predictivo de BI balancea existencias, reduce cuellos de botella en la cadena de suministro y maximiza la eficiencia en almacenes."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿A qué ventaja clave de la Inteligencia de Negocios (BI) corresponde la detección oportuna de patrones de consumo emergentes y nichos desatendidos?",
+    "options": [
+      "Identificación sistemática de oportunidades de negocio e innovación comercial",
+      "Aumento en el consumo energético de los servidores locales",
+      "Sustitución inmediata de los canales de atención física",
+      "Reducción drástica del ancho de banda de red"
+    ],
+    "answer": "Identificación sistemática de oportunidades de negocio e innovación comercial",
+    "explicacion": "Al revelar tendencias ocultas en el comportamiento de los clientes, BI permite a la empresa adelantarse a la competencia con nuevos productos o servicios."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de las siguientes ventajas de la tecnología Blockchain se deriva directamente de la eliminación de intermediarios financieros o terceros de confianza?",
+    "options": [
+      "Reducción sustancial de costos de transacción y comisiones operativas",
+      "Aumento indiscriminado en los tiempos de compensación bancaria",
+      "Completa centralización de los registros contables en una sola entidad",
+      "Dependencia total de servidores físicos locales"
+    ],
+    "answer": "Reducción sustancial de costos de transacción y comisiones operativas",
+    "explicacion": "Los contratos inteligentes y la validación descentralizada permiten transacciones peer-to-peer fiables sin el cobro de comisiones abusivas por intermediación."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "¿Cuál representa uno de los retos o desafíos técnicos más significativos de las redes Blockchain públicas cuando se busca procesar millones de transacciones por segundo?",
+    "options": [
+      "Escalabilidad y rendimiento transaccional",
+      "Inexistencia de criptografía moderna",
+      "Exceso de intermediarios bancarios",
+      "Imposibilidad de guardar datos en bases digitales"
+    ],
+    "answer": "Escalabilidad y rendimiento transaccional",
+    "explicacion": "Garantizar el consenso distribuido y la seguridad criptográfica genera cuellos de botella en el rendimiento transaccional por segundo frente a pasarelas de pago centralizadas."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Qué modelo de servicio en la computación en la nube proporciona a los desarrolladores de software un entorno completo (sistemas operativos, lenguajes, frameworks) para codificar, probar y desplegar aplicaciones sin gestionar la infraestructura física subyacente?",
+    "options": [
+      "PaaS (Plataforma como Servicio)",
+      "IaaS (Infraestructura como Servicio)",
+      "SaaS (Software como Servicio)",
+      "DaaS (Datos como Servicio)"
+    ],
+    "answer": "PaaS (Plataforma como Servicio)",
+    "explicacion": "PaaS abstrae la administración de servidores físicos y redes, ofreciendo a los programadores el runtime y herramientas para construir software ágilmente."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "¿Qué beneficio primordial de la computación en la nube permite a una empresa aprovisionar o liberar capacidad de cómputo y almacenamiento según las fluctuaciones de la demanda del mercado?",
+    "options": [
+      "Escalabilidad elástica y flexibilidad operativa",
+      "Costos fijos no ajustables a lo largo del tiempo",
+      "Mantenimiento manual de componentes de hardware",
+      "Restricción de acceso a ubicaciones físicas autorizadas únicamente"
+    ],
+    "answer": "Escalabilidad elástica y flexibilidad operativa",
+    "explicacion": "La elasticidad de la nube permite crecer en picos de demanda (como Hot Sale o Cyber Monday) y reducir costos cuando disminuye el tráfico operativo."
+  },
+  {
+    "id": 11,
+    "type": "verdadero_falso",
+    "statement": "El Internet de las Cosas (IoT) aplicado a la gestión empresarial permite monitorear el estado de la maquinaria, rastrear mercancías en tiempo real y optimizar la cadena de valor mediante sensores interconectados.",
+    "answer": true,
+    "explicacion": "IoT habilita el mantenimiento predictivo, la trazabilidad de insumos y el control automatizado de variables ambientales e industriales."
+  },
+  {
+    "id": 12,
+    "type": "completar_oracion",
+    "question": "La transformación digital integral trasciende la adquisición de equipos informáticos; requiere reinventar los _____ de trabajo, capacitar a las _____ y consolidar una cultura organizacional orientada a la innovación.",
+    "wordBank": [
+      "procesos",
+      "personas",
+      "servidores",
+      "edificios"
+    ],
+    "answer": [
+      "procesos",
+      "personas"
+    ],
+    "explicacion": "El factor humano y la adaptación metodológica son el verdadero motor de la transformación digital en cualquier institución."
+  }
+]

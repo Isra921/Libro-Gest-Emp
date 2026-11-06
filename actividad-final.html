@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad Final Integradora | Gestión Empresarial | ESCOM - IPN</title>
+  <meta name="description" content="Evaluación final integradora del polilibro de Gestión Empresarial de la Escuela Superior de Cómputo (ESCOM - IPN). Articula los conocimientos de las cinco unidades temáticas.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/comun.css">
+  <link rel="stylesheet" href="assets/css/unidades-base.css">
+  <link rel="stylesheet" href="assets/css/actividad.css">
+
+  <link rel="icon" type="image/png" href="assets/img/ESCOMB.png">
+  <link rel="shortcut icon" type="image/png" href="assets/img/ESCOMB.png">
+
+  <style>
+    /* Estilos específicos de la Evaluación Integradora Global */
+    .eval-shell {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    .eval-map {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 16px 0;
+    }
+
+    .eval-map-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background: var(--surface, #1e293b);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.95rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .eval-map-btn:hover {
+      border-color: var(--primary, #38bdf8);
+      transform: translateY(-2px);
+    }
+
+    .eval-map-btn.is-answered {
+      background: rgba(56, 189, 248, 0.2);
+      border-color: var(--primary, #38bdf8);
+      color: var(--primary, #38bdf8);
+    }
+
+    .eval-map-btn.is-current {
+      background: var(--primary, #38bdf8);
+      border-color: var(--primary, #38bdf8);
+      color: #0f172a;
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.5);
+    }
+
+    .eval-pending-banner {
+      background: rgba(234, 179, 8, 0.1);
+      border-left: 4px solid #eab308;
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin: 16px 0;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      color: #fef08a;
+    }
+
+    .eval-pending-banner i {
+      color: #eab308;
+      font-size: 1.25rem;
+      margin-top: 2px;
+    }
+
+    .eval-option-item {
+      list-style: none;
+      margin-bottom: 12px;
+      background: var(--surface, #1e293b);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .eval-option-item:hover {
+      border-color: rgba(56, 189, 248, 0.5);
+      background: rgba(56, 189, 248, 0.05);
+    }
+
+    .eval-option-item.is-selected {
+      border-color: var(--primary, #38bdf8);
+      background: rgba(56, 189, 248, 0.12);
+      box-shadow: 0 0 0 1px var(--primary, #38bdf8);
+    }
+
+    .eval-option-item input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .eval-option-label {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 14px 18px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .eval-option-letter {
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: #fff;
+    }
+
+    .eval-option-item.is-selected .eval-option-letter {
+      background: var(--primary, #38bdf8);
+      color: #0f172a;
+    }
+
+    .eval-option-text {
+      flex: 1;
+      line-height: 1.5;
+      color: var(--text-light, #f1f5f9);
+    }
+
+    .eval-progress-wrap {
+      margin: 16px 0;
+    }
+
+    .eval-progress-bar-bg {
+      height: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .eval-progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary, #38bdf8), #22c55e);
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    /* Resultados */
+    .eval-score-hero {
+      text-align: center;
+      padding: 32px 20px;
+      background: var(--surface, #1e293b);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      margin-bottom: 24px;
+    }
+
+    .eval-score-num {
+      font-size: clamp(3rem, 6vw, 4.5rem);
+      font-weight: 800;
+      color: var(--primary, #38bdf8);
+      line-height: 1;
+      margin: 10px 0;
+    }
+
+    .eval-unit-scores {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+
+    .eval-unit-score-card {
+      background: var(--surface, #1e293b);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    .eval-unit-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .eval-unit-name {
+      margin: 0;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .eval-unit-badge {
+      font-size: 0.8rem;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+
+    .eval-unit-badge.is-good {
+      background: rgba(34, 197, 94, 0.2);
+      color: #86efac;
+    }
+
+    .eval-unit-badge.is-warning {
+      background: rgba(234, 179, 8, 0.2);
+      color: #fde047;
+    }
+
+    .eval-unit-badge.is-pending {
+      background: rgba(148, 163, 184, 0.2);
+      color: #cbd5e1;
+    }
+
+    .eval-unit-meter {
+      height: 6px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .eval-unit-fill {
+      height: 100%;
+      background: var(--primary, #38bdf8);
+    }
+
+    .eval-unit-pending-msg {
+      font-size: 0.82rem;
+      color: #94a3b8;
+      line-height: 1.4;
+      margin: 6px 0 0;
+    }
+
+    .eval-rev-item {
+      background: var(--surface, #1e293b);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 14px;
+    }
+
+    .eval-rev-item.is-correct {
+      border-left: 4px solid #22c55e;
+    }
+
+    .eval-rev-item.is-wrong {
+      border-left: 4px solid #ef4444;
+    }
+
+    .eval-rev-head {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 0.85rem;
+      color: var(--text-muted, #94a3b8);
+      margin-bottom: 8px;
+    }
+
+    .eval-rev-status.is-correct {
+      color: #4ade80;
+      font-weight: 700;
+    }
+
+    .eval-rev-status.is-wrong {
+      color: #f87171;
+      font-weight: 700;
+    }
+
+    .eval-rev-feedback {
+      background: rgba(255, 255, 255, 0.04);
+      padding: 12px;
+      border-radius: 6px;
+      margin-top: 10px;
+      font-size: 0.9rem;
+      line-height: 1.45;
+      color: #cbd5e1;
+    }
+
+    .text-success { color: #4ade80; font-weight: 600; }
+    .text-danger { color: #f87171; font-weight: 600; }
+  </style>
+</head>
+
+<body class="u-body" data-root="">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <div class="eval-shell">
+      <nav class="u-breadcrumb" aria-label="Ruta de navegación">
+        <a href="index.html">Inicio</a>
+        <span aria-hidden="true">/</span>
+        <a href="unidades.html">Unidades</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">Actividad Final Integradora</span>
+      </nav>
+
+      <!-- Encabezado institucional -->
+      <header class="a-card a-head" style="margin-bottom: 24px;">
+        <div class="a-head__top">
+          <span class="a-badge"><i class="fas fa-award"></i> Evaluación Integradora General</span>
+          <span class="a-head__where">ESCOM · IPN · Gestión Empresarial</span>
+        </div>
+        <h1 class="a-title">Actividad Final Integradora del Polilibro</h1>
+        <p class="a-purpose">
+          Instrumento evaluativo integrador que valora la articulación de conocimientos adquiridos en las cinco unidades temáticas: fundamentos de gestión, gestión estratégica (en proceso de integración), gestión operativa, capital humano y calidad, y tendencias legales y tecnológicas contemporáneas.
+        </p>
+        <ul class="a-chips" aria-label="Características de la evaluación">
+          <li class="u-chip"><i class="fas fa-layer-group" aria-hidden="true"></i> 5 Unidades Académicas</li>
+          <li class="u-chip"><i class="fas fa-list-check" aria-hidden="true"></i> Reactivos de Aplicación</li>
+          <li class="u-chip"><i class="fas fa-clock" aria-hidden="true"></i> 30 min aprox.</li>
+          <li class="u-chip"><i class="fas fa-rotate" aria-hidden="true"></i> Intentos Ilimitados</li>
+        </ul>
+      </header>
+
+      <!-- Instrucciones de aplicación -->
+      <section class="a-card" style="margin-bottom: 24px;">
+        <h2 class="a-card__title"><i class="fas fa-circle-info" aria-hidden="true"></i> Instrucciones de la prueba</h2>
+        <ol class="a-steps">
+          <li>Lee con atención cada reactivo de situación o problema gerencial y selecciona la alternativa adecuada.</li>
+          <li>Puedes avanzar o retroceder libremente usando los botones <strong>Anterior</strong> y <strong>Siguiente</strong>, o seleccionar directamente cualquier número en el mapa de preguntas.</li>
+          <li>Tus respuestas se conservan en memoria: regresar a una pregunta previa no borrará tu selección.</li>
+          <li>Al terminar, oprime <strong>Finalizar y evaluar actividad</strong> para obtener tu resultado global, el desglose analítico de dominio por unidad y la retroalimentación formativa detallada.</li>
+        </ol>
+
+        <!-- Banner de consideración: Unidad 2 -->
+        <div class="eval-pending-banner">
+          <i class="fas fa-circle-exclamation" aria-hidden="true"></i>
+          <div>
+            <strong>Consideración sobre la Unidad 2 (Gestión estratégica en empresas de innovación):</strong>
+            <p style="margin: 4px 0 0; font-size: 0.88rem; line-height: 1.45;">
+              La Unidad 2 se encuentra actualmente en desarrollo y pendiente de entrega de contenido académico por el equipo asignado (Aranza). La estructura de esta evaluación ya la contempla formalmente y habilitará sus reactivos una vez integrados, sin afectar la validez ni el cálculo de los módulos activos.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contenedor dinámico de la evaluación -->
+      <div id="eval-cargando" style="text-align: center; padding: 40px;">
+        <p class="u-loading"><i class="fas fa-spinner fa-spin"></i> Cargando instrumento de evaluación integradora…</p>
+      </div>
+
+      <div id="eval-error" hidden style="background: rgba(239,68,68,0.15); border: 1px solid #ef4444; color: #fca5a5; padding: 20px; border-radius: 8px; text-align: center;">
+        <i class="fas fa-triangle-exclamation fa-2x"></i>
+        <p class="eval-error-msg" style="margin-top: 10px;">No fue posible cargar el banco de preguntas.</p>
+      </div>
+
+      <div id="eval-contenedor" hidden>
+        <!-- Panel de Pregunta Actual -->
+        <section class="a-card a-exercise" id="eval-panel-pregunta">
+          <!-- Barra superior de estado -->
+          <div class="a-exercise__bar" style="margin-bottom: 16px;">
+            <div>
+              <span class="a-badge" id="eval-badge-unidad" style="font-size: 0.75rem; text-transform: uppercase;">Unidad I</span>
+              <h3 style="margin: 6px 0 0; font-size: 1.15rem;" id="eval-num-pregunta">Pregunta 1 de 13</h3>
+            </div>
+            <div id="eval-texto-progreso" style="font-size: 0.85rem; color: var(--text-muted, #94a3b8);">0 respondidas</div>
+          </div>
+
+          <!-- Barra de progreso visual -->
+          <div class="eval-progress-wrap">
+            <div class="eval-progress-bar-bg">
+              <div class="eval-progress-bar-fill" id="eval-barra-progreso"></div>
+            </div>
+          </div>
+
+          <!-- Mapa de preguntas -->
+          <div style="margin: 12px 0 20px;">
+            <p style="font-size: 0.85rem; margin-bottom: 8px; color: var(--text-muted, #94a3b8);"><i class="fas fa-map-location-dot"></i> Mapa de reactivos (haz clic para navegar a cualquier pregunta):</p>
+            <div class="eval-map" id="eval-mapa-preguntas"></div>
+          </div>
+
+          <!-- Enunciado de la pregunta -->
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+            <p style="font-size: 1.1rem; line-height: 1.6; margin: 0; font-weight: 600; color: #fff;" id="eval-enunciado">Cargando enunciado…</p>
+          </div>
+
+          <!-- Opciones de respuesta -->
+          <ul class="eval-options-list" id="eval-opciones" style="padding: 0; margin: 0 0 24px;"></ul>
+
+          <!-- Barra de acciones y navegación -->
+          <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.1);">
+            <button type="button" class="u-btn u-btn--outline" id="eval-btn-anterior">
+              <i class="fas fa-arrow-left" aria-hidden="true"></i> Pregunta anterior
+            </button>
+            <div style="display: flex; gap: 10px;">
+              <button type="button" class="u-btn u-btn--primary" id="eval-btn-siguiente">
+                Siguiente pregunta <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </button>
+              <button type="button" class="u-btn" id="eval-btn-finalizar" style="background: #22c55e; color: #0f172a; font-weight: 700;">
+                <i class="fas fa-flag-checkered" aria-hidden="true"></i> Finalizar y evaluar actividad
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Panel de Resultados -->
+        <section class="a-card" id="eval-resultados" hidden>
+          <div class="eval-score-hero">
+            <span class="a-badge"><i class="fas fa-chart-pie"></i> Calificación Final Obtenida</span>
+            <div class="eval-score-num" id="eval-score-porcentaje">0%</div>
+            <p style="font-size: 1.1rem; margin: 0 0 12px; font-weight: 600;" id="eval-score-aciertos">0 de 0 aciertos</p>
+            <p style="max-width: 650px; margin: 0 auto; line-height: 1.5; color: #e2e8f0;" id="eval-score-mensaje"></p>
+            <div style="margin-top: 24px;">
+              <button type="button" class="u-btn u-btn--primary" id="eval-btn-reiniciar">
+                <i class="fas fa-rotate-right" aria-hidden="true"></i> Reiniciar evaluación y reintentar
+              </button>
+            </div>
+          </div>
+
+          <h3 style="margin: 28px 0 12px; font-size: 1.25rem;"><i class="fas fa-chart-column" aria-hidden="true"></i> Desglose de rendimiento por Unidad Temática</h3>
+          <div class="eval-unit-scores" id="eval-desglose-unidades"></div>
+
+          <h3 style="margin: 36px 0 16px; font-size: 1.25rem;"><i class="fas fa-list-check" aria-hidden="true"></i> Revisión detallada de reactivos y retroalimentación</h3>
+          <div id="eval-revision-lista"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Gestión Empresarial · Polilibro académico · ESCOM - IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data-manager.js"></script>
+  <script src="assets/js/componentes.js"></script>
+  <script src="assets/js/unidades-ui.js"></script>
+  <script src="assets/js/paginas/actividad-integradora.js"></script>
+</body>
+
+</html>

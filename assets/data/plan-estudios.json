@@ -5,71 +5,105 @@
   "datos_generales": {
     "institucion": "Instituto Politécnico Nacional",
     "secretaria": "Secretaría Académica — Dirección de Educación Superior",
-    "unidad_academica": "Escuela Superior de Cómputo (ESCOM)",
-    "programa_academico": "Ingeniería en Sistemas Computacionales / Ciencias de Datos / IA",
+    "unidad_academica": "Escuela Superior de Cómputo (ESCOM) / UPIIZ",
+    "programa_academico": "Ingeniería en Sistemas Computacionales",
     "unidad_aprendizaje": "Gestión Empresarial",
-    "semestre": "Semestre por definir",
-    "area_formacion": "Formación Institucional e Interdisciplinaria",
-    "modalidad": "Escolarizada / Mixta",
-    "tipo": "Teórico-Práctica / Obligatoria",
-    "vigencia": "Plan de Estudios Vigente",
-    "creditos_tepic": "TODO",
-    "creditos_satca": "TODO",
-    "horas_teoria_semana": "TODO h",
-    "horas_practica_semana": "TODO h",
-    "horas_teoria_semestre": "TODO h",
-    "horas_practica_semestre": "TODO h",
-    "horas_autonomo_semestre": "TODO h",
-    "horas_totales": "TODO h"
+    "semestre": "VIII Semestre",
+    "area_formacion": "Terminal y de integración",
+    "modalidad": "Escolarizada",
+    "tipo": "Teórica-Práctica / Obligatoria",
+    "vigencia": "Plan de Estudios 2020 (Vigente a partir de Agosto 2023)",
+    "creditos_tepic": "7.5",
+    "creditos_satca": "6.3",
+    "horas_teoria_semana": "3.0 h",
+    "horas_practica_semana": "1.5 h",
+    "horas_teoria_semestre": "54.0 h",
+    "horas_practica_semestre": "27.0 h",
+    "horas_autonomo_semestre": "24.0 h",
+    "horas_totales": "81.0 h"
   },
-  "proposito": "TODO: Ingresar objetivo general y propósito formativo de la unidad de aprendizaje de Gestión Empresarial.",
-  "intencion_educativa": "TODO: Ingresar la intención educativa y contribución al perfil de egreso del estudiantado de la ESCOM.\n\nTODO: Detallar la vinculación interdisciplinaria y transversal con la gestión de proyectos tecnológicos.",
+  "proposito": "Gestiona organizaciones de innovación tecnológica con base en las competencias gerenciales.",
+  "intencion_educativa": "La unidad de aprendizaje contribuye al perfil de egreso de la Ingeniería en Sistemas Computacionales desarrollando habilidades directivas de liderazgo, toma de decisiones bajo condiciones de riesgo e incertidumbre, manejo de grupos de trabajo, capacidad de negociación, manejo de conflictos, orientación al cambio y a la innovación permanente, para gestionar organizaciones con una actitud emprendedora, ética y de responsabilidad social. Asimismo, desarrolla habilidades transversales como integración de grupos inter y multidisciplinarios, comunicación efectiva, aprendizaje autónomo y manejo de conflictos.",
   "orientacion_didactica": {
-    "metodos_ensenanza": "TODO: Inductivo, deductivo, análisis de casos empresariales y resolución de problemas.",
-    "estrategias_aprendizaje": "TODO: Aprendizaje basado en proyectos, toma de decisiones gerenciales, simuladores de negocios y trabajo colaborativo."
+    "metodos_ensenanza": "Inductivo, deductivo, analógico y solución de casos prácticos.",
+    "estrategias_aprendizaje": "Aprendizaje orientado a proyectos, estudio de casos, formulación de modelos de negocio y resolución de problemas empresariales."
   },
   "unidades_tematicas": [
     {
       "numero": "I",
-      "titulo": "TODO: Nombre de la Unidad I",
-      "competencia": "TODO: Redactar la competencia de la Unidad I.",
-      "horas_docente": "TODO h Teoría / TODO h Práctica",
-      "horas_autonomo": "TODO h",
+      "titulo": "Aspectos básicos de la gestión empresarial",
+      "competencia": "Analiza la gestión empresarial con base en su clasificación y constitucional legal.",
+      "horas_docente": "3.5 h Teoría / 2.0 h Práctica",
+      "horas_autonomo": "3.0 h",
       "temas": [
-        "1.1 TODO: Tema 1.1",
-        "1.2 TODO: Tema 1.2",
-        "1.3 TODO: Tema 1.3"
+        "1.1 Las organizaciones (Clasificación, Constitución legal según Ley de Sociedades Mercantiles y Civiles)",
+        "1.2 Administración (Objetivo de la administración)",
+        "1.3 Gestión empresarial (Objetivo, funciones básicas y clasificación)",
+        "1.4 Diferencias entre administrar y gestionar"
       ],
-      "estrategias": "TODO: Estrategias didácticas de la Unidad I.",
-      "evaluacion": "TODO: Criterios de evaluación y evidencias de aprendizaje."
+      "estrategias": "Análisis de casos prácticos, exposiciones y debates conceptuales.",
+      "evaluacion": "Solución de casos, mapas conceptuales y reportes de prácticas."
     },
     {
       "numero": "II",
-      "titulo": "TODO: Nombre de la Unidad II",
-      "competencia": "TODO: Redactar la competencia de la Unidad II.",
-      "horas_docente": "TODO h Teoría / TODO h Práctica",
-      "horas_autonomo": "TODO h",
+      "titulo": "Gestión estratégica en las empresas de innovación tecnológica",
+      "competencia": "Aplica la gestión estratégica en las empresas de innovación tecnológica con base en las diferentes herramientas, la filosofía y su cultura organizacional.",
+      "horas_docente": "12.5 h Teoría / 5.0 h Práctica",
+      "horas_autonomo": "3.0 h",
       "temas": [
-        "2.1 TODO: Tema 2.1",
-        "2.2 TODO: Tema 2.2",
-        "2.3 TODO: Tema 2.3"
+        "2.1 Factores de competitividad que afectan la gestión empresarial",
+        "2.2 Filosofía corporativa de empresas de innovación tecnológica",
+        "2.3 Estrategia y cultura organizacional de empresas de innovación tecnológica",
+        "2.4 Implementación de la estrategia, planes, presupuestos y Cuadro de Mando Integral",
+        "2.5 Herramientas de gestión estratégica (FODA, Modelos de negocio, Diamante de Porter, Plan comercial y maestro)"
       ],
-      "estrategias": "TODO: Estrategias didácticas de la Unidad II.",
-      "evaluacion": "TODO: Criterios de evaluación y evidencias de aprendizaje."
+      "estrategias": "Estudio de casos de empresas tecnológicas, formulación de estrategias y matrices de diagnóstico.",
+      "evaluacion": "Reporte de proyecto (Fase 2), análisis FODA y cuadros de mando."
     },
     {
       "numero": "III",
-      "titulo": "TODO: Nombre de la Unidad III",
-      "competencia": "TODO: Redactar la competencia de la Unidad III.",
-      "horas_docente": "TODO h Teoría / TODO h Práctica",
-      "horas_autonomo": "TODO h",
+      "titulo": "Gestión operativa de la empresa",
+      "competencia": "Integra la gestión operativa en la empresa, con base en su estructura organizacional y la innovación tecnológica.",
+      "horas_docente": "16.0 h Teoría / 8.0 h Práctica",
+      "horas_autonomo": "7.0 h",
       "temas": [
-        "3.1 TODO: Tema 3.1",
-        "3.2 TODO: Tema 3.2",
-        "3.3 TODO: Tema 3.3"
+        "3.1 Estructura organizacional (División del trabajo, especialización, jerarquización, unidad de mando)",
+        "3.2 Innovación y tecnología (Tecnología como intangible de competitividad, tecnologías emergentes)",
+        "3.3 Manejo de cambio e innovación",
+        "3.4 Herramientas de gestión operativa (Reingeniería de procesos, transformación de estructura y cultura, evaluación y optimización de recursos)"
       ],
-      "estrategias": "TODO: Estrategias didácticas de la Unidad III.",
-      "evaluacion": "TODO: Criterios de evaluación y evidencias de aprendizaje."
+      "estrategias": "Simulación operativa, modelado de procesos organizacionales y proyectos de reingeniería.",
+      "evaluacion": "Estructura organizacional, análisis tecnológico y reporte de proyecto (Fase 3)."
+    },
+    {
+      "numero": "IV",
+      "titulo": "Gestión del capital humano y la calidad",
+      "competencia": "Integra la gestión del capital humano y la calidad en la empresa, con base en el marco normativo de las relaciones laborales.",
+      "horas_docente": "16.0 h Teoría / 9.0 h Práctica",
+      "horas_autonomo": "8.0 h",
+      "temas": [
+        "4.1 Capital humano (Funciones del departamento de capital humano)",
+        "4.2 Marco normativo de las relaciones laborales",
+        "4.3 Calidad (Control estadístico y calidad total)",
+        "4.4 Herramientas de gestión del Capital Humano y de calidad (5's, Just in Time, Análisis funcional, Benchmarking, ERP)"
+      ],
+      "estrategias": "Casos de relaciones laborales, análisis de indicadores de calidad y aplicación de metodologías de mejora continua.",
+      "evaluacion": "Reporte de proyecto (Fase 4), resolución de problemas y prácticas de calidad."
+    },
+    {
+      "numero": "V",
+      "titulo": "Tendencias en la gestión empresarial",
+      "competencia": "Aplica los aspectos legales y sus habilidades digitales con base en las tendencias y tecnologías digitales.",
+      "horas_docente": "6.0 h Teoría / 3.0 h Práctica",
+      "horas_autonomo": "3.0 h",
+      "temas": [
+        "5.1 Aspectos legales (Propiedad intelectual, uso de información digital, sociedades mercantiles)",
+        "5.2 Responsabilidad social y sustentabilidad",
+        "5.3 Habilidades digitales (Learnability, Teamability, Networking, Adaptability)",
+        "5.4 Tecnologías y tendencias digitales (IoT, Inteligencia Artificial, Inteligencia de Negocios, Blockchain y Nube)"
+      ],
+      "estrategias": "Análisis de normatividad legal/fiscal, diseño de modelos de RSE y adopción de tecnologías exponenciales.",
+      "evaluacion": "Proyecto integrador (Fase 5: Habilidades y tendencias digitales), actividades formativas y evaluación integradora."
     }
   ]
 }

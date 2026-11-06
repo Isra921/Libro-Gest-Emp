@@ -1,0 +1,69 @@
+{
+  "id": "unidad-04",
+  "numero": 4,
+  "titulo": "Gestión del capital humano y la calidad",
+  "descripcion": "Integra la gestión del capital humano y la calidad en la empresa, con base en el marco normativo de las relaciones laborales, el control estadístico y herramientas de mejora continua.",
+  "lema": "El talento humano y la excelencia operativa como ventajas competitivas sostenibles.",
+  "duracion_horas": 33.0,
+  "video": {
+    "titulo": "Capital Humano y Calidad Total",
+    "url": "",
+    "enlace": "",
+    "referencia": "Instituto Politécnico Nacional (ESCOM - IPN)."
+  },
+  "introduccion": [
+    "La administración efectiva del capital humano y la adopción de filosofías de calidad total constituyen el núcleo operativo para el éxito de cualquier organización orientada a la ingeniería y la innovación.",
+    "Esta unidad analiza las funciones estratégicas del talento humano, las normas laborales vigentes, el control estadístico de procesos y herramientas contemporáneas como 5's, Just in Time, Benchmarking y sistemas ERP."
+  ],
+  "recorrido": "Ruta formativa a cargo del equipo de desarrollo (Uriel), integrando normatividad laboral y metodologías de calidad total.",
+  "competencias": [
+    "Integra la gestión del capital humano y la calidad en la empresa, con base en el marco normativo de las relaciones laborales."
+  ],
+  "temas": [
+    {
+      "numero": "4.1",
+      "nombre": "Capital Humano y sus Funciones",
+      "sintesis": "Funciones del departamento de capital humano en la organización tecnológica.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.1",
+        "url": ""
+      }
+    },
+    {
+      "numero": "4.2",
+      "nombre": "Marco Normativo de las Relaciones Laborales",
+      "sintesis": "Legislación laboral, contratos individuales y colectivos, derechos y obligaciones patronales.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.2",
+        "url": ""
+      }
+    },
+    {
+      "numero": "4.3",
+      "nombre": "Calidad, Control Estadístico y Calidad Total",
+      "sintesis": "Fundamentos de la calidad, control estadístico y sistemas integrados de gestión.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.3",
+        "url": ""
+      }
+    },
+    {
+      "numero": "4.4",
+      "nombre": "Herramientas de Gestión del Capital Humano y de Calidad",
+      "sintesis": "Metodología de las 5's, Just in Time (JIT), análisis funcional, benchmarking y ERP.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.4",
+        "url": ""
+      }
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Actividad integradora de capital humano y calidad",
+    "descripcion": "Caso práctico sobre optimización operativa y clima organizacional.",
+    "url": ""
+  }
+}

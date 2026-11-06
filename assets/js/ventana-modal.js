@@ -190,10 +190,27 @@ const VentanaModal = (function () {
         abrir(origen.dataset.modal, origen);
     });
 
+
+    // Apertura por parámetro URL o hash (ej. ?modal=autores o #modal-glosario)
+    window.addEventListener('DOMContentLoaded', () => {
+        const params = new URLSearchParams(window.location.search);
+        const idModal = params.get('modal') || (window.location.hash.startsWith('#modal-') ? window.location.hash.replace('#modal-', '') : null);
+        if (idModal) {
+            setTimeout(() => {
+                if (registro.has(idModal)) abrir(idModal);
+            }, 300);
+        }
+    });
+
     return {
         /** Registra una ventana: cargar() devuelve { titulo, botonCerrar, secciones[] }. */
         registrar(id, cargar) {
             registro.set(id, { cargar, overlay: null });
+            const params = new URLSearchParams(window.location.search);
+            const idModal = params.get('modal') || (window.location.hash.startsWith('#modal-') ? window.location.hash.replace('#modal-', '') : null);
+            if (idModal === id) {
+                setTimeout(() => abrir(id), 100);
+            }
         },
         abrir,
         cerrar: cerrarActiva,

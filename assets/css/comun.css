@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    ESTILOS COMUNES · Punto de entrada para componentes globales
    Polilibro: TIC aplicadas para el turismo (EST-IPN)
    --------------------------------------------------------------------------
@@ -13,10 +13,10 @@
 @import url("actividades-modal.css");
 @import url("plan-estudios-modal.css");
 
-/* Logo EST institucional */
+/* Logo institucional adaptativo */
 .brand-logo--est, .brand-logo--esit, .brand-logo--escom {
-  width: 52px !important;
-  height: 52px !important;
+  width: clamp(28px, 6vw, 48px) !important;
+  height: clamp(28px, 6vw, 48px) !important;
   object-fit: contain;
   background: transparent !important;
   padding: 0;

@@ -45,6 +45,69 @@
           "definicion": "Métrica cuantitativa utilizada para medir y evaluar el rendimiento y nivel de éxito de un proceso o proyecto respecto a los objetivos fijados."
         }
       ]
+    },
+    {
+      "id": "unidad-05",
+      "pestana": "Unidad 5",
+      "titulo": "Unidad 5: Tendencias en la gestión empresarial",
+      "terminos": [
+        {
+          "termino": "Adaptability (Adaptabilidad tecnológica)",
+          "definicion": "Capacidad de ajustarse con rapidez a las transformaciones tecnológicas, responder con flexibilidad a la incertidumbre y explorar nuevas herramientas digitales en los entornos organizacionales."
+        },
+        {
+          "termino": "Big Data y Business Intelligence (BI)",
+          "definicion": "Conjunto de tecnologías y metodologías para el almacenamiento masivo, análisis y visualización de datos mediante dashboards que sustentan la toma de decisiones basada en evidencia."
+        },
+        {
+          "termino": "Blockchain",
+          "definicion": "Tecnología de registro distribuido, inmutable y seguro que permite realizar transacciones entre partes eliminando intermediarios, reduciendo costos operativos y garantizando transparencia."
+        },
+        {
+          "termino": "Computación en la nube (Cloud Computing)",
+          "definicion": "Modelo de aprovisionamiento de servicios de infraestructura (IaaS), plataformas (PaaS) y software (SaaS) a través de Internet bajo demanda, garantizando escalabilidad, flexibilidad y trabajo colaborativo remoto."
+        },
+        {
+          "termino": "Derechos de autor",
+          "definicion": "Mecanismo jurídico que otorga protección exclusiva a los creadores de obras literarias, artísticas, gráficas y software frente a copias o distribuciones no autorizadas."
+        },
+        {
+          "termino": "Greenwashing",
+          "definicion": "Práctica engañosa de comunicación o marketing en la que una empresa simula o exagera su compromiso ecológico y sustentable sin respaldarlo con acciones operativas ni resultados auditables."
+        },
+        {
+          "termino": "Internet de las Cosas (IoT)",
+          "definicion": "Interconexión digital de objetos físicos, sensores y maquinaria con redes de datos para recopilar, intercambiar y procesar información en tiempo real, optimizando procesos industriales y logísticos."
+        },
+        {
+          "termino": "Learnability (Capacidad de aprendizaje continuo)",
+          "definicion": "Disposición constante y habilidad proactiva de un profesional para adquirir nuevas competencias y dominar herramientas tecnológicas emergentes frente a los cambios acelerados del entorno."
+        },
+        {
+          "termino": "Patente de invención",
+          "definicion": "Derecho de exclusividad temporal (generalmente 20 años) otorgado por el Estado al titular de una invención que resulte nueva, con actividad inventiva y de aplicación industrial comprobada."
+        },
+        {
+          "termino": "Responsabilidad Social Empresarial (RSE)",
+          "definicion": "Compromiso voluntario y ético que asume la organización para mitigar sus impactos negativos y potenciar los positivos en las dimensiones económica, social y ambiental, respetando a sus partes interesadas."
+        },
+        {
+          "termino": "Sociedad por Acciones Simplificada (S.A.S.)",
+          "definicion": "Régimen societario mercantil en México diseñado para micro y pequeñas empresas, que permite su constitución unipersonal de forma electrónica, sin costo de honorarios notariales directos y en un lapso ágil."
+        },
+        {
+          "termino": "Stakeholders (Grupos de interés)",
+          "definicion": "Personas, grupos u organizaciones que tienen un interés legítimo o se ven impactados directa o indirectamente por las decisiones y actividades de una empresa (empleados, clientes, proveedores, comunidad, inversionistas y gobierno)."
+        },
+        {
+          "termino": "Sustentabilidad empresarial",
+          "definicion": "Capacidad de una empresa para satisfacer sus necesidades presentes y generar valor económico sin comprometer la capacidad de las generaciones futuras para satisfacer las suyas (Informe Brundtland 1987), manteniendo en equilibrio las esferas financiera, social y ecológica."
+        },
+        {
+          "termino": "Teamability (Trabajo colaborativo digital)",
+          "definicion": "Habilidad para coordinar, cooperar y gestionar proyectos en equipos multidisciplinarios utilizando plataformas colaborativas digitales de comunicación, gestión de tareas y almacenamiento conjunto."
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,231 @@
+{
+  "titulo": "Evaluación Final Integradora del Polilibro",
+  "materia": "Gestión Empresarial",
+  "institucion": "Escuela Superior de Cómputo (ESCOM - IPN)",
+  "descripcion": "Instrumento de evaluación integral que articula las competencias formativas adquiridas en las cinco unidades temáticas de la asignatura Gestión Empresarial.",
+  "instrucciones": "Lee con atención cada reactivo de aplicación gerencial y selecciona la alternativa que consideres correcta. Puedes navegar libremente entre preguntas con los botones 'Anterior' y 'Siguiente' o haciendo clic en el mapa de reactivos. Al concluir, pulsa 'Finalizar y evaluar' para obtener tu calificación global, el desglose de dominio por unidad y la retroalimentación formativa.",
+  "unidades": [
+    {
+      "id": "unidad-01",
+      "numero": 1,
+      "nombre": "Unidad I: Aspectos básicos de la gestión empresarial",
+      "disponible": true,
+      "preguntas": [
+        {
+          "id": "u1-p1",
+          "unidad_id": "unidad-01",
+          "unidad_nombre": "Unidad I: Aspectos básicos de la gestión empresarial",
+          "enunciado": "Una empresa de desarrollo de software busca redefinir sus procesos para no limitarse a la mera administración rutinaria de recursos, sino anticiparse a las demandas del mercado tecnológico. ¿Cuál es la diferencia sustantiva entre 'administrar' y 'gestionar' en este contexto?",
+          "opciones": [
+            "Administrar se enfoca en la optimización, orden y uso eficiente de los recursos existentes, mientras que gestionar incorpora liderazgo estratégico, innovación proactiva y adaptación a la incertidumbre del entorno.",
+            "Administrar implica dirigir exclusivamente a los trabajadores de base, mientras que gestionar es una labor reservada a los auditores externos.",
+            "Gestionar se reduce al cálculo de costos de nómina, mientras que administrar abarca las relaciones públicas de la empresa.",
+            "Ambos términos son sinónimos idénticos y no presentan ninguna distinción metodológica en la teoría organizacional."
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "La administración tradicional enfatiza el control interno y la eficiencia en el uso de recursos existentes; la gestión empresarial es un concepto más dinámico e integral que articula liderazgo, visión de negocio, toma de decisiones bajo riesgo y respuesta proactiva ante el entorno."
+        },
+        {
+          "id": "u1-p2",
+          "unidad_id": "unidad-01",
+          "unidad_nombre": "Unidad I: Aspectos básicos de la gestión empresarial",
+          "enunciado": "En la clasificación de las organizaciones según su constitución legal en México, ¿cuál es la principal diferencia entre una Sociedad Civil (S.C.) y una Sociedad Anónima (S.A.)?",
+          "opciones": [
+            "La Sociedad Civil no tiene un fin primordialmente de lucro o especulación comercial (como despachos de profesionales o servicios educativos), mientras que la Sociedad Anónima es una sociedad mercantil de especulación comercial cuyo capital se divide en acciones.",
+            "La Sociedad Anónima no requiere socios fundadores y la Sociedad Civil exige cotizar en la Bolsa Mexicana de Valores.",
+            "La Sociedad Civil responde siempre con acciones bursátiles y la Sociedad Anónima opera de forma no lucrativa.",
+            "La Sociedad Anónima es regulada por el Código Civil Federal y la Sociedad Civil por el Código de Comercio."
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "La Ley General de Sociedades Mercantiles regula a la S.A. como entidad de comercio y especulación económica con capital dividido en acciones; las Sociedades Civiles están reguladas por el Código Civil para actividades profesionales preponderantemente no comerciales."
+        },
+        {
+          "id": "u1-p3",
+          "unidad_id": "unidad-01",
+          "unidad_nombre": "Unidad I: Aspectos básicos de la gestión empresarial",
+          "enunciado": "¿Cuáles son las cuatro funciones básicas secuenciales e interrelacionadas que integran el proceso administrativo en cualquier organización?",
+          "opciones": [
+            "Planeación, Organización, Dirección y Control.",
+            "Presupuesto, Fabricación, Marketing y Auditoría.",
+            "Diseño, Programación, Pruebas y Despliegue.",
+            "Contratación, Capacitación, Evaluación y Liquidación."
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "La planeación determina los objetivos; la organización estructura los recursos y funciones; la dirección guía y motiva al capital humano; y el control mide los resultados contra los estándares planificados para retroalimentar el sistema."
+        }
+      ]
+    },
+    {
+      "id": "unidad-02",
+      "numero": 2,
+      "nombre": "Unidad II: Gestión estratégica en las empresas de innovación tecnológica",
+      "disponible": false,
+      "mensaje_pendiente": "Módulo en fase de integración. La redacción y validación de los temas de la Unidad 2 se encuentra actualmente asignada a la integrante Aranza en el flujo colaborativo del equipo. Este apartado se habilitará automáticamente al incorporarse sus reactivos oficiales sin alterar la estructura de la prueba.",
+      "preguntas": []
+    },
+    {
+      "id": "unidad-03",
+      "numero": 3,
+      "nombre": "Unidad III: Gestión operativa de la empresa",
+      "disponible": true,
+      "preguntas": [
+        {
+          "id": "u3-p1",
+          "unidad_id": "unidad-03",
+          "unidad_nombre": "Unidad III: Gestión operativa de la empresa",
+          "enunciado": "Una empresa de servicios de cómputo en la nube sufre duplicidad de órdenes contradictorias recibidas por sus ingenieros de soporte técnico. ¿Qué principio clásico del diseño organizacional y de la estructura jerárquica se está vulnerando?",
+          "opciones": [
+            "El principio de Unidad de Mando (cada colaborador debe recibir instrucciones y rendir cuentas únicamente a un solo superior jerárquico).",
+            "El principio de división por tramo geográfico.",
+            "El principio de departamentalización matricial inversa.",
+            "El principio de subcontratación de procesos."
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "El principio de unidad de mando establece que un subordinado debe tener un único jefe inmediato directo para evitar confusiones, órdenes contradictorias y dilución de responsabilidades."
+        },
+        {
+          "id": "u3-p2",
+          "unidad_id": "unidad-03",
+          "unidad_nombre": "Unidad III: Gestión operativa de la empresa",
+          "enunciado": "La dirección de una startup tecnológica decide someter sus procesos operativos a una 'Reingeniería de Procesos de Negocio' (BPR). ¿Cuál es la premisa distintiva de la reingeniería frente a la mejora continua incremental?",
+          "opciones": [
+            "El rediseño radical de los procesos desde su raíz para lograr mejoras espectaculares en costos, calidad, servicio y rapidez, cuestionando supuestos preexistentes.",
+            "La realización de ajustes marginales y pequeños cambios cosméticos sin modificar la estructura fundamental.",
+            "La compra de nuevos muebles y la reorganización física de escritorios en las oficinas corporativas.",
+            "La reducción inmediata de salarios sin alterar los métodos de trabajo."
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "La reingeniería de procesos implica repensar de manera fundamental y rediseñar radicalmente los flujos de trabajo operativos para alcanzar saltos cuánticos en el desempeño organizacional."
+        },
+        {
+          "id": "u3-p3",
+          "unidad_id": "unidad-03",
+          "unidad_nombre": "Unidad III: Gestión operativa de la empresa",
+          "enunciado": "¿Por qué en la economía del conocimiento y la gestión operativa contemporánea la tecnología se clasifica como un 'factor intangible de competitividad'?",
+          "opciones": [
+            "Porque su verdadero valor competitivo radica en el know-how, metodologías propietarias, propiedad intelectual y algoritmos que no pueden ser fácilmente replicados por la competencia.",
+            "Porque los servidores y cables no ocupan espacio físico en las oficinas.",
+            "Porque carece de impacto cuantificable en los estados financieros de la empresa.",
+            "Porque su adquisición es gratuita y carece de costo contable."
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "Los activos intangibles tecnológicos (software patentado, capacidades analíticas, arquitecturas propietarias) otorgan ventajas sostenibles porque son difíciles de imitar o sustituir en el mercado."
+        }
+      ]
+    },
+    {
+      "id": "unidad-04",
+      "numero": 4,
+      "nombre": "Unidad IV: Gestión del capital humano y la calidad",
+      "disponible": true,
+      "preguntas": [
+        {
+          "id": "u4-p1",
+          "unidad_id": "unidad-04",
+          "unidad_nombre": "Unidad IV: Gestión del capital humano y la calidad",
+          "enunciado": "Una fábrica de dispositivos de red aplica la filosofía japonesa de 'Just in Time' (JIT). ¿Cuál es el objetivo primordial de esta herramienta de gestión operativa y de calidad?",
+          "opciones": [
+            "Producir y entregar los elementos exactos, en la cantidad exacta y en el momento preciso en que se necesitan, reduciendo a cero los inventarios innecesarios y desperdicios.",
+            "Acumular el mayor stock posible de materias primas en bodegas para prevenir cualquier desabasto a largo plazo.",
+            "Pagar los sueldos a los colaboradores únicamente en periodos extraordinarios sin previo aviso.",
+            "Acelerar la velocidad de las líneas de producción omitiendo las pruebas de inspección de calidad."
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "Just in Time (Justo a Tiempo) busca eliminar sistemáticamente el desperdicio (muda) produciendo solo lo demandado en el momento exacto, reduciendo drásticamente costos financieros de almacenamiento."
+        },
+        {
+          "id": "u4-p2",
+          "unidad_id": "unidad-04",
+          "unidad_nombre": "Unidad IV: Gestión del capital humano y la calidad",
+          "enunciado": "Dentro de la metodología de las 5's para la organización, orden y estandarización del entorno de trabajo, ¿cuál es la secuencia ordenada de sus etapas?",
+          "opciones": [
+            "Seiri (Clasificar), Seiton (Ordenar), Seiso (Limpiar), Seiketsu (Estandarizar) y Shitsuke (Disciplina/Hábito).",
+            "Planear, Hacer, Verificar, Actuar y Documentar.",
+            "Seleccionar, Vender, Facturar, Cobrar y Archivar.",
+            "Reclutar, Seleccionar, Contratar, Inducir y Evaluar."
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "Las 5's son un estándar mundial de calidad y cultura laboral que establece orden, pulcritud, estandarización y autodisciplina en los centros de trabajo."
+        },
+        {
+          "id": "u4-p3",
+          "unidad_id": "unidad-04",
+          "unidad_nombre": "Unidad IV: Gestión del capital humano y la calidad",
+          "enunciado": "¿Qué función directiva cumple el 'Benchmarking' en la gestión de calidad y talento humano de una organización de innovación?",
+          "opciones": [
+            "Proceso sistemático de medir y comparar las prácticas, procesos y métricas de la propia empresa con los líderes reconocidos de la industria para identificar brechas y aplicar mejoras.",
+            "Copia idéntica de software protegido cometiendo infracciones de derechos de autor.",
+            "Técnica de despido masivo de personal para reducir la nómina.",
+            "Mecanismo de inspección manual aleatoria al final de la línea de ensamble."
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "El Benchmarking es una técnica de aprendizaje y mejora continua que estudia las mejores prácticas de la industria de referencia para adaptar e implementar innovaciones en la propia organización."
+        }
+      ]
+    },
+    {
+      "id": "unidad-05",
+      "numero": 5,
+      "nombre": "Unidad V: Tendencias en la gestión empresarial",
+      "disponible": true,
+      "preguntas": [
+        {
+          "id": "u5-p1",
+          "unidad_id": "unidad-05",
+          "unidad_nombre": "Unidad V: Tendencias en la gestión empresarial",
+          "enunciado": "Un equipo de egresados desea emprender una empresa de base tecnológica de forma ágil, con un solo accionista y sin desembolsar costos notariales directos para su constitución legal. ¿Qué figura societaria mercantil creada en México deben elegir?",
+          "opciones": [
+            "Sociedad por Acciones Simplificada (S.A.S.)",
+            "Sociedad Anónima de Capital Variable (S.A. de C.V.)",
+            "Sociedad en Nombre Colectivo",
+            "Asociación en Participación Civil"
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "La S.A.S. fue introducida en la Ley General de Sociedades Mercantiles para que los emprendedores puedan constituirse legalmente en línea, en 24 horas, de forma unipersonal y sin costo directo de fedatario público."
+        },
+        {
+          "id": "u5-p2",
+          "unidad_id": "unidad-05",
+          "unidad_nombre": "Unidad V: Tendencias en la gestión empresarial",
+          "enunciado": "Una empresa de comercio electrónico afirma en sus redes sociales que sus servidores son '100% ecológicos y carbono neutro', pero una auditoría independiente descubre que sus centros de datos no miden su huella energética ni cuentan con certificaciones auditables. ¿Cómo se denomina técnicamente esta práctica corporativa deshonesta?",
+          "opciones": [
+            "Greenwashing (ecoblanqueo o simulación ambiental sin sustento fáctico)",
+            "Economía circular distributiva",
+            "Gestión transparente de stakeholders",
+            "Responsabilidad Social Compartida"
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "El greenwashing consiste en presentar una imagen engañosa de compromiso ecológico mediante mercadotecnia sin contar con acciones, mediciones ni resultados auditables que lo respalden."
+        },
+        {
+          "id": "u5-p3",
+          "unidad_id": "unidad-05",
+          "unidad_nombre": "Unidad V: Tendencias en la gestión empresarial",
+          "enunciado": "En el marco de las competencias laborales del entorno tecnológico, ¿a qué habilidad profesional corresponde la curiosidad proactiva y disposición continua para aprender a aprender y dominar nuevas herramientas frente a la rápida obsolescencia del conocimiento?",
+          "opciones": [
+            "Learnability (Capacidad de aprendizaje continuo)",
+            "Teamability",
+            "Networking comercial",
+            "Financial Literacy"
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "Learnability es la destreza y actitud individual de formarse y asimilar con rapidez nuevas tecnologías y paradigmas metodológicos en entornos cambiantes."
+        },
+        {
+          "id": "u5-p4",
+          "unidad_id": "unidad-05",
+          "unidad_nombre": "Unidad V: Tendencias en la gestión empresarial",
+          "enunciado": "Al implementar una solución de computación en la nube para el despliegue ágil de aplicaciones, ¿qué modelo de servicio (Cloud) permite a los programadores centrarse en el código de software y bases de datos sin tener que aprovisionar ni mantener sistemas operativos ni servidores físicos?",
+          "opciones": [
+            "PaaS (Plataforma como Servicio)",
+            "IaaS (Infraestructura como Servicio)",
+            "DaaS (Dispositivo como Servicio)",
+            "Hardware on-premise local"
+          ],
+          "respuesta_correcta": 0,
+          "explicacion": "PaaS (Platform as a Service) suministra el entorno de desarrollo y ejecución gestionado por el proveedor de nube, liberando al equipo técnico de la carga de mantenimiento de la infraestructura subyacente."
+        }
+      ]
+    }
+  ]
+}

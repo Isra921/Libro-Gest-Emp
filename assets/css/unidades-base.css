@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    BASE COMPARTIDA · Catálogo de unidades y plantilla de unidad
    Usa exclusivamente la paleta global de variables.css.
    Prefijo "u-" para no chocar con estilos antiguos de otras páginas.
@@ -307,7 +307,26 @@ body.u-body {
 .u-video__close:hover { background: var(--danger); }
 
 @media (max-width: 640px) {
-  .u-video__close { top: 8px; right: 8px; }
+  :root {
+    --u-gutter: clamp(12px, 3.5vw, 18px);
+    --u-nav-offset: 84px;
+    --u-gap: 16px;
+  }
+  .u-page {
+    padding-top: var(--u-nav-offset);
+    padding-left: var(--u-gutter);
+    padding-right: var(--u-gutter);
+  }
+  .u-btn {
+    min-height: 44px;
+  }
+  .t-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+  }
 }
 
 /* ---------- Pie de página ---------- */

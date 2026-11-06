@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    PALETA CROMÁTICA GLOBAL DEL POLILIBRO (TIC aplicadas para el turismo)
    Escuela Superior de Turismo (EST - IPN)
 
@@ -106,9 +106,9 @@
   --border-soft: color-mix(in srgb, var(--verde-400) 14%, transparent);
   --border: var(--border-color);
   --card-border: var(--border-color);
-  --shadow-color: #052113;
-  --shadow-soft: 0 10px 28px rgba(5, 33, 19, 0.45);
-  --shadow-card: 0 14px 34px rgba(5, 33, 19, 0.55), 0 1px 0 color-mix(in srgb, var(--verde-400) 20%, transparent) inset;
+  --shadow-color: hsl(var(--verde-h), 60%, 4%);
+  --shadow-soft: 0 10px 28px hsla(var(--verde-h), 60%, 4%, 0.45);
+  --shadow-card: 0 14px 34px hsla(var(--verde-h), 60%, 4%, 0.55), 0 1px 0 color-mix(in srgb, var(--verde-400) 20%, transparent) inset;
   --card-shadow: var(--shadow-card);
   --radius-sm: 6px;
   --radius-md: 12px;
@@ -125,7 +125,7 @@
   --bg: var(--bg-main);
   --card-bg: var(--surface);
   --soft-panel: color-mix(in srgb, var(--surface) 65%, transparent);
-  --submenu-bg: rgba(5, 33, 19, 0.85);
+  --submenu-bg: hsla(var(--verde-h), 60%, 4%, 0.85);
   --intro-border: var(--verde-400);
   --case-color: var(--verde-500);
   --monster-color: var(--verde-400);

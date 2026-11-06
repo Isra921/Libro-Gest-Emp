@@ -37,6 +37,11 @@
       "modal": "actividades"
     },
     {
+      "texto": "Evaluación Final",
+      "icono": "fa-award",
+      "url": "actividad-final.html"
+    },
+    {
       "texto": "Referencias",
       "icono": "fa-bookmark",
       "url": "unidades/unidad-01/referencias.html"

@@ -235,17 +235,41 @@ body.pagina-inicio .site-nav .brand-logo {
 
 @media (max-width: 768px) {
   .site-nav {
-    width: calc(100% - 24px);
+    width: calc(100% - 20px);
     top: 8px;
-    padding: 10px 16px;
-    border-radius: 18px;
+    padding: 8px 14px;
+    border-radius: 16px;
     flex-wrap: wrap;
+    box-sizing: border-box;
   }
-  /* La marca cede espacio para que el botón ☰ quede en la misma fila (antes bajaba a otra
-     línea y la barra, más alta, tapaba el inicio de la página). */
+  /* La marca cede espacio para que el botón ☰ quede en la misma fila sin encimarse */
   .site-nav .brand {
-    flex: 1 1 0;
+    flex: 1 1 auto;
     min-width: 0;
+    gap: 8px;
+    overflow: hidden;
+  }
+  .site-nav .brand .brand-logo--ipn {
+    height: 32px;
+    max-width: 38px;
+  }
+  .site-nav .brand .brand-logo--escom,
+  .site-nav .brand .brand-logo--est,
+  .site-nav .brand .brand-logo--esit {
+    height: 30px;
+    width: 30px;
+  }
+  .site-nav .brand .brand-title {
+    font-size: 0.76rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .site-nav .brand .brand-sub {
+    font-size: 0.58rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .site-nav .nav-toggle {
     display: inline-flex;
@@ -254,19 +278,66 @@ body.pagina-inicio .site-nav .brand-logo {
     flex-shrink: 0;
     min-width: 44px;
     min-height: 44px;
+    margin-left: 6px;
   }
   .site-nav nav {
     display: none;
     width: 100%;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
+    align-items: stretch;
+    gap: 6px;
     margin-top: 10px;
     padding-top: 10px;
     border-top: 1px solid var(--border-color);
+    max-height: calc(85dvh - 80px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .site-nav nav a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 44px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 0.88rem;
+    background: rgba(255, 255, 255, 0.03);
+    box-sizing: border-box;
+  }
+  .site-nav nav a:active,
+  .site-nav nav a:focus-visible {
+    background: color-mix(in srgb, var(--primary) 20%, transparent);
   }
   .site-nav nav.is-open {
     display: flex;
+  }
+}
+
+/* Pantallas ultra compactas (360px - 390px) */
+@media (max-width: 420px) {
+  .site-nav {
+    width: calc(100% - 12px);
+    top: 6px;
+    padding: 6px 10px;
+  }
+  .site-nav .brand {
+    gap: 6px;
+  }
+  .site-nav .brand .brand-logo--ipn {
+    height: 26px;
+    max-width: 30px;
+  }
+  .site-nav .brand .brand-logo--escom,
+  .site-nav .brand .brand-logo--est,
+  .site-nav .brand .brand-logo--esit {
+    height: 26px;
+    width: 26px;
+  }
+  .site-nav .brand .brand-title {
+    font-size: 0.70rem;
+  }
+  .site-nav .brand .brand-sub {
+    font-size: 0.54rem;
   }
 }
 

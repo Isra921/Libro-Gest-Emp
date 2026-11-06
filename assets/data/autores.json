@@ -8,54 +8,54 @@
   },
   "secciones": [
     {
-      "id": "equipo",
-      "pestana": "Equipo de Desarrollo",
-      "titulo": "Equipo de Desarrollo y Maquetación",
-      "descripcion": "Estudiantes de Servicio Social de la Escuela Superior de Cómputo (ESCOM - IPN) responsables del desarrollo del Polilibro de Gestión Empresarial.",
-      "tipo": "colaborador",
+      "id": "docentes",
+      "pestana": "Asesores Académicos",
+      "titulo": "Asesoría y Supervisión Académica",
+      "descripcion": "Profesores y coordinadores del Instituto Politécnico Nacional responsables de la revisión académica, metodológica y curricular.",
+      "tipo": "docente",
       "personas": [
         {
-          "nombre": "Integrante 1 (Nombre Completo)",
-          "correo": "correo_integrante1@alumno.ipn.mx",
-          "rol": "Desarrollo Frontend / Redacción Unidad 1"
-        },
-        {
-          "nombre": "Integrante 2 (Nombre Completo)",
-          "correo": "correo_integrante2@alumno.ipn.mx",
-          "rol": "Desarrollo Frontend / Redacción Unidad 2"
-        },
-        {
-          "nombre": "Integrante 3 (Nombre Completo)",
-          "correo": "correo_integrante3@alumno.ipn.mx",
-          "rol": "Desarrollo Frontend / Redacción Unidad 3"
-        },
-        {
-          "nombre": "Integrante 4 (Nombre Completo)",
-          "correo": "correo_integrante4@alumno.ipn.mx",
-          "rol": "Integración, Actividades y Glosario"
+          "grado": "Profra.",
+          "nombre": "Fanny Sosa Ortega",
+          "correo": "fsosao@ipn.mx",
+          "foto": "",
+          "semblanza": [
+            "Profesora titular de la Unidad de Aprendizaje Gestión Empresarial en la Escuela Superior de Cómputo (ESCOM - IPN). Responsable de la planeación didáctica, asesoría académica y validación del contenido curricular del Polilibro."
+          ],
+          "areas": [
+            "Gestión Empresarial",
+            "Administración Estratégica",
+            "Innovación y Emprendimiento Tecnológico"
+          ]
         }
       ]
     },
     {
-      "id": "docentes",
-      "pestana": "Asesores Académicos",
-      "titulo": "Asesoría y Supervisión Académica",
-      "descripcion": "Profesores y coordinadores del Instituto Politécnico Nacional responsables de la revisión académica y metodológica.",
-      "tipo": "docente",
+      "id": "equipo",
+      "pestana": "Equipo de Desarrollo",
+      "titulo": "Equipo de Desarrollo y Maquetación",
+      "descripcion": "Estudiantes de Servicio Social de la Escuela Superior de Cómputo (ESCOM - IPN) responsables del desarrollo técnico, diseño de interactivos y maquetación web del Polilibro de Gestión Empresarial.",
+      "tipo": "colaborador",
       "personas": [
         {
-          "grado": "Prof.",
-          "nombre": "TODO: Nombre del Asesor / Docente Titular",
-          "correo": "correo_docente@ipn.mx",
-          "foto": "",
-          "semblanza": [
-            "TODO: Semblanza académica, trayectoria docente e investigación en el área de Gestión Empresarial y Ciencias de la Computación en la Escuela Superior de Cómputo (ESCOM - IPN)."
-          ],
-          "areas": [
-            "Gestión Empresarial",
-            "Administración de Proyectos Tecnológicos",
-            "Ingeniería de Software"
-          ]
+          "nombre": "Aranza",
+          "rol": "Desarrollo Frontend / Redacción Unidades 1 y 2",
+          "correo": "desarrollo_aranza@alumno.ipn.mx"
+        },
+        {
+          "nombre": "Diego",
+          "rol": "Desarrollo Frontend / Unidad 3, Inicio y Glosario",
+          "correo": "desarrollo_diego@alumno.ipn.mx"
+        },
+        {
+          "nombre": "Uriel",
+          "rol": "Desarrollo Frontend / Unidad 4, Pantalla de Unidades y Referencias",
+          "correo": "desarrollo_uriel@alumno.ipn.mx"
+        },
+        {
+          "nombre": "Israel",
+          "rol": "Desarrollo Frontend / Unidad 5, Actividad Final y Responsividad General",
+          "correo": "desarrollo_israel@alumno.ipn.mx"
         }
       ]
     }
