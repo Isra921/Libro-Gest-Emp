@@ -2,14 +2,125 @@
   {
     "id": 1,
     "type": "opcion_multiple",
-    "question": "¿Cuál es el propósito principal de la matriz FODA en la planeación estratégica?",
+    "question": "¿Qué es la competitividad de una empresa?",
     "options": [
-      "Diagnosticar las Fortalezas y Debilidades internas, y las Oportunidades y Amenazas del entorno externo.",
-      "Calcular el balance general y flujo de efectivo únicamente.",
-      "Diseñar el organigrama jerárquico de la empresa.",
-      "Asignar contraseñas y permisos a los usuarios de red."
+      "La capacidad de ofrecer algo valioso y mantenerse frente a otras opciones que existen en el mercado.",
+      "La capacidad de vender siempre al precio más bajo del mercado.",
+      "El número de empleados que trabajan en la empresa.",
+      "La cantidad de funciones que tiene cada uno de sus productos."
     ],
-    "answer": "Diagnosticar las Fortalezas y Debilidades internas, y las Oportunidades y Amenazas del entorno externo.",
-    "explicacion": "El FODA permite cruzar factores internos y externos para diseñar estrategias operativas y competitivas."
+    "answer": "La capacidad de ofrecer algo valioso y mantenerse frente a otras opciones que existen en el mercado.",
+    "explicacion": "Competir no se reduce al precio: una empresa también puede mantenerse porque su producto funciona mejor, atiende rápido o resuelve un problema que otros no han resuelto."
+  },
+  {
+    "id": 2,
+    "type": "verdadero_falso",
+    "statement": "Competir siempre significa vender más barato que los demás.",
+    "answer": false,
+    "explicacion": "No siempre significa vender más barato. Una empresa también puede competir porque su aplicación funciona mejor, atiende rápido a sus clientes o resuelve un problema que otros negocios todavía no han solucionado."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes es un factor interno que influye en la competitividad?",
+    "options": [
+      "El conocimiento de los trabajadores.",
+      "Las leyes que regulan la actividad de la empresa.",
+      "La situación económica.",
+      "Las necesidades de los clientes."
+    ],
+    "answer": "El conocimiento de los trabajadores.",
+    "explicacion": "El conocimiento de los trabajadores, la calidad del producto, los recursos económicos, la organización del equipo y la capacidad para crear o mejorar tecnología son factores internos; las leyes, la situación económica y las necesidades de los clientes vienen del exterior."
+  },
+  {
+    "id": 4,
+    "type": "completar_oracion",
+    "question": "Entre los factores _____ están la calidad del producto y la organización del equipo; entre los factores _____, la competencia y la infraestructura digital.",
+    "wordBank": [
+      "internos",
+      "externos",
+      "financieros",
+      "legales"
+    ],
+    "answer": [
+      "internos",
+      "externos"
+    ],
+    "explicacion": "Los factores internos dependen de la propia empresa; los externos, como la competencia, los clientes, las leyes, la infraestructura digital y la situación económica, vienen del entorno."
+  },
+  {
+    "id": 5,
+    "type": "verdadero_falso",
+    "statement": "Contratar más personas o comprar equipos costosos basta por sí solo para que una empresa sea competitiva.",
+    "answer": false,
+    "explicacion": "No sirve de mucho si no se sabe qué problema se busca resolver. Buenos desarrolladores, herramientas adecuadas y procesos claros ayudan a entregar productos confiables."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Qué permite a una empresa conocer lo que necesitan los usuarios?",
+    "options": [
+      "Mejorar el producto y elegir funciones que realmente tengan utilidad.",
+      "Dejar de revisar las propuestas de otros negocios.",
+      "Eliminar los costos de desarrollo de su tecnología.",
+      "Evitar que cambien las leyes que la afectan."
+    ],
+    "answer": "Mejorar el producto y elegir funciones que realmente tengan utilidad.",
+    "explicacion": "Conocer a los clientes ayuda a mejorar el producto y a elegir funciones útiles; además conviene revisar las propuestas de otros negocios para ver qué se podría hacer diferente."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "Según la OMPI, ¿qué elementos se consideran al estudiar los entornos de innovación de distintos países?",
+    "options": [
+      "Capital humano, infraestructura e instituciones.",
+      "Únicamente el precio de los productos y servicios.",
+      "Solo el número de empresas registradas en cada país.",
+      "La misión, la visión y los valores de cada empresa."
+    ],
+    "answer": "Capital humano, infraestructura e instituciones.",
+    "explicacion": "La OMPI considera elementos como capital humano, infraestructura e instituciones, que forman parte de los recursos y el entorno de la empresa."
+  },
+  {
+    "id": 8,
+    "type": "completar_oracion",
+    "question": "Una empresa también puede competir porque su aplicación _____ mejor, porque atiende _____ a sus clientes o porque resuelve un problema que otros negocios todavía no han solucionado.",
+    "wordBank": [
+      "funciona",
+      "rápido",
+      "cuesta",
+      "crece"
+    ],
+    "answer": [
+      "funciona",
+      "rápido"
+    ],
+    "explicacion": "Son ejemplos de cómo una empresa puede competir sin depender únicamente de vender más barato."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "En el ejemplo de TurnoApp, ¿qué factores serían importantes para competir?",
+    "options": [
+      "La facilidad de uso, el soporte y la confiabilidad.",
+      "Tener cientos de funciones.",
+      "Contar con el mayor presupuesto de publicidad.",
+      "Abrir sucursales en todas las ciudades."
+    ],
+    "answer": "La facilidad de uso, el soporte y la confiabilidad.",
+    "explicacion": "Su ventaja no tendría que ser tener cientos de funciones, sino lograr que una persona pueda agendar sin complicaciones y que el negocio reduzca los errores en sus horarios."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "Según el Manual de Oslo, ¿qué es una innovación empresarial?",
+    "options": [
+      "Un producto o proceso nuevo o mejorado que realmente se introduce al mercado o se utiliza en la empresa.",
+      "Cualquier idea nueva, aunque nunca se ponga en práctica.",
+      "Un cambio en el nombre o en el logotipo de la empresa.",
+      "Una herramienta costosa que se compró recientemente."
+    ],
+    "answer": "Un producto o proceso nuevo o mejorado que realmente se introduce al mercado o se utiliza en la empresa.",
+    "explicacion": "Innovar no es solamente tener ideas nuevas: el producto o proceso, nuevo o mejorado, debe introducirse al mercado o utilizarse en la empresa."
   }
 ]

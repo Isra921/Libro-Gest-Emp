@@ -66,8 +66,8 @@
       "items": [
         {
           "tag": "Actividad formativa",
-          "reactivos": "Reactivos al azar",
-          "tiempo": "10 min",
+          "reactivos": "10 reactivos",
+          "tiempo": "15 min",
           "titulo": "Actividad 2.1: Factores de competitividad",
           "descripcion": "Autoevaluación del tema 2.1 Factores de competitividad que afectan la gestión empresarial.",
           "url": "unidades/unidad-02/actividades/actividad-2-1.html",
