@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué es la filosofía corporativa de una empresa?",
+    "options": [
+      "El conjunto de ideas que orientan a la empresa y la forma en que quiere trabajar.",
+      "El presupuesto anual que la empresa asigna a cada una de sus áreas.",
+      "La lista de productos y servicios que ofrece a sus clientes.",
+      "El organigrama con los puestos de cada empleado."
+    ],
+    "answer": "El conjunto de ideas que orientan a la empresa y la forma en que quiere trabajar.",
+    "explicacion": "Reúne las ideas que orientan a una empresa y sirve para que los empleados comprendan qué busca el negocio y cuáles son los principios que deben tomar en cuenta. Generalmente se expresa mediante la misión, la visión y los valores."
+  },
+  {
+    "id": 2,
+    "type": "completar_oracion",
+    "question": "La _____ explica para qué existe la empresa y a quién busca ayudar, y la _____ describe lo que la organización quiere llegar a ser.",
+    "wordBank": [
+      "misión",
+      "visión",
+      "estrategia",
+      "cultura"
+    ],
+    "answer": [
+      "misión",
+      "visión"
+    ],
+    "explicacion": "La misión responde para qué existe la empresa y a quién busca ayudar; la visión describe lo que la organización quiere llegar a ser."
+  },
+  {
+    "id": 3,
+    "type": "opcion_multiple",
+    "question": "\"Desarrollar herramientas sencillas que ayuden a los pequeños negocios a organizar mejor sus actividades\" es un ejemplo de:",
+    "options": [
+      "Una misión.",
+      "Una visión.",
+      "Un valor.",
+      "Un presupuesto."
+    ],
+    "answer": "Una misión.",
+    "explicacion": "Explica para qué existe una empresa de software y a quién busca ayudar, que es lo que expresa la misión."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "\"Convertirse en una opción reconocida de software de gestión para negocios de una región\" es un ejemplo de:",
+    "options": [
+      "Una visión.",
+      "Una misión.",
+      "Un valor.",
+      "Un procedimiento."
+    ],
+    "answer": "Una visión.",
+    "explicacion": "Describe lo que la organización quiere llegar a ser, que es lo que expresa la visión."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes es un ejemplo de valor de una empresa de innovación tecnológica?",
+    "options": [
+      "La responsabilidad al utilizar información personal.",
+      "Convertirse en la empresa líder de una región.",
+      "Aumentar las ventas durante el próximo año.",
+      "Lanzar una nueva aplicación móvil."
+    ],
+    "answer": "La responsabilidad al utilizar información personal.",
+    "explicacion": "Algunos ejemplos de valores son la honestidad, el respeto a los usuarios, el trabajo en equipo y la responsabilidad al utilizar información personal."
+  },
+  {
+    "id": 6,
+    "type": "verdadero_falso",
+    "statement": "Los valores son principios que deberían verse en las decisiones de todos los días.",
+    "answer": true,
+    "explicacion": "Los valores no se quedan en el discurso: deben reflejarse en las decisiones cotidianas de la empresa."
+  },
+  {
+    "id": 7,
+    "type": "verdadero_falso",
+    "statement": "Basta con publicar la misión, la visión y los valores en la página web para que la filosofía de la empresa se cumpla.",
+    "answer": false,
+    "explicacion": "La filosofía no debería quedarse solamente en una presentación o en la página web. Es importante que los valores estén relacionados con decisiones y comportamientos concretos."
+  },
+  {
+    "id": 8,
+    "type": "opcion_multiple",
+    "question": "Si una empresa dice que valora a sus clientes pero nunca responde sus problemas, ¿qué ocurre?",
+    "options": [
+      "Existe una diferencia entre lo que promete y lo que realmente hace.",
+      "Su filosofía corporativa se está cumpliendo plenamente.",
+      "Sus valores dejan de ser necesarios.",
+      "Su misión se convierte en su visión."
+    ],
+    "answer": "Existe una diferencia entre lo que promete y lo que realmente hace.",
+    "explicacion": "Cuando lo que la empresa dice no coincide con lo que hace, la filosofía queda solo en palabras."
+  },
+  {
+    "id": 9,
+    "type": "completar_oracion",
+    "question": "Es importante que los valores estén relacionados con decisiones y _____ concretos.",
+    "wordBank": [
+      "comportamientos",
+      "presentaciones",
+      "logotipos",
+      "eslóganes"
+    ],
+    "answer": [
+      "comportamientos"
+    ],
+    "explicacion": "Para que la filosofía no se quede en una presentación, los valores deben verse en decisiones y comportamientos concretos."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "Además de sus valores, ¿qué es importante considerar en los negocios tecnológicos?",
+    "options": [
+      "El aprendizaje constante: cambiar de herramientas y actualizar conocimientos sin dejar a un lado los valores ni la responsabilidad con los usuarios.",
+      "Cambiar los valores cada vez que aparece una nueva herramienta.",
+      "Evitar actualizar al equipo para no perder la identidad de la empresa.",
+      "Reducir la responsabilidad con los usuarios para ganar velocidad."
+    ],
+    "answer": "El aprendizaje constante: cambiar de herramientas y actualizar conocimientos sin dejar a un lado los valores ni la responsabilidad con los usuarios.",
+    "explicacion": "Un equipo puede necesitar cambiar de herramientas y actualizar sus conocimientos para seguir siendo competitivo, pero sin dejar a un lado sus valores y la responsabilidad con los usuarios."
+  }
+]

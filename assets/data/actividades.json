@@ -74,6 +74,15 @@
           "icono": "fa-chart-line"
         },
         {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "15 min",
+          "titulo": "Actividad 2.2: Filosofía corporativa",
+          "descripcion": "Autoevaluación del tema 2.2 Filosofía corporativa de empresas de innovación tecnológica.",
+          "url": "unidades/unidad-02/actividades/actividad-2-2.html",
+          "icono": "fa-compass"
+        },
+        {
           "tag": "Caso integrador",
           "reactivos": "3 etapas",
           "tiempo": "20 min",
