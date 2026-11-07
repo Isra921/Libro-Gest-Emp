@@ -12,10 +12,10 @@
     "referencia": "TODO: Cita en formato APA del video."
   },
   "introduccion": [
-    "TODO: Párrafo 1 de introducción a la Unidad II de Gestión Empresarial.",
-    "TODO: Párrafo 2 sobre la gestión estratégica en las empresas de innovación tecnológica."
+    "La gestión estratégica consiste en decidir hacia dónde quiere ir una empresa y qué necesita hacer para conseguirlo. Esto es importante para cualquier negocio pero todavía más para las empresas tecnológicas porque sus productos pueden cambiar rápidamente y también aparecen nuevas herramientas y competidores. Tener una buena idea no es suficiente si no hay una forma clara de convertirla en un servicio útil para los clientes.",
+    "En esta unidad se explican los factores que influyen en la competitividad, la filosofía de las empresas, la cultura organizacional y la manera en que se implementan las estrategias. También se revisan herramientas como el cuadro de mando integral, el FODA, los modelos de negocio y el Diamante de Porter. Los apartados siguen el programa de Gestión empresarial del IPN para la unidad II (Instituto Politécnico Nacional [IPN], 2023)."
   ],
-  "recorrido": "TODO: Descripción general de la ruta de aprendizaje a través de los temas de esta unidad.",
+  "recorrido": "Avanza de los factores que hacen competitiva a una empresa a su filosofía corporativa, luego a la estrategia y la cultura organizacional, después a la implementación de la estrategia con el cuadro de mando integral y, al final, a las herramientas de gestión estratégica: análisis FODA, modelos de negocio, Diamante de Porter, plan comercial y plan maestro.",
   "competencias": [
     "Aplica la gestión estratégica en las empresas de innovación tecnológica con base en las diferentes herramientas, la filosofía y su cultura organizacional."
   ],
@@ -23,6 +23,7 @@
     {
       "numero": "2.1",
       "nombre": "Factores de competitividad que afectan la gestión empresarial",
+      "sintesis": "Concepto de competitividad, factores internos y externos que afectan a la empresa (tecnología y personal, clientes y mercado, recursos y entorno) y qué se entiende por innovación empresarial.",
       "icono": "fa-chart-line",
       "url": "unidades/unidad-02/temas/tema-02-01.html",
       "actividad": {
@@ -33,6 +34,7 @@
     {
       "numero": "2.2",
       "nombre": "Filosofía corporativa de empresas de innovación tecnológica",
+      "sintesis": "Concepto de filosofía corporativa, sus componentes (misión, visión y valores) y la importancia de que se reflejen en las decisiones y los comportamientos de la empresa.",
       "icono": "fa-compass",
       "url": "unidades/unidad-02/temas/tema-02-02.html",
       "actividad": {
@@ -43,6 +45,7 @@
     {
       "numero": "2.3",
       "nombre": "Estrategia y cultura organizacional de empresas de innovación tecnológica",
+      "sintesis": "Diferencia y relación entre estrategia y cultura organizacional, la importancia de elegir prioridades y la influencia de la cultura en la innovación.",
       "icono": "fa-chess",
       "url": "unidades/unidad-02/temas/tema-02-03.html",
       "actividad": {
@@ -53,7 +56,7 @@
     {
       "numero": "2.4",
       "nombre": "Implementación de la estrategia, planes, programas, presupuestos y procedimientos",
-      "sintesis": "2.4.1 Cuadro de mando integral",
+      "sintesis": "Diferencias entre plan, programa, presupuesto y procedimientos, el proceso para implementar una estrategia y el cuadro de mando integral con sus cuatro perspectivas e indicadores.",
       "icono": "fa-list-check",
       "url": "unidades/unidad-02/temas/tema-02-04.html",
       "actividad": {
@@ -64,7 +67,7 @@
     {
       "numero": "2.5",
       "nombre": "Herramientas de gestión estratégica",
-      "sintesis": "2.5.1 Análisis FODA y desarrollo de estrategias · 2.5.2 Modelos de negocio · 2.5.3 Modelo de Diamante de Porter · 2.5.4 Plan comercial · 2.5.5 Plan maestro",
+      "sintesis": "Análisis FODA y desarrollo de estrategias, modelos de negocio y Business Model Canvas, Diamante de Porter, plan comercial y plan maestro.",
       "icono": "fa-toolbox",
       "url": "unidades/unidad-02/temas/tema-02-05.html",
       "actividad": {
