@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "En el análisis FODA, ¿cuáles son los factores internos de una empresa?",
+    "options": [
+      "Las fortalezas y las debilidades.",
+      "Las oportunidades y las amenazas.",
+      "Las fortalezas y las oportunidades.",
+      "Las debilidades y las amenazas."
+    ],
+    "answer": "Las fortalezas y las debilidades.",
+    "explicacion": "Las fortalezas y debilidades son factores internos; las oportunidades y amenazas vienen principalmente del entorno."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "Una empresa aprovecharía el conocimiento de su equipo para atender a nuevos negocios. ¿Qué tipo de estrategia es?",
+    "options": [
+      "FO",
+      "DO",
+      "FA",
+      "DA"
+    ],
+    "answer": "FO",
+    "explicacion": "Una estrategia FO aprovecha el conocimiento del equipo para atender a nuevos negocios; una DO intenta superar la falta de publicidad mediante alianzas; una FA usa la atención personalizada para competir con plataformas más grandes, y una DA busca controlar gastos para reducir riesgos."
+  },
+  {
+    "id": 3,
+    "type": "verdadero_falso",
+    "statement": "Lo más importante del análisis FODA es llenar sus cuatro recuadros.",
+    "answer": false,
+    "explicacion": "Lo importante es que el análisis termine en decisiones y no solamente en llenar cuatro recuadros."
+  },
+  {
+    "id": 4,
+    "type": "opcion_multiple",
+    "question": "¿Qué explica un modelo de negocio?",
+    "options": [
+      "Cómo una empresa ofrece valor a sus clientes y de qué manera obtiene ingresos para seguir funcionando.",
+      "Cómo se relacionan el entorno de una región y sus empresas.",
+      "Cuánto dinero se asigna a cada actividad de un programa.",
+      "Qué productos ofrecen los competidores de la empresa."
+    ],
+    "answer": "Cómo una empresa ofrece valor a sus clientes y de qué manera obtiene ingresos para seguir funcionando.",
+    "explicacion": "Describe cómo opera el negocio. Es diferente de la estrategia, que también considera la forma en que la empresa busca destacar frente a sus competidores."
+  },
+  {
+    "id": 5,
+    "type": "completar_oracion",
+    "question": "El Business Model Canvas organiza el negocio en _____ bloques y permite revisar en una sola hoja cómo se relacionan las distintas partes de una empresa.",
+    "wordBank": [
+      "nueve",
+      "cuatro",
+      "cinco",
+      "doce"
+    ],
+    "answer": [
+      "nueve"
+    ],
+    "explicacion": "Los nueve bloques son: segmentos de clientes, propuesta de valor, canales, relación con clientes, fuentes de ingresos, recursos clave, actividades clave, socios clave y estructura de costos."
+  },
+  {
+    "id": 6,
+    "type": "verdadero_falso",
+    "statement": "Según el Diamante de Porter, una región con universidades que forman desarrolladores garantiza el éxito de cualquier empresa de software.",
+    "answer": false,
+    "explicacion": "Esto puede favorecer la creación de nuevos negocios, pero no garantiza el éxito: cada organización sigue necesitando una propuesta útil y una buena administración."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes NO es uno de los cuatro grupos principales del Diamante de Porter?",
+    "options": [
+      "El plan comercial de la empresa.",
+      "Las condiciones de la demanda.",
+      "Los sectores relacionados y de apoyo.",
+      "La estrategia, la estructura y la rivalidad."
+    ],
+    "answer": "El plan comercial de la empresa.",
+    "explicacion": "Los cuatro grupos son: condiciones de los factores, condiciones de la demanda, sectores relacionados y de apoyo, y estrategia, estructura y rivalidad."
+  },
+  {
+    "id": 8,
+    "type": "verdadero_falso",
+    "statement": "Un plan maestro se escribe una sola vez y nunca debe cambiarse.",
+    "answer": false,
+    "explicacion": "Si aparecen nuevas necesidades o los resultados son diferentes a lo esperado, habrá que revisar las prioridades y ajustar los tiempos."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Con qué se empieza normalmente al elaborar un plan comercial?",
+    "options": [
+      "Con identificar a quién se quiere vender y qué problema tiene ese grupo de personas.",
+      "Con fijar el precio final del producto.",
+      "Con elegir los canales de comunicación.",
+      "Con establecer los objetivos de venta."
+    ],
+    "answer": "Con identificar a quién se quiere vender y qué problema tiene ese grupo de personas.",
+    "explicacion": "Primero se identifica a quién se quiere vender y qué problema tiene ese grupo; después se revisan los competidores, se define la oferta y se eligen los canales; también se establecen precios, objetivos de venta, presupuesto y una forma de medir si las acciones funcionan."
+  },
+  {
+    "id": 10,
+    "type": "ordenar_oracion",
+    "question": "Ordena las etapas del ejemplo de plan maestro para un proyecto tecnológico.",
+    "segments": [
+      "Inicio",
+      "Desarrollo",
+      "Lanzamiento",
+      "Seguimiento"
+    ],
+    "answer": [
+      "Inicio",
+      "Desarrollo",
+      "Lanzamiento",
+      "Seguimiento"
+    ],
+    "explicacion": "El ejemplo empieza por investigar necesidades y definir el servicio, continúa con crear y probar funciones, luego da a conocer el servicio y atiende usuarios, y termina midiendo resultados y planeando mejoras."
+  }
+]

@@ -101,6 +101,15 @@
           "icono": "fa-list-check"
         },
         {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "15 min",
+          "titulo": "Actividad 2.5: Herramientas de gestión estratégica",
+          "descripcion": "Autoevaluación del tema 2.5 Herramientas de gestión estratégica.",
+          "url": "unidades/unidad-02/actividades/actividad-2-5.html",
+          "icono": "fa-toolbox"
+        },
+        {
           "tag": "Caso integrador",
           "reactivos": "3 etapas",
           "tiempo": "20 min",
