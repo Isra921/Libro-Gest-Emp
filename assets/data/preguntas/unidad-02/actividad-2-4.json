@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué indica un plan?",
+    "options": [
+      "Qué se quiere lograr y las acciones generales para conseguirlo.",
+      "Cuánto dinero se puede utilizar y en qué se va a gastar.",
+      "Los pasos para realizar ciertas actividades siempre de una manera ordenada.",
+      "Las fechas en que se realizarán varias actividades relacionadas."
+    ],
+    "answer": "Qué se quiere lograr y las acciones generales para conseguirlo.",
+    "explicacion": "El plan indica qué se quiere lograr y las acciones generales para conseguirlo, por ejemplo mejorar la atención a clientes durante el siguiente semestre."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "Al elaborar un presupuesto, ¿qué debe considerarse?",
+    "options": [
+      "Los recursos necesarios y no únicamente el precio inicial de una herramienta.",
+      "Únicamente el precio inicial de las herramientas.",
+      "Solo los sueldos del personal de la empresa.",
+      "Solo los gastos de publicidad."
+    ],
+    "answer": "Los recursos necesarios y no únicamente el precio inicial de una herramienta.",
+    "explicacion": "El presupuesto establece cuánto dinero se puede utilizar y en qué se va a gastar, y debe considerar los recursos necesarios, no solamente el precio inicial de una herramienta."
+  },
+  {
+    "id": 3,
+    "type": "completar_oracion",
+    "question": "El _____ organiza varias actividades relacionadas y define las fechas en que se realizarán, mientras que los _____ son pasos que ayudan a realizar ciertas actividades de manera ordenada.",
+    "wordBank": [
+      "programa",
+      "procedimientos",
+      "plan",
+      "presupuesto"
+    ],
+    "answer": [
+      "programa",
+      "procedimientos"
+    ],
+    "explicacion": "El programa puede incluir capacitación, cambios al sistema y pruebas con usuarios, y define fechas; los procedimientos son los pasos para realizar una actividad siempre de manera ordenada."
+  },
+  {
+    "id": 4,
+    "type": "ordenar_oracion",
+    "question": "Ordena los pasos del proceso sencillo para implementar una estrategia.",
+    "segments": [
+      "Analizar la situación actual",
+      "Definir objetivos",
+      "Organizar acciones",
+      "Ejecutar el trabajo",
+      "Revisar resultados"
+    ],
+    "answer": [
+      "Analizar la situación actual",
+      "Definir objetivos",
+      "Organizar acciones",
+      "Ejecutar el trabajo",
+      "Revisar resultados"
+    ],
+    "explicacion": "El proceso empieza por analizar la situación actual y termina con la revisión de resultados, que permite cambiar acciones cuando no son los esperados."
+  },
+  {
+    "id": 5,
+    "type": "verdadero_falso",
+    "statement": "Los resultados que se revisan al final del proceso ayudan a ajustar la estrategia.",
+    "answer": true,
+    "explicacion": "El seguimiento permite cambiar acciones cuando los resultados no son los esperados."
+  },
+  {
+    "id": 6,
+    "type": "opcion_multiple",
+    "question": "¿Cuál de los siguientes es un ejemplo de procedimiento?",
+    "options": [
+      "Recibir un reporte de error, revisarlo y comunicar al cliente que quedó resuelto.",
+      "Mejorar la atención a clientes durante el siguiente semestre.",
+      "Incluir capacitación, cambios al sistema y pruebas con usuarios.",
+      "Establecer cuánto dinero se destinará a una herramienta."
+    ],
+    "answer": "Recibir un reporte de error, revisarlo y comunicar al cliente que quedó resuelto.",
+    "explicacion": "Un procedimiento son pasos ordenados para una actividad, como recibir un reporte de error, revisarlo y avisar al cliente que quedó resuelto. Los otros ejemplos corresponden a un plan, un programa y un presupuesto."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "En una empresa de innovación tecnológica, ¿qué conviene hacer con las metas grandes?",
+    "options": [
+      "Dividirlas en entregas más pequeñas para comprobar resultados.",
+      "Mantenerlas como una sola entrega final para evitar cambios.",
+      "Posponerlas hasta que no exista ningún riesgo.",
+      "Asignarlas a una sola persona sin definir fechas."
+    ],
+    "answer": "Dividirlas en entregas más pequeñas para comprobar resultados.",
+    "explicacion": "Conviene dividir las metas grandes en entregas más pequeñas para comprobar resultados, e identificar riesgos como retrasos, falta de personal, problemas técnicos o cambios en lo que necesitan los clientes."
+  },
+  {
+    "id": 8,
+    "type": "verdadero_falso",
+    "statement": "El cuadro de mando integral evalúa las decisiones únicamente con cifras de ventas o ganancias.",
+    "answer": false,
+    "explicacion": "Busca que las decisiones no se evalúen solamente con cifras de ventas o ganancias: también considera lo que pasa con los clientes, los procesos y las capacidades del equipo."
+  },
+  {
+    "id": 9,
+    "type": "opcion_multiple",
+    "question": "¿Cuáles son las cuatro perspectivas del cuadro de mando integral que se presentan en el tema?",
+    "options": [
+      "Financiera, clientes, procesos internos y aprendizaje y crecimiento.",
+      "Financiera, comercial, legal y tecnológica.",
+      "Estratégica, operativa, táctica y directiva.",
+      "Misión, visión, valores y objetivos."
+    ],
+    "answer": "Financiera, clientes, procesos internos y aprendizaje y crecimiento.",
+    "explicacion": "En cada una de las cuatro perspectivas se establecen objetivos e indicadores."
+  },
+  {
+    "id": 10,
+    "type": "completar_oracion",
+    "question": "Un indicador es una _____ que permite saber si algo está mejorando o empeorando.",
+    "wordBank": [
+      "medida",
+      "meta",
+      "estrategia",
+      "perspectiva"
+    ],
+    "answer": [
+      "medida"
+    ],
+    "explicacion": "Por eso el cuadro de mando integral necesita varias medidas que se complementen y no solamente un número."
+  }
+]

@@ -92,6 +92,15 @@
           "icono": "fa-chess"
         },
         {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "15 min",
+          "titulo": "Actividad 2.4: Implementación de la estrategia",
+          "descripcion": "Autoevaluación del tema 2.4 Implementación de la estrategia, planes, programas, presupuestos y procedimientos.",
+          "url": "unidades/unidad-02/actividades/actividad-2-4.html",
+          "icono": "fa-list-check"
+        },
+        {
           "tag": "Caso integrador",
           "reactivos": "3 etapas",
           "tiempo": "20 min",
