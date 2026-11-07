@@ -83,6 +83,15 @@
           "icono": "fa-compass"
         },
         {
+          "tag": "Actividad formativa",
+          "reactivos": "10 reactivos",
+          "tiempo": "15 min",
+          "titulo": "Actividad 2.3: Estrategia y cultura organizacional",
+          "descripcion": "Autoevaluación del tema 2.3 Estrategia y cultura organizacional de empresas de innovación tecnológica.",
+          "url": "unidades/unidad-02/actividades/actividad-2-3.html",
+          "icono": "fa-chess"
+        },
+        {
           "tag": "Caso integrador",
           "reactivos": "3 etapas",
           "tiempo": "20 min",

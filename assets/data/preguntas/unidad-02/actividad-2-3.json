@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "type": "opcion_multiple",
+    "question": "¿Qué indica la estrategia de una empresa?",
+    "options": [
+      "Cómo piensa competir la empresa y qué decisiones tomará para alcanzar sus metas.",
+      "La manera en que las personas acostumbran trabajar y relacionarse dentro de ella.",
+      "Los valores que debe practicar cada empleado.",
+      "El presupuesto disponible para cada proyecto."
+    ],
+    "answer": "Cómo piensa competir la empresa y qué decisiones tomará para alcanzar sus metas.",
+    "explicacion": "La estrategia señala cómo piensa competir la empresa y qué decisiones tomará para alcanzar sus metas; la manera de trabajar y relacionarse de las personas corresponde a la cultura organizacional."
+  },
+  {
+    "id": 2,
+    "type": "opcion_multiple",
+    "question": "¿Qué es la cultura organizacional?",
+    "options": [
+      "La manera en que las personas acostumbran trabajar y relacionarse dentro de la empresa.",
+      "Las decisiones que la empresa tomará para alcanzar sus metas.",
+      "Los productos que la empresa ofrece a sus clientes.",
+      "El conjunto de leyes que regulan a la empresa."
+    ],
+    "answer": "La manera en que las personas acostumbran trabajar y relacionarse dentro de la empresa.",
+    "explicacion": "Es la manera en que las personas acostumbran trabajar y relacionarse dentro de la empresa. Es diferente de la estrategia, aunque necesitan estar conectadas."
+  },
+  {
+    "id": 3,
+    "type": "completar_oracion",
+    "question": "Una estrategia difícilmente funcionará si el equipo no está acostumbrado a _____ o a cumplir lo que se acuerda.",
+    "wordBank": [
+      "colaborar",
+      "competir",
+      "improvisar",
+      "vender"
+    ],
+    "answer": [
+      "colaborar"
+    ],
+    "explicacion": "Aunque la estrategia y la cultura son cosas diferentes, necesitan estar conectadas: sin hábito de colaboración y de cumplir los acuerdos, la estrategia difícilmente funciona."
+  },
+  {
+    "id": 4,
+    "type": "verdadero_falso",
+    "statement": "La estrategia y la cultura organizacional son lo mismo, por lo que no necesitan estar conectadas.",
+    "answer": false,
+    "explicacion": "Son cosas diferentes, pero necesitan estar conectadas: una estrategia difícilmente funcionará si el equipo no está acostumbrado a colaborar o a cumplir lo que se acuerda."
+  },
+  {
+    "id": 5,
+    "type": "opcion_multiple",
+    "question": "Una empresa pretende lanzar actualizaciones frecuentes. ¿Qué tipo de cultura necesita?",
+    "options": [
+      "Una en la que desarrolladores, diseñadores y responsables de pruebas se comuniquen con claridad y los errores se reporten sin ocultarlos.",
+      "Una en la que los errores se oculten para no retrasar las entregas.",
+      "Una en la que cada área trabaje por separado, sin comunicarse.",
+      "Una en la que las propuestas se rechacen sin escuchar al equipo."
+    ],
+    "answer": "Una en la que desarrolladores, diseñadores y responsables de pruebas se comuniquen con claridad y los errores se reporten sin ocultarlos.",
+    "explicacion": "Para actualizar con frecuencia hace falta una cultura de comunicación clara entre quienes desarrollan, diseñan y prueban, que permita reportar errores sin ocultarlos."
+  },
+  {
+    "id": 6,
+    "type": "completar_oracion",
+    "question": "Las propuestas de mejora deben revisarse con _____ en lugar de tomarlas solamente por intuición.",
+    "wordBank": [
+      "datos",
+      "rumores",
+      "costumbres",
+      "opiniones"
+    ],
+    "answer": [
+      "datos"
+    ],
+    "explicacion": "En el ejemplo de la empresa que lanza actualizaciones frecuentes, las propuestas de mejora se revisan con datos y no solo por intuición."
+  },
+  {
+    "id": 7,
+    "type": "opcion_multiple",
+    "question": "Una estrategia puede buscar atender a un sector específico, ofrecer mayor calidad, mejorar la experiencia de los usuarios o reducir tiempos de entrega. ¿Qué es lo importante?",
+    "options": [
+      "Elegir prioridades.",
+      "Intentar venderle a todo el mundo.",
+      "Desarrollar cualquier función que soliciten los clientes.",
+      "Evitar definir una dirección para tener mayor flexibilidad."
+    ],
+    "answer": "Elegir prioridades.",
+    "explicacion": "Si una empresa intenta venderle a todo el mundo y desarrollar cualquier función que le soliciten, podría terminar usando sus recursos sin tener una dirección clara."
+  },
+  {
+    "id": 8,
+    "type": "verdadero_falso",
+    "statement": "Cuando el equipo comparte lo que aprende y puede plantear problemas con confianza, resulta más sencillo encontrar soluciones.",
+    "answer": true,
+    "explicacion": "La cultura también influye en la innovación: un equipo que comparte lo que aprende y plantea problemas con confianza encuentra soluciones con mayor facilidad."
+  },
+  {
+    "id": 9,
+    "type": "verdadero_falso",
+    "statement": "Como la cultura favorece la innovación, conviene aceptar cualquier idea que proponga el equipo.",
+    "answer": false,
+    "explicacion": "Esto no significa aceptar cualquier idea: es necesario probarla, revisar su costo y comprobar que aporte algún beneficio."
+  },
+  {
+    "id": 10,
+    "type": "opcion_multiple",
+    "question": "Según Kaplan y Norton (2007), ¿qué relación es una parte central de la administración estratégica?",
+    "options": [
+      "La relación entre los objetivos estratégicos y el trabajo diario.",
+      "La relación entre el precio de los productos y la publicidad.",
+      "La relación entre el número de empleados y el número de clientes.",
+      "La relación entre la misión de la empresa y su logotipo."
+    ],
+    "answer": "La relación entre los objetivos estratégicos y el trabajo diario.",
+    "explicacion": "La relación entre objetivos estratégicos y trabajo diario es una parte central de la administración estratégica (Kaplan y Norton, 2007)."
+  }
+]
