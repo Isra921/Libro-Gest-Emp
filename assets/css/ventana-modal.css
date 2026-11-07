@@ -55,6 +55,7 @@ body.vm-abierta {
 
 .vm__header {
   display: flex;
+  flex-shrink: 0; /* el encabezado nunca se encoge: solo el cuerpo hace scroll */
   align-items: center;
   justify-content: space-between;
   gap: 16px;
@@ -98,6 +99,7 @@ body.vm-abierta {
   padding: 0 24px;
   background: var(--bg-section);
   border-bottom: 1px solid var(--border-color);
+  flex-shrink: 0; /* sin esto, con un cuerpo largo las pestañas se aplastan y se cortan */
   overflow-x: auto;
   flex-wrap: nowrap;
   -webkit-overflow-scrolling: touch;
@@ -133,6 +135,7 @@ body.vm-abierta {
 
 /* ---------- Contenido ---------- */
 .vm__body {
+  min-height: 0;
   padding: var(--vm-relleno);
   overflow-y: auto;
 }
