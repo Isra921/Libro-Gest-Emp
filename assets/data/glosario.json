@@ -21,6 +21,42 @@
         {
           "termino": "Cultura organizacional",
           "definicion": "Conjunto de valores, creencias, hábitos, tradiciones y normas compartidas por los miembros de una empresa que guían su conducta y toma de decisiones."
+        },
+        {
+          "termino": "Autoridad",
+          "definicion": "Facultad que tiene un puesto para tomar decisiones, dar órdenes y asignar recursos. El principio de autoridad y responsabilidad pide que ambas estén equilibradas: quien responde por un resultado debe tener la autoridad necesaria para lograrlo."
+        },
+        {
+          "termino": "Responsabilidad",
+          "definicion": "Obligación de cumplir las funciones asignadas y rendir cuentas de los resultados ante quien delegó la tarea."
+        },
+        {
+          "termino": "Eficiencia",
+          "definicion": "Capacidad de lograr los objetivos utilizando la menor cantidad posible de recursos (tiempo, dinero, materiales y esfuerzo). No debe confundirse con la eficacia, que es simplemente lograr el objetivo."
+        },
+        {
+          "termino": "Rentabilidad",
+          "definicion": "Capacidad de una empresa para generar utilidades en relación con la inversión o los recursos que emplea."
+        },
+        {
+          "termino": "Ventaja competitiva",
+          "definicion": "Característica o capacidad que permite a una empresa diferenciarse de sus competidores y superarlos de forma duradera, por ejemplo por su calidad, sus costos, su capacidad de innovar o un talento difícil de imitar."
+        },
+        {
+          "termino": "Liderazgo",
+          "definicion": "Capacidad de influir en las personas para que trabajen con compromiso y entusiasmo hacia el logro de los objetivos de la organización."
+        },
+        {
+          "termino": "Política empresarial",
+          "definicion": "Lineamiento general que orienta la toma de decisiones dentro de la organización y marca los límites dentro de los cuales deben actuar sus miembros."
+        },
+        {
+          "termino": "Tecnologías de la información (TI)",
+          "definicion": "Conjunto de equipos, programas, redes y servicios que se usan para obtener, almacenar, procesar y comunicar información; en la empresa sirven para automatizar procesos, analizar datos y mejorar la comunicación."
+        },
+        {
+          "termino": "Organización no gubernamental (ONG)",
+          "definicion": "Organización sin fines de lucro, independiente del gobierno, cuyo objetivo es social, cultural, educativo, ambiental o humanitario."
         }
       ]
     },
@@ -32,6 +68,62 @@
         {
           "termino": "Análisis FODA",
           "definicion": "Herramienta de diagnóstico estratégico que evalúa las Fortalezas, Oportunidades, Debilidades y Amenazas de una empresa frente a su entorno."
+        },
+        {
+          "termino": "Manual de Oslo",
+          "definicion": "Guía internacional elaborada por la OCDE y Eurostat (4.ª edición, 2018) que establece cómo definir y medir la innovación en las empresas."
+        },
+        {
+          "termino": "OMPI",
+          "definicion": "Organización Mundial de la Propiedad Intelectual: organismo de la ONU que promueve la protección de la propiedad intelectual y publica estudios sobre los entornos de innovación de los países, como el Índice Mundial de Innovación."
+        },
+        {
+          "termino": "Propuesta de valor",
+          "definicion": "Beneficio principal que la empresa ofrece a sus clientes y que explica por qué la elegirían en lugar de otras opciones; es uno de los nueve bloques del Business Model Canvas."
+        },
+        {
+          "termino": "Segmento de clientes",
+          "definicion": "Grupo de personas u organizaciones con necesidades y características similares al que una empresa decide atender."
+        },
+        {
+          "termino": "Canales",
+          "definicion": "Medios por los que una empresa se comunica con sus clientes y les hace llegar su propuesta de valor, como una tienda en línea, una aplicación, una fuerza de ventas o distribuidores."
+        },
+        {
+          "termino": "Modelo de suscripción",
+          "definicion": "Modelo de ingresos en el que el cliente paga una cuota periódica (mensual o anual) para usar un producto o servicio mientras mantenga su suscripción."
+        },
+        {
+          "termino": "Pago por uso",
+          "definicion": "Modelo de ingresos en el que el cliente paga solo por lo que consume, por ejemplo por número de transacciones, horas de servicio o capacidad utilizada."
+        },
+        {
+          "termino": "Licencia de software",
+          "definicion": "Contrato que autoriza a un cliente a usar un programa bajo ciertas condiciones a cambio de un pago, sin transferirle la propiedad del software."
+        },
+        {
+          "termino": "Freemium",
+          "definicion": "Modelo de negocio que ofrece una versión básica gratuita de un producto y cobra por funciones avanzadas o por una mayor capacidad de uso."
+        },
+        {
+          "termino": "Alianza estratégica",
+          "definicion": "Acuerdo de colaboración entre dos o más organizaciones que comparten recursos o capacidades para alcanzar objetivos que les convienen a ambas, sin perder su independencia."
+        },
+        {
+          "termino": "Financiamiento",
+          "definicion": "Obtención de los recursos económicos que necesita una empresa para operar o crecer, por ejemplo mediante créditos, inversionistas, apoyos públicos o recursos propios."
+        },
+        {
+          "termino": "Plan de negocios",
+          "definicion": "Documento que describe un negocio y cómo se alcanzarán sus objetivos; suele incluir el análisis del mercado, las operaciones, las estrategias de venta y las proyecciones financieras. Debe actualizarse cuando cambia la situación de la empresa."
+        },
+        {
+          "termino": "Análisis de mercado",
+          "definicion": "Estudio de los clientes potenciales, sus necesidades, la competencia y las tendencias del sector para valorar si un producto o servicio tiene oportunidad de venderse."
+        },
+        {
+          "termino": "Proyección financiera",
+          "definicion": "Estimación de los ingresos, costos y resultados que se espera que tenga una empresa en periodos futuros."
         }
       ]
     },
@@ -179,6 +271,30 @@
         {
           "termino": "Mantenimiento preventivo",
           "definicion": "Estrategia de optimización de los recursos tecnológicos que, mediante un calendario de mantenimiento, prolonga la vida útil de los equipos y previene fallas inesperadas."
+        },
+        {
+          "termino": "Innovación disruptiva",
+          "definicion": "Innovación que cambia por completo la forma en que funciona un mercado y desplaza a las empresas, productos o tecnologías establecidos, como ocurrió con la música por streaming frente a los discos físicos."
+        },
+        {
+          "termino": "Investigación y desarrollo (I+D)",
+          "definicion": "Trabajo sistemático que realiza una empresa para generar conocimientos nuevos y convertirlos en productos, procesos o servicios nuevos o mejorados."
+        },
+        {
+          "termino": "Vigilancia tecnológica",
+          "definicion": "Proceso sistemático para captar y analizar información sobre avances tecnológicos, competidores y tendencias del entorno, con el fin de detectar a tiempo oportunidades y amenazas."
+        },
+        {
+          "termino": "Globalización",
+          "definicion": "Proceso de creciente integración de las economías, los mercados y las sociedades del mundo, impulsado por el comercio internacional y las tecnologías de la información y la comunicación."
+        },
+        {
+          "termino": "Cuello de botella",
+          "definicion": "Etapa de un proceso cuya capacidad es menor que la de las demás y que, por ello, limita o retrasa el resultado de todo el proceso."
+        },
+        {
+          "termino": "Tiempo de ciclo",
+          "definicion": "Tiempo que transcurre desde que inicia hasta que termina un proceso o la producción de una unidad; es un indicador frecuente de eficiencia operativa."
         }
       ]
     },
@@ -270,6 +386,158 @@
         {
           "termino": "Seis Sigma",
           "definicion": "Metodología estadística para reducir la variabilidad y los defectos de un proceso mediante las fases DMAIC: definir, medir, analizar, mejorar y controlar."
+        },
+        {
+          "termino": "Habilidades blandas",
+          "definicion": "Capacidades personales y sociales, como la comunicación, el trabajo en equipo, el liderazgo y la resolución de problemas, que determinan cómo trabaja una persona con los demás; complementan a las habilidades técnicas del puesto."
+        },
+        {
+          "termino": "Rotación de personal",
+          "definicion": "Proporción de trabajadores que dejan la empresa y deben ser reemplazados en un periodo determinado; una rotación alta eleva los costos de reclutamiento y provoca la pérdida de conocimiento."
+        },
+        {
+          "termino": "Ausentismo",
+          "definicion": "Inasistencia de los trabajadores a su puesto durante la jornada laboral; se mide como indicador de gestión de personal y puede ser señal de baja motivación o mal clima laboral."
+        },
+        {
+          "termino": "Prestaciones laborales",
+          "definicion": "Beneficios en dinero o en especie que recibe el trabajador además de su salario; pueden ser las mínimas que marca la ley (aguinaldo, vacaciones, prima vacacional) o superiores, como seguros, vales o fondos de ahorro."
+        },
+        {
+          "termino": "Diversidad e inclusión",
+          "definicion": "Gestión que busca integrar a personas de distinto género, edad, origen, capacidades u otras características y garantizar que todas tengan las mismas oportunidades de participar y desarrollarse."
+        },
+        {
+          "termino": "Pruebas psicométricas",
+          "definicion": "Instrumentos estandarizados que miden aptitudes, rasgos de personalidad, intereses o capacidades intelectuales de los candidatos durante el proceso de selección."
+        },
+        {
+          "termino": "Mentoría",
+          "definicion": "Relación de acompañamiento en la que una persona con experiencia orienta a otra con menos experiencia para favorecer su desarrollo profesional."
+        },
+        {
+          "termino": "Rotación de puestos",
+          "definicion": "Técnica de capacitación en la que el trabajador ocupa temporalmente distintos puestos para ampliar sus conocimientos y habilidades; no debe confundirse con la rotación de personal."
+        },
+        {
+          "termino": "Plan de carrera",
+          "definicion": "Programa que define la ruta de crecimiento de un trabajador dentro de la empresa y la formación que necesita para avanzar en ella."
+        },
+        {
+          "termino": "Plan de sucesión",
+          "definicion": "Proceso para identificar y preparar con anticipación a las personas que podrán ocupar los puestos clave cuando queden vacantes."
+        },
+        {
+          "termino": "Evaluación por objetivos",
+          "definicion": "Método de evaluación del desempeño que compara los resultados alcanzados por el trabajador con metas acordadas previamente con su jefe."
+        },
+        {
+          "termino": "Organización Internacional del Trabajo (OIT)",
+          "definicion": "Organismo de la ONU, integrado por gobiernos, empleadores y trabajadores, que elabora normas internacionales del trabajo (convenios); los convenios ratificados por México forman parte de su legislación laboral."
+        },
+        {
+          "termino": "Seguridad social",
+          "definicion": "Sistema de protección que cubre a los trabajadores y sus familias ante enfermedades, maternidad, accidentes y riesgos de trabajo, invalidez, vejez y muerte; en México lo administran principalmente el IMSS y el ISSSTE."
+        },
+        {
+          "termino": "Ergonomía",
+          "definicion": "Disciplina que adapta el puesto, las herramientas y el ambiente de trabajo a las características de las personas para prevenir lesiones y mejorar su bienestar y productividad."
+        },
+        {
+          "termino": "Salario mínimo",
+          "definicion": "Cantidad mínima que debe recibir en efectivo un trabajador por los servicios prestados en una jornada; en México lo fija cada año la Comisión Nacional de los Salarios Mínimos (CONASAMI)."
+        },
+        {
+          "termino": "Jornada de trabajo",
+          "definicion": "Tiempo durante el cual el trabajador está a disposición del patrón. La LFT distingue la jornada diurna (entre las 6:00 y las 20:00 h, máximo 8 horas), la nocturna (entre las 20:00 y las 6:00 h, máximo 7 horas) y la mixta (combina ambas, máximo 7 horas y media)."
+        },
+        {
+          "termino": "Prima vacacional",
+          "definicion": "Pago adicional que recibe el trabajador durante sus vacaciones, equivalente por lo menos al 25 % del salario correspondiente a esos días."
+        },
+        {
+          "termino": "Aguinaldo",
+          "definicion": "Pago anual equivalente a por lo menos 15 días de salario, que el patrón debe entregar antes del 20 de diciembre; si el trabajador no laboró el año completo, recibe la parte proporcional."
+        },
+        {
+          "termino": "Participación de los Trabajadores en las Utilidades (PTU)",
+          "definicion": "Derecho de los trabajadores a recibir una parte de las utilidades anuales de la empresa, actualmente el 10 % de la utilidad fiscal, con los límites que establece la LFT."
+        },
+        {
+          "termino": "Periodo de prueba",
+          "definicion": "Plazo de hasta 30 días (hasta 180 en puestos de dirección, gerenciales o técnicos especializados) en el que el patrón verifica si el trabajador cumple los requisitos del puesto; solo puede pactarse en relaciones por tiempo indeterminado o de más de 180 días."
+        },
+        {
+          "termino": "Contrato de capacitación inicial",
+          "definicion": "Relación de trabajo de hasta 3 meses (hasta 6 en puestos de dirección, gerenciales o técnicos especializados) en la que el trabajador se capacita para adquirir los conocimientos que requiere el puesto, recibiendo salario y prestaciones."
+        },
+        {
+          "termino": "Contrato por tiempo indeterminado",
+          "definicion": "Relación de trabajo sin fecha de terminación; es la regla general en la LFT y la que da mayor estabilidad al trabajador."
+        },
+        {
+          "termino": "Contrato por tiempo determinado",
+          "definicion": "Relación de trabajo con una duración fija; solo puede pactarse cuando lo exija la naturaleza del trabajo, como al sustituir temporalmente a otro trabajador."
+        },
+        {
+          "termino": "Contrato por obra determinada",
+          "definicion": "Relación de trabajo que termina al concluir la obra o el proyecto específico para el que se contrató al trabajador."
+        },
+        {
+          "termino": "Indemnización",
+          "definicion": "Pago que el patrón debe hacer al trabajador para compensarlo, por ejemplo en un despido injustificado: tres meses de salario, además de los salarios vencidos y otras prestaciones según el caso."
+        },
+        {
+          "termino": "Antigüedad laboral",
+          "definicion": "Tiempo de servicios que un trabajador acumula en una empresa; genera derechos como la prima de antigüedad, equivalente a 12 días de salario por cada año trabajado en los casos que señala la ley."
+        },
+        {
+          "termino": "Libertad sindical",
+          "definicion": "Derecho de trabajadores y patrones a constituir las organizaciones que consideren convenientes, afiliarse a ellas o no afiliarse, sin intervención del Estado ni de la otra parte."
+        },
+        {
+          "termino": "Negociación colectiva",
+          "definicion": "Proceso de diálogo entre un sindicato y uno o varios patrones para acordar las condiciones de trabajo, que normalmente se plasman en un contrato colectivo."
+        },
+        {
+          "termino": "Coalición",
+          "definicion": "Acuerdo temporal de un grupo de trabajadores o de patrones para defender sus intereses comunes; una coalición de trabajadores es quien puede declarar una huelga."
+        },
+        {
+          "termino": "Teletrabajo",
+          "definicion": "Forma de trabajo a distancia en la que más del 40 % de las actividades se realizan fuera del centro de trabajo, principalmente mediante tecnologías de la información; está regulado en la LFT desde 2021."
+        },
+        {
+          "termino": "Derecho a la desconexión",
+          "definicion": "Derecho de la persona que trabaja a distancia a no responder comunicaciones de trabajo fuera de su jornada laboral."
+        },
+        {
+          "termino": "Prueba de hipótesis",
+          "definicion": "Procedimiento estadístico que, a partir de datos de una muestra, permite aceptar o rechazar una afirmación sobre un proceso, por ejemplo si un cambio redujo de verdad los defectos."
+        },
+        {
+          "termino": "Análisis de regresión",
+          "definicion": "Técnica estadística que estudia la relación entre una variable que se quiere explicar y una o varias variables que influyen en ella, para medir su efecto y hacer predicciones."
+        },
+        {
+          "termino": "ISO (Organización Internacional de Normalización)",
+          "definicion": "Organismo internacional, con sede en Ginebra, que elabora normas técnicas voluntarias, como las de la serie ISO 9000 sobre gestión de la calidad."
+        },
+        {
+          "termino": "Certificación",
+          "definicion": "Reconocimiento que otorga un organismo independiente y acreditado de que el sistema de gestión de una empresa cumple los requisitos de una norma, como la ISO 9001; se mantiene mediante auditorías periódicas."
+        },
+        {
+          "termino": "Modelo EFQM",
+          "definicion": "Modelo de excelencia de la Fundación Europea para la Gestión de la Calidad (European Foundation for Quality Management) que las organizaciones utilizan para autoevaluarse y orientar su mejora."
+        },
+        {
+          "termino": "Mapeo de la cadena de valor",
+          "definicion": "Herramienta Lean (Value Stream Mapping) que representa todos los pasos, flujos de materiales e información y tiempos de un proceso para distinguir las actividades que agregan valor de los desperdicios."
+        },
+        {
+          "termino": "Acciones correctivas y preventivas",
+          "definicion": "Medidas para eliminar la causa de un problema o una no conformidad que ya ocurrió (correctivas) o que podría ocurrir (preventivas), de modo que no se repita o no llegue a presentarse."
         }
       ]
     },
@@ -333,6 +601,258 @@
         {
           "termino": "Teamability (Trabajo colaborativo digital)",
           "definicion": "Habilidad para coordinar, cooperar y gestionar proyectos en equipos multidisciplinarios utilizando plataformas colaborativas digitales de comunicación, gestión de tareas y almacenamiento conjunto."
+        },
+        {
+          "termino": "Ley General de Sociedades Mercantiles",
+          "definicion": "Ley mexicana que regula la constitución, el funcionamiento, la fusión y la disolución de las sociedades mercantiles, como la S.A., la S. de R.L. y la S.A.S."
+        },
+        {
+          "termino": "Responsabilidad ilimitada",
+          "definicion": "Situación en la que los socios responden de las deudas de la sociedad con todo su patrimonio personal, sin un límite."
+        },
+        {
+          "termino": "Responsabilidad subsidiaria",
+          "definicion": "Responsabilidad que obliga a los socios a pagar las deudas de la sociedad solo cuando el patrimonio de esta no alcanza para cubrirlas."
+        },
+        {
+          "termino": "Responsabilidad solidaria",
+          "definicion": "Responsabilidad por la que el acreedor puede exigir a cualquiera de los socios el pago total de la deuda, quien después puede reclamar a los demás su parte."
+        },
+        {
+          "termino": "Acción",
+          "definicion": "Título que representa una parte del capital social de una sociedad anónima y da a su dueño (accionista) derechos como votar en las asambleas y recibir dividendos; puede transmitirse libremente."
+        },
+        {
+          "termino": "Parte social",
+          "definicion": "Participación de un socio en el capital de una S. de R.L.; no está representada por títulos negociables y para cederla se necesita el consentimiento de los demás socios."
+        },
+        {
+          "termino": "Ronda de inversión",
+          "definicion": "Etapa en la que una empresa, por lo general una startup, obtiene capital de inversionistas a cambio de una participación en su propiedad."
+        },
+        {
+          "termino": "Startup",
+          "definicion": "Empresa de reciente creación, normalmente de base tecnológica, que busca un modelo de negocio innovador capaz de crecer con rapidez."
+        },
+        {
+          "termino": "Denominación o razón social",
+          "definicion": "Nombre legal de una sociedad. La denominación es un nombre libre; la razón social se forma con los nombres de uno o más socios. Debe autorizarse ante la Secretaría de Economía."
+        },
+        {
+          "termino": "Capital social",
+          "definicion": "Suma de las aportaciones en dinero o en bienes que los socios hacen a la sociedad al constituirla o posteriormente."
+        },
+        {
+          "termino": "Objeto social",
+          "definicion": "Conjunto de actividades que la sociedad puede realizar según sus estatutos."
+        },
+        {
+          "termino": "Fedatario público",
+          "definicion": "Profesional del derecho con autorización del Estado para dar fe y validez a actos jurídicos, como la constitución de una sociedad; puede ser un notario o un corredor público."
+        },
+        {
+          "termino": "Registro Público de Comercio",
+          "definicion": "Registro en el que se inscriben los actos mercantiles, como la constitución de una sociedad, para que tengan efectos frente a terceros."
+        },
+        {
+          "termino": "Registro Federal de Contribuyentes (RFC)",
+          "definicion": "Clave que asigna el Servicio de Administración Tributaria (SAT) a cada persona física o moral para identificarla en el cumplimiento de sus obligaciones fiscales."
+        },
+        {
+          "termino": "e.firma",
+          "definicion": "Firma electrónica avanzada que emite el SAT; es un archivo digital que identifica al contribuyente en los trámites electrónicos y tiene la misma validez que una firma autógrafa."
+        },
+        {
+          "termino": "Licencia de funcionamiento",
+          "definicion": "Autorización que otorga el municipio o la alcaldía para que un establecimiento pueda operar en un lugar determinado de acuerdo con su giro."
+        },
+        {
+          "termino": "Utilidad",
+          "definicion": "Ganancia que obtiene una empresa al restar a sus ingresos los costos y gastos; sobre ella se calculan, por ejemplo, el ISR y la PTU."
+        },
+        {
+          "termino": "Contabilidad electrónica",
+          "definicion": "Obligación de llevar los registros contables en sistemas digitales y enviar periódicamente al SAT información como el catálogo de cuentas y la balanza de comprobación."
+        },
+        {
+          "termino": "Comprobante Fiscal Digital por Internet (CFDI)",
+          "definicion": "Factura electrónica que ampara una operación de compra, venta o prestación de servicios y que el SAT reconoce como comprobante válido."
+        },
+        {
+          "termino": "Certificado de sello digital (CSD)",
+          "definicion": "Certificado que emite el SAT para que el contribuyente pueda sellar y emitir sus facturas electrónicas; si se cancela, la empresa ya no puede facturar."
+        },
+        {
+          "termino": "Declaración fiscal",
+          "definicion": "Informe que el contribuyente presenta al SAT sobre sus ingresos, deducciones e impuestos a pagar; puede ser mensual (provisional) o anual."
+        },
+        {
+          "termino": "Planeación fiscal",
+          "definicion": "Organización anticipada de las operaciones de la empresa para cumplir sus obligaciones fiscales y aprovechar los beneficios que permite la ley, sin caer en la evasión."
+        },
+        {
+          "termino": "Cuotas obrero-patronales",
+          "definicion": "Aportaciones a la seguridad social que se calculan sobre el salario del trabajador y que cubren en parte el patrón y en parte el trabajador, a quien se le retienen."
+        },
+        {
+          "termino": "IMSS",
+          "definicion": "Instituto Mexicano del Seguro Social: institución que brinda seguridad social a los trabajadores del sector privado y a sus familias (servicios médicos, incapacidades, pensiones y guarderías)."
+        },
+        {
+          "termino": "INFONAVIT",
+          "definicion": "Instituto del Fondo Nacional de la Vivienda para los Trabajadores: administra las aportaciones patronales (5 % del salario) y otorga créditos para que los trabajadores adquieran o mejoren su vivienda."
+        },
+        {
+          "termino": "Prima dominical",
+          "definicion": "Pago adicional de por lo menos el 25 % del salario de un día ordinario que recibe quien trabaja en domingo."
+        },
+        {
+          "termino": "IMPI",
+          "definicion": "Instituto Mexicano de la Propiedad Industrial: autoridad que registra y protege marcas, patentes, modelos de utilidad, diseños industriales y secretos industriales."
+        },
+        {
+          "termino": "INDAUTOR",
+          "definicion": "Instituto Nacional del Derecho de Autor: autoridad que registra y protege los derechos de autor sobre obras literarias, artísticas y programas de cómputo."
+        },
+        {
+          "termino": "Derechos morales",
+          "definicion": "Derechos del autor a ser reconocido como creador de su obra y a oponerse a modificaciones que la perjudiquen; no pueden venderse, transferirse ni renunciarse."
+        },
+        {
+          "termino": "Derechos patrimoniales",
+          "definicion": "Derechos del autor a explotar económicamente su obra o autorizar a otros a hacerlo; pueden transmitirse y en México duran la vida del autor y 100 años más."
+        },
+        {
+          "termino": "Aviso de privacidad",
+          "definicion": "Documento que informa a las personas qué datos personales recaba una empresa, para qué los usa, con quién los comparte y cómo pueden ejercer sus derechos sobre ellos."
+        },
+        {
+          "termino": "PROFECO",
+          "definicion": "Procuraduría Federal del Consumidor: autoridad que protege los derechos de los consumidores y vigila que las empresas cumplan la Ley Federal de Protección al Consumidor."
+        },
+        {
+          "termino": "Prácticas monopólicas",
+          "definicion": "Conductas que dañan la libre competencia, como los acuerdos entre competidores para fijar precios o repartirse mercados, o el abuso de una empresa con poder dominante."
+        },
+        {
+          "termino": "Franquicia",
+          "definicion": "Contrato por el que una empresa (franquiciante) autoriza a otra (franquiciatario) a usar su marca y su modelo de negocio, y le transmite conocimientos y asistencia técnica a cambio de un pago."
+        },
+        {
+          "termino": "Daños y perjuicios",
+          "definicion": "Compensación que debe pagar quien incumple un contrato: el daño es la pérdida que sufre el patrimonio de la otra parte y el perjuicio, la ganancia lícita que dejó de obtener."
+        },
+        {
+          "termino": "Pena convencional",
+          "definicion": "Cláusula de un contrato que fija de antemano la sanción que pagará la parte que no cumpla sus obligaciones."
+        },
+        {
+          "termino": "Informe Brundtland",
+          "definicion": "Informe Nuestro futuro común, publicado en 1987 por la Comisión Mundial sobre el Medio Ambiente y el Desarrollo de la ONU, que difundió la definición más conocida de desarrollo sostenible."
+        },
+        {
+          "termino": "Gases de efecto invernadero (GEI)",
+          "definicion": "Gases, como el dióxido de carbono y el metano, que retienen el calor en la atmósfera y contribuyen al calentamiento global."
+        },
+        {
+          "termino": "Huella de carbono",
+          "definicion": "Cantidad total de gases de efecto invernadero que genera directa o indirectamente una persona, empresa o producto, expresada en toneladas de CO2 equivalente."
+        },
+        {
+          "termino": "Comercio justo",
+          "definicion": "Sistema comercial que garantiza a los productores precios justos, condiciones laborales dignas y prácticas respetuosas con el medio ambiente."
+        },
+        {
+          "termino": "Auditoría ambiental",
+          "definicion": "Revisión sistemática e independiente del desempeño ambiental de una empresa para verificar que cumple la normativa y sus compromisos ecológicos."
+        },
+        {
+          "termino": "Reporte de sostenibilidad",
+          "definicion": "Informe público en el que una empresa da a conocer sus resultados económicos, sociales y ambientales, a menudo con base en estándares internacionales como los de la Global Reporting Initiative (GRI)."
+        },
+        {
+          "termino": "Ofimática",
+          "definicion": "Conjunto de programas para el trabajo de oficina, como procesadores de texto, hojas de cálculo y presentaciones."
+        },
+        {
+          "termino": "Autenticación en dos factores (2FA)",
+          "definicion": "Método de seguridad que, además de la contraseña, pide una segunda prueba de identidad, como un código enviado al teléfono o generado por una aplicación."
+        },
+        {
+          "termino": "Phishing",
+          "definicion": "Fraude en el que el atacante se hace pasar por una persona o institución de confianza, por correo, mensaje o sitio falso, para robar contraseñas, datos bancarios u otra información."
+        },
+        {
+          "termino": "Innovación abierta",
+          "definicion": "Modelo en el que la empresa innova aprovechando ideas y conocimientos externos (universidades, startups, clientes o comunidades) además de los propios."
+        },
+        {
+          "termino": "Flujo de caja",
+          "definicion": "Registro de las entradas y salidas de dinero de una empresa en un periodo; permite saber si tendrá liquidez para cubrir sus obligaciones."
+        },
+        {
+          "termino": "Procesamiento de lenguaje natural (NLP)",
+          "definicion": "Rama de la inteligencia artificial que permite a las computadoras comprender, interpretar y generar lenguaje humano, como en los chatbots de atención a clientes."
+        },
+        {
+          "termino": "Visión por computadora",
+          "definicion": "Rama de la inteligencia artificial que permite a los sistemas analizar imágenes y videos, por ejemplo para detectar defectos en una inspección de calidad."
+        },
+        {
+          "termino": "Sesgo algorítmico",
+          "definicion": "Error sistemático en los resultados de un sistema de inteligencia artificial que produce decisiones injustas o discriminatorias, generalmente porque los datos con que se entrenó estaban desequilibrados."
+        },
+        {
+          "termino": "Alucinación (IA)",
+          "definicion": "Respuesta de un sistema de inteligencia artificial que parece correcta y convincente, pero contiene información falsa o inventada."
+        },
+        {
+          "termino": "Pronóstico de demanda",
+          "definicion": "Estimación de la cantidad de productos o servicios que comprarán los clientes en un periodo futuro, a partir de datos históricos y de otros factores."
+        },
+        {
+          "termino": "CRM",
+          "definicion": "Customer Relationship Management: sistema para gestionar la relación con los clientes que concentra su información, historial de compras e interacciones."
+        },
+        {
+          "termino": "Dashboard",
+          "definicion": "Tablero visual que muestra en una sola pantalla los indicadores más importantes de un negocio, normalmente actualizados en tiempo real."
+        },
+        {
+          "termino": "Analítica predictiva",
+          "definicion": "Uso de datos históricos, estadística e inteligencia artificial para anticipar resultados o comportamientos futuros, como las ventas o la salida de clientes."
+        },
+        {
+          "termino": "Trazabilidad",
+          "definicion": "Capacidad de seguir el recorrido de un producto o lote a lo largo de toda la cadena de suministro, desde su origen hasta el cliente."
+        },
+        {
+          "termino": "Ransomware",
+          "definicion": "Programa malicioso que cifra o bloquea la información de un equipo o una red y exige un pago (rescate) para liberarla."
+        },
+        {
+          "termino": "Contrato inteligente",
+          "definicion": "Programa almacenado en una blockchain que ejecuta automáticamente lo acordado entre las partes cuando se cumplen las condiciones establecidas."
+        },
+        {
+          "termino": "Escalabilidad",
+          "definicion": "Capacidad de un sistema, tecnología o negocio para crecer y atender una mayor demanda sin perder rendimiento ni elevar sus costos en la misma proporción."
+        },
+        {
+          "termino": "Omnicanalidad",
+          "definicion": "Estrategia que integra todos los canales de contacto con el cliente (tienda física, sitio web, aplicación, redes sociales) para ofrecerle una experiencia continua y coherente."
+        },
+        {
+          "termino": "Residuos electrónicos (e-waste)",
+          "definicion": "Desechos de aparatos eléctricos y electrónicos, como computadoras, teléfonos o servidores, que contienen materiales contaminantes y requieren un manejo especial."
+        },
+        {
+          "termino": "Pasarela de pago",
+          "definicion": "Servicio que procesa de forma segura los pagos con tarjeta u otros medios electrónicos en una tienda en línea."
+        },
+        {
+          "termino": "Quiebre de stock",
+          "definicion": "Situación en la que se agotan las existencias de un producto y no se puede atender la demanda de los clientes."
         }
       ]
     }
