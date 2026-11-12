@@ -34,10 +34,64 @@
 
 html {
   color-scheme: dark;
+  height: 100%;
 }
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main,
+.u-page,
+.container,
+.activity-page,
+.u-theme-page {
+  flex: 1 0 auto;
+}
+
 .brand-logo--ipn {
   filter: brightness(0) invert(1);
 }
 .site-nav .nav-toggle {
   color: var(--text-light);
+}
+
+/* ==========================================================================
+   PIE DE PÁGINA GLOBAL UNIFICADO (.u-footer)
+   Garantiza que todas las páginas muestren el mismo footer al final
+   ========================================================================== */
+.u-footer {
+  margin-top: auto;
+  border-top: 1px solid var(--border-color);
+  background: var(--footer-bg);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.u-footer__inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 20px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px 24px;
+}
+
+.u-footer p {
+  margin: 0;
+  color: var(--text-light);
+}
+
+@media (max-width: 768px) {
+  .u-footer__inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    padding: 16px;
+  }
 }
