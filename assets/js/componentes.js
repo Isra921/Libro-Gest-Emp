@@ -19,7 +19,7 @@
     ];
 
     // Versión para evitar que navegadores móviles sirvan archivos antiguos en caché
-    const VERSION = '2.2';
+    const VERSION = '2.3';
 
     // Carpeta de este archivo; así las rutas no dependen de la profundidad de la página
     const carpeta = new URL('./', document.currentScript.src);

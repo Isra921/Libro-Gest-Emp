@@ -107,6 +107,62 @@ const DataManager = {
 
     /** Respaldo embebido de datos para que la interfaz funcione offline y bajo file:/// */
     DATOS_EMBEBIDOS: {
+        'assets/data/navegacion.json': {
+            "marca": {
+                        "titulo": "ESCOM · Polilibro académico",
+                        "subtitulo": "Gestión Empresarial",
+                        "url": "index.html",
+                        "logo_izq": {
+                                    "src": "assets/img/IPNb.png",
+                                    "alt": "Instituto Politécnico Nacional",
+                                    "clase": "brand-logo--ipn"
+                        },
+                        "logo_der": {
+                                    "src": "assets/img/ESCOMB.png",
+                                    "alt": "Escuela Superior de Cómputo",
+                                    "clase": "brand-logo--escom"
+                        }
+            },
+            "boton_menu": "Abrir navegación",
+            "enlaces": [
+                        {
+                                    "texto": "Inicio",
+                                    "icono": "fa-home",
+                                    "url": "index.html"
+                        },
+                        {
+                                    "texto": "Plan de Estudios",
+                                    "icono": "fa-file-lines",
+                                    "modal": "plan-estudios"
+                        },
+                        {
+                                    "texto": "Unidades",
+                                    "icono": "fa-book-open",
+                                    "url": "unidades.html"
+                        },
+                        {
+                                    "texto": "Actividades",
+                                    "icono": "fa-list-check",
+                                    "modal": "actividades"
+                        },
+                        {
+                                    "texto": "Referencias",
+                                    "icono": "fa-bookmark",
+                                    "url": "referencias.html",
+                                    "con_unidad": true
+                        },
+                        {
+                                    "texto": "Glosario",
+                                    "icono": "fa-book",
+                                    "modal": "glosario"
+                        },
+                        {
+                                    "texto": "Autores",
+                                    "icono": "fa-users",
+                                    "modal": "autores"
+                        }
+            ]
+},
         'assets/data/unidades-data.json': {
             "titulo": "Unidades temáticas",
             "descripcion": "Programa académico oficial de Gestión empresarial (Ingeniería en Sistemas Computacionales, plan 2020) de la Escuela Superior de Cómputo (ESCOM - IPN).",
