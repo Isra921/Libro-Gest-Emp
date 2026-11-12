@@ -463,14 +463,7 @@
             margin: 0 8px;
         }
 
-        footer {
-            text-align: center;
-            margin-top: 60px;
-            padding: 30px;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            border-top: 1px solid color-mix(in srgb, var(--white) 10%, transparent);
-        }
+        /* footer en comun.css */
 
         .scroll-to-top {
             position: fixed;
@@ -1054,14 +1047,7 @@ tr:nth-child(even) {
   margin: 0 8px;
 }
 
-footer {
-  text-align: center;
-  margin-top: 60px;
-  padding: 30px;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  border-top: 1px solid color-mix(in srgb, var(--white) 10%, transparent);
-}
+/* footer en comun.css */
 
 .scroll-to-top {
   position: fixed;

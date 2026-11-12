@@ -59,39 +59,56 @@ main,
 }
 
 /* ==========================================================================
-   PIE DE PÁGINA GLOBAL UNIFICADO (.u-footer)
-   Garantiza que todas las páginas muestren el mismo footer al final
+   PIE DE PÁGINA GLOBAL UNIFICADO (footer.u-footer)
+   Garantiza que todas las páginas muestren exactamente el mismo footer
+   en escritorio y en dispositivos móviles.
    ========================================================================== */
-.u-footer {
-  margin-top: auto;
-  border-top: 1px solid var(--border-color);
-  background: var(--footer-bg);
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  width: 100%;
+footer.u-footer {
+  margin-top: auto !important;
+  border-top: 1px solid var(--border-color) !important;
+  background: var(--footer-bg) !important;
+  color: var(--text-muted) !important;
+  font-size: 0.85rem !important;
+  width: 100% !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
 }
 
-.u-footer__inner {
+footer.u-footer .u-footer__inner {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 20px 24px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 8px 24px;
+  padding: 18px 24px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 12px 24px !important;
+  box-sizing: border-box !important;
 }
 
-.u-footer p {
-  margin: 0;
-  color: var(--text-light);
+footer.u-footer p {
+  margin: 0 !important;
+  color: var(--text-light) !important;
+  font-size: 0.85rem !important;
+  line-height: 1.4 !important;
+  text-align: left !important;
 }
 
 @media (max-width: 768px) {
-  .u-footer__inner {
-    flex-direction: column;
-    text-align: center;
-    gap: 8px;
-    padding: 16px;
+  footer.u-footer {
+    font-size: 0.8rem !important;
+  }
+  footer.u-footer .u-footer__inner {
+    flex-direction: column !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+    padding: 16px 16px !important;
+  }
+  footer.u-footer p {
+    text-align: center !important;
+    font-size: 0.8rem !important;
   }
 }
