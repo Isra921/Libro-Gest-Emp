@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Actividad 5.3 · Habilidades Digitales | Gestión Empresarial</title>
-  <meta name="description" content="Actividad formativa interactiva para el tema 5.3 de Gestión Empresarial: competencias digitales, learnability, teamability, networking, adaptabilidad y uso crítico de IA.">
+  <title>Actividad 5.3 · Competencias Digitales para la Gestión | Gestión Empresarial</title>
+  <meta name="description" content="Actividad formativa interactiva para el tema 5.3 de Gestión Empresarial: Learnability, Teamability, Networking, Adaptability y pensamiento crítico en IA.">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="../../../assets/css/comun.css?v=20261112_footer_v2">
@@ -22,16 +22,15 @@
   <header class="site-nav" data-componente="navegacion"></header>
 
   <main class="u-page">
-
     <div class="a-layout">
       <div class="a-main">
         <header class="a-card a-head">
           <div class="a-head__top">
-            <span class="a-badge">Actividad formativa interactiva</span>
+            <span class="a-badge">Actividad formativa</span>
             <span class="a-head__where">Unidad V · Tema 5.3</span>
           </div>
-          <h1 class="a-title">Habilidades Digitales</h1>
-          <p class="a-purpose">Pon a prueba tu comprensión de las competencias digitales estratégicas: alfabetización tecnológica, ciberseguridad, learnability (aprendizaje continuo), teamability (trabajo colaborativo), networking profesional, adaptabilidad y pensamiento crítico en el uso de IA.</p>
+          <h1 class="a-title">Competencias Digitales para la Gestión</h1>
+          <p class="a-purpose">Autoevalúa tu dominio sobre las competencias transversales blandas-digitales indispensables en las organizaciones contemporáneas: aprendizaje continuo, colaboración en red, adaptabilidad y uso ético de la tecnología.</p>
           <ul class="a-chips" aria-label="Datos de la actividad">
             <li class="u-chip"><i class="fas fa-list-check" aria-hidden="true"></i> <span id="totalPreguntas">10</span> reactivos</li>
             <li class="u-chip"><i class="fas fa-clock" aria-hidden="true"></i> 15 min aprox.</li>
@@ -43,41 +42,48 @@
         <section class="a-card" aria-labelledby="instruccionesTitulo">
           <h2 class="a-card__title" id="instruccionesTitulo">Instrucciones</h2>
           <ol class="a-steps">
-            <li>Lee con atención cada reactivo e interactúa seleccionando o completando la respuesta correcta.</li>
-            <li>Pulsa <strong>Comprobar respuesta</strong> para revisar la retroalimentación formativa y explicaciones.</li>
-            <li>Continúa con <strong>Siguiente pregunta</strong> hasta finalizar la autoevaluación interactiva.</li>
-            <li>Puedes reiniciar en cualquier momento con diferentes combinaciones aleatorias del banco de reactivos.</li>
+            <li>Lee atentamente cada reactivo y selecciona o interactúa con la opción correspondiente.</li>
+            <li>Pulsa <strong>Comprobar respuesta</strong> para visualizar la retroalimentación inmediata.</li>
+            <li>Avanza con <strong>Siguiente pregunta</strong> hasta concluir la serie y revisar tu desempeño final.</li>
+            <li>La actividad es formativa para reforzar tus aprendizajes; puedes repetirla las veces que requieras.</li>
           </ol>
         </section>
 
         <section class="a-card a-exercise" aria-labelledby="ejercicioTitulo">
           <div class="a-exercise__bar">
-            <h2 class="a-exercise__label" id="ejercicioTitulo">Ejercicio interactivo</h2>
-            <div class="a-exercise__status" id="reactivoProgreso" aria-live="polite">Pregunta 1</div>
+            <h2 class="a-exercise__label" id="ejercicioTitulo">Ejercicio</h2>
+            <span class="a-exercise__count" id="ejercicioContador" aria-live="polite">Cargando…</span>
           </div>
 
-          <div class="a-exercise__body" id="preguntaContenedor">
-            <p class="u-loading">Cargando reactivos de la actividad…</p>
+          <div class="a-exercise__body" id="ejercicio" aria-busy="true">
+            <p class="u-loading">Cargando preguntas de la actividad…</p>
           </div>
-
-          <div class="a-exercise__foot" id="barraAcciones" hidden>
-            <button type="button" class="u-btn u-btn--outline" id="btnComprobar">Comprobar respuesta</button>
-            <button type="button" class="u-btn u-btn--primary" id="btnSiguiente" hidden>Siguiente pregunta <i class="fas fa-arrow-right" aria-hidden="true"></i></button>
-            <button type="button" class="u-btn u-btn--primary" id="btnReiniciar" hidden><i class="fas fa-rotate-right" aria-hidden="true"></i> Intentar de nuevo</button>
-          </div>
-
-          <div class="a-feedback" id="retroalimentacion" hidden aria-live="polite"></div>
         </section>
+
+        <div id="retroalimentacion" aria-live="polite"></div>
+
+        <nav class="a-pager" id="actividadNavegacion" aria-label="Navegación de la actividad">
+          <a class="a-pager__prev" href="../temas/tema-05-03.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver al tema 5.3</a>
+        </nav>
       </div>
 
-      <aside class="a-side" aria-label="Navegación complementaria">
-        <div class="a-card">
-          <h3 class="a-card__title">Contenido teórico</h3>
-          <p style="font-size: 0.9rem; margin-bottom: 12px;">Consulta los conceptos de competencias digitales y plataformas de gestión:</p>
-          <a class="u-btn u-btn--outline" style="width: 100%; justify-content: center;" href="../temas/tema-05-03.html">
-            <i class="fas fa-book-open" aria-hidden="true"></i> Leer Tema 5.3
-          </a>
-        </div>
+      <aside class="a-sidebar" aria-label="Navegación complementaria">
+        <details class="a-sidebar-details" open>
+          <summary class="a-sidebar-summary">
+            <span class="a-sidebar-summary-label"><i class="fas fa-compass" aria-hidden="true"></i> Navegación</span>
+            <i class="fas fa-chevron-down a-sidebar-chevron" aria-hidden="true"></i>
+          </summary>
+          <div class="a-sidebar-inner">
+            <div class="a-side-card">
+              <p class="a-side-title">Tema relacionado</p>
+              <a class="a-side-link" id="enlaceRepaso" href="../temas/tema-05-03.html"><i class="fas fa-book-open" aria-hidden="true"></i> <span>Repasar el tema 5.3</span></a>
+            </div>
+            <div class="a-side-card">
+              <p class="a-side-title">Otras actividades</p>
+              <div id="otrasActividades"></div>
+            </div>
+          </div>
+        </details>
       </aside>
     </div>
   </main>

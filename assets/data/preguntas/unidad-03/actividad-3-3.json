@@ -9,7 +9,8 @@
       "La evaluación de riesgos y oportunidades en nuevos mercados.",
       "El desarrollo de nuevas tecnologías de software."
     ],
-    "answer": "Las estrategias y procesos que las organizaciones utilizan para planificar, implementar y manejar cambios en los sistemas de negocio, procesos, tecnología y cultura."
+    "answer": "Las estrategias y procesos que las organizaciones utilizan para planificar, implementar y manejar cambios en los sistemas de negocio, procesos, tecnología y cultura.",
+    "explicacion": "El manejo del cambio comprende las estrategias sistemáticas para liderar transformaciones en personas, procesos, tecnologías y cultura."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "La introducción de ideas, productos o métodos nuevos y mejorados, abarcando no solo la tecnología, sino también nuevos enfoques en la gestión, en la estrategia empresarial y en los modelos de operación.",
       "La reducción de costos a través de métodos tradicionales."
     ],
-    "answer": "La introducción de ideas, productos o métodos nuevos y mejorados, abarcando no solo la tecnología, sino también nuevos enfoques en la gestión, en la estrategia empresarial y en los modelos de operación."
+    "answer": "La introducción de ideas, productos o métodos nuevos y mejorados, abarcando no solo la tecnología, sino también nuevos enfoques en la gestión, en la estrategia empresarial y en los modelos de operación.",
+    "explicacion": "Innovar en las organizaciones trasciende lo tecnológico, transformando prácticas de trabajo, modelos de gestión y relaciones humanas."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "La eliminación completa de productos antiguos.",
       "La introducción de modelos de negocio completamente distintos."
     ],
-    "answer": "Pequeñas mejoras continuas en procesos o productos existentes."
+    "answer": "Pequeñas mejoras continuas en procesos o productos existentes.",
+    "explicacion": "El cambio incremental introduce mejoras continuas y graduales para optimizar la eficiencia sobre lo que ya existe."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Cambios significativos que pueden incluir nuevos productos, servicios o modelos de negocio completamente distintos a los actuales.",
       "Incrementos graduales en la eficiencia operativa."
     ],
-    "answer": "Cambios significativos que pueden incluir nuevos productos, servicios o modelos de negocio completamente distintos a los actuales."
+    "answer": "Cambios significativos que pueden incluir nuevos productos, servicios o modelos de negocio completamente distintos a los actuales.",
+    "explicacion": "El cambio radical o transformacional redefine profundamente las bases operativas, modelos de negocio o productos de la empresa."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Asegurar que todos en la organización comprendan la naturaleza del cambio.",
       "Monitorear la efectividad del cambio y hacer ajustes según sea necesario."
     ],
-    "answer": "Comprender los factores internos y externos que requieren cambio."
+    "answer": "Comprender los factores internos y externos que requieren cambio.",
+    "explicacion": "Evaluar el entorno permite identificar fuerzas impulsoras y restrictivas externas e internas que justifican la transformación."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Asegurar que todos en la organización comprendan la naturaleza del cambio y cómo les afectará.",
       "Solo se enfoca en informar a los líderes de la organización."
     ],
-    "answer": "Asegurar que todos en la organización comprendan la naturaleza del cambio y cómo les afectará."
+    "answer": "Asegurar que todos en la organización comprendan la naturaleza del cambio y cómo les afectará.",
+    "explicacion": "La comunicación transparente mitiga la incertidumbre, reduce la resistencia al cambio y alinea al equipo con la nueva visión."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Comunicar la visión.",
       "Generar victorias a corto plazo."
     ],
-    "answer": "Descongelamiento."
+    "answer": "Descongelamiento.",
+    "explicacion": "El paso de 'Descongelamiento' pertenece al modelo de Kurt Lewin; Kotter propone 8 pasos iniciando con 'Crear sentido de urgencia'."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Eliminar obstáculos, generar victorias a corto plazo, consolidar mejoras.",
       "Cambio, descongelamiento y recongelamiento."
     ],
-    "answer": "Descongelamiento, cambio y recongelamiento."
+    "answer": "Descongelamiento, cambio y recongelamiento.",
+    "explicacion": "Kurt Lewin postuló la secuencia clásica de tres fases: Descongelar el estado actual, Cambiar/Mover hacia la nueva situación y Recongelar el nuevo estándar."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Generar victorias a corto plazo.",
       "Eliminar obstáculos para el cambio."
     ],
-    "answer": "Preparar a la organización para aceptar el cambio."
+    "answer": "Preparar a la organización para aceptar el cambio.",
+    "explicacion": "Descongelar consiste en sensibilizar y preparar a la organización reconociendo la necesidad ineludible de cambiar."
   },
   {
     "id": 10,
@@ -117,6 +126,7 @@
       "Consolidar mejoras.",
       "Cambio."
     ],
-    "answer": "Consolidar mejoras."
+    "answer": "Consolidar mejoras.",
+    "explicacion": "Consolidar las ganancias y mejoras a corto plazo para profundizar la transformación es el séptimo paso de la metodología de John Kotter."
   }
 ]

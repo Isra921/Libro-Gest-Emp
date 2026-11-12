@@ -1,132 +1,128 @@
 [
   {
-    "id": 1,
+    "id": "1.1-01",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones describe mejor el concepto de estructura organizativa?",
+    "question": "¿Cómo se define fundamentalmente una organización?",
     "options": [
-      "Se refiere al proceso de reclutamiento y selección de personal.",
-      "Es la forma en que se dividen, organizan y coordinan las tareas dentro de una organización.",
-      "Se centra en la gestión de conflictos dentro de un equipo de trabajo.",
-      "Hace referencia al proceso de establecer metas y objetivos para una empresa."
+      "Un grupo de personas que coordinan esfuerzos y recursos para alcanzar una meta en común.",
+      "Una entidad dedicada exclusivamente a la obtención de utilidades financieras para inversionistas.",
+      "Un conjunto de reglamentos y manuales sin intervención directa de personas.",
+      "Un edificio o instalación física donde se realizan actividades comerciales."
     ],
-    "answer": "Es la forma en que se dividen, organizan y coordinan las tareas dentro de una organización.",
-    "explicacion": ""
+    "answer": "Un grupo de personas que coordinan esfuerzos y recursos para alcanzar una meta en común.",
+    "explicacion": "Una organización nace cuando varias personas se agrupan y coordinan sus capacidades, tiempo y recursos para lograr objetivos que solas no podrían alcanzar."
   },
   {
-    "id": 2,
-    "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones NO corresponde a una característica o requisito de una Sociedad Anónima?",
-    "options": [
-      "La responsabilidad de los socios se limita exclusivamente al monto de su aportación de capital.",
-      "Todos los socios deben tener una participación activa y presencial en las operaciones diarias de la empresa.",
-      "Es necesario inscribir la constitución de la sociedad en el Registro Público de Comercio para su formalización legal.",
-      "La estructura organizativa de una Sociedad Anónima incluye una Asamblea de Accionistas y un Consejo de Administración."
-    ],
-    "answer": "Todos los socios deben tener una participación activa y presencial en las operaciones diarias de la empresa.",
-    "explicacion": ""
+    "id": "1.1-02",
+    "type": "verdadero_falso",
+    "statement": "Dentro del proceso administrativo, la organización corresponde a la segunda etapa, ubicándose justo después de la planeación.",
+    "answer": true,
+    "explicacion": "En la administración de empresas, la organización es la segunda fase del proceso administrativo; aquí se establece la estructura formal para ejecutar lo planeado."
   },
   {
-    "id": 3,
+    "id": "1.1-03",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones es correcta respecto a una Sociedad en Nombre Colectivo (S.N.C.)?",
+    "question": "¿Cuáles son los seis elementos esenciales que toda organización necesita para operar?",
     "options": [
-      "Los socios tienen una responsabilidad limitada al monto de su aportación de capital en la sociedad.",
-      "La sociedad puede ser constituida por un único socio.",
-      "Los socios responden de manera subsidiaria, ilimitada y solidaria por las obligaciones sociales, comprometiendo incluso su patrimonio personal.",
-      "Existe un capital social mínimo requerido para su constitución."
+      "Gente, recursos, objetivos, estructura, reglas y procedimientos, y entorno.",
+      "Maquinaria, patentes, software, dinero en efectivo, préstamos e inventarios.",
+      "Junta de accionistas, consejo fiscal, auditor externo, notario y sindicato.",
+      "Proveedores, clientes extranjeros, distribuidores mayoristas y transportistas."
     ],
-    "answer": "Los socios responden de manera subsidiaria, ilimitada y solidaria por las obligaciones sociales, comprometiendo incluso su patrimonio personal.",
-    "explicacion": ""
+    "answer": "Gente, recursos, objetivos, estructura, reglas y procedimientos, y entorno.",
+    "explicacion": "El texto del tema establece que toda organización necesita personas, recursos, objetivos definidos, una estructura de tareas, reglas internas e interacción con su entorno."
   },
   {
-    "id": 4,
+    "id": "1.1-04",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones NO es correcta sobre la Sociedad en Comandita Simple (S. en C.S.)?",
+    "question": "¿Cómo se diferencian las organizaciones según su estructura formal e informal?",
     "options": [
-      "Todos los socios, tanto comanditados como comanditarios, tienen responsabilidad ilimitada y solidaria por las obligaciones sociales.",
-      "No se requiere un mínimo de capital social para su constitución.",
-      "Debe haber al menos un socio comanditado, que responde de manera ilimitada y solidaria, y un socio comanditario, cuya responsabilidad se limita al monto de su aportación.",
-      "La sociedad debe inscribirse en el Registro Público de Comercio."
+      "Las formales tienen autoridad y jerarquía definidas en organigramas y manuales; las informales nacen espontáneamente de las relaciones personales.",
+      "Las formales siempre persiguen fines de lucro, mientras que las informales son exclusivas de instituciones gubernamentales.",
+      "Las formales operan en oficinas físicas, mientras que las informales operan únicamente mediante plataformas virtuales.",
+      "Las formales tienen más de 250 empleados y las informales tienen menos de 10 trabajadores."
     ],
-    "answer": "Todos los socios, tanto comanditados como comanditarios, tienen responsabilidad ilimitada y solidaria por las obligaciones sociales.",
-    "explicacion": ""
+    "answer": "Las formales tienen autoridad y jerarquía definidas en organigramas y manuales; las informales nacen espontáneamente de las relaciones personales.",
+    "explicacion": "Las organizaciones formales tienen puestos y jerarquías estipulados oficialmente; las informales surgen de la convivencia y vínculos interpersonales espontáneos."
   },
   {
-    "id": 5,
+    "id": "1.1-05",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones es INCORRECTA acerca de una Sociedad de Responsabilidad Limitada (S. de R.L.)?",
+    "question": "¿Qué tipo de estructura organizacional organiza el trabajo por proyectos y combina simultáneamente autoridad funcional con autoridad de proyecto?",
     "options": [
-      "La responsabilidad de los socios está limitada a la cantidad que cada uno aporte, y no están obligados a cubrir pérdidas más allá de su aportación inicial.",
-      "La sociedad debe tener un mínimo de 2 socios pero no puede exceder de 50.",
-      "Cada socio debe aportar, como mínimo, el 75% de su participación total en el capital social al momento de la constitución de la sociedad.",
-      "Es necesario realizar una auditoría externa si la empresa cumple con ciertos criterios de tamaño o ingresos."
+      "Estructura matricial",
+      "Estructura lineal o jerárquica",
+      "Estructura staff",
+      "Estructura informal"
     ],
-    "answer": "Cada socio debe aportar, como mínimo, el 75% de su participación total en el capital social al momento de la constitución de la sociedad.",
-    "explicacion": ""
+    "answer": "Estructura matricial",
+    "explicacion": "La estructura matricial asigna a los especialistas a proyectos específicos, combinando la autoridad del departamento funcional con la del líder de proyecto."
   },
   {
-    "id": 6,
-    "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones es correcta respecto a una Sociedad en Comandita por Acciones (S.C.A.)?",
-    "options": [
-      "Todos los socios tienen responsabilidad limitada y responden únicamente por el monto de su inversión en acciones.",
-      "Solo existe un tipo de socio en la Sociedad en Comandita por Acciones, y todos tienen las mismas responsabilidades y derechos.",
-      "Los socios comanditados tienen responsabilidad ilimitada y gestionan la empresa, mientras que los socios comanditarios tienen responsabilidad limitada al monto de sus aportaciones.",
-      "Es obligatorio que el capital social de la sociedad esté dividido en acciones de distintos valores y que confiera derechos diferentes a cada socio."
+    "id": "1.1-06",
+    "type": "completar_oracion",
+    "question": "Según su propiedad, las organizaciones se clasifican en _____ (pertenecientes a particulares o inversionistas), _____ (del Estado) y mixtas.",
+    "wordBank": [
+      "privadas",
+      "públicas",
+      "informales",
+      "lucrativas"
     ],
-    "answer": "Los socios comanditados tienen responsabilidad ilimitada y gestionan la empresa, mientras que los socios comanditarios tienen responsabilidad limitada al monto de sus aportaciones.",
-    "explicacion": ""
+    "answer": [
+      "privadas",
+      "públicas"
+    ],
+    "explicacion": "Por el origen de sus recursos y propiedad, las organizaciones se dividen en privadas (capital particular), públicas (recursos estatales) y mixtas (combinación de ambas)."
   },
   {
-    "id": 7,
+    "id": "1.1-07",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones NO es correcta acerca de una Sociedad por Acciones Simplificada (SAS)?",
+    "question": "¿En qué consiste el principio de 'unidad de mando' en una organización?",
     "options": [
-      "Es necesario contar con un mínimo de cinco accionistas para constituir una SAS.",
-      "Los socios o accionistas deben aceptar los estatutos genéricos proporcionados por la Secretaría de Economía.",
-      "La SAS puede ser constituida por una sola persona, siendo así unipersonal.",
-      "Los accionistas están obligados a cumplir con los acuerdos estipulados en el contrato de constitución."
+      "Cada trabajador debe recibir órdenes y reportarle a un solo jefe para evitar confusiones y conflictos de autoridad.",
+      "Todos los miembros de la empresa deben tener exactamente el mismo nivel salarial y jerárquico.",
+      "Toda decisión operativa debe ser consultada y aprobada por asamblea de accionistas.",
+      "Un jefe debe supervisar a un número ilimitado de empleados para acelerar la comunicación."
     ],
-    "answer": "Es necesario contar con un mínimo de cinco accionistas para constituir una SAS.",
-    "explicacion": ""
+    "answer": "Cada trabajador debe recibir órdenes y reportarle a un solo jefe para evitar confusiones y conflictos de autoridad.",
+    "explicacion": "El principio de unidad de mando garantiza que cada subordinado dependa de un único superior directo, evitando órdenes contradictorias."
   },
   {
-    "id": 8,
+    "id": "1.1-08",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones es incorrecta respecto a una Sociedad Cooperativa?",
+    "question": "¿Qué establece el principio del 'tramo de control'?",
     "options": [
-      "Los beneficios se distribuyen en función del capital aportado por cada socio.",
-      "La participación en la toma de decisiones se realiza de manera democrática, generalmente con un voto por socio.",
-      "Es necesario que los socios participen activamente en la gestión de la cooperativa y se adhieran a los principios cooperativos.",
-      "La sociedad debe contar con una contabilidad electrónica y registrar todas las operaciones."
+      "Limita el número de subordinados que un jefe puede supervisar de manera eficiente y adecuada.",
+      "Obliga a que todos los procesos administrativos se ejecuten en menos de 24 horas.",
+      "Exige que la empresa divida sus funciones únicamente por zonas geográficas.",
+      "Determina el monto máximo de capital que un socio puede invertir en la empresa."
     ],
-    "answer": "Los beneficios se distribuyen en función del capital aportado por cada socio.",
-    "explicacion": ""
+    "answer": "Limita el número de subordinados que un jefe puede supervisar de manera eficiente y adecuada.",
+    "explicacion": "El tramo de control delimita la cantidad de colaboradores directos que un directivo puede coordinar y supervisar con eficacia."
   },
   {
-    "id": 9,
-    "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones es incorrecta acerca de una Sociedad Civil?",
-    "options": [
-      "Las sociedades civiles siempre son organizaciones sin fines de lucro o entidades de beneficio social.",
-      "Los socios deben contribuir con recursos acordados, que pueden incluir dinero, bienes u otros activos.",
-      "Es necesario designar a un administrador que se encargue de la gestión de la sociedad.",
-      "Las sociedades civiles deben cumplir con sus obligaciones fiscales, incluyendo la presentación de declaraciones de impuestos y pagos al gobierno."
-    ],
-    "answer": "Las sociedades civiles siempre son organizaciones sin fines de lucro o entidades de beneficio social.",
-    "explicacion": ""
+    "id": "1.1-09",
+    "type": "verdadero_falso",
+    "statement": "El organigrama es la representación gráfica de la estructura organizacional que muestra los niveles jerárquicos y las líneas de autoridad.",
+    "answer": true,
+    "explicacion": "El organigrama esquematiza la división de tareas, los departamentos, las cadenas de mando y el flujo formal de comunicación interna."
   },
   {
-    "id": 10,
-    "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones es incorrecta respecto a una Asociación Civil?",
-    "options": [
-      "Las asociaciones civiles siempre tienen como objetivo compartir las pérdidas y ganancias entre los socios.",
-      "Es necesario mantener registros contables y preparar estados financieros.",
-      "La participación de los socios en la asociación es voluntaria y deben contribuir activamente en la consecución de los objetivos.",
-      "Las asociaciones civiles deben cumplir con requisitos fiscales y legales, incluyendo la presentación de informes y la gestión de fondos."
+    "id": "1.1-10",
+    "type": "ordenar_oracion",
+    "question": "Ordena los conceptos que componen la lógica de una organización efectiva:",
+    "segments": [
+      "División del trabajo",
+      "Especialización de tareas",
+      "Coordinación de esfuerzos",
+      "Cumplimiento de objetivos"
     ],
-    "answer": "Las asociaciones civiles siempre tienen como objetivo compartir las pérdidas y ganancias entre los socios.",
-    "explicacion": ""
+    "answer": [
+      "División del trabajo",
+      "Especialización de tareas",
+      "Coordinación de esfuerzos",
+      "Cumplimiento de objetivos"
+    ],
+    "explicacion": "Al dividir el trabajo las personas se especializan, mediante la coordinación integran sus esfuerzos y así la organización alcanza sus objetivos comunes."
   }
 ]

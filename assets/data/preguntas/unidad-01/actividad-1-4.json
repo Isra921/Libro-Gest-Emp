@@ -1,132 +1,128 @@
 [
   {
-    "id": 1,
+    "id": "1.4-01",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes opciones describe mejor el enfoque principal de la gestión en comparación con la administración?",
+    "question": "¿De qué raíz etimológica proviene el término 'administrar' y cuál es su significado original?",
     "options": [
-      "La gestión se enfoca más en la supervisión y control de las operaciones diarias.",
-      "La gestión se centra en la planificación estratégica y la dirección hacia objetivos a largo plazo.",
-      "La gestión implica realizar tareas operativas específicas dentro de la organización.",
-      "La gestión se basa principalmente en seguir reglas y procedimientos establecidos."
+      "Proviene del latín 'administrare', que significa servir o cuidar los intereses de otro.",
+      "Proviene del griego 'gestio', que significa inventar nuevas tecnologías.",
+      "Proviene del latín 'gerere', que se traduce exclusivamente como fabricar mercancías.",
+      "Proviene del francés 'manager', que significa despedir personal no productivo."
     ],
-    "answer": "La gestión se centra en la planificación estratégica y la dirección hacia objetivos a largo plazo.",
-    "explicacion": ""
+    "answer": "Proviene del latín 'administrare', que significa servir o cuidar los intereses de otro.",
+    "explicacion": "El término administrar proviene de administrare (servir o cuidar intereses de otro), tradicionalmente ligado al orden, la custodia de recursos y el cumplimiento de normas institucionales."
   },
   {
-    "id": 2,
+    "id": "1.4-02",
     "type": "opcion_multiple",
-    "question": "Respecto a la perspectiva temporal, ¿cómo se diferencia la gestión de la administración?",
+    "question": "¿Cuál es el enfoque central de quien 'administra' en una organización?",
     "options": [
-      "La gestión y la administración se enfocan exclusivamente en actividades a corto plazo.",
-      "La gestión tiene una perspectiva más amplia y se relaciona con acciones a largo plazo.",
-      "La administración se centra en el desarrollo de planes estratégicos a largo plazo.",
-      "No hay diferencia en la perspectiva temporal entre gestión y administración."
+      "Garantizar el orden interno, el cumplimiento de normas y procedimientos establecidos y el buen uso de los recursos.",
+      "Transformar radicalmente el modelo de negocio cada semana sin seguir ningún procedimiento.",
+      "Asumir riesgos financieros especulativos sin consultar presupuestos.",
+      "Ignorar las políticas de la empresa para actuar con total descontrol."
     ],
-    "answer": "La gestión tiene una perspectiva más amplia y se relaciona con acciones a largo plazo.",
-    "explicacion": ""
+    "answer": "Garantizar el orden interno, el cumplimiento de normas y procedimientos establecidos y el buen uso de los recursos.",
+    "explicacion": "La administración tiene un carácter estructurado y normativo orientado a que las operaciones se ejecuten conforme a lo planeado y dentro de los límites de autoridad."
   },
   {
-    "id": 3,
+    "id": "1.4-03",
     "type": "opcion_multiple",
-    "question": "En cuanto a la toma de decisiones, ¿cómo se distingue la gestión de la administración?",
+    "question": "¿Cómo se define el concepto de 'gestionar' en el ámbito empresarial contemporáneo?",
     "options": [
-      "La gestión toma decisiones basadas únicamente en la intuición.",
-      "La administración y la gestión toman decisiones estratégicas que afectan el rendimiento general.",
-      "La gestión implica tomar decisiones estratégicas que afectan la dirección de la organización.",
-      "La administración se enfoca en la innovación y el cambio, mientras que la gestión sigue procedimientos establecidos."
+      "La capacidad de tomar decisiones, proponer iniciativas, mover recursos para resolver problemas y adaptarse activamente a los cambios del entorno.",
+      "La simple repetición mecánica de formatos y firmas sin tomar ninguna decisión.",
+      "El archivo pasivo de comprobantes de pago e inventarios.",
+      "La prohibición de innovar para conservar prácticas del pasado."
     ],
-    "answer": "La gestión implica tomar decisiones estratégicas que afectan la dirección de la organización.",
-    "explicacion": ""
+    "answer": "La capacidad de tomar decisiones, proponer iniciativas, mover recursos para resolver problemas y adaptarse activamente a los cambios del entorno.",
+    "explicacion": "Gestionar se enfoca en la acción y en los resultados, destacando la creatividad, el liderazgo y la flexibilidad para responder a las dinámicas del mercado."
   },
   {
-    "id": 4,
-    "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes habilidades es más requerida en la gestión en comparación con la administración?",
-    "options": [
-      "Conocimiento y aplicación de políticas y procedimientos establecidos.",
-      "Habilidades de supervisión y organización de tareas operativas.",
-      "Capacidad para adaptarse a los cambios y pensamiento estratégico.",
-      "Ejecución eficiente de procesos operativos diarios."
-    ],
-    "answer": "Capacidad para adaptarse a los cambios y pensamiento estratégico.",
-    "explicacion": ""
+    "id": "1.4-04",
+    "type": "verdadero_falso",
+    "statement": "Mientras la administración es más formal, estable y orientada al control de procesos, la gestión es más dinámica, flexible y orientada al logro de resultados y la mejora continua.",
+    "answer": true,
+    "explicacion": "Esta distinción sintetiza la diferencia esencial entre la estabilidad procedimental de administrar y el dinamismo adaptativo de gestionar."
   },
   {
-    "id": 5,
+    "id": "1.4-05",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes opciones mejor ejemplifica el enfoque estratégico de la gestión?",
+    "question": "¿Cuál de las siguientes afirmaciones resume mejor la relación entre ambas funciones según el tema?",
     "options": [
-      "Asegurarse de que las líneas de ensamblaje funcionen sin problemas.",
-      "Desarrollar una estrategia a largo plazo para diversificar productos y expandir globalmente.",
-      "Gestionar turnos y satisfacción del cliente en un restaurante.",
-      "Mantener los parques eólicos y solares operando óptimamente."
+      "La administración pone la base estructural y normativa sobre la que opera la empresa, y la gestión dirige esa estructura hacia el logro real de objetivos.",
+      "La administración y la gestión son funciones totalmente opuestas e incompatibles en una misma empresa.",
+      "Una empresa solo debe elegir entre administrar o gestionar, pero nunca aplicar ambas.",
+      "Gestionar hace que la administración quede obsoleta e innecesaria."
     ],
-    "answer": "Desarrollar una estrategia a largo plazo para diversificar productos y expandir globalmente.",
-    "explicacion": ""
+    "answer": "La administración pone la base estructural y normativa sobre la que opera la empresa, y la gestión dirige esa estructura hacia el logro real de objetivos.",
+    "explicacion": "Ambas disciplinas se complementan: sin administración hay caos y desorden, y sin gestión hay estancamiento e incapacidad de innovar."
   },
   {
-    "id": 6,
-    "type": "opcion_multiple",
-    "question": "¿Qué actividad representa mejor el enfoque de la administración?",
-    "options": [
-      "Buscar constantemente oportunidades para desarrollar nuevos medicamentos.",
-      "Evaluar la cadena de suministro para aumentar eficiencia y rentabilidad.",
-      "Garantizar que los procesos de fabricación cumplan con las regulaciones existentes.",
-      "Mantenerse al tanto de las tendencias del mercado en energías renovables."
+    "id": "1.4-06",
+    "type": "completar_oracion",
+    "question": "Una empresa necesita una _____ sólida que garantice orden y buen uso de recursos, pero también una _____ eficiente que le permita adaptarse e innovar frente al mercado.",
+    "wordBank": [
+      "administración",
+      "gestión",
+      "auditoría",
+      "liquidación"
     ],
-    "answer": "Garantizar que los procesos de fabricación cumplan con las regulaciones existentes.",
-    "explicacion": ""
+    "answer": [
+      "administración",
+      "gestión"
+    ],
+    "explicacion": "El éxito empresarial radica en balancear la estabilidad y control que brinda administrar con la agilidad e iniciativa que aporta gestionar."
   },
   {
-    "id": 7,
+    "id": "1.4-07",
     "type": "opcion_multiple",
-    "question": "¿Cuál de estas tareas es una muestra de innovación y cambio, típica de la gestión?",
+    "question": "¿Qué rol asume quien gestiona frente a los cambios e imprevistos del mercado?",
     "options": [
-      "Asegurar la ejecución eficiente de las operaciones diarias en un restaurante.",
-      "Encabezar el departamento de I+D para desarrollar nuevas terapias.",
-      "Garantizar el funcionamiento sin problemas de las líneas de ensamblaje.",
-      "Supervisar la calidad de los productos actuales."
+      "Un rol activo con iniciativa, liderazgo y margen de decisión para negociar, motivar y ajustar estrategias sobre la marcha.",
+      "Un rol pasivo esperando instrucciones sin reaccionar hasta el siguiente año fiscal.",
+      "Un rol sancionador que castiga cualquier propuesta de cambio.",
+      "Un rol de espectador que delega todas las decisiones a proveedores externos."
     ],
-    "answer": "Encabezar el departamento de I+D para desarrollar nuevas terapias.",
-    "explicacion": ""
+    "answer": "Un rol activo con iniciativa, liderazgo y margen de decisión para negociar, motivar y ajustar estrategias sobre la marcha.",
+    "explicacion": "El gestor empresarial cuenta con flexibilidad y visión para resolver contingencias y capitalizar oportunidades en tiempo real."
   },
   {
-    "id": 8,
-    "type": "opcion_multiple",
-    "question": "La orientación al cambio y al futuro se ilustra mejor con la siguiente actividad:",
-    "options": [
-      "Asegurar que los estándares de calidad se cumplan todos los días.",
-      "Gestionar la eficiencia operativa en las operaciones diarias de un restaurante.",
-      "Anticipar cambios en la demanda energética mundial y expandir la cartera de energías limpias.",
-      "Mantener el servicio al cliente y la satisfacción en un nivel alto constantemente."
-    ],
-    "answer": "Anticipar cambios en la demanda energética mundial y expandir la cartera de energías limpias.",
-    "explicacion": ""
+    "id": "1.4-08",
+    "type": "verdadero_falso",
+    "statement": "Administrar y gestionar son conceptos opuestos y excluyentes, por lo que un directivo nunca debe combinarlos en su ejercicio profesional.",
+    "answer": false,
+    "explicacion": "Son conceptos complementarios: un buen directivo combina la disciplina de administrar recursos con la visión estratégica de gestionar oportunidades."
   },
   {
-    "id": 9,
+    "id": "1.4-09",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones diferencia mejor la gestión empresarial de la administración en términos de perspectiva holística?",
+    "question": "Un directivo supervisa que los horarios, los inventarios y las normas contables se cumplan con rigor y apego a los manuales internos. ¿Qué función está ejerciendo predominantemente?",
     "options": [
-      "La administración se concentra en optimizar operaciones específicas dentro de un departamento.",
-      "La gestión empresarial se enfoca en la ejecución diaria y supervisión de tareas específicas.",
-      "La gestión empresarial evalúa aspectos integrados de la empresa, como finanzas, marketing y operaciones, para aumentar la rentabilidad.",
-      "La administración busca expandir la presencia global de la empresa a través de estrategias a largo plazo."
+      "Administrar",
+      "Gestionar",
+      "Especular",
+      "Disrumpir"
     ],
-    "answer": "La gestión empresarial evalúa aspectos integrados de la empresa, como finanzas, marketing y operaciones, para aumentar la rentabilidad.",
-    "explicacion": ""
+    "answer": "Administrar",
+    "explicacion": "El apego estricto a procedimientos, resguardo de recursos y cumplimiento normativo es la esencia de administrar."
   },
   {
-    "id": 10,
-    "type": "opcion_multiple",
-    "question": "En el contexto de orientación al cambio y al futuro, ¿cuál de las siguientes tareas corresponde más a la gestión empresarial?",
-    "options": [
-      "Supervisar el mantenimiento de infraestructura para asegurar operaciones seguras en el presente.",
-      "Implementar mejoras continuas en el servicio al cliente basadas en feedback inmediato.",
-      "Identificar y adaptarse a tendencias emergentes para asegurar el crecimiento a largo plazo de la empresa.",
-      "Asegurar que las operaciones diarias se alineen con los procedimientos estándar y regulaciones actuales."
+    "id": "1.4-10",
+    "type": "ordenar_oracion",
+    "question": "Ordena los elementos del equilibrio directivo entre administración y gestión:",
+    "segments": [
+      "Establecer normas y procesos claros",
+      "Administrar con disciplina los recursos",
+      "Identificar oportunidades del entorno",
+      "Gestionar con visión estratégica el cambio"
     ],
-    "answer": "Identificar y adaptarse a tendencias emergentes para asegurar el crecimiento a largo plazo de la empresa.",
-    "explicacion": ""
+    "answer": [
+      "Establecer normas y procesos claros",
+      "Administrar con disciplina los recursos",
+      "Identificar oportunidades del entorno",
+      "Gestionar con visión estratégica el cambio"
+    ],
+    "explicacion": "El equilibrio integra el orden y la disciplina administrativa inicial con la lectura proactiva del entorno y el liderazgo del cambio."
   }
 ]

@@ -1,132 +1,128 @@
 [
   {
-    "id": 1,
+    "id": "1.2-01",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes opciones describe mejor el enfoque de la Teoría de las Relaciones Humanas en la administración?",
+    "question": "¿Cómo define el tema el concepto de administración?",
     "options": [
-      "Se centra en la eficiencia de los métodos y procesos de trabajo del operario.",
-      "Prioriza la estructura organizacional y las funciones administrativas como planeación, organización, dirección, coordinación y control.",
-      "Enfatiza la importancia de las condiciones sociales en el trabajo y la satisfacción de las necesidades individuales para lograr una mejor integración en los grupos sociales.",
-      "Se enfoca exclusivamente en la optimización de los recursos financieros de la organización."
+      "El proceso de planear, organizar, dirigir y controlar los recursos de una organización para alcanzar sus objetivos de la mejor manera.",
+      "La compra y venta exclusiva de activos financieros en mercados bursátiles.",
+      "El reglamento disciplinario que sanciona a los trabajadores que cometen faltas operativas.",
+      "La inspección técnica final de los productos antes de ser enviados al cliente."
     ],
-    "answer": "Enfatiza la importancia de las condiciones sociales en el trabajo y la satisfacción de las necesidades individuales para lograr una mejor integración en los grupos sociales.",
-    "explicacion": ""
+    "answer": "El proceso de planear, organizar, dirigir y controlar los recursos de una organización para alcanzar sus objetivos de la mejor manera.",
+    "explicacion": "Administrar consiste en coordinar y optimizar los recursos humanos, materiales, financieros y tecnológicos mediante las cuatro fases del proceso administrativo para cumplir la misión de la empresa."
   },
   {
-    "id": 2,
+    "id": "1.2-02",
     "type": "opcion_multiple",
-    "question": "Según Henri Fayol, ¿cuál de las siguientes NO es considerada una de las cinco funciones administrativas esenciales?",
+    "question": "¿A qué característica de la administración corresponde el hecho de que se aplica en cualquier organismo social, sea empresa, hospital, escuela o dependencia pública?",
+    "options": [
+      "Universalidad",
+      "Especificidad",
+      "Unidad temporal",
+      "Valor instrumental"
+    ],
+    "answer": "Universalidad",
+    "explicacion": "La universalidad establece que los principios y técnicas administrativas son válidos y necesarios en cualquier tipo de organismo social."
+  },
+  {
+    "id": "1.2-03",
+    "type": "verdadero_falso",
+    "statement": "La administración posee 'valor instrumental' porque es un medio para alcanzar determinados fines y no un fin en sí misma.",
+    "answer": true,
+    "explicacion": "Efectivamente, la administración sirve como instrumento práctico para coordinar recursos y cumplir los objetivos de la organización."
+  },
+  {
+    "id": "1.2-04",
+    "type": "opcion_multiple",
+    "question": "¿Qué implica la característica de 'unidad temporal' en la administración?",
+    "options": [
+      "Sus etapas no ocurren como pasos aislados sucesivos, sino que se dan de manera simultánea e interrelacionada en la práctica.",
+      "Todos los proyectos de la empresa deben completarse estrictamente en un plazo máximo de un año.",
+      "La jornada laboral de los gerentes debe coincidir exactamente con el horario bancario.",
+      "Los objetivos empresariales únicamente pueden formularse a corto plazo."
+    ],
+    "answer": "Sus etapas no ocurren como pasos aislados sucesivos, sino que se dan de manera simultánea e interrelacionada en la práctica.",
+    "explicacion": "Aunque para su estudio se dividen en fases, en la realidad empresarial la planeación, organización, dirección y control se retroalimentan y ejercen al mismo tiempo."
+  },
+  {
+    "id": "1.2-05",
+    "type": "ordenar_oracion",
+    "question": "Ordena cronológicamente las cuatro etapas clásicas del proceso administrativo:",
+    "segments": [
+      "Planeación",
+      "Organización",
+      "Dirección",
+      "Control"
+    ],
+    "answer": [
+      "Planeación",
+      "Organización",
+      "Dirección",
+      "Control"
+    ],
+    "explicacion": "La secuencia tradicional inicia formulando qué hacer (Planeación), estructurando los recursos (Organización), liderando al equipo (Dirección) y verificando resultados (Control)."
+  },
+  {
+    "id": "1.2-06",
+    "type": "opcion_multiple",
+    "question": "¿En qué etapa del proceso administrativo se definen los objetivos y se traza el camino para lograrlos (qué se quiere hacer y cómo se va a hacer)?",
     "options": [
       "Planeación",
       "Organización",
-      "Innovación",
+      "Dirección",
       "Control"
     ],
-    "answer": "Innovación",
-    "explicacion": ""
+    "answer": "Planeación",
+    "explicacion": "La planeación es la fase inicial donde se prevén metas, escenarios futuros y se determinan las estrategias y planes de acción correspondientes."
   },
   {
-    "id": 3,
+    "id": "1.2-07",
     "type": "opcion_multiple",
-    "question": "¿Cuál de los siguientes ejemplos corresponde a la función de dirección en la gestión empresarial?",
+    "question": "¿Cuál es la función primordial de la etapa de 'control' dentro del proceso administrativo?",
     "options": [
-      "Una empresa tecnológica que establece un plan estratégico para expandirse internacionalmente.",
-      "Una fábrica de automóviles que organiza su producción en departamentos específicos con roles y responsabilidades definidos.",
-      "Un gerente de ventas que motiva a su equipo estableciendo objetivos de ventas mensuales y ofreciendo incentivos basados en el desempeño.",
-      "Un restaurante que utiliza sistemas de punto de venta para monitorear y ajustar las ventas diarias según el rendimiento."
+      "Verificar que los resultados coincidan con lo planeado, detectar desviaciones y aplicar correcciones oportunas.",
+      "Asignar los sueldos y prestaciones económicas iniciales al personal recién contratado.",
+      "Diseñar logotipos, folletos y anuncios publicitarios para redes sociales.",
+      "Redactar las actas constitutivas de la empresa ante el fedatario público."
     ],
-    "answer": "Un gerente de ventas que motiva a su equipo estableciendo objetivos de ventas mensuales y ofreciendo incentivos basados en el desempeño.",
-    "explicacion": ""
+    "answer": "Verificar que los resultados coincidan con lo planeado, detectar desviaciones y aplicar correcciones oportunas.",
+    "explicacion": "El control compara el desempeño real con las metas previstas para identificar fallas o variaciones y asegurar el cumplimiento de lo planeado."
   },
   {
-    "id": 4,
-    "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones describe mejor la importancia de la administración en la sociedad moderna?",
-    "options": [
-      "La administración solo es relevante para las organizaciones que buscan maximizar sus beneficios económicos.",
-      "La administración se limita a la gestión de operaciones y logística en empresas de manufactura.",
-      "En la sociedad de organizaciones, la administración es clave para mejorar la calidad de vida y resolver problemas complejos.",
-      "La administración ha perdido relevancia en la era digital y tecnológica debido a la automatización de procesos."
+    "id": "1.2-08",
+    "type": "completar_oracion",
+    "question": "Los tres niveles de la administración son: el nivel _____ (alta dirección y políticas a largo plazo), el nivel _____ (gerencia media y planes por área) y el nivel operativo (trabajo diario).",
+    "wordBank": [
+      "estratégico",
+      "táctico",
+      "informal",
+      "técnico"
     ],
-    "answer": "En la sociedad de organizaciones, la administración es clave para mejorar la calidad de vida y resolver problemas complejos.",
-    "explicacion": ""
+    "answer": [
+      "estratégico",
+      "táctico"
+    ],
+    "explicacion": "En la jerarquía organizacional, el nivel estratégico fija el rumbo global, el nivel táctico coordina las áreas funcionales y el operativo ejecuta las tareas cotidianas."
   },
   {
-    "id": 5,
+    "id": "1.2-09",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes afirmaciones describe mejor cómo la administración busca fomentar la innovación y la adaptabilidad?",
+    "question": "¿Qué tipo de habilidad administrativa permite a los directivos contemplar a la organización como un sistema global integrado y anticipar el impacto de cualquier decisión en el conjunto de la empresa?",
     "options": [
-      "Limitando la toma de decisiones a la alta dirección para mantener el control organizacional.",
-      "Promoviendo el aprendizaje organizacional, el espíritu emprendedor y la adaptación a cambios del entorno.",
-      "Evitando cambios en los procesos y prácticas existentes para minimizar riesgos.",
-      "Centrándose exclusivamente en la maximización de beneficios a corto plazo."
+      "Habilidades conceptuales",
+      "Habilidades técnicas",
+      "Habilidades mecánicas",
+      "Habilidades manuales"
     ],
-    "answer": "Promoviendo el aprendizaje organizacional, el espíritu emprendedor y la adaptación a cambios del entorno.",
-    "explicacion": ""
+    "answer": "Habilidades conceptuales",
+    "explicacion": "Las habilidades conceptuales otorgan visión holística y capacidad de análisis estratégico, indispensables especialmente en la alta dirección."
   },
   {
-    "id": 6,
-    "type": "opcion_multiple",
-    "question": "¿Cuál es el objetivo fundamental de la administración?",
-    "options": [
-      "Maximizar las ventas a toda costa.",
-      "Lograr el éxito y la sostenibilidad de una organización mediante el uso eficiente de recursos para alcanzar objetivos establecidos.",
-      "Reducir la plantilla laboral para minimizar costos operativos.",
-      "Centrarse exclusivamente en la innovación tecnológica."
-    ],
-    "answer": "Lograr el éxito y la sostenibilidad de una organización mediante el uso eficiente de recursos para alcanzar objetivos establecidos.",
-    "explicacion": ""
-  },
-  {
-    "id": 7,
-    "type": "opcion_multiple",
-    "question": "En el contexto de la administración, ¿cuál es la diferencia entre eficiencia y eficacia?",
-    "options": [
-      "La eficiencia se refiere a hacer las cosas correctamente, mientras que la eficacia se enfoca en hacer las cosas eficientemente.",
-      "La eficiencia implica obtener el máximo rendimiento con el menor costo, mientras que la eficacia significa alcanzar los resultados deseados.",
-      "Eficiencia y eficacia son términos intercambiables en administración.",
-      "La eficacia se relaciona con la reducción de costos, y la eficiencia con el aumento de ingresos."
-    ],
-    "answer": "La eficiencia implica obtener el máximo rendimiento con el menor costo, mientras que la eficacia significa alcanzar los resultados deseados.",
-    "explicacion": ""
-  },
-  {
-    "id": 8,
-    "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes opciones clasifica correctamente los objetivos de administración según el tiempo?",
-    "options": [
-      "Corto plazo: 1-5 años, Mediano plazo: 5-10 años, Largo plazo: más de 10 años.",
-      "Corto plazo: 1 día-365 días, Mediano plazo: 1-5 años, Largo plazo: más de 5 años.",
-      "Corto plazo: menos de 6 meses, Mediano plazo: 6 meses-2 años, Largo plazo: 2-5 años.",
-      "Corto plazo: menos de 1 mes, Mediano plazo: 1-3 meses, Largo plazo: 3-12 meses"
-    ],
-    "answer": "Corto plazo: 1 día-365 días, Mediano plazo: 1-5 años, Largo plazo: más de 5 años.",
-    "explicacion": ""
-  },
-  {
-    "id": 9,
-    "type": "opcion_multiple",
-    "question": "¿Cómo se clasifican los objetivos de administración según su medición?",
-    "options": [
-      "Internos y Externos.",
-      "Financieros y No Financieros.",
-      "Cuantitativos y Cualitativos.",
-      "Primarios y Secundarios."
-    ],
-    "answer": "Cuantitativos y Cualitativos.",
-    "explicacion": ""
-  },
-  {
-    "id": 10,
-    "type": "opcion_multiple",
-    "question": "¿Cómo se clasifican los objetivos de administración según la jerarquía dentro de una organización?",
-    "options": [
-      "Operativos: Definidos por empleados; Tácticos: Por la gerencia media; Estratégicos: Por el alto mando.",
-      "Estratégicos: Por empleados operativos; Tácticos: Por la alta dirección; Operativos: Por gerentes de proyecto.",
-      "Tácticos: Por el departamento de recursos humanos; Operativos: Por el departamento financiero; Estratégicos: Por el departamento de marketing.",
-      "Operativos: Objetivos diarios; Tácticos: Objetivos semanales; Estratégicos: Objetivos mensuales."
-    ],
-    "answer": "Operativos: Definidos por empleados; Tácticos: Por la gerencia media; Estratégicos: Por el alto mando.",
-    "explicacion": ""
+    "id": "1.2-10",
+    "type": "verdadero_falso",
+    "statement": "Las habilidades humanas en la administración se refieren a la capacidad de interactuar, motivar, liderar y comunicarse efectivamente con otras personas y grupos.",
+    "answer": true,
+    "explicacion": "Las habilidades humanas o interpersonales son esenciales en todos los niveles jerárquicos porque la administración se ejerce a través de la colaboración con personas."
   }
 ]

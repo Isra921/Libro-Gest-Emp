@@ -1,122 +1,128 @@
 [
   {
-    "id": 1,
+    "id": "3.4-01",
     "type": "opcion_multiple",
-    "question": "¿Cuál es el propósito principal de la reingeniería de procesos de negocio?",
+    "question": "¿Cuál es el enfoque primordial de la gestión operativa en comparación con la gestión estratégica?",
     "options": [
-      "Realizar ajustes menores a los procesos existentes.",
-      "Rediseñar fundamentalmente los procesos para mejorar significativamente la calidad, rendimiento y costos.",
-      "Incrementar ligeramente la eficiencia sin cambiar mucho los procesos actuales.",
-      "Reducir los costos únicamente a través de la automatización."
+      "Se enfoca en el corto plazo y en la ejecución diaria de los procesos productivos y de servicio con eficiencia, calidad y rapidez.",
+      "Define la visión y misión de la empresa para los próximos diez años.",
+      "Se limita exclusivamente a la contratación formal de ejecutivos de alta dirección.",
+      "Consiste únicamente en el pago de dividendos a los socios accionistas."
     ],
-    "answer": "Rediseñar fundamentalmente los procesos para mejorar significativamente la calidad, rendimiento y costos."
+    "answer": "Se enfoca en el corto plazo y en la ejecución diaria de los procesos productivos y de servicio con eficiencia, calidad y rapidez.",
+    "explicacion": "Mientras la gestión estratégica define el rumbo a largo plazo, la operativa asegura que las tareas cotidianas se ejecuten eficientemente."
   },
   {
-    "id": 2,
+    "id": "3.4-02",
     "type": "opcion_multiple",
-    "question": "¿Cuál de los siguientes pasos NO es parte del proceso de reingeniería de procesos de negocio?",
+    "question": "¿Qué herramienta utiliza símbolos estandarizados para representar gráficamente las actividades, decisiones, entradas y salidas de un proceso, permitiendo detectar cuellos de botella?",
     "options": [
-      "Identificación de Procesos Críticos.",
-      "Análisis del Proceso Actual.",
-      "Rediseño del Proceso.",
-      "Aumento de los salarios de los empleados."
+      "Diagrama de flujo",
+      "Diagrama de dispersión",
+      "Histograma de frecuencias",
+      "Balanza de comprobación"
     ],
-    "answer": "Aumento de los salarios de los empleados."
+    "answer": "Diagrama de flujo",
+    "explicacion": "El diagrama de flujo esquematiza la secuencia de pasos de un proceso para visualizar dependencias, actividades repetitivas y cuellos de botella."
   },
   {
-    "id": 3,
+    "id": "3.4-03",
     "type": "opcion_multiple",
-    "question": "¿Qué implica la transformación de la estructura y la cultura organizacional?",
+    "question": "¿Cuál es la utilidad principal del Diagrama de Gantt en la gestión de proyectos y producción?",
     "options": [
-      "Aumentar los beneficios económicos de la empresa.",
-      "Modificar la estructura y la cultura organizacional para alinearlas con la visión estratégica de la empresa.",
-      "Implementar únicamente nuevas políticas de trabajo remoto.",
-      "Reducir la cantidad de empleados en la organización."
+      "Programar actividades a lo largo del tiempo, mostrando inicio, fin, duración, dependencias y comparando el avance real contra lo planeado.",
+      "Determinar el costo unitario de los materiales importados del extranjero.",
+      "Agrupar los defectos de calidad en las 6M de la espina de pescado.",
+      "Evaluar el clima laboral y la motivación intrínseca de los empleados."
     ],
-    "answer": "Modificar la estructura y la cultura organizacional para alinearlas con la visión estratégica de la empresa."
+    "answer": "Programar actividades a lo largo del tiempo, mostrando inicio, fin, duración, dependencias y comparando el avance real contra lo planeado.",
+    "explicacion": "El diagrama de Gantt es la herramienta clásica de programación temporal que ayuda a visualizar cronogramas y anticipar retrasos."
   },
   {
-    "id": 4,
+    "id": "3.4-04",
     "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes actividades es un componente de la transformación de la estructura y la cultura organizacional?",
+    "question": "¿En qué principio se fundamenta el Diagrama de Pareto en el análisis de calidad?",
     "options": [
-      "Adaptar la jerarquía para mejorar la comunicación y la toma de decisiones.",
-      "Aumentar el número de niveles jerárquicos en la empresa.",
-      "Reducir la cantidad de empleados.",
-      "Eliminar las políticas de trabajo remoto."
+      "En la regla 80/20: aproximadamente el 20% de las causas genera el 80% de los problemas o defectos.",
+      "En que todos los problemas tienen exactamente el mismo nivel de impacto financiero.",
+      "En que el 100% de los defectos se originan por fallas del personal de intendencia.",
+      "En que los procesos deben detenerse cada 80 minutos para mantenimiento."
     ],
-    "answer": "Adaptar la jerarquía para mejorar la comunicación y la toma de decisiones."
+    "answer": "En la regla 80/20: aproximadamente el 20% de las causas genera el 80% de los problemas o defectos.",
+    "explicacion": "El principio de Pareto permite a los directivos priorizar los 'pocos vitales' sobre los 'muchos triviales' para maximizar el impacto de la mejora."
   },
   {
-    "id": 5,
+    "id": "3.4-05",
     "type": "opcion_multiple",
-    "question": "¿Cuál es el propósito principal de la evaluación tecnológica de la empresa?",
+    "question": "¿Qué herramienta, también conocida como 'espina de pescado', agrupa sistemáticamente las posibles causas de una falla en categorías como mano de obra, maquinaria, materiales, métodos, medio ambiente y mediciones (las 6M)?",
     "options": [
-      "Reducir el número de empleados en la empresa.",
-      "Realizar un diagnóstico del estado actual de la tecnología para identificar áreas de mejora y nuevas oportunidades.",
-      "Aumentar los costos operativos.",
-      "Implementar tecnologías sin una evaluación previa."
+      "Diagrama de causa y efecto (Ishikawa)",
+      "Diagrama de Gantt",
+      "Gráfica de control por variables",
+      "Tablero Kanban"
     ],
-    "answer": "Realizar un diagnóstico del estado actual de la tecnología para identificar áreas de mejora y nuevas oportunidades."
+    "answer": "Diagrama de causa y efecto (Ishikawa)",
+    "explicacion": "El diagrama de Ishikawa estructura el análisis causal alrededor de un problema central mediante las categorías conocidas como las 6M."
   },
   {
-    "id": 6,
-    "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes actividades es parte del proceso de evaluación tecnológica de la empresa?",
-    "options": [
-      "Auditoría Tecnológica.",
-      "Implementación de nuevas políticas de recursos humanos.",
-      "Aumento de los salarios del personal.",
-      "Reducción del personal de la empresa."
+    "id": "3.4-06",
+    "type": "ordenar_oracion",
+    "question": "Ordena cronológicamente las cuatro etapas del ciclo PHVA (o ciclo de Deming) para la mejora continua:",
+    "segments": [
+      "Planear",
+      "Hacer",
+      "Verificar",
+      "Actuar"
     ],
-    "answer": "Auditoría Tecnológica."
+    "answer": [
+      "Planear",
+      "Hacer",
+      "Verificar",
+      "Actuar"
+    ],
+    "explicacion": "El ciclo Deming es un espiral de mejora: primero se planifican los cambios, se prueban en pequeña escala (Hacer), se evalúan resultados (Verificar) y se estandariza o corrige (Actuar)."
   },
   {
-    "id": 7,
-    "type": "opcion_multiple",
-    "question": "¿Cuál es el objetivo principal de la optimización de los recursos tecnológicos?",
-    "options": [
-      "Aumentar el número de recursos tecnológicos en la empresa.",
-      "Utilizar los recursos tecnológicos de manera más eficiente para maximizar su valor y minimizar el desperdicio.",
-      "Reducir el uso de tecnología en la empresa.",
-      "Implementar únicamente tecnología de bajo costo sin considerar su eficiencia."
+    "id": "3.4-07",
+    "type": "completar_oracion",
+    "question": "En el ciclo PHVA, en la etapa de _____ se miden y analizan los resultados para compararlos con lo planeado, mientras que en _____ se estandarizan las soluciones exitosas.",
+    "wordBank": [
+      "verificar",
+      "actuar",
+      "diseñar",
+      "contratar"
     ],
-    "answer": "Utilizar los recursos tecnológicos de manera más eficiente para maximizar su valor y minimizar el desperdicio."
+    "answer": [
+      "verificar",
+      "actuar"
+    ],
+    "explicacion": "Verificar evalúa la eficacia de las acciones implementadas y Actuar consolida los aprendizajes y normas operativas."
   },
   {
-    "id": 8,
-    "type": "opcion_multiple",
-    "question": "¿Cuál de las siguientes estrategias es parte de la optimización de los recursos tecnológicos?",
-    "options": [
-      "Implementar políticas de trabajo remoto.",
-      "Mantenimiento Preventivo.",
-      "Aumentar el número de niveles jerárquicos en la empresa.",
-      "Reducir el personal de TI."
-    ],
-    "answer": "Mantenimiento Preventivo."
+    "id": "3.4-08",
+    "type": "verdadero_falso",
+    "statement": "La metodología de las 5S de origen japonés busca mantener áreas de trabajo limpias, ordenadas y seguras mediante clasificar, ordenar, limpiar, estandarizar y mantener la disciplina.",
+    "answer": true,
+    "explicacion": "Las 5S (Seiri, Seiton, Seiso, Seiketsu, Shitsuke) optimizan el entorno laboral físico y digital reduciendo desperdicios y tiempos de búsqueda."
   },
   {
-    "id": 9,
+    "id": "3.4-09",
     "type": "opcion_multiple",
-    "question": "¿Cuál es uno de los beneficios clave de implementar un calendario de mantenimiento preventivo como parte de la optimización de recursos tecnológicos?",
+    "question": "¿Cuál es la función del sistema Kanban en la gestión visual de operaciones?",
     "options": [
-      "Incrementar la necesidad de reemplazo de equipos a corto plazo.",
-      "Aumentar el tiempo de inactividad debido a reparaciones frecuentes.",
-      "Prolongar la vida útil de los equipos y prevenir fallas inesperadas.",
-      "Reducir la eficiencia operativa al enfocar recursos en mantenimiento."
+      "Controlar visualmente el flujo de trabajo mediante tarjetas (por hacer, en proceso, hecho) para regular el avance y evitar la sobreproducción.",
+      "Calcular el impuesto al valor agregado que se cobra en las ventas al público.",
+      "Registrar la propiedad intelectual de las marcas ante el IMPI.",
+      "Auditar las declaraciones patrimoniales de los accionistas fundadores."
     ],
-    "answer": "Prolongar la vida útil de los equipos y prevenir fallas inesperadas."
+    "answer": "Controlar visualmente el flujo de trabajo mediante tarjetas (por hacer, en proceso, hecho) para regular el avance y evitar la sobreproducción.",
+    "explicacion": "Kanban utiliza tarjetas visuales para jalar el trabajo conforme existe capacidad disponible, minimizando cuellos de botella e inventario en proceso."
   },
   {
-    "id": 10,
-    "type": "opcion_multiple",
-    "question": "¿Qué impacto directo tiene la sustitución de tecnología obsoleta por soluciones más modernas y eficientes en una empresa de servicios logísticos?",
-    "options": [
-      "Incremento en los costos operativos debido a la inversión inicial.",
-      "Aumento del tiempo de respuesta y disminución de la eficiencia.",
-      "Reducción de los tiempos de respuesta y de los costos operativos.",
-      "Estabilidad en el rendimiento sin mejoras significativas."
-    ],
-    "answer": "Reducción de los tiempos de respuesta y de los costos operativos."
+    "id": "3.4-10",
+    "type": "verdadero_falso",
+    "statement": "Los KPI operativos (como tiempo de ciclo, productividad y porcentaje de defectos) son indicadores cuantitativos clave para tomar decisiones basadas en datos objetivos.",
+    "answer": true,
+    "explicacion": "Los KPI permiten a los administradores comparar el desempeño real de la operación contra los estándares previstos para aplicar ajustes oportunos."
   }
 ]

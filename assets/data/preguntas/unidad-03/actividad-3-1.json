@@ -9,7 +9,8 @@
       "Limitar la comunicación entre los empleados para aumentar la productividad.",
       "Reducir la cantidad de empleados en la empresa."
     ],
-    "answer": "Proveer el esqueleto sobre el cual se construyen todos los procesos y operaciones de la empresa."
+    "answer": "Proveer el esqueleto sobre el cual se construyen todos los procesos y operaciones de la empresa.",
+    "explicacion": "La estructura organizacional constituye el esqueleto sobre el cual se articulan las responsabilidades, puestos y flujos de trabajo de la empresa."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Minimizando duplicidades y reduciendo conflictos entre empleados y departamentos.",
       "Limitando la capacidad de respuesta a los cambios del mercado."
     ],
-    "answer": "Minimizando duplicidades y reduciendo conflictos entre empleados y departamentos."
+    "answer": "Minimizando duplicidades y reduciendo conflictos entre empleados y departamentos.",
+    "explicacion": "Un diseño estructural claro delimita las funciones de cada puesto, evitando la duplicidad de tareas y los conflictos de autoridad."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Facilita la coordinación efectiva y permite una respuesta más rápida a los cambios del entorno.",
       "Fomenta la independencia de los departamentos evitando la colaboración."
     ],
-    "answer": "Facilita la coordinación efectiva y permite una respuesta más rápida a los cambios del entorno."
+    "answer": "Facilita la coordinación efectiva y permite una respuesta más rápida a los cambios del entorno.",
+    "explicacion": "Una adecuada estructura facilita la coordinación armónica entre departamentos y agiliza la capacidad de respuesta frente al entorno."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Permitir que los trabajadores se especialicen y aumenten su destreza en tareas específicas.",
       "Reducir la eficiencia en las operaciones generales."
     ],
-    "answer": "Permitir que los trabajadores se especialicen y aumenten su destreza en tareas específicas."
+    "answer": "Permitir que los trabajadores se especialicen y aumenten su destreza en tareas específicas.",
+    "explicacion": "La división del trabajo descompone procesos complejos en tareas específicas, elevando la destreza y eficiencia del personal."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Aumentar la independencia de los departamentos sin interacciones.",
       "Limitar la comunicación a través de sistemas de información no integrados."
     ],
-    "answer": "Uso de reuniones regulares, sistemas de información integrados y roles de coordinación como los de los gerentes de proyecto."
+    "answer": "Uso de reuniones regulares, sistemas de información integrados y roles de coordinación como los de los gerentes de proyecto.",
+    "explicacion": "Para articular departamentos se recurre a canales de comunicación formal, sistemas de información y roles de coordinación transversal."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Limita el desarrollo de habilidades y conocimientos en diversas áreas.",
       "Incrementa el tiempo necesario para completar las tareas debido a la falta de habilidades generales."
     ],
-    "answer": "Aumenta la eficiencia y la calidad del trabajo, y reduce el tiempo de entrenamiento necesario."
+    "answer": "Aumenta la eficiencia y la calidad del trabajo, y reduce el tiempo de entrenamiento necesario.",
+    "explicacion": "Al concentrarse en actividades concretas, la especialización reduce tiempos de aprendizaje y eleva la calidad técnica del producto o servicio."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Creación de una estructura donde todos los empleados reportan directamente al CEO.",
       "Distribución aleatoria de responsabilidades entre los empleados sin ningún orden específico."
     ],
-    "answer": "Establecimiento de una estructura de autoridad donde cada posición tiene un nivel claro de autoridad y responsabilidad."
+    "answer": "Establecimiento de una estructura de autoridad donde cada posición tiene un nivel claro de autoridad y responsabilidad.",
+    "explicacion": "La jerarquización formaliza la cadena de mando, delimitando con precisión quién supervisa, quién ejecuta y quién responde por los resultados."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Agrupar tareas en departamentos según función, producto, mercado o proceso.",
       "Separar empleados basado en su nivel educativo."
     ],
-    "answer": "Agrupar tareas en departamentos según función, producto, mercado o proceso."
+    "answer": "Agrupar tareas en departamentos según función, producto, mercado o proceso.",
+    "explicacion": "La departamentalización agrupa tareas afines según funciones, productos, zonas geográficas, clientes o procesos."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Cada empleado debe recibir órdenes de un solo superior para evitar confusiones y conflictos.",
       "Las órdenes deben ser emitidas en un formato no estructurado para fomentar la creatividad."
     ],
-    "answer": "Cada empleado debe recibir órdenes de un solo superior para evitar confusiones y conflictos."
+    "answer": "Cada empleado debe recibir órdenes de un solo superior para evitar confusiones y conflictos.",
+    "explicacion": "La unidad de mando garantiza que cada subordinado responda ante un único superior directo, previniendo órdenes contradictorias."
   },
   {
     "id": 10,
@@ -117,6 +126,7 @@
       "Permitir una mayor flexibilidad en las tareas al no tener un superior directo.",
       "Reducir la eficiencia operativa al limitar la cantidad de supervisores."
     ],
-    "answer": "Facilitar la claridad en la comunicación y la responsabilidad al recibir órdenes de un solo superior."
+    "answer": "Facilitar la claridad en la comunicación y la responsabilidad al recibir órdenes de un solo superior.",
+    "explicacion": "Recibir directrices de un solo jefe aporta certidumbre operativa, claridad de metas y transparencia en la rendición de cuentas."
   }
 ]

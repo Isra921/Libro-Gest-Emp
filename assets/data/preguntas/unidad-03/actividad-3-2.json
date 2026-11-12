@@ -1,122 +1,128 @@
 [
   {
-    "id": 1,
+    "id": "3.2-01",
     "type": "opcion_multiple",
-    "question": "¿Cuál de los siguientes es considerado un activo intangible que contribuye a la competitividad de las empresas?",
+    "question": "¿Cuál es la diferencia fundamental entre una invención y una innovación en el ámbito empresarial?",
     "options": [
-      "Equipos de oficina",
-      "Edificios corporativos",
-      "Capacidades digitales",
-      "Inventario de productos"
+      "La invención es la creación de una idea u objeto novedoso; la innovación requiere aplicarla en la práctica y que sea aceptada por el mercado generando valor.",
+      "La invención genera ganancias económicas inmediatas, mientras que la innovación es puramente teórica y académica.",
+      "La invención solo ocurre en empresas privadas y la innovación es exclusiva de instituciones gubernamentales.",
+      "No existe ninguna diferencia; ambos términos son completamente intercambiables en los negocios."
     ],
-    "answer": "Capacidades digitales"
+    "answer": "La invención es la creación de una idea u objeto novedoso; la innovación requiere aplicarla en la práctica y que sea aceptada por el mercado generando valor.",
+    "explicacion": "Para que una idea o invento se considere innovación debe implementarse con éxito en la práctica y ser adoptada por los usuarios o el mercado."
   },
   {
-    "id": 2,
+    "id": "3.2-02",
     "type": "opcion_multiple",
-    "question": "Durante la pandemia de COVID-19, ¿cómo ayudaron los activos intangibles a las empresas?",
+    "question": "¿Cómo se define la tecnología dentro de una organización?",
     "options": [
-      "Permitiendo reducciones masivas de personal",
-      "Aumentando la necesidad de espacios físicos",
-      "Sustentando el crecimiento en tiempos de incertidumbre económica",
-      "Generando mayores ventas en tiendas físicas"
+      "El conjunto de conocimientos, técnicas, herramientas, equipos y procesos usados para transformar recursos en productos o servicios útiles.",
+      "Únicamente los dispositivos físicos de hardware y computadoras de escritorio en la oficina.",
+      "El monto total de dinero en efectivo disponible en la cuenta bancaria de la empresa.",
+      "Las campañas publicitarias contratadas en canales de televisión tradicionales."
     ],
-    "answer": "Sustentando el crecimiento en tiempos de incertidumbre económica"
+    "answer": "El conjunto de conocimientos, técnicas, herramientas, equipos y procesos usados para transformar recursos en productos o servicios útiles.",
+    "explicacion": "La tecnología abarca tanto los conocimientos técnicos y métodos de trabajo como la maquinaria, el software y los sistemas digitales."
   },
   {
-    "id": 3,
+    "id": "3.2-03",
     "type": "opcion_multiple",
-    "question": "Según el texto, ¿qué debe hacer una empresa además de invertir en activos intangibles para obtener una ventaja competitiva?",
+    "question": "Una empresa rediseña su método logístico de entrega para reducir costos y tiempos de despacho en un 40%. ¿Qué tipo de innovación realizó según el ámbito que transforma?",
     "options": [
-      "Disminuir su inversión en tecnología",
-      "Implementar estos activos de manera estratégica",
-      "Concentrarse únicamente en el capital humano",
-      "Evitar la adopción de nuevas tecnologías"
+      "Innovación de proceso",
+      "Innovación de producto",
+      "Innovación de mercadotecnia",
+      "Invención teórica"
     ],
-    "answer": "Implementar estos activos de manera estratégica"
+    "answer": "Innovación de proceso",
+    "explicacion": "La innovación de proceso optimiza métodos de producción, logística, distribución o gestión interna para ganar eficiencia."
   },
   {
-    "id": 4,
-    "type": "opcion_multiple",
-    "question": "¿Por qué son importantes las capacidades tecnológicas centrales en las industrias de alta tecnología?",
-    "options": [
-      "Porque permiten reducir los costos de operación solamente",
-      "Porque son vitales para mantener una ventaja competitiva sostenible",
-      "Porque facilitan la reducción del personal",
-      "Porque permiten aumentar el número de tiendas físicas"
-    ],
-    "answer": "Porque son vitales para mantener una ventaja competitiva sostenible"
+    "id": "3.2-04",
+    "type": "verdadero_falso",
+    "statement": "La innovación incremental consiste en mejoras graduales sobre productos o procesos ya existentes, mientras que la innovación radical o disruptiva transforma o crea mercados completamente nuevos.",
+    "answer": true,
+    "explicacion": "La profundidad de la innovación va desde mejoras continuas paso a paso (incremental) hasta transformaciones estructurales profundas del sector (radical/disruptiva)."
   },
   {
-    "id": 5,
+    "id": "3.2-05",
     "type": "opcion_multiple",
-    "question": "¿Cómo utilizó un líder en el comercio minorista las analíticas avanzadas para mejorar su negocio?",
+    "question": "¿Cómo se describe la relación simbiótica entre innovación y tecnología?",
     "options": [
-      "Añadiendo más tiendas físicas",
-      "Centrándose exclusivamente en la publicidad tradicional",
-      "Desarrollando nuevas fuentes de crecimiento basadas en digitalización, datos y analíticas",
-      "Eliminando su programa de lealtad"
+      "La tecnología actúa como medio habilitador y la innovación como la creadora de valor que responde a necesidades del mercado.",
+      "La tecnología es un obstáculo para la innovación porque incrementa la rigidez en los empleados.",
+      "Toda nueva tecnología se convierte automáticamente en una innovación comercial exitosa sin requerir gestión.",
+      "La innovación solo puede existir si se inventa una maquinaria física completamente nueva."
     ],
-    "answer": "Desarrollando nuevas fuentes de crecimiento basadas en digitalización, datos y analíticas"
+    "answer": "La tecnología actúa como medio habilitador y la innovación como la creadora de valor que responde a necesidades del mercado.",
+    "explicacion": "La tecnología proporciona las herramientas para innovar, pero es la capacidad de la empresa de interpretar las necesidades de los usuarios lo que genera valor real."
   },
   {
-    "id": 6,
-    "type": "opcion_multiple",
-    "question": "¿Cuál es uno de los principales impactos de las tecnologías emergentes según el texto?",
-    "options": [
-      "Reducción en la cantidad de empleos disponibles.",
-      "Incremento en la eficiencia y transformación del crecimiento económico.",
-      "Disminución en la demanda de habilidades analíticas.",
-      "Limitación en la producción de bienes y servicios."
+    "id": "3.2-06",
+    "type": "completar_oracion",
+    "question": "En la gestión de la innovación, la _____ tecnológica permite monitorear el entorno para detectar oportunidades, mientras que la inversión en _____ desarrolla nuevas capacidades y soluciones.",
+    "wordBank": [
+      "vigilancia",
+      "I+D",
+      "contabilidad",
+      "auditoría"
     ],
-    "answer": "Incremento en la eficiencia y transformación del crecimiento económico."
+    "answer": [
+      "vigilancia",
+      "I+D"
+    ],
+    "explicacion": "Vigilar las tendencias y avances externos complementado con investigación y desarrollo (I+D) permite a la empresa mantenerse a la vanguardia."
   },
   {
-    "id": 7,
+    "id": "3.2-07",
     "type": "opcion_multiple",
-    "question": "¿Qué sugiere el modesto crecimiento general de la productividad a pesar de la digitalización en empresas tecnológicamente avanzadas?",
+    "question": "¿Por qué es crucial una cultura organizacional que tolere el error controlado en los procesos de innovación?",
     "options": [
-      "Que las tecnologías digitales están siendo adoptadas de manera excesiva.",
-      "Que la adopción de tecnologías digitales necesita ser más amplia y efectiva.",
-      "Que la inversión en tecnología digital no es rentable para las empresas.",
-      "Que las empresas no están interesadas en tecnologías digitales."
+      "Porque la experimentación y el aprendizaje a partir de fallos son indispensables para descubrir soluciones verdaderamente novedosas.",
+      "Porque permite a los colaboradores ignorar las normas de seguridad e higiene laboral.",
+      "Porque reduce la necesidad de supervisar la calidad de los productos finales.",
+      "Porque garantiza que ningún proyecto fracase en el mercado."
     ],
-    "answer": "Que la adopción de tecnologías digitales necesita ser más amplia y efectiva."
+    "answer": "Porque la experimentación y el aprendizaje a partir de fallos son indispensables para descubrir soluciones verdaderamente novedosas.",
+    "explicacion": "Si una empresa penaliza severamente cualquier falla, los colaboradores evitarán proponer ideas disruptivas por miedo al castigo."
   },
   {
-    "id": 8,
+    "id": "3.2-08",
     "type": "opcion_multiple",
-    "question": "Según el texto, ¿cómo ha influido la automatización en la industria automotriz?",
+    "question": "¿Qué mecanismo legal permite a las empresas proteger los resultados de su investigación e innovaciones frente a copias de competidores?",
     "options": [
-      "Reduciendo el número total de trabajos disponibles sin mejorar la eficiencia.",
-      "Modificando las habilidades requeridas y aumentando la eficiencia, aunque también planteando desafíos de capacitación.",
-      "Disminuyendo la necesidad de habilidades técnicas en los trabajadores.",
-      "Mejorando únicamente la eficiencia sin impactar las habilidades requeridas."
+      "Propiedad intelectual (patentes, marcas y derechos de autor)",
+      "El contrato de arrendamiento financiero de maquinaria",
+      "La póliza de seguro de responsabilidad civil contra accidentes",
+      "El comprobante fiscal digital por internet (CFDI)"
     ],
-    "answer": "Modificando las habilidades requeridas y aumentando la eficiencia, aunque también planteando desafíos de capacitación."
+    "answer": "Propiedad intelectual (patentes, marcas y derechos de autor)",
+    "explicacion": "Las patentes, registros de marca y derechos de autor otorgan exclusividad temporal y respaldo jurídico a los activos intangibles de la empresa."
   },
   {
-    "id": 9,
-    "type": "opcion_multiple",
-    "question": "¿Por qué es crucial la formación y disponibilidad de talento STEM para un país?",
-    "options": [
-      "Porque garantiza el éxito financiero personal de cada trabajador.",
-      "Porque aumenta la cantidad de pequeñas empresas en el país.",
-      "Porque es fundamental para mantener la competitividad tecnológica a nivel global.",
-      "Porque reduce la necesidad de adoptar tecnologías avanzadas."
-    ],
-    "answer": "Porque es fundamental para mantener la competitividad tecnológica a nivel global."
+    "id": "3.2-09",
+    "type": "verdadero_falso",
+    "statement": "En la empresa moderna, la innovación y la tecnología no deben ser un asunto aislado del área técnica, sino un eje transversal presente en la estrategia, cultura y procesos de toda la organización.",
+    "answer": true,
+    "explicacion": "La competitividad sostenible requiere que todas las áreas colaboren en la adopción tecnológica y en la generación de propuestas de valor."
   },
   {
-    "id": 10,
-    "type": "opcion_multiple",
-    "question": "¿Qué beneficios ha traído la adopción de plataformas tecnológicas a las pequeñas empresas?",
-    "options": [
-      "Disminución en las ventas y el empleo.",
-      "Aumento en las ventas, el empleo y los beneficios.",
-      "Reducción de la necesidad de talento STEM.",
-      "Incremento en la complejidad operativa sin beneficios claros."
+    "id": "3.2-10",
+    "type": "ordenar_oracion",
+    "question": "Ordena el ciclo básico de gestión sistemática de la innovación en la empresa:",
+    "segments": [
+      "Vigilancia del entorno",
+      "Generación y selección de ideas",
+      "Desarrollo y prueba de prototipos",
+      "Lanzamiento y protección comercial"
     ],
-    "answer": "Aumento en las ventas, el empleo y los beneficios."
+    "answer": [
+      "Vigilancia del entorno",
+      "Generación y selección de ideas",
+      "Desarrollo y prueba de prototipos",
+      "Lanzamiento y protección comercial"
+    ],
+    "explicacion": "El proceso inicia detectando necesidades y tendencias, filtra ideas viables, las materializa y prueba, y finalmente las escala al mercado protegiendo los activos generados."
   }
 ]
