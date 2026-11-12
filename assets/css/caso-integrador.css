@@ -103,15 +103,16 @@
   .ci-bar__track { grid-column: 1 / -1; grid-row: 2; }
   .ci-match__row { padding: 12px 10px; }
   .ci-decision { padding: 12px 10px; }
-  .ci-match select { font-size: .85rem; padding: 10px 8px; }
+  .ci-match select { font-size: .85rem; padding: 10px 8px; width: 100%; max-width: 100%; box-sizing: border-box; }
   .ci-feedback { font-size: .85rem; }
   .ci-feedback__list { font-size: .84rem; }
+  .ci-stage .a-actions { display: flex; flex-direction: column; width: 100%; }
+  .ci-stage .a-actions .u-btn { width: 100%; justify-content: center; }
 }
 
 @media (max-width: 420px) {
   .ci-num { width: 22px; height: 22px; font-size: .7rem; margin-right: 6px; }
   .ci-check { padding: 8px 10px; font-size: .84rem; }
-  .ci-stage .a-actions .u-btn { width: 100%; justify-content: center; }
 }
 
 .ci-stage [hidden], .ci-stage .u-btn[hidden] { display: none !important; }

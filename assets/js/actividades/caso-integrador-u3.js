@@ -158,13 +158,14 @@
 
     var html = '<div class="ci-match">';
     DATOS_CASO.etapa1.fallas.forEach(function (f, idx) {
+      var valPrevio = (estado.etapa1 && estado.etapa1.respuestas && estado.etapa1.respuestas.fallas) ? estado.etapa1.respuestas.fallas[f.id] : '';
       html += '<div class="ci-match__row">';
       html += '<div class="ci-match__problem"><span class="ci-num">' + (idx + 1) + '</span> <span>' + f.texto + '</span></div>';
       html += '<select id="etapa1-falla-' + f.id + '" aria-label="Principio organizacional afectado ' + (idx + 1) + '">';
       html += '<option value="">-- ¿Qué principio o deficiencia organizacional representa? --</option>';
-      html += '<option value="unidad_mando">1. Violación del principio de Unidad de Mando</option>';
-      html += '<option value="jerarquizacion">2. Exceso de niveles jerárquicos y tramo de control ineficiente</option>';
-      html += '<option value="coordinacion">3. Deficiencia de coordinación y departamentalización</option>';
+      html += '<option value="unidad_mando"' + (valPrevio === 'unidad_mando' ? ' selected' : '') + '>1. Violación del principio de Unidad de Mando</option>';
+      html += '<option value="jerarquizacion"' + (valPrevio === 'jerarquizacion' ? ' selected' : '') + '>2. Exceso de niveles jerárquicos y tramo de control ineficiente</option>';
+      html += '<option value="coordinacion"' + (valPrevio === 'coordinacion' ? ' selected' : '') + '>3. Deficiencia de coordinación y departamentalización</option>';
       html += '</select>';
       html += '</div>';
     });
@@ -172,11 +173,13 @@
 
     // Pregunta de rediseño
     var red = DATOS_CASO.etapa1.rediseno;
+    var redPrevio = (estado.etapa1 && estado.etapa1.respuestas) ? estado.etapa1.respuestas.rediseno : '';
     html += '<fieldset class="ci-decision" style="margin-top:16px;">';
     html += '<legend><span class="ci-num">4</span> ' + red.pregunta + '</legend>';
     html += '<div class="ci-decision__options" style="display:flex; flex-direction:column; gap:8px;">';
     red.opciones.forEach(function (op) {
-      html += '<label class="ci-check"><input type="radio" name="etapa1_rediseno" value="' + op.id + '"> <span>' + op.texto + '</span></label>';
+      var chk = (redPrevio === op.id) ? ' checked' : '';
+      html += '<label class="ci-check"><input type="radio" name="etapa1_rediseno" value="' + op.id + '"' + chk + '> <span>' + op.texto + '</span></label>';
     });
     html += '</div>';
     html += '</fieldset>';
@@ -273,13 +276,14 @@
 
     var html = '<div class="ci-match">';
     DATOS_CASO.etapa2.acciones.forEach(function (act, idx) {
+      var valPrevio = (estado.etapa2 && estado.etapa2.respuestas) ? estado.etapa2.respuestas[act.id] : '';
       html += '<div class="ci-match__row">';
       html += '<div class="ci-match__problem"><span class="ci-num">' + (idx + 1) + '</span> <span>' + act.texto + '</span></div>';
       html += '<select id="etapa2-lewin-' + act.id + '" aria-label="Fase de Kurt Lewin para acción ' + (idx + 1) + '">';
       html += '<option value="">-- Selecciona la fase del modelo de Kurt Lewin --</option>';
-      html += '<option value="descongelar">Fase 1: Descongelamiento (Sensibilización y reducción de resistencia)</option>';
-      html += '<option value="cambiar">Fase 2: Movimiento o Cambio (Adopción de nuevas prácticas y tecnología)</option>';
-      html += '<option value="recongelar">Fase 3: Recongelamiento (Consolidación e institucionalización del nuevo estándar)</option>';
+      html += '<option value="descongelar"' + (valPrevio === 'descongelar' ? ' selected' : '') + '>Fase 1: Descongelamiento (Sensibilización y reducción de resistencia)</option>';
+      html += '<option value="cambiar"' + (valPrevio === 'cambiar' ? ' selected' : '') + '>Fase 2: Movimiento o Cambio (Adopción de nuevas prácticas y tecnología)</option>';
+      html += '<option value="recongelar"' + (valPrevio === 'recongelar' ? ' selected' : '') + '>Fase 3: Recongelamiento (Consolidación e institucionalización del nuevo estándar)</option>';
       html += '</select>';
       html += '</div>';
     });
@@ -360,11 +364,14 @@
 
     var html = '<div class="ci-decisions">';
     DATOS_CASO.etapa3.decisiones.forEach(function (d, idx) {
+      var valPrevio = (estado.etapa3 && estado.etapa3.respuestas) ? estado.etapa3.respuestas[d.id] : '';
+      var chkProc = (valPrevio === 'procede') ? ' checked' : '';
+      var chkNoProc = (valPrevio === 'no_procede') ? ' checked' : '';
       html += '<fieldset class="ci-decision" data-decision="' + d.id + '">';
       html += '<legend><span class="ci-num">' + (idx + 1) + '</span> ' + d.texto + '</legend>';
       html += '<div class="ci-decision__options">';
-      html += '<label class="ci-check"><input type="radio" name="' + d.id + '" value="procede"> <span><i class="fas fa-check"></i> Procede (Alineado a Reingeniería BPR)</span></label>';
-      html += '<label class="ci-check"><input type="radio" name="' + d.id + '" value="no_procede"> <span><i class="fas fa-xmark"></i> No procede (Redundancia / Burocracia)</span></label>';
+      html += '<label class="ci-check"><input type="radio" name="' + d.id + '" value="procede"' + chkProc + '> <span><i class="fas fa-check"></i> Procede (Alineado a Reingeniería BPR)</span></label>';
+      html += '<label class="ci-check"><input type="radio" name="' + d.id + '" value="no_procede"' + chkNoProc + '> <span><i class="fas fa-xmark"></i> No procede (Redundancia / Burocracia)</span></label>';
       html += '</div>';
       html += '</fieldset>';
     });

@@ -164,14 +164,15 @@
 
     var html = '<div class="ci-match">';
     DATOS_CASO.etapa1.factores.forEach(function (f, idx) {
+      var valPrevio = (estado.etapa1 && estado.etapa1.respuestas && estado.etapa1.respuestas.foda) ? estado.etapa1.respuestas.foda[f.id] : '';
       html += '<div class="ci-match__row">';
       html += '<div class="ci-match__problem"><span class="ci-num">' + (idx + 1) + '</span> <span>' + f.texto + '</span></div>';
       html += '<select id="etapa1-foda-' + f.id + '" aria-label="Clasificación FODA ' + (idx + 1) + '">';
       html += '<option value="">-- Selecciona cuadrante FODA --</option>';
-      html += '<option value="fortaleza">Fortaleza (Interno Positivo)</option>';
-      html += '<option value="debilidad">Debilidad (Interno Negativo)</option>';
-      html += '<option value="oportunidad">Oportunidad (Externo Positivo)</option>';
-      html += '<option value="amenaza">Amenaza (Externo Negativo)</option>';
+      html += '<option value="fortaleza"' + (valPrevio === 'fortaleza' ? ' selected' : '') + '>Fortaleza (Interno Positivo)</option>';
+      html += '<option value="debilidad"' + (valPrevio === 'debilidad' ? ' selected' : '') + '>Debilidad (Interno Negativo)</option>';
+      html += '<option value="oportunidad"' + (valPrevio === 'oportunidad' ? ' selected' : '') + '>Oportunidad (Externo Positivo)</option>';
+      html += '<option value="amenaza"' + (valPrevio === 'amenaza' ? ' selected' : '') + '>Amenaza (Externo Negativo)</option>';
       html += '</select>';
       html += '</div>';
     });
@@ -179,11 +180,13 @@
 
     // Pregunta de estrategia
     var est = DATOS_CASO.etapa1.estrategia;
+    var estPrevio = (estado.etapa1 && estado.etapa1.respuestas) ? estado.etapa1.respuestas.estrategia : '';
     html += '<fieldset class="ci-decision" style="margin-top:16px;">';
     html += '<legend><span class="ci-num">5</span> ' + est.pregunta + '</legend>';
     html += '<div class="ci-decision__options" style="display:flex; flex-direction:column; gap:8px;">';
     est.opciones.forEach(function (op) {
-      html += '<label class="ci-check"><input type="radio" name="etapa1_estrategia" value="' + op.id + '"> <span>' + op.texto + '</span></label>';
+      var chk = (estPrevio === op.id) ? ' checked' : '';
+      html += '<label class="ci-check"><input type="radio" name="etapa1_estrategia" value="' + op.id + '"' + chk + '> <span>' + op.texto + '</span></label>';
     });
     html += '</div>';
     html += '</fieldset>';
@@ -280,13 +283,14 @@
 
     var html = '<div class="ci-match">';
     DATOS_CASO.etapa2.elementos.forEach(function (elem, idx) {
+      var valPrevio = (estado.etapa2 && estado.etapa2.respuestas) ? estado.etapa2.respuestas[elem.id] : '';
       html += '<div class="ci-match__row">';
       html += '<div class="ci-match__problem"><span class="ci-num">' + (idx + 1) + '</span> <span>' + elem.texto + '</span></div>';
       html += '<select id="etapa2-filo-' + elem.id + '" aria-label="Componente de filosofía para enunciado ' + (idx + 1) + '">';
       html += '<option value="">-- ¿A qué componente corresponde? --</option>';
-      html += '<option value="mision">Misión (Propósito y razón de ser presente)</option>';
-      html += '<option value="vision">Visión (Aspiración de futuro a largo plazo)</option>';
-      html += '<option value="valores">Valores (Principios éticos y de conducta)</option>';
+      html += '<option value="mision"' + (valPrevio === 'mision' ? ' selected' : '') + '>Misión (Propósito y razón de ser presente)</option>';
+      html += '<option value="vision"' + (valPrevio === 'vision' ? ' selected' : '') + '>Visión (Aspiración de futuro a largo plazo)</option>';
+      html += '<option value="valores"' + (valPrevio === 'valores' ? ' selected' : '') + '>Valores (Principios éticos y de conducta)</option>';
       html += '</select>';
       html += '</div>';
     });
@@ -367,14 +371,15 @@
 
     var html = '<div class="ci-match">';
     DATOS_CASO.etapa3.objetivos.forEach(function (obj, idx) {
+      var valPrevio = (estado.etapa3 && estado.etapa3.respuestas) ? estado.etapa3.respuestas[obj.id] : '';
       html += '<div class="ci-match__row">';
       html += '<div class="ci-match__problem"><span class="ci-num">' + (idx + 1) + '</span> <span>' + obj.texto + '</span></div>';
       html += '<select id="etapa3-bsc-' + obj.id + '" aria-label="Perspectiva BSC para objetivo ' + (idx + 1) + '">';
       html += '<option value="">-- Selecciona la perspectiva del BSC --</option>';
-      html += '<option value="financiera">1. Perspectiva Financiera</option>';
-      html += '<option value="clientes">2. Perspectiva de Clientes</option>';
-      html += '<option value="procesos">3. Perspectiva de Procesos Internos</option>';
-      html += '<option value="aprendizaje">4. Perspectiva de Aprendizaje y Crecimiento</option>';
+      html += '<option value="financiera"' + (valPrevio === 'financiera' ? ' selected' : '') + '>1. Perspectiva Financiera</option>';
+      html += '<option value="clientes"' + (valPrevio === 'clientes' ? ' selected' : '') + '>2. Perspectiva de Clientes</option>';
+      html += '<option value="procesos"' + (valPrevio === 'procesos' ? ' selected' : '') + '>3. Perspectiva de Procesos Internos</option>';
+      html += '<option value="aprendizaje"' + (valPrevio === 'aprendizaje' ? ' selected' : '') + '>4. Perspectiva de Aprendizaje y Crecimiento</option>';
       html += '</select>';
       html += '</div>';
     });

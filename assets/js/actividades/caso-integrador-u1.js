@@ -180,12 +180,14 @@
 
     var html = '<div class="ci-decisions">';
     DATOS_CASO.etapa1.preguntas.forEach(function (p, pIdx) {
+      var valPrevio = (estado.etapa1 && estado.etapa1.respuestas) ? estado.etapa1.respuestas[p.id] : null;
       html += '<fieldset class="ci-decision" data-pregunta="' + p.id + '">';
       html += '<legend><span class="ci-num">' + (pIdx + 1) + '</span> ' + p.planteamiento + '</legend>';
       html += '<div class="ci-decision__options" style="display:flex; flex-direction:column; gap:8px;">';
       p.opciones.forEach(function (op) {
+        var checked = (valPrevio === op.id) ? ' checked' : '';
         html += '<label class="ci-check" style="display:flex; align-items:flex-start; gap:10px; cursor:pointer;">';
-        html += '<input type="radio" name="' + p.id + '" value="' + op.id + '">';
+        html += '<input type="radio" name="' + p.id + '" value="' + op.id + '"' + checked + '>';
         html += '<span>' + op.texto + '</span>';
         html += '</label>';
       });
@@ -274,12 +276,14 @@
 
     var html = '<div class="ci-match">';
     DATOS_CASO.etapa2.problemas.forEach(function (prob, idx) {
+      var valPrevio = (estado.etapa2 && estado.etapa2.respuestas) ? estado.etapa2.respuestas[prob.id] : '';
       html += '<div class="ci-match__row" data-problema="' + prob.id + '">';
       html += '<div class="ci-match__problem"><span class="ci-num">' + (idx + 1) + '</span> <span>' + prob.texto + '</span></div>';
       html += '<select id="etapa2-sel-' + prob.id + '" aria-label="Fase del proceso administrativo para acción ' + (idx + 1) + '">';
       html += '<option value="">-- Selecciona la fase del proceso administrativo --</option>';
       DATOS_CASO.etapa2.opciones.forEach(function (op) {
-        html += '<option value="' + op.valor + '">' + op.texto + '</option>';
+        var selected = (valPrevio === op.valor) ? ' selected' : '';
+        html += '<option value="' + op.valor + '"' + selected + '>' + op.texto + '</option>';
       });
       html += '</select>';
       html += '</div>';
@@ -361,11 +365,14 @@
 
     var html = '<div class="ci-decisions">';
     DATOS_CASO.etapa3.casos.forEach(function (c, idx) {
+      var valPrevio = (estado.etapa3 && estado.etapa3.respuestas) ? estado.etapa3.respuestas[c.id] : '';
+      var chkAdm = (valPrevio === 'administrar') ? ' checked' : '';
+      var chkGes = (valPrevio === 'gestionar') ? ' checked' : '';
       html += '<fieldset class="ci-decision" data-dilema="' + c.id + '">';
       html += '<legend><span class="ci-num">' + (idx + 1) + '</span> ' + c.texto + '</legend>';
       html += '<div class="ci-decision__options">';
-      html += '<label class="ci-check"><input type="radio" name="' + c.id + '" value="administrar"> <span><i class="fas fa-clipboard-check"></i> Administrar (rutina / eficiencia interna)</span></label>';
-      html += '<label class="ci-check"><input type="radio" name="' + c.id + '" value="gestionar"> <span><i class="fas fa-lightbulb"></i> Gestionar (estrategia / cambio / oportunidad)</span></label>';
+      html += '<label class="ci-check"><input type="radio" name="' + c.id + '" value="administrar"' + chkAdm + '> <span><i class="fas fa-clipboard-check"></i> Administrar (rutina / eficiencia interna)</span></label>';
+      html += '<label class="ci-check"><input type="radio" name="' + c.id + '" value="gestionar"' + chkGes + '> <span><i class="fas fa-lightbulb"></i> Gestionar (estrategia / cambio / oportunidad)</span></label>';
       html += '</div>';
       html += '</fieldset>';
     });

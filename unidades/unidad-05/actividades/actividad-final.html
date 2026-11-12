@@ -36,6 +36,7 @@
         <li class="u-chip u-chip--soft"><i class="fas fa-scale-balanced" aria-hidden="true"></i> Marco Jurídico y Fiscal</li>
         <li class="u-chip u-chip--soft"><i class="fas fa-leaf" aria-hidden="true"></i> Sustentabilidad y RSE</li>
         <li class="u-chip u-chip--accent"><i class="fas fa-award" aria-hidden="true"></i> Portafolio de Evidencias</li>
+        <li class="u-chip a-chip--outline" id="ultimoResultado" hidden><i class="fas fa-chart-simple" aria-hidden="true"></i> Último resultado: <strong></strong></li>
       </ul>
     </header>
 
@@ -97,9 +98,12 @@
               </select>
             </div>
 
-            <div>
-              <button type="submit" class="u-btn u-btn--primary" style="width: 100%; justify-content: center; font-size: 1rem; padding: 12px;">
+            <div class="a-actions" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
+              <button type="submit" id="btn-validar-u5" class="u-btn u-btn--primary" style="flex: 1; min-width: 220px; justify-content: center; font-size: 1rem; padding: 12px;">
                 <i class="fas fa-check-double" aria-hidden="true"></i> Validar Dictamen Gerencial
+              </button>
+              <button type="button" id="btn-reintentar-u5" class="u-btn a-btn--ghost" style="flex: 1; min-width: 180px; justify-content: center;" hidden>
+                <i class="fas fa-rotate-left" aria-hidden="true"></i> Reintentar dictamen
               </button>
             </div>
           </form>
@@ -145,15 +149,103 @@
   <script src="../../../assets/js/componentes.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
+      const STORAGE_KEY = 'caso-integrador-u5';
+      const RESULT_KEY = 'resultadoActividad:5.final';
       const form = document.getElementById('form-caso-u5');
       const feedback = document.getElementById('feedback-caso');
+      const btnValidar = document.getElementById('btn-validar-u5');
+      const btnReintentar = document.getElementById('btn-reintentar-u5');
+      const ultimoResultadoEl = document.getElementById('ultimoResultado');
+      const sel1 = document.getElementById('caso-sociedad');
+      const sel2 = document.getElementById('caso-sustentabilidad');
+      const sel3 = document.getElementById('caso-tecnologia');
+
+      function actualizarChipResultado(correctas) {
+        if (ultimoResultadoEl) {
+          ultimoResultadoEl.hidden = false;
+          ultimoResultadoEl.querySelector('strong').textContent = `${correctas} / 3 decisiones (${Math.round((correctas / 3) * 100)} %)`;
+        }
+      }
+
+      function mostrarFeedback(correctas) {
+        feedback.style.display = 'block';
+        if (correctas === 3) {
+          feedback.style.background = 'rgba(34, 197, 94, 0.15)';
+          feedback.style.border = '1px solid #22c55e';
+          feedback.style.color = '#86efac';
+          feedback.innerHTML = `
+            <div style="display: flex; gap: 12px; align-items: flex-start;">
+              <i class="fas fa-circle-check fa-2x" style="color: #22c55e; flex-shrink: 0;"></i>
+              <div>
+                <h4 style="margin: 0 0 6px; color: #22c55e;">¡Dictamen Estratégico Sobresaliente! (3/3 Decisiones Acertadas)</h4>
+                <p style="margin: 0; font-size: 0.92rem; line-height: 1.5; color: #dcfce7;">
+                  • <strong>Estructura legal y PI:</strong> La Sociedad Anónima (S.A.) otorga la estructura idónea de acciones transferibles para recibir inyección de capital de riesgo, mientras que el registro ante IMPI e INDAUTOR blinda los activos intangibles de la empresa.<br>
+                  • <strong>Sustentabilidad real:</strong> Al aplicar auditorías y métricas verificables en las tres dimensiones (económica, social y ambiental), la empresa previene el greenwashing y fortalece su prestigio institucional.<br>
+                  • <strong>Transformación digital:</strong> La combinación de Cloud elástica, analítica de BI y fortalecimiento de habilidades digitales prepara a la empresa para un escalamiento ágil y sostenible.
+                </p>
+              </div>
+            </div>
+          `;
+        } else {
+          feedback.style.background = 'rgba(234, 179, 8, 0.15)';
+          feedback.style.border = '1px solid #eab308';
+          feedback.style.color = '#fde047';
+          feedback.innerHTML = `
+            <div style="display: flex; gap: 12px; align-items: flex-start;">
+              <i class="fas fa-triangle-exclamation fa-2x" style="color: #eab308; flex-shrink: 0;"></i>
+              <div>
+                <h4 style="margin: 0 0 6px; color: #eab308;">Dictamen Parcialmente Acertado (${correctas}/3 decisiones óptimas)</h4>
+                <p style="margin: 0; font-size: 0.92rem; line-height: 1.5; color: #fef08a;">
+                  Revisa las alternativas seleccionadas. Recuerda que para recibir inversión formal y proteger software es vital una sociedad mercantil formalizada (S.A.) con registro en IMPI e INDAUTOR; la sustentabilidad debe evitar el greenwashing mediante auditorías transparentes; y la infraestructura tecnológica debe ser escalable en la nube con formación continua.
+                </p>
+              </div>
+            </div>
+          `;
+        }
+      }
+
+      // Restaurar estado guardado si existe
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (raw) {
+          const guardado = JSON.parse(raw);
+          if (guardado && guardado.completada && guardado.respuestas) {
+            if (sel1 && guardado.respuestas.s1) sel1.value = guardado.respuestas.s1;
+            if (sel2 && guardado.respuestas.s2) sel2.value = guardado.respuestas.s2;
+            if (sel3 && guardado.respuestas.s3) sel3.value = guardado.respuestas.s3;
+            mostrarFeedback(guardado.correctas || 0);
+            actualizarChipResultado(guardado.correctas || 0);
+            if (btnValidar) btnValidar.hidden = true;
+            if (btnReintentar) btnReintentar.hidden = false;
+          }
+        }
+      } catch (err) {
+        console.warn('No se pudo restaurar estado de U5:', err);
+      }
+
+      if (btnReintentar) {
+        btnReintentar.addEventListener('click', () => {
+          try {
+            localStorage.removeItem(STORAGE_KEY);
+            localStorage.removeItem(RESULT_KEY);
+          } catch (e) {}
+          if (sel1) sel1.value = '';
+          if (sel2) sel2.value = '';
+          if (sel3) sel3.value = '';
+          feedback.style.display = 'none';
+          feedback.innerHTML = '';
+          if (btnValidar) btnValidar.hidden = false;
+          btnReintentar.hidden = true;
+          if (ultimoResultadoEl) ultimoResultadoEl.hidden = true;
+        });
+      }
 
       if (form && feedback) {
         form.addEventListener('submit', (e) => {
           e.preventDefault();
-          const s1 = document.getElementById('caso-sociedad').value;
-          const s2 = document.getElementById('caso-sustentabilidad').value;
-          const s3 = document.getElementById('caso-tecnologia').value;
+          const s1 = sel1 ? sel1.value : '';
+          const s2 = sel2 ? sel2.value : '';
+          const s3 = sel3 ? sel3.value : '';
 
           if (!s1 || !s2 || !s3) {
             feedback.style.display = 'block';
@@ -169,40 +261,23 @@
           if (s2 === 'rse_real') correctas++;
           if (s3 === 'tech_optima') correctas++;
 
-          feedback.style.display = 'block';
-          if (correctas === 3) {
-            feedback.style.background = 'rgba(34, 197, 94, 0.15)';
-            feedback.style.border = '1px solid #22c55e';
-            feedback.style.color = '#86efac';
-            feedback.innerHTML = `
-              <div style="display: flex; gap: 12px; align-items: flex-start;">
-                <i class="fas fa-circle-check fa-2x" style="color: #22c55e;"></i>
-                <div>
-                  <h4 style="margin: 0 0 6px; color: #22c55e;">¡Dictamen Estratégico Sobresaliente! (3/3 Decisiones Acertadas)</h4>
-                  <p style="margin: 0; font-size: 0.92rem; line-height: 1.5; color: #dcfce7;">
-                    • <strong>Estructura legal y PI:</strong> La Sociedad Anónima (S.A.) otorga la estructura idónea de acciones transferibles para recibir inyección de capital de riesgo, mientras que el registro ante IMPI e INDAUTOR blinda los activos intangibles de la empresa.<br>
-                    • <strong>Sustentabilidad real:</strong> Al aplicar auditorías y métricas verificables en las tres dimensiones (económica, social y ambiental), la empresa previene el greenwashing y fortalece su prestigio institucional.<br>
-                    • <strong>Transformación digital:</strong> La combinación de Cloud elástica, analítica de BI y fortalecimiento de habilidades digitales prepara a la empresa para un escalamiento ágil y sostenible.
-                  </p>
-                </div>
-              </div>
-            `;
-          } else {
-            feedback.style.background = 'rgba(234, 179, 8, 0.15)';
-            feedback.style.border = '1px solid #eab308';
-            feedback.style.color = '#fde047';
-            feedback.innerHTML = `
-              <div style="display: flex; gap: 12px; align-items: flex-start;">
-                <i class="fas fa-triangle-exclamation fa-2x" style="color: #eab308;"></i>
-                <div>
-                  <h4 style="margin: 0 0 6px; color: #eab308;">Dictamen Parcialmente Acertado (${correctas}/3 decisiones óptimas)</h4>
-                  <p style="margin: 0; font-size: 0.92rem; line-height: 1.5; color: #fef08a;">
-                    Revisa las alternativas seleccionadas. Recuerda que para recibir inversión formal y proteger software es vital una sociedad mercantil formalizada (S.A.) con registro en IMPI e INDAUTOR; la sustentabilidad debe evitar el greenwashing mediante auditorías transparentes; y la infraestructura tecnológica debe ser escalable en la nube con formación continua.
-                  </p>
-                </div>
-              </div>
-            `;
+          mostrarFeedback(correctas);
+          actualizarChipResultado(correctas);
+
+          // Guardar estado persistente
+          try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify({
+              completada: true,
+              correctas: correctas,
+              respuestas: { s1, s2, s3 }
+            }));
+            localStorage.setItem(RESULT_KEY, String(Math.round((correctas / 3) * 100)));
+          } catch (err) {
+            console.warn('Error al guardar progreso en U5:', err);
           }
+
+          if (btnValidar) btnValidar.hidden = true;
+          if (btnReintentar) btnReintentar.hidden = false;
         });
       }
     });

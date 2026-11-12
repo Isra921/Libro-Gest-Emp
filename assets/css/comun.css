@@ -35,10 +35,14 @@
 html {
   color-scheme: dark;
   height: 100%;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 body {
   min-height: 100%;
+  max-width: 100%;
+  overflow-x: clip;
   display: flex;
   flex-direction: column;
 }
@@ -49,6 +53,34 @@ main,
 .activity-page,
 .u-theme-page {
   flex: 1 0 auto;
+  box-sizing: border-box;
+}
+
+/* Responsividad universal para medios y tablas */
+img, iframe, svg, canvas, video {
+  max-width: 100%;
+}
+
+.t-table, .t-table-wrapper, .table-scroll, .data-table-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .u-btn, .a-btn, button.u-btn {
+    min-height: 44px;
+  }
+  .ci-check, label.ci-check {
+    min-height: 44px;
+    box-sizing: border-box;
+  }
+  .vm__dialog {
+    max-width: calc(100vw - 16px) !important;
+    max-height: calc(100dvh - 16px) !important;
+  }
 }
 
 .brand-logo--ipn {
